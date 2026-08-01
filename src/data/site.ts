@@ -1,0 +1,25 @@
+export const site = {
+  url: "https://www.drakarlaandrade.com", // TODO: cambiar por el dominio final
+  drName: "Dra. Karla Sophía Andrade Maldonado",
+  shortName: "Dra. Karla Andrade",
+  role: "Médica Especialista en Dermatología",
+  senescyt: "0321234732",
+  whatsapp: "593998008070",
+  whatsappDisplay: "099 800 8070",
+  waText: "Hola%2C%20quisiera%20agendar%20una%20consulta%20dermatol%C3%B3gica",
+  instagram: "dra.kandrade",
+  email: "dra.andrade.karla@gmail.com",
+  address: "Colón entre Olmedo y Sucre",
+  city: "Machala",
+  province: "El Oro",
+  country: "Ecuador",
+  hours: "Lunes a viernes · horarios a confirmar"
+};
+export const waLink = `https://wa.me/${site.whatsapp}?text=${site.waText}`;
+
+export const nav = [
+  { href: "/especialidades", label: "Especialidades" },
+  { href: "/sobre-la-dra", label: "Sobre la Dra." },
+  { href: "/enfermedades", label: "Problemas de la piel" },
+  { href: "/contacto", label: "Contacto" }
+];
