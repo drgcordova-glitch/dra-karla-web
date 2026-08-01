@@ -1,5 +1,5 @@
 export const site = {
-  url: "https://www.drakarlaandrade.com", // TODO: cambiar por el dominio final
+  url: "https://drakarladermatologa.com", // TODO: cambiar por el dominio final
   drName: "Dra. Karla Sophía Andrade Maldonado",
   shortName: "Dra. Karla Andrade",
   role: "Médica Especialista en Dermatología",
