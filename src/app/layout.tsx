@@ -25,11 +25,11 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Dra. Karla Andrade · Dermatóloga en Machala",
+    default: "Dermatóloga en Machala · Dra. Karla Andrade",
     template: "%s · Dra. Karla Andrade"
   },
   description:
-    "Dermatóloga con formación en la Universidad de Buenos Aires. Dermatología clínica, pediátrica, oncológica, capilar y estética en Machala, El Oro.",
+    "Dermatóloga en Machala, El Oro, con formación en la Universidad de Buenos Aires. Caída del cabello y tricología, cáncer de piel, dermatología pediátrica, acné y medicina estética.",
   keywords: [
     "dermatóloga Machala",
     "dermatólogo El Oro",

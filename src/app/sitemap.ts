@@ -1,10 +1,11 @@
 import type { MetadataRoute } from "next";
 import { site } from "@/data/site";
 import { especialidades } from "@/data/especialidades";
+import { articles } from "@/data/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const staticPaths = ["", "/sobre-la-dra", "/especialidades", "/enfermedades", "/contacto"];
+  const staticPaths = ["", "/sobre-la-dra", "/especialidades", "/enfermedades", "/blog", "/contacto"];
   const base = staticPaths.map((p) => ({
     url: `${site.url}${p}`,
     lastModified: now,
@@ -17,5 +18,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly" as const,
     priority: 0.7
   }));
-  return [...base, ...esp];
+  const blog = articles.map((a) => ({
+    url: `${site.url}/blog/${a.slug}`,
+    lastModified: new Date(a.dateModified + "T00:00:00"),
+    changeFrequency: "monthly" as const,
+    priority: 0.6
+  }));
+  return [...base, ...esp, ...blog];
 }

@@ -17,12 +17,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const e = getEspecialidad(slug);
   if (!e) return {};
   return {
-    title: e.title,
-    description: e.cardText,
+    title: e.seoTitle ?? e.title,
+    description: e.seoDescription ?? e.cardText,
     alternates: { canonical: `/especialidades/${e.slug}` },
     openGraph: {
-      title: `${e.title} · Dra. Karla Andrade`,
-      description: e.cardText,
+      title: `${e.seoTitle ?? e.title} · Dra. Karla Andrade`,
+      description: e.seoDescription ?? e.cardText,
       images: [{ url: "/og.jpg", width: 1200, height: 630 }]
     }
   };

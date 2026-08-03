@@ -7,6 +7,8 @@ export interface Especialidad {
   title: string;
   cardText: string;
   lead: string;
+  seoTitle?: string;
+  seoDescription?: string;
   sections: EspSection[];
   faqs: EspFaq[];
 }
@@ -109,6 +111,9 @@ export const especialidades: Especialidad[] = [
     num: "03",
     tier: "nucleo",
     title: "Cáncer de piel y dermatoscopía",
+    seoTitle: "Cáncer de piel y control de lunares en Machala · Dermatoscopía",
+    seoDescription:
+      "Detección precoz del cáncer de piel y control de lunares con dermatoscopía digital en Machala, El Oro, con la Dra. Karla Andrade, formada en dermatología oncológica.",
     cardText:
       "Control de lunares y detección temprana con dermatoscopía digital. Actuar a tiempo cambia el pronóstico.",
     lead:
@@ -154,6 +159,9 @@ export const especialidades: Especialidad[] = [
     num: "04",
     tier: "nucleo",
     title: "Tricología y salud capilar",
+    seoTitle: "Tricóloga en Machala · Caída del cabello y trasplante capilar",
+    seoDescription:
+      "Estudio y tratamiento de la caída del cabello y las alopecias en Machala, El Oro: tricoscopía, tratamiento médico y trasplante capilar FUE con la Dra. Karla Andrade.",
     cardText:
       "Caída del cabello y alopecias estudiadas a fondo, con tricoscopía y opciones que incluyen el trasplante capilar.",
     lead:

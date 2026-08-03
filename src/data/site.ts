@@ -1,5 +1,5 @@
 export const site = {
-  url: "https://drakarladermatologa.com", // TODO: cambiar por el dominio final
+  url: "https://drakarladermatologa.com",
   drName: "Dra. Karla Sophía Andrade Maldonado",
   shortName: "Dra. Karla Andrade",
   role: "Médica Especialista en Dermatología",
@@ -21,5 +21,6 @@ export const nav = [
   { href: "/especialidades", label: "Especialidades" },
   { href: "/sobre-la-dra", label: "Sobre la Dra." },
   { href: "/enfermedades", label: "Problemas de la piel" },
+  { href: "/blog", label: "Blog" },
   { href: "/contacto", label: "Contacto" }
 ];
