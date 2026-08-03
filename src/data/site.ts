@@ -22,5 +22,6 @@ export const nav = [
   { href: "/sobre-la-dra", label: "Sobre la Dra." },
   { href: "/enfermedades", label: "Problemas de la piel" },
   { href: "/blog", label: "Blog" },
+  { href: "/casos", label: "Casos" },
   { href: "/contacto", label: "Contacto" }
 ];

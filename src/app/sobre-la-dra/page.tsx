@@ -6,20 +6,55 @@ import JsonLd from "@/components/JsonLd";
 import { breadcrumb, medicalWebPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "Sobre la Dra. Karla Andrade",
+  title: "Sobre la Dra. Karla Andrade · Currículum y trayectoria",
   description:
-    "Dermatóloga formada en la Universidad de Buenos Aires, con residencia en el Hospital Posadas. Trayectoria, formación y enfoque de atención.",
+    "Dermatóloga formada en la Universidad de Buenos Aires (Hospital Posadas). Currículum, formación de posgrado, sociedades científicas y actividad académica.",
   alternates: { canonical: "/sobre-la-dra" }
 };
 
-const formacion = [
-  "Especialista en Dermatología — Universidad de Buenos Aires (Hospital Posadas)",
-  "Diplomatura en Dermatología Oncológica — Fundación Barceló",
-  "Diplomatura en Dermatología Quirúrgica Infantil — UBA, Hospital Elizalde",
-  "Curso Anual Superior de Dermatología Pediátrica — Hospital de Niños Ricardo Gutiérrez",
-  "Diplomatura en Tricología — Colegio Iberolatinoamericano de Dermatología",
-  "Máster en Trasplante Capilar y Máster en Medicina Estética",
-  "Formación en dermatoscopía — Sociedad Argentina de Dermatología"
+const curriculum: { h: string; items: string[] }[] = [
+  {
+    h: "Formación académica",
+    items: [
+      "Médica Especialista en Dermatología — Universidad de Buenos Aires (Hospital Nacional Prof. Alejandro Posadas), 2022",
+      "Médica — Universidad Nacional de Loja, 2016"
+    ]
+  },
+  {
+    h: "Formación de posgrado",
+    items: [
+      "Diplomatura en Dermatología Oncológica — Fundación H. A. Barceló",
+      "Diplomatura en Dermatología Quirúrgica Infantil — UBA, Hospital Elizalde",
+      "Curso Anual Superior de Dermatología Pediátrica — Hospital de Niños Ricardo Gutiérrez",
+      "Diplomatura en Tricología — Colegio Iberolatinoamericano de Dermatología (CILAD)",
+      "Máster en Trasplante Capilar — TECH",
+      "Máster en Medicina Estética — TECH",
+      "Posgrado en Medicina Estética y Antiage — UBA (SAEME)",
+      "Formación en dermatoscopía — Sociedad Argentina de Dermatología (SAD)",
+      "Formación en medicina funcional e integrativa"
+    ]
+  },
+  {
+    h: "Formación hospitalaria y experiencia",
+    items: [
+      "Residencia en Dermatología — Hospital Nacional Prof. Alejandro Posadas, Buenos Aires (2019–2022)",
+      "Experiencia clínica en dermatología general y pediátrica, tricología, trasplante capilar y medicina estética"
+    ]
+  },
+  {
+    h: "Sociedades científicas",
+    items: [
+      "Sociedad Argentina de Dermatología (SAD)",
+      "Colegio Iberolatinoamericano de Dermatología (CILAD)",
+      "Sociedad de dermatología pediátrica (ASADEPE)"
+    ]
+  },
+  {
+    h: "Actividad científica",
+    items: [
+      "Presentación de caso clínico en tricología: «El cuero cabelludo que nunca sanó» — Foliculitis Decalvans (2026)"
+    ]
+  }
 ];
 
 export default function SobreLaDra() {
@@ -33,7 +68,7 @@ export default function SobreLaDra() {
           ]),
           medicalWebPage({
             name: "Sobre la Dra. Karla Andrade",
-            description: "Trayectoria y formación de la Dra. Karla Andrade.",
+            description: "Currículum y trayectoria de la Dra. Karla Andrade.",
             path: "/sobre-la-dra"
           })
         ]}
@@ -80,7 +115,8 @@ export default function SobreLaDra() {
               A esa base sumó formación específica en dermatología oncológica, dermatología
               pediátrica y quirúrgica infantil, tricología y trasplante capilar, medicina
               estética y un enfoque integral de la salud de la piel. Es miembro de la
-              Sociedad Argentina de Dermatología y del CILAD.
+              Sociedad Argentina de Dermatología y del CILAD, y mantiene una actividad
+              académica activa en su especialidad.
             </p>
             <p>
               Su forma de atender parte de una convicción: cada decisión se toma sobre
@@ -93,14 +129,20 @@ export default function SobreLaDra() {
 
       <section className="block">
         <div className="wrap prose-med">
-          <span className="eyebrow">Formación</span>
-          <h2 style={{ marginTop: 12 }}>Formación destacada</h2>
-          <ul>
-            {formacion.map((f) => (
-              <li key={f}>{f}</li>
-            ))}
-          </ul>
-          <div className="cred" style={{ marginTop: 40, background: "var(--crema)" }}>
+          <span className="eyebrow">Currículum</span>
+          <h2 style={{ marginTop: 12, marginBottom: 8 }}>Formación y trayectoria</h2>
+          {curriculum.map((block) => (
+            <div key={block.h} style={{ marginTop: 28 }}>
+              <h3 style={{ marginBottom: 6 }}>{block.h}</h3>
+              <ul>
+                {block.items.map((it) => (
+                  <li key={it}>{it}</li>
+                ))}
+              </ul>
+            </div>
+          ))}
+
+          <div className="cred" style={{ marginTop: 44, background: "var(--crema)" }}>
             <div className="name">Dra. Karla Sophía Andrade Maldonado</div>
             <div className="lines">
               Médica Especialista en Dermatología — Universidad de Buenos Aires
