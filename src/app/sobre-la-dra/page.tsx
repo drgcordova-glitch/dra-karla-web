@@ -52,7 +52,7 @@ const curriculum: { h: string; items: string[] }[] = [
   {
     h: "Actividad científica",
     items: [
-      "Presentación de caso clínico en tricología: «El cuero cabelludo que nunca sanó» — Foliculitis Decalvans (2026)"
+      "Presentación de caso clínico en tricología: «El cuero cabelludo que nunca sanó» — Foliculitis Decalvans (Sesión Clínica de Dermatología, 2026)"
     ]
   }
 ];

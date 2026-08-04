@@ -210,3 +210,23 @@ section.block{padding:110px 0}
 .related-box .t{font-family:var(--serif);font-size:19px;color:var(--plum)}
 .related-box .s{font-size:14px;color:var(--ink-soft);font-weight:300;margin-top:4px}
 @media(max-width:640px){.related-box{flex-direction:column;align-items:flex-start}}
+
+/* CASOS CLÍNICOS */
+.case-figs{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0 8px}
+.case-figs img{width:100%;height:auto;border-radius:4px;border:1px solid rgba(42,30,58,.1)}
+.ba-wrap{margin:40px 0}
+.ba-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.ba-col .ba-label{font-family:var(--sans);font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;margin-bottom:12px}
+.ba-col.antes .ba-label{color:#b06a6a}
+.ba-col.despues .ba-label{color:#5a8a6a}
+.ba-col .ba-imgs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.ba-col .ba-imgs img{width:100%;height:auto;border-radius:4px;border:1px solid rgba(42,30,58,.1)}
+.ba-col .ba-desc{font-size:14px;color:var(--ink-soft);font-weight:300;margin-top:12px}
+.key-msgs{margin-top:44px;background:var(--crema);border-radius:5px;padding:32px 34px}
+.key-msgs h3{font-size:20px;color:var(--plum);margin-bottom:16px}
+.key-msgs ol{list-style:none;counter-reset:k;margin:0}
+.key-msgs li{counter-increment:k;position:relative;padding-left:40px;margin-bottom:14px;font-size:15.5px;color:var(--ink-soft);font-weight:300;line-height:1.55}
+.key-msgs li::before{content:counter(k,decimal-leading-zero);position:absolute;left:0;top:0;font-family:var(--sans);font-size:12px;font-weight:600;color:var(--dorado);letter-spacing:.05em}
+.consent-note{margin-top:36px;padding:18px 22px;border:1px solid rgba(42,30,58,.14);border-radius:4px;font-size:13.5px;color:#8a8098;font-weight:300;line-height:1.6;font-style:italic}
+.case-diag{display:inline-block;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--violeta);background:rgba(155,127,192,.12);padding:6px 14px;border-radius:20px;margin-top:18px}
+@media(max-width:640px){.ba-grid{grid-template-columns:1fr;gap:32px}.case-figs{grid-template-columns:1fr}}
