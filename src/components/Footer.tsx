@@ -41,6 +41,8 @@ export default function Footer() {
               <a href={`mailto:${site.email}`}>{site.email}</a>
               <br />
               {site.hours}
+              <br />
+              <strong style={{ color: "var(--lila)", fontWeight: 500 }}>Atención solo con cita previa</strong>
             </p>
           </div>
         </div>

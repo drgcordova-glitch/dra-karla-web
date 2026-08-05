@@ -230,3 +230,6 @@ section.block{padding:110px 0}
 .consent-note{margin-top:36px;padding:18px 22px;border:1px solid rgba(42,30,58,.14);border-radius:4px;font-size:13.5px;color:#8a8098;font-weight:300;line-height:1.6;font-style:italic}
 .case-diag{display:inline-block;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--violeta);background:rgba(155,127,192,.12);padding:6px 14px;border-radius:20px;margin-top:18px}
 @media(max-width:640px){.ba-grid{grid-template-columns:1fr;gap:32px}.case-figs{grid-template-columns:1fr}}
+
+/* AVISO CITA PREVIA */
+.cita-aviso{margin-top:26px;padding:14px 18px;border-left:3px solid var(--dorado);background:rgba(201,169,110,.08);border-radius:2px;font-family:var(--sans);font-size:13.5px;font-weight:500;color:var(--plum);line-height:1.5}

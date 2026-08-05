@@ -1,29 +1,28 @@
-import type { MetadataRoute } from "next";
-import { site } from "@/data/site";
-import { especialidades } from "@/data/especialidades";
-import { articles } from "@/data/blog";
-import { casos } from "@/data/casos";
+import type { Config } from "tailwindcss";
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const now = new Date();
-  const staticPaths = ["", "/sobre-la-dra", "/especialidades", "/enfermedades", "/blog", "/casos", "/contacto"];
-  const base = staticPaths.map((p) => ({
-    url: `${site.url}${p}`,
-    lastModified: now,
-    changeFrequency: "monthly" as const,
-    priority: p === "" ? 1 : 0.8
-  }));
-  const esp = especialidades.map((e) => ({
-    url: `${site.url}/especialidades/${e.slug}`,
-    lastModified: now, changeFrequency: "monthly" as const, priority: 0.7
-  }));
-  const blog = articles.map((a) => ({
-    url: `${site.url}/blog/${a.slug}`,
-    lastModified: new Date(a.dateModified + "T00:00:00"), changeFrequency: "monthly" as const, priority: 0.6
-  }));
-  const cas = casos.map((c) => ({
-    url: `${site.url}/casos/${c.slug}`,
-    lastModified: new Date(c.dateModified + "T00:00:00"), changeFrequency: "monthly" as const, priority: 0.6
-  }));
-  return [...base, ...esp, ...blog, ...cas];
-}
+const config: Config = {
+  content: ["./src/**/*.{ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        plum: "#2a1e3a",
+        "plum-2": "#372a4a",
+        "plum-line": "#4a3a5e",
+        lila: "#cab4e2",
+        violeta: "#9b7fc0",
+        dorado: "#c9a96e",
+        crema: "#ece6f4",
+        paper: "#faf8fc",
+        ink: "#2a1e3a",
+        "ink-soft": "#5c5168"
+      },
+      fontFamily: {
+        serif: ["var(--font-spectral)", "Georgia", "serif"],
+        sans: ["var(--font-montserrat)", "system-ui", "sans-serif"]
+      },
+      maxWidth: { wrap: "1180px" }
+    }
+  },
+  plugins: []
+};
+export default config;
