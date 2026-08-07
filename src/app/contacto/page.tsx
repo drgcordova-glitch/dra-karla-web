@@ -36,7 +36,7 @@ export default function Contacto() {
           <p>La atención es únicamente con cita previa. La forma más rápida de reservar es por WhatsApp: te respondemos y coordinamos tu turno.</p>
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" />
+        <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" loading="lazy" />
       </section>
 
       <section className="block">

@@ -66,6 +66,12 @@ export const organizationSchema = {
     addressRegion: site.province,
     addressCountry: "EC"
   },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: site.geoLat,
+    longitude: site.geoLng
+  },
+  hasMap: site.mapsLink,
   employee: physician
 };
 

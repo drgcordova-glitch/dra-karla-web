@@ -40,7 +40,7 @@ export default function EnfermedadesHub() {
           </p>
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" />
+        <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" loading="lazy" />
       </section>
       <section className="block">
         <div className="wrap">

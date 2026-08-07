@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="foot-grid">
           <div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="wm" src="/logo-cream.svg" alt="Dra. Karla Andrade" />
+            <img className="wm" src="/logo-cream.svg" alt="Dra. Karla Andrade" loading="lazy" />
             <p>
               Dermatología clínica, pediátrica, oncológica, capilar y estética, con
               formación internacional.

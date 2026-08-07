@@ -39,7 +39,7 @@ export default function CasosHub() {
           <p>Experiencia real, documentada con rigor y con respeto por la privacidad de cada paciente.</p>
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" />
+        <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" loading="lazy" />
       </section>
 
       <section className="block">

@@ -36,7 +36,7 @@ h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.12;letter-spacin
 .nav ul a{color:var(--ink-soft);transition:.2s}
 .nav ul a:hover{color:var(--plum)}
 .nav .cta-wrap{display:flex;align-items:center;gap:18px}
-.burger{display:none;background:none;border:0;cursor:pointer}
+.burger{display:none;background:none;border:0;cursor:pointer;padding:12px;margin:-12px}
 .mobile-menu{display:none;flex-direction:column;gap:4px;padding:8px 28px 22px;background:var(--paper);border-bottom:1px solid rgba(42,30,58,.08)}
 .mobile-menu.open{display:flex}
 .mobile-menu a{font-family:var(--sans);font-size:15px;font-weight:500;color:var(--ink);padding:12px 0;border-bottom:1px solid rgba(42,30,58,.06)}
@@ -170,10 +170,12 @@ section.block{padding:110px 0}
 .wa:hover{transform:scale(1.06)}
 .wa svg{width:30px;height:30px;fill:#fff}
 
-/* reveal */
-.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+/* reveal — visible by default (no flash-of-invisible-content before JS runs); only
+   elements confirmed to start off-screen get hidden by Reveal.tsx, then fade in on scroll */
+.reveal{transition:opacity .7s ease,transform .7s ease}
+.reveal.pre{opacity:0;transform:translateY(22px)}
 .reveal.in{opacity:1;transform:none}
-@media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+@media (prefers-reduced-motion:reduce){.reveal.pre{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
 
 /* RESPONSIVE */
 @media(max-width:900px){

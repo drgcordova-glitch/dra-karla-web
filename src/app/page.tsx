@@ -49,7 +49,7 @@ export default function Home() {
                 style={{ objectFit: "cover", objectPosition: "top center" }}
               />
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img className="hero-mark" src="/face-lilac.png" alt="" aria-hidden="true" />
+              <img className="hero-mark" src="/face-lilac.png" alt="" aria-hidden="true" loading="lazy" />
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function Home() {
         <div className="wrap about-grid">
           <Reveal className="about-photo">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="mark" src="/face-plum.png" alt="" aria-hidden="true" />
+            <img className="mark" src="/face-plum.png" alt="" aria-hidden="true" loading="lazy" />
             <div className="frame">
               <Image
                 src="/hero.jpg"

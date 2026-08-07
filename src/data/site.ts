@@ -14,7 +14,10 @@ export const site = {
   province: "El Oro",
   country: "Ecuador",
   hours: "Lunes a viernes · horarios a confirmar",
-  mapsLink: "https://maps.app.goo.gl/CX4AhwQSKDkjPu8E9"
+  mapsLink: "https://maps.app.goo.gl/CX4AhwQSKDkjPu8E9",
+  // Coordenadas tomadas del embed de Google Maps ya usado en /contacto
+  geoLat: -3.261043140975112,
+  geoLng: -79.95765632415932
 };
 export const waLink = `https://wa.me/${site.whatsapp}?text=${site.waText}`;
 

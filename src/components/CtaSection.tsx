@@ -6,7 +6,7 @@ export default function CtaSection() {
   return (
     <section className="block ctaband">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" />
+      <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" loading="lazy" />
       <div className="wrap">
         <Reveal>
           <span className="eyebrow">Agenda tu consulta</span>

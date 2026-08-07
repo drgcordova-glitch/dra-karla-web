@@ -32,9 +32,10 @@ export const metadata: Metadata = {
     "Dermatóloga en Machala, El Oro, con formación en la Universidad de Buenos Aires. Caída del cabello y tricología, cáncer de piel, dermatología pediátrica, acné y medicina estética.",
   keywords: [
     "dermatóloga Machala",
+    "dermatólogo Machala",
     "dermatólogo El Oro",
     "cáncer de piel Machala",
-    "dermatología pediátrica",
+    "dermatología pediátrica Machala",
     "caída del cabello",
     "medicina estética Machala"
   ],

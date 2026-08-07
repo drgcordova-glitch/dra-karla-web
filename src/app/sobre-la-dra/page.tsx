@@ -83,14 +83,14 @@ export default function SobreLaDra() {
           <p>Dermatóloga con formación internacional. Ciencia y cercanía en cada consulta.</p>
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" />
+        <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" loading="lazy" />
       </section>
 
       <section className="block about">
         <div className="wrap about-grid">
           <div className="about-photo">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="mark" src="/face-plum.png" alt="" aria-hidden="true" />
+            <img className="mark" src="/face-plum.png" alt="" aria-hidden="true" loading="lazy" />
             <div className="frame">
               <Image
                 src="/hero.jpg"

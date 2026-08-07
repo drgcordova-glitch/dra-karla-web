@@ -19,6 +19,9 @@ export const especialidades: Especialidad[] = [
     num: "01",
     tier: "nucleo",
     title: "Dermatología clínica",
+    seoTitle: "Dermatóloga en Machala · Dermatología Clínica",
+    seoDescription:
+      "Consulta con una dermatóloga en Machala, El Oro: diagnóstico y tratamiento de acné, rosácea, dermatitis, psoriasis y otras afecciones de la piel, con base científica.",
     cardText:
       "Diagnóstico y tratamiento de las enfermedades de la piel en adultos: acné, rosácea, dermatitis, psoriasis y más.",
     lead:
@@ -66,6 +69,9 @@ export const especialidades: Especialidad[] = [
     num: "02",
     tier: "nucleo",
     title: "Dermatología pediátrica",
+    seoTitle: "Dermatología Pediátrica en Machala · Piel de bebés y niños",
+    seoDescription:
+      "Atención dermatológica pediátrica en Machala, El Oro, desde los primeros días de vida: dermatitis atópica, dermatitis del pañal, manchas de nacimiento y más.",
     cardText:
       "La piel del bebé y del niño necesita una mirada distinta. Atención especializada desde los primeros días de vida.",
     lead:

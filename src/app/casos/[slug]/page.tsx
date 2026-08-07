@@ -68,7 +68,7 @@ export default async function CasoPage({ params }: Props) {
           <div className="art-meta">Por la Dra. Karla Andrade · {fmt(c.datePublished)}</div>
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" />
+        <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" loading="lazy" />
       </section>
 
       <section className="block">
