@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Spectral, Montserrat } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -66,6 +67,7 @@ export default function RootLayout({
         <Footer />
         <WhatsAppFloat />
       </body>
+      <GoogleAnalytics gaId={site.gaId} />
     </html>
   );
 }

@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { nav, waLink } from "@/data/site";
+import { nav } from "@/data/site";
+import WhatsAppLink from "@/components/WhatsAppLink";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -22,9 +23,9 @@ export default function Header() {
           </ul>
         </nav>
         <div className="cta-wrap">
-          <a className="btn btn-ghost" href={waLink} target="_blank" rel="noopener noreferrer">
+          <WhatsAppLink className="btn btn-ghost" location="header_desktop">
             Agendar consulta
-          </a>
+          </WhatsAppLink>
           <button
             className="burger"
             aria-label="Abrir menú"
@@ -43,9 +44,9 @@ export default function Header() {
             {n.label}
           </Link>
         ))}
-        <a href={waLink} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
+        <WhatsAppLink location="header_mobile" onClick={() => setOpen(false)}>
           Agendar consulta
-        </a>
+        </WhatsAppLink>
       </div>
     </header>
   );

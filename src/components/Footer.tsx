@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { site, waLink } from "@/data/site";
+import { site } from "@/data/site";
+import WhatsAppLink from "./WhatsAppLink";
 
 export default function Footer() {
   return (
@@ -29,9 +30,9 @@ export default function Footer() {
           <div>
             <h4>Contacto</h4>
             <p>
-              <a href={waLink} target="_blank" rel="noopener noreferrer">
+              <WhatsAppLink location="footer">
                 WhatsApp {site.whatsappDisplay}
-              </a>
+              </WhatsAppLink>
               <br />
               <a
                 href={`https://instagram.com/${site.instagram}`}

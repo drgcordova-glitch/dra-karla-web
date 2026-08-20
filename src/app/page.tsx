@@ -3,7 +3,7 @@ import Image from "next/image";
 import Reveal from "@/components/Reveal";
 import TrustStrip from "@/components/TrustStrip";
 import CtaSection from "@/components/CtaSection";
-import { waLink } from "@/data/site";
+import WhatsAppLink from "@/components/WhatsAppLink";
 import { especialidades } from "@/data/especialidades";
 import { problemas } from "@/data/problemas";
 
@@ -31,9 +31,9 @@ export default function Home() {
                 trato cercano.
               </p>
               <div className="hero-actions">
-                <a className="btn btn-solid" href={waLink} target="_blank" rel="noopener noreferrer">
+                <WhatsAppLink className="btn btn-solid" location="hero_inicio">
                   Agendar consulta
-                </a>
+                </WhatsAppLink>
                 <Link className="btn btn-light" href="/especialidades">
                   Ver especialidades
                 </Link>

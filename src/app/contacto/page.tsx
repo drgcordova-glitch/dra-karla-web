@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
-import { site, waLink } from "@/data/site";
+import WhatsAppLink from "@/components/WhatsAppLink";
+import { site } from "@/data/site";
 import { breadcrumb, medicalWebPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -56,9 +57,9 @@ export default function Contacto() {
             <div className="row">
               <div className="k">WhatsApp</div>
               <div className="v">
-                <a href={waLink} target="_blank" rel="noopener noreferrer">
+                <WhatsAppLink location="contacto_fila">
                   {site.whatsappDisplay}
-                </a>
+                </WhatsAppLink>
               </div>
             </div>
             <div className="row">
@@ -83,9 +84,9 @@ export default function Contacto() {
               Atención exclusivamente con cita previa. No se atiende por orden de llegada.
             </div>
             <div style={{ marginTop: 20 }}>
-              <a className="btn btn-solid" href={waLink} target="_blank" rel="noopener noreferrer">
+              <WhatsAppLink className="btn btn-solid" location="contacto_boton">
                 Agendar por WhatsApp
-              </a>
+              </WhatsAppLink>
             </div>
           </div>
           <div>

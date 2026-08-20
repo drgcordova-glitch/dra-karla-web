@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { waLink } from "@/data/site";
+import WhatsAppLink from "@/components/WhatsAppLink";
 
 export const metadata: Metadata = {
   title: "Página no encontrada",
@@ -31,9 +31,9 @@ export default function NotFound() {
             <Link className="btn btn-ink" href="/especialidades">
               Ver especialidades
             </Link>
-            <a className="btn btn-solid" href={waLink} target="_blank" rel="noopener noreferrer">
+            <WhatsAppLink className="btn btn-solid" location="pagina_404">
               Agendar por WhatsApp
-            </a>
+            </WhatsAppLink>
           </div>
         </div>
       </section>

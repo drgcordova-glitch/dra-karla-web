@@ -13,11 +13,12 @@ export const site = {
   city: "Machala",
   province: "El Oro",
   country: "Ecuador",
-  hours: "Lunes a viernes · horarios a confirmar",
+  hours: "Lunes a sábado, 10:00–17:00 h · Solo con cita previa por WhatsApp",
   mapsLink: "https://maps.app.goo.gl/CX4AhwQSKDkjPu8E9",
   // Coordenadas tomadas del embed de Google Maps ya usado en /contacto
   geoLat: -3.261043140975112,
-  geoLng: -79.95765632415932
+  geoLng: -79.95765632415932,
+  gaId: "G-7HCTBJVY4B"
 };
 export const waLink = `https://wa.me/${site.whatsapp}?text=${site.waText}`;
 

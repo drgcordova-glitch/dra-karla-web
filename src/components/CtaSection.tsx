@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { waLink } from "@/data/site";
 import Reveal from "./Reveal";
+import WhatsAppLink from "./WhatsAppLink";
 
 export default function CtaSection() {
   return (
@@ -13,9 +13,9 @@ export default function CtaSection() {
           <h2>Tu piel en manos de una dermatóloga.</h2>
           <p>Agenda tu cita y recibe un plan pensado para ti, no una fórmula para todos.</p>
           <div className="hero-actions">
-            <a className="btn btn-solid" href={waLink} target="_blank" rel="noopener noreferrer">
+            <WhatsAppLink className="btn btn-solid" location="banda_final">
               Escribir por WhatsApp
-            </a>
+            </WhatsAppLink>
             <Link className="btn btn-light" href="/contacto">
               Ver ubicación
             </Link>
