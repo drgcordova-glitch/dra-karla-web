@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import JsonLd from "@/components/JsonLd";
+import Clarity from "@/components/Clarity";
 import { organizationSchema } from "@/lib/schema";
 import { site } from "@/data/site";
 
@@ -66,6 +67,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <WhatsAppFloat />
+        <Clarity />
       </body>
       <GoogleAnalytics gaId={site.gaId} />
     </html>

@@ -18,7 +18,8 @@ export const site = {
   // Coordenadas tomadas del embed de Google Maps ya usado en /contacto
   geoLat: -3.261043140975112,
   geoLng: -79.95765632415932,
-  gaId: "G-7HCTBJVY4B"
+  gaId: "G-7HCTBJVY4B",
+  clarityId: "y5f24at1rj"
 };
 export const waLink = `https://wa.me/${site.whatsapp}?text=${site.waText}`;
 
