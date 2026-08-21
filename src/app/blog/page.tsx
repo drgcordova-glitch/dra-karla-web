@@ -31,6 +31,13 @@ function groupByCategory() {
   return order.map((category) => ({ category, items: groups[category] }));
 }
 
+// Un color de marca distinto por tema, para diferenciar las tarjetas a simple vista.
+const categoryColor: Record<string, string> = {
+  "Dermatología clínica": "var(--dorado)",
+  "Tricología": "var(--violeta)",
+  "Cáncer de piel": "var(--plum)"
+};
+
 export default function BlogHub() {
   const groups = groupByCategory();
   return (
@@ -64,13 +71,18 @@ export default function BlogHub() {
       </section>
 
       <section className="block">
-        <div className="wrap" style={{ maxWidth: 840 }}>
+        <div className="wrap">
           {groups.map(({ category, items }) => (
-            <div key={category} style={{ marginBottom: 44 }}>
+            <div key={category} style={{ marginBottom: 48 }}>
               <p className="tier-label">{categoryLabel[category] ?? category}</p>
-              <div className="blog-list">
+              <div className="blog-grid">
                 {items.map((a) => (
-                  <Link key={a.slug} className="blog-item" href={`/blog/${a.slug}`}>
+                  <Link
+                    key={a.slug}
+                    className="blog-card"
+                    href={`/blog/${a.slug}`}
+                    style={{ ["--card-accent" as string]: categoryColor[a.category] ?? "var(--dorado)" }}
+                  >
                     <span className="cat">{categoryLabel[a.category] ?? a.category}</span>
                     <h2>{a.title}</h2>
                     <p>{a.excerpt}</p>
