@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
-import { articles } from "@/data/blog";
+import { articles, categoryLabel } from "@/data/blog";
 import { breadcrumb, medicalWebPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -18,7 +18,21 @@ const fmt = (d: string) =>
     year: "numeric"
   });
 
+function groupByCategory() {
+  const order: string[] = [];
+  const groups: Record<string, typeof articles> = {};
+  for (const a of articles) {
+    if (!groups[a.category]) {
+      groups[a.category] = [];
+      order.push(a.category);
+    }
+    groups[a.category].push(a);
+  }
+  return order.map((category) => ({ category, items: groups[category] }));
+}
+
 export default function BlogHub() {
+  const groups = groupByCategory();
   return (
     <>
       <JsonLd
@@ -51,18 +65,23 @@ export default function BlogHub() {
 
       <section className="block">
         <div className="wrap" style={{ maxWidth: 840 }}>
-          <div className="blog-list">
-            {articles.map((a) => (
-              <Link key={a.slug} className="blog-item" href={`/blog/${a.slug}`}>
-                <span className="cat">{a.category}</span>
-                <h2>{a.title}</h2>
-                <p>{a.excerpt}</p>
-                <div className="meta">
-                  {fmt(a.datePublished)} · {a.readingMin} min de lectura
-                </div>
-              </Link>
-            ))}
-          </div>
+          {groups.map(({ category, items }) => (
+            <div key={category} style={{ marginBottom: 44 }}>
+              <p className="tier-label">{categoryLabel[category] ?? category}</p>
+              <div className="blog-list">
+                {items.map((a) => (
+                  <Link key={a.slug} className="blog-item" href={`/blog/${a.slug}`}>
+                    <span className="cat">{categoryLabel[a.category] ?? a.category}</span>
+                    <h2>{a.title}</h2>
+                    <p>{a.excerpt}</p>
+                    <div className="meta">
+                      {fmt(a.datePublished)} · {a.readingMin} min de lectura
+                    </div>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
     </>

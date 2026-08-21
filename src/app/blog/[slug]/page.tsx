@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import CtaSection from "@/components/CtaSection";
 import JsonLd from "@/components/JsonLd";
-import { articles, getArticle } from "@/data/blog";
+import { articles, getArticle, categoryLabel } from "@/data/blog";
 import { getEspecialidad } from "@/data/especialidades";
 import { breadcrumb, articleSchema, faqPage } from "@/lib/schema";
 
@@ -67,7 +67,8 @@ export default async function ArticlePage({ params }: Props) {
       <section className="pagehead">
         <div className="wrap">
           <div className="crumb">
-            <Link href="/">Inicio</Link> / <Link href="/blog">Blog</Link> / {a.category}
+            <Link href="/">Inicio</Link> / <Link href="/blog">Blog</Link> /{" "}
+            {categoryLabel[a.category] ?? a.category}
           </div>
           <h1>{a.title}</h1>
           <div className="art-meta">
@@ -94,6 +95,22 @@ export default async function ArticlePage({ params }: Props) {
                       <li key={k}>{li}</li>
                     ))}
                   </ul>
+                )}
+                {s.img && (
+                  <figure style={{ margin: "24px 0" }}>
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={s.img.src}
+                      alt={s.img.alt}
+                      loading="lazy"
+                      style={{ width: "100%", height: "auto", borderRadius: 12 }}
+                    />
+                    {s.img.caption && (
+                      <figcaption style={{ fontSize: 12.5, color: "#8a8098", marginTop: 8, textAlign: "center" }}>
+                        {s.img.caption}
+                      </figcaption>
+                    )}
+                  </figure>
                 )}
               </div>
             ))}

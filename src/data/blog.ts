@@ -1,4 +1,9 @@
-export interface ArtSection { h?: string; p?: string[]; list?: string[] }
+export interface ArtSection {
+  h?: string;
+  p?: string[];
+  list?: string[];
+  img?: { src: string; alt: string; caption?: string };
+}
 export interface ArtFaq { q: string; a: string }
 export interface Article {
   slug: string;
@@ -13,6 +18,12 @@ export interface Article {
   sections: ArtSection[];
   faqs: ArtFaq[];
 }
+
+// Nombre completo de cada categoría del blog, para que quede claro qué cubre
+// (ej. "Tricología" por sí solo no es obvio para todos los lectores).
+export const categoryLabel: Record<string, string> = {
+  "Tricología": "Tricología · Cuidado del cabello"
+};
 
 export const articles: Article[] = [
   {
@@ -487,6 +498,430 @@ export const articles: Article[] = [
       {
         q: "¿Reemplaza el trasplante capilar u otros tratamientos?",
         a: "No, son herramientas distintas para objetivos distintos. Cuál aplica en cada caso lo define el diagnóstico, no una preferencia general."
+      }
+    ]
+  },
+  {
+    slug: "acne-en-la-adultez",
+    title: "Acné en la adultez: por qué aparece después de los 25",
+    excerpt:
+      "El acné no es solo cosa de adolescentes. Cada vez consultan más adultos, sobre todo mujeres, por un acné que aparece o vuelve después de los 25. Esto es lo que lo distingue.",
+    category: "Dermatología clínica",
+    datePublished: "2026-08-21",
+    dateModified: "2026-08-21",
+    readingMin: 5,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Mucha gente llega a consulta sorprendida: '¿otra vez acné, a esta edad?'. El acné del adulto es más frecuente de lo que se piensa, tiene características propias, y no se maneja igual que el de la adolescencia.",
+    sections: [
+      {
+        h: "En qué se diferencia del acné adolescente",
+        p: [
+          "El acné adulto suele concentrarse en la zona baja del rostro —mandíbula, mentón y cuello—, a diferencia del patrón más extendido de la adolescencia. Tiende a ser más inflamatorio, con lesiones más profundas y dolorosas, y muchas veces sigue un patrón cíclico relacionado con la menstruación en mujeres."
+        ]
+      },
+      {
+        h: "Por qué aparece",
+        list: [
+          "Fluctuaciones hormonales, muy marcadas en mujeres alrededor del ciclo menstrual",
+          "Situaciones como el síndrome de ovario poliquístico, que conviene descartar cuando el acné se acompaña de otros signos",
+          "Estrés sostenido, que no causa el acné pero sí puede empeorar los brotes",
+          "Productos cosméticos o capilares que tapan el poro en la zona de la mandíbula",
+          "Predisposición genética, igual que en el acné adolescente"
+        ]
+      },
+      {
+        h: "Por qué no conviene restarle importancia",
+        p: [
+          "El acné adulto tiende a dejar más marcas que el adolescente, en parte porque las lesiones suelen ser más profundas y en parte porque la piel adulta se regenera más lento. Tratarlo a tiempo reduce el riesgo de cicatrices."
+        ]
+      },
+      {
+        h: "Lo que no ayuda",
+        list: [
+          "Tratarlo con los mismos productos que se usaban en la adolescencia: la piel adulta suele ser más sensible y necesita otro enfoque",
+          "Ignorarlo pensando que 'ya se me va a pasar solo', como en la adolescencia: en el adulto tiende a ser más persistente",
+          "Sumar muchos productos activos a la vez esperando resultados más rápidos: suele irritar más que ayudar"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Por qué me da acné si de adolescente nunca tuve?",
+        a: "Puede aparecer por primera vez en la adultez, sobre todo en mujeres, relacionado con cambios hormonales. No haber tenido acné antes no protege de tenerlo después."
+      },
+      {
+        q: "¿Es distinto tratar el acné adulto?",
+        a: "El enfoque se ajusta a la piel adulta y al patrón hormonal, por eso conviene una evaluación específica en vez de repetir lo que funcionaba a los 16 años."
+      },
+      {
+        q: "¿Cuándo debería preocuparme más?",
+        a: "Si el acné se acompaña de otros cambios (irregularidad menstrual, exceso de vello, aumento de peso brusco), vale la pena comentarlo en la consulta, porque puede orientar a otras causas hormonales que conviene estudiar."
+      }
+    ]
+  },
+  {
+    slug: "mitos-sobre-el-acne",
+    title: "Mitos sobre el acné que hay que dejar de creer",
+    excerpt:
+      "Del chocolate a exprimir los granos, el acné arrastra más mitos que casi cualquier otra condición de la piel. Separamos lo que tiene base real de lo que es solo creencia popular.",
+    category: "Dermatología clínica",
+    datePublished: "2026-08-21",
+    dateModified: "2026-08-21",
+    readingMin: 5,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Pocas condiciones de la piel generan tantos consejos de todo tipo como el acné. Aquí repasamos los mitos más comunes y qué conviene saber en su lugar.",
+    sections: [
+      {
+        h: "Mitos sobre las causas",
+        list: [
+          "Mito: el acné es por mala higiene. Verdad: no se relaciona con estar sucio; lavarse de más incluso lo empeora, porque irrita la piel",
+          "Mito: el chocolate y las frituras causan acné. Verdad: no hay un alimento único responsable; la relación entre dieta y acné es más matizada de lo que se cree",
+          "Mito: el acné es solo cosa de adolescentes. Verdad: también aparece o persiste en la adultez, sobre todo en mujeres",
+          "Mito: el sol mejora el acné. Verdad: puede disimularlo un tiempo por el bronceado, pero después suele empeorarlo, además de dañar la piel"
+        ]
+      },
+      {
+        h: "Mitos sobre cómo tratarlo",
+        list: [
+          "Mito: exprimir los granos ayuda a que se vayan más rápido. Verdad: es la forma más segura de dejar una mancha o cicatriz",
+          "Mito: entre más productos uses, más rápido se va. Verdad: combinar muchos activos a la vez suele irritar la piel y empeorar el cuadro",
+          "Mito: si un tratamiento no funciona en unos días, hay que cambiarlo. Verdad: la mayoría de los tratamientos para acné tardan de 6 a 8 semanas en mostrar resultado",
+          "Mito: el maquillaje siempre tapa los poros y empeora el acné. Verdad: depende del producto; existen opciones formuladas para no obstruir el poro"
+        ]
+      },
+      {
+        h: "Mitos sobre las marcas que deja",
+        list: [
+          "Mito: las manchas y cicatrices desaparecen solas siempre. Verdad: las manchas suelen mejorar con tiempo y tratamiento; las cicatrices son más difíciles de revertir por completo",
+          "Mito: no importa esperar para tratar el acné, las marcas se arreglan después. Verdad: cuanto antes se trata el acné activo, menos marcas suelen quedar"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Entonces la alimentación no influye para nada?",
+        a: "En algunas personas ciertos alimentos pueden influir en los brotes, pero no hay un alimento que cause o cure el acné por sí solo. El tratamiento médico es lo que marca la diferencia real."
+      },
+      {
+        q: "¿Por qué persisten tantos mitos sobre el acné?",
+        a: "Porque es muy frecuente, empieza en la adolescencia cuando se prueba de todo, y hay mucha información sin respaldo circulando en redes."
+      },
+      {
+        q: "¿Cómo sé qué es verdad para mi caso?",
+        a: "Lo que aplica a tu piel lo define una evaluación, no una lista general de mitos y verdades."
+      }
+    ]
+  },
+  {
+    slug: "cuidado-piel-acneica-en-casa",
+    title: "Cómo elegir productos para piel con tendencia acneica sin empeorarla",
+    excerpt:
+      "Con piel con tendencia al acné, no se trata de usar más productos, sino de elegir mejor y no irritar de más. Estos son los criterios básicos para una rutina que no empeore las cosas.",
+    category: "Dermatología clínica",
+    datePublished: "2026-08-21",
+    dateModified: "2026-08-21",
+    readingMin: 5,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Cuando la piel tiene tendencia acneica, es fácil caer en probar de todo. Pero el cuidado diario en casa no reemplaza el tratamiento médico: su función es no sumar irritación mientras ese tratamiento hace su trabajo.",
+    sections: [
+      {
+        h: "La regla de base: menos es más",
+        p: [
+          "Una piel con acné activo ya está inflamada. Sumar muchos productos, sobre todo exfoliantes fuertes o varios activos a la vez, casi siempre irrita más de lo que ayuda. Una rutina simple y sostenida en el tiempo funciona mejor que una elaborada que cambia cada semana."
+        ]
+      },
+      {
+        h: "Qué buscar en un limpiador",
+        list: [
+          "Que limpie sin dejar la piel tirante ni reseca",
+          "Evitar limpiadores muy espumosos o con alcohol en las primeras posiciones de la lista de ingredientes",
+          "Lavar la cara dos veces al día es suficiente; lavar más no limpia 'más profundo', solo irrita"
+        ]
+      },
+      {
+        h: "Qué buscar en hidratante y protector solar",
+        list: [
+          "Que estén etiquetados como 'no comedogénicos', formulados para no tapar el poro",
+          "Texturas en gel o loción liviana en climas cálidos y húmedos, en vez de cremas muy densas",
+          "El protector solar no es opcional: varios tratamientos para el acné hacen la piel más sensible al sol"
+        ]
+      },
+      {
+        h: "Errores frecuentes en la rutina casera",
+        list: [
+          "Exfoliar con gránulos gruesos pensando que 'destapa' los poros: suele microdesgarrar la piel y empeorar la inflamación",
+          "Probar un producto nuevo cada semana sin darle tiempo a ninguno",
+          "Tocarse la cara y apoyar el celular en la mejilla durante llamadas, que traslada suciedad y fricción a la piel",
+          "No cambiar la funda de la almohada con frecuencia"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Cuántas veces debo lavarme la cara al día?",
+        a: "Dos veces suele ser suficiente: en la mañana y en la noche. Lavarse más no mejora el acné y puede irritar la piel."
+      },
+      {
+        q: "¿Debo dejar de usar maquillaje si tengo acné?",
+        a: "No necesariamente; lo importante es elegir productos no comedogénicos y retirarlos bien al final del día."
+      },
+      {
+        q: "¿La rutina en casa puede reemplazar el tratamiento médico?",
+        a: "No. Una buena rutina evita sumar irritación, pero el acné moderado o persistente necesita un tratamiento indicado por un dermatólogo para resolverse de verdad."
+      }
+    ]
+  },
+  {
+    slug: "autoexamen-de-lunares-en-casa",
+    title: "Cómo hacerte un autoexamen de lunares en casa",
+    excerpt:
+      "Revisar tus propios lunares en casa, de forma regular, es uno de los hábitos más simples y con más impacto real en la detección temprana del cáncer de piel. Así se hace, paso a paso.",
+    category: "Cáncer de piel",
+    datePublished: "2026-08-21",
+    dateModified: "2026-08-21",
+    readingMin: 6,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "El autoexamen de lunares no reemplaza el control con un dermatólogo, pero es un hábito simple que ayuda a notar cambios a tiempo, entre una consulta y otra.",
+    sections: [
+      {
+        h: "Por qué vale la pena hacerlo",
+        p: [
+          "Nadie conoce tu piel tan de cerca, en el día a día, como tú mismo. Revisarte con regularidad ayuda a notar un lunar nuevo o un cambio en uno existente antes de la próxima cita, que es exactamente el tipo de señal que conviene consultar pronto."
+        ]
+      },
+      {
+        h: "Cómo hacerlo, paso a paso",
+        list: [
+          "Elige un ambiente con buena luz y, si puedes, un espejo de cuerpo completo y uno de mano para las zonas difíciles",
+          "Revisa todo el cuerpo, no solo lo que ves a simple vista: espalda, cuero cabelludo, entre los dedos, plantas de los pies y glúteos son zonas que se olvidan",
+          "Pide ayuda a alguien de confianza para revisar la espalda y el cuero cabelludo, o combina el espejo grande con uno de mano",
+          "Revisa cada lunar con la regla ABCDE: Asimetría, Bordes irregulares, Color desigual, Diámetro mayor a 6 mm, Evolución o cambios",
+          "Toma una foto con fecha de los lunares que te generen dudas, para comparar con el tiempo"
+        ]
+      },
+      {
+        h: "Así se ve cada señal de la regla ABCDE",
+        p: ["Una guía visual de referencia; ningún lunar real es tan esquemático como estos dibujos, pero ayuda a saber qué buscar."],
+        img: {
+          src: "/lunares-abcde.svg",
+          alt: "Ilustración lineal de cinco lunares que representan las señales ABCDE: asimetría, borde irregular, color desigual, diámetro mayor a 6 mm y evolución en el tiempo",
+          caption: "Ilustración de referencia, no diagnóstica."
+        }
+      },
+      {
+        h: "Con qué frecuencia conviene hacerlo",
+        p: [
+          "Una vez al mes es una buena referencia general. Si tienes muchos lunares, antecedentes familiares de cáncer de piel o piel muy clara, tu dermatólogo puede recomendarte revisarte con más frecuencia."
+        ]
+      },
+      {
+        h: "Qué no reemplaza el autoexamen",
+        list: [
+          "No reemplaza el control profesional con dermatoscopía, que permite ver estructuras del lunar que no se detectan a simple vista",
+          "No sirve para 'descartar' por tu cuenta un lunar que te preocupa: si algo te llama la atención, la consulta es lo que confirma o descarta, no la autoevaluación",
+          "No hay que esperar al control anual si notas un cambio antes: eso amerita adelantar la cita"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Qué hago si encuentro un lunar que cumple algún criterio del ABCDE?",
+        a: "No te alarmes de más: muchos lunares cumplen algún criterio sin ser malignos. Lo importante es que lo evalúe un dermatólogo, con dermatoscopía si hace falta."
+      },
+      {
+        q: "¿Los lunares nuevos en la edad adulta son siempre motivo de preocupación?",
+        a: "No siempre, pero un lunar realmente nuevo en la adultez, o uno que cambia, es justamente el tipo de hallazgo que conviene que revise un especialista."
+      },
+      {
+        q: "¿Cada cuánto debo ir a un control profesional además del autoexamen?",
+        a: "Depende de tus factores de riesgo; como referencia general un control anual es razonable para la mayoría, pero tu dermatólogo te indicará la frecuencia adecuada para tu caso."
+      }
+    ]
+  },
+  {
+    slug: "mitos-sobre-lunares-y-cancer-de-piel",
+    title: "Mitos sobre los lunares y el cáncer de piel",
+    excerpt:
+      "Sobre los lunares y el cáncer de piel circulan ideas que pueden hacer perder tiempo valioso. Separamos lo que es mito de lo que realmente conviene tener en cuenta.",
+    category: "Cáncer de piel",
+    datePublished: "2026-08-21",
+    dateModified: "2026-08-21",
+    readingMin: 5,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "Hay pocas áreas de la piel con tantas ideas erróneas dando vueltas como los lunares y el cáncer de piel. Algunas hacen perder tiempo valioso; aquí las repasamos.",
+    sections: [
+      {
+        h: "Mitos sobre quién debe preocuparse",
+        list: [
+          "Mito: el cáncer de piel solo le da a personas de piel muy clara. Verdad: el riesgo es mayor en piel clara, pero cualquier tipo de piel puede desarrollarlo, y en piel más oscura suele diagnosticarse más tarde porque se sospecha menos",
+          "Mito: si nadie en mi familia tuvo cáncer de piel, no me puede pasar a mí. Verdad: los antecedentes familiares aumentan el riesgo, pero la mayoría de los casos no tiene un familiar directo afectado",
+          "Mito: solo hay que revisarse los lunares que se ven, no hace falta un control completo. Verdad: puede aparecer en zonas poco visibles, como el cuero cabelludo o entre los dedos de los pies"
+        ]
+      },
+      {
+        h: "Mitos sobre cómo se ve un lunar peligroso",
+        list: [
+          "Mito: si no duele ni pica, no es nada. Verdad: la mayoría de los lunares con cambios sospechosos no duelen; el dolor no es un criterio confiable",
+          "Mito: un lunar con pelo es más peligroso. Verdad: que un lunar tenga pelo no indica nada sobre si es benigno o no",
+          "Mito: solo hay que fijarse en lunares oscuros. Verdad: algunas lesiones de alerta son rosadas o del color de la piel, no necesariamente oscuras"
+        ]
+      },
+      {
+        h: "Mitos sobre la prevención",
+        list: [
+          "Mito: el protector solar solo hace falta en la playa o la piscina. Verdad: la exposición diaria acumulada, incluso caminando por la calle, contribuye al daño solar",
+          "Mito: un día nublado no hace falta protección. Verdad: gran parte de la radiación UV atraviesa las nubes",
+          "Mito: si ya tengo bronceado, ya no necesito protector. Verdad: el bronceado es, en sí mismo, una señal de daño en la piel, no una protección suficiente"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Vivir cerca de la línea ecuatorial cambia el riesgo?",
+        a: "La radiación UV es más intensa cerca del ecuador durante todo el año, lo que hace que la protección solar constante sea todavía más importante en zonas como Machala."
+      },
+      {
+        q: "¿Tener la piel más oscura significa que no necesito revisarme?",
+        a: "No. El riesgo es menor pero no nulo, y cuando aparece, suele detectarse más tarde porque se sospecha menos. Revisarse igual sigue siendo válido."
+      },
+      {
+        q: "¿Un lunar que siempre tuve puede volverse peligroso con el tiempo?",
+        a: "Sí puede cambiar. Por eso lo que importa no es solo cómo se ve un lunar una vez, sino si cambia con el tiempo respecto a como era antes."
+      }
+    ]
+  },
+  {
+    slug: "proteccion-solar-que-realmente-funciona",
+    title: "Protección solar: lo que realmente previene el cáncer de piel",
+    excerpt:
+      "El protector solar es solo una parte de la protección real. Estos son los hábitos, más allá del frasco de protector, que marcan la diferencia en la prevención del cáncer de piel.",
+    category: "Cáncer de piel",
+    datePublished: "2026-08-21",
+    dateModified: "2026-08-21",
+    readingMin: 5,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "Se habla mucho del protector solar, pero la protección real es un conjunto de hábitos, no un solo producto. Esto es lo que realmente ayuda, más allá de la marca o el número del frasco.",
+    sections: [
+      {
+        h: "El protector solar sí importa, pero se usa mal",
+        list: [
+          "La mayoría de la gente aplica mucho menos cantidad de la necesaria",
+          "Se reaplica poco: después de 2 a 3 horas, o antes si hay sudor o agua de por medio, hace falta repetir",
+          "Se olvidan zonas frecuentes: orejas, nuca, empeine de los pies, cuero cabelludo con poco cabello",
+          "Se aplica solo en días de playa, cuando la exposición diaria acumulada —caminar, manejar, hacer mandados— también cuenta"
+        ]
+      },
+      {
+        h: "Hábitos que protegen más allá del protector",
+        list: [
+          "Buscar sombra en las horas de sol más fuerte, entre las 10:00 y las 16:00 aproximadamente",
+          "Usar ropa que cubra, sombrero de ala ancha y lentes de sol, sobre todo en exposiciones prolongadas",
+          "Tener especial cuidado con niños pequeños, cuya piel es más sensible al daño solar",
+          "Recordar que el daño solar se acumula con los años: la protección constante hoy es la que marca diferencia a largo plazo"
+        ]
+      },
+      {
+        h: "Situaciones que suelen subestimarse",
+        list: [
+          "Los días nublados: buena parte de la radiación UV atraviesa las nubes",
+          "Manejar con frecuencia: la luz solar entra por la ventana del auto y afecta más el lado del cuerpo expuesto al vidrio",
+          "Cerca del ecuador, como en Machala, la radiación UV se mantiene alta durante todo el año, no solo en 'temporada de sol'"
+        ]
+      },
+      {
+        h: "Por qué esto se conecta con el cáncer de piel",
+        p: [
+          "La exposición solar acumulada a lo largo de la vida es el principal factor de riesgo modificable para el cáncer de piel. Esto no significa evitar el sol por completo, sino exponerse con protección real y sostenida, no solo cuando 'toca playa'."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Qué factor de protector solar debo usar?",
+        a: "Como referencia general, un factor 30 o más, de amplio espectro, aplicado en cantidad suficiente y reaplicado con frecuencia, es más efectivo que un factor muy alto aplicado en poca cantidad."
+      },
+      {
+        q: "¿Necesito protector solar todos los días, aunque no vaya a la playa?",
+        a: "Sí, la exposición diaria acumulada también cuenta, sobre todo en una ciudad con radiación UV alta durante todo el año."
+      },
+      {
+        q: "¿La protección solar previene todos los tipos de cáncer de piel?",
+        a: "Reduce significativamente el riesgo, pero no lo elimina por completo. Por eso la protección se combina con el control periódico de la piel, no lo reemplaza."
+      }
+    ]
+  },
+  {
+    slug: "spf-protector-solar-que-significa",
+    title: "SPF del protector solar: qué significa el número y cómo elegirlo",
+    excerpt:
+      "El número del protector solar (30, 50, 50+...) genera muchas dudas: ¿uno más alto siempre es mejor? Esto es lo que realmente significa, qué revisar en la etiqueta y cada cuánto aplicarlo.",
+    category: "Cáncer de piel",
+    datePublished: "2026-08-21",
+    dateModified: "2026-08-21",
+    readingMin: 5,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "El SPF es el dato que más se mira en la etiqueta de un protector solar, pero también el que más se malinterpreta. Aquí explicamos qué mide realmente ese número, qué más revisar en la etiqueta, y cómo y cada cuánto aplicarlo.",
+    sections: [
+      {
+        h: "Qué significa el número de SPF",
+        p: [
+          "El SPF (factor de protección solar) mide, de forma aproximada, cuánto tiempo adicional tarda la piel en quemarse usando el protector, comparado con no usar nada. No es una medida exacta de 'porcentaje de protección total', aunque suele explicarse así de forma simplificada.",
+          "Como referencia general: un SPF 30 bloquea alrededor del 97% de los rayos UVB, y un SPF 50 alrededor del 98%. La diferencia entre 30 y 50 es más pequeña de lo que el número sugiere; lo que sí cambia mucho la protección real es la cantidad que te apliques y qué tan seguido te la vuelvas a poner."
+        ]
+      },
+      {
+        h: "¿Un número más alto es siempre mejor?",
+        p: [
+          "No de forma proporcional. Pasar de SPF 30 a SPF 50 suma una protección extra modesta. Lo que sí hace una diferencia real es elegir uno de amplio espectro (que cubra tanto UVA como UVB) y aplicarlo en la cantidad y frecuencia correctas, más que perseguir el número más alto de la góndola."
+        ]
+      },
+      {
+        h: "Qué más revisar en la etiqueta, además del número",
+        list: [
+          "'Amplio espectro' o 'UVA/UVB': indica que protege de ambos tipos de radiación, no solo de la que quema (UVB)",
+          "'Resistente al agua': significa que mantiene su efecto un tiempo limitado en el agua o con sudor —generalmente 40 u 80 minutos, según indique el envase—, no que dura todo el día",
+          "Filtro físico (mineral) o químico: son dos categorías distintas de protección, ambas efectivas; cuál te conviene más depende de tu tipo de piel y tolerancia, algo que puedes conversar en tu consulta si tienes piel sensible o reactiva"
+        ]
+      },
+      {
+        h: "Cuánto aplicar, la parte que casi todos hacen mal",
+        p: [
+          "La mayoría de la gente aplica entre un cuarto y la mitad de la cantidad necesaria para lograr el SPF que indica el envase. Como referencia práctica: para rostro y cuello, una cantidad similar a la punta de dos dedos completos; para todo el cuerpo, el equivalente a una copa de licor, unos 30 ml."
+        ]
+      },
+      {
+        h: "Cada cuánto reaplicarlo",
+        list: [
+          "Cada 2 horas en exposición directa al sol",
+          "Inmediatamente después de nadar, sudar mucho o secarte con la toalla, sin importar si dice 'resistente al agua'",
+          "Una sola aplicación en la mañana no alcanza para cubrir todo el día si hay exposición sostenida",
+          "En el uso diario sin exposición prolongada (oficina, manejar, mandados), una aplicación por la mañana suele ser suficiente, salvo que pases varias horas cerca de una ventana con sol directo"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿SPF 100 me protege el doble que SPF 50?",
+        a: "No. La diferencia en bloqueo de UVB entre 50 y 100 es de apenas un punto porcentual aproximado. Un número más alto puede dar algo más de margen si aplicas menos cantidad de la ideal, pero no reemplaza la reaplicación."
+      },
+      {
+        q: "¿El protector en polvo o en spray reemplaza al de crema?",
+        a: "Pueden servir para reaplicar sobre maquillaje o en el cuerpo, pero es difícil aplicar la cantidad suficiente solo con ellos; lo ideal es usarlos como refuerzo, no como única aplicación del día."
+      },
+      {
+        q: "¿Los protectores con color o los que ya trae el maquillaje son suficientes?",
+        a: "Rara vez se aplican en cantidad suficiente para dar la protección que promete la etiqueta. Sirven como protección adicional, no como reemplazo del protector solar dedicado."
+      },
+      {
+        q: "¿Cómo elijo entre filtro físico y químico si tengo piel sensible?",
+        a: "Es una buena pregunta para tu consulta: depende de tu tipo de piel y de si tienes antecedentes de irritación o alergias, y tu dermatólogo puede orientarte según tu caso."
       }
     ]
   }
