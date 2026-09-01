@@ -2,7 +2,7 @@ import Link from "next/link";
 import Reveal from "./Reveal";
 import WhatsAppLink from "./WhatsAppLink";
 
-export default function CtaSection() {
+export default function CtaSection({ serviceName }: { serviceName?: string }) {
   return (
     <section className="block ctaband">
       {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -13,7 +13,7 @@ export default function CtaSection() {
           <h2>Tu piel en manos de una dermatóloga.</h2>
           <p>Agenda tu cita y recibe un plan pensado para ti, no una fórmula para todos.</p>
           <div className="hero-actions">
-            <WhatsAppLink className="btn btn-solid" location="banda_final">
+            <WhatsAppLink className="btn btn-solid" location="banda_final" serviceName={serviceName}>
               Escribir por WhatsApp
             </WhatsAppLink>
             <Link className="btn btn-light" href="/contacto">

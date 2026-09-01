@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { site } from "@/data/site";
 import WhatsAppLink from "./WhatsAppLink";
+import MapsLink from "./MapsLink";
 
 export default function Footer() {
   return (
@@ -18,11 +19,11 @@ export default function Footer() {
           <div>
             <h4>Consultorio</h4>
             <p>
-              <a href={site.mapsLink} target="_blank" rel="noopener noreferrer">
+              <MapsLink location="footer">
                 {site.address}
                 <br />
                 {site.city}, {site.province} · {site.country}
-              </a>
+              </MapsLink>
               <br />
               <span style={{ fontSize: 12.5, opacity: 0.75 }}>Toca la dirección para abrir el mapa</span>
             </p>

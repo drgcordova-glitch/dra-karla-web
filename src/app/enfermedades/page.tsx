@@ -46,7 +46,7 @@ export default function EnfermedadesHub() {
         <div className="wrap">
           <div className="probs">
             {problemas.map((p) => (
-              <Link key={p.title} className="prob" href={`/especialidades/${p.related}`}>
+              <Link key={p.title} className="prob" href={p.href ?? `/especialidades/${p.related}`}>
                 <h3>{p.title}</h3>
                 <span className="arw">→</span>
               </Link>

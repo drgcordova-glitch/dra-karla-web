@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import WhatsAppLink from "@/components/WhatsAppLink";
+import MapsLink from "@/components/MapsLink";
 import { site } from "@/data/site";
 import { breadcrumb, medicalWebPage } from "@/lib/schema";
 
@@ -47,11 +48,11 @@ export default function Contacto() {
             <div className="row">
               <div className="k">Dirección</div>
               <div className="v">
-                <a href={site.mapsLink} target="_blank" rel="noopener noreferrer">
+                <MapsLink location="contacto_fila">
                   {site.address}
                   <br />
                   {site.city}, {site.province} · {site.country}
-                </a>
+                </MapsLink>
               </div>
             </div>
             <div className="row">

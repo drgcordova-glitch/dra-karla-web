@@ -110,7 +110,7 @@ export default async function EspecialidadPage({ params }: Props) {
         </div>
       </section>
 
-      <CtaSection />
+      <CtaSection serviceName={e.title} />
     </>
   );
 }

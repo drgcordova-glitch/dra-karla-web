@@ -18,13 +18,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const a = getArticle(slug);
   if (!a) return {};
   return {
-    title: a.title,
-    description: a.excerpt,
+    title: a.seoTitle ?? a.title,
+    description: a.seoDescription ?? a.excerpt,
     alternates: { canonical: `/blog/${a.slug}` },
     openGraph: {
       type: "article",
-      title: a.title,
-      description: a.excerpt,
+      title: a.seoTitle ?? a.title,
+      description: a.seoDescription ?? a.excerpt,
       publishedTime: a.datePublished,
       images: [{ url: "/og.jpg", width: 1200, height: 630 }]
     }
@@ -153,7 +153,7 @@ export default async function ArticlePage({ params }: Props) {
         </div>
       </section>
 
-      <CtaSection />
+      <CtaSection serviceName={a.title} />
     </>
   );
 }

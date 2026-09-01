@@ -162,7 +162,7 @@ export default async function CasoPage({ params }: Props) {
         </div>
       </section>
 
-      <CtaSection />
+      <CtaSection serviceName={c.title} />
     </>
   );
 }

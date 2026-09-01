@@ -19,13 +19,13 @@ export const especialidades: Especialidad[] = [
     num: "01",
     tier: "nucleo",
     title: "Dermatología clínica",
-    seoTitle: "Dermatóloga en Machala · Dermatología Clínica",
+    seoTitle: "Dermatología Clínica en Machala · Consulta Dermatológica",
     seoDescription:
       "Consulta con una dermatóloga en Machala, El Oro: diagnóstico y tratamiento de acné, rosácea, dermatitis, psoriasis y otras afecciones de la piel, con base científica.",
     cardText:
       "Diagnóstico y tratamiento de las enfermedades de la piel en adultos: acné, rosácea, dermatitis, psoriasis y más.",
     lead:
-      "La consulta dermatológica es el punto de partida para cuidar tu piel con criterio médico. Aquí se estudia, se diagnostica y se trata cada condición con un plan pensado para ti.",
+      "La consulta dermatológica es el punto de partida para cuidar tu piel con criterio médico. En el consultorio de la Dra. Andrade en Machala, se estudia, se diagnostica y se trata cada condición con un plan pensado para ti.",
     sections: [
       {
         p: [
@@ -212,10 +212,13 @@ export const especialidades: Especialidad[] = [
     num: "05",
     tier: "amplitud",
     title: "Medicina estética con criterio dermatológico",
+    seoTitle: "Dermatología Estética en Machala · Medicina Estética",
+    seoDescription:
+      "Medicina estética indicada y realizada por una dermatóloga en Machala, El Oro: toxina, rellenos, bioestimuladores y láser, con resultados naturales y base médica.",
     cardText:
       "Toxina, rellenos, bioestimuladores y láser, indicados por una dermatóloga y pensados para verse natural.",
     lead:
-      "La medicina estética, cuando la indica y realiza una dermatóloga, parte de un principio simple: conocer la piel a fondo antes de intervenirla. El objetivo es realzar, nunca transformar en algo artificial.",
+      "La medicina estética, cuando la indica y realiza una dermatóloga en Machala, parte de un principio simple: conocer la piel a fondo antes de intervenirla. El objetivo es realzar, nunca transformar en algo artificial.",
     sections: [
       {
         p: [

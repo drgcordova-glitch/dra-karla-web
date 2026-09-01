@@ -9,6 +9,8 @@ export interface Article {
   slug: string;
   title: string;
   excerpt: string;
+  seoTitle?: string;
+  seoDescription?: string;
   category: string;
   datePublished: string;
   dateModified: string;
@@ -31,6 +33,9 @@ export const articles: Article[] = [
     title: "Acné: por qué aparece y cómo se trata de verdad",
     excerpt:
       "El acné no es falta de higiene ni cosa solo de adolescentes. Entender por qué aparece es el primer paso para tratarlo bien y evitar cicatrices.",
+    seoTitle: "Tratamiento del Acné en Machala · Causas y Cuidado Real",
+    seoDescription:
+      "Tratamiento del acné en Machala con la Dra. Karla Andrade: por qué aparece de verdad, qué evitar y cómo se trata bien, sin mitos ni promesas irreales.",
     category: "Dermatología clínica",
     datePublished: "2026-08-02",
     dateModified: "2026-08-02",
@@ -922,6 +927,138 @@ export const articles: Article[] = [
       {
         q: "¿Cómo elijo entre filtro físico y químico si tengo piel sensible?",
         a: "Es una buena pregunta para tu consulta: depende de tu tipo de piel y de si tienes antecedentes de irritación o alergias, y tu dermatólogo puede orientarte según tu caso."
+      }
+    ]
+  },
+  {
+    slug: "manchas-y-melasma-en-la-piel",
+    title: "Manchas y melasma: por qué aparecen y qué puedes hacer mientras tanto",
+    excerpt:
+      "Las manchas en la piel no son todas iguales, y el melasma tiene características propias. Esto es lo que las distingue, qué las empeora y qué hábitos ayudan mientras defines un plan.",
+    seoTitle: "Manchas y Melasma en Machala · Causas y Cuidado de la Piel",
+    seoDescription:
+      "Manchas en la piel y melasma en Machala: por qué aparecen, qué las empeora y qué hábitos ayudan mientras defines un tratamiento con tu dermatóloga.",
+    category: "Dermatología clínica",
+    datePublished: "2026-08-21",
+    dateModified: "2026-08-21",
+    readingMin: 5,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Las manchas en la piel son uno de los motivos de consulta más frecuentes en Machala, sobre todo por la exposición solar constante de la zona. No todas las manchas son iguales, y el melasma —una de las más consultadas— tiene características propias que conviene conocer.",
+    sections: [
+      {
+        h: "Qué es el melasma",
+        p: [
+          "El melasma es un tipo de mancha que aparece sobre todo en el rostro —mejillas, frente, labio superior— con bordes poco definidos y un tono marrón o grisáceo. Es mucho más frecuente en mujeres, y se relaciona con cambios hormonales (embarazo, anticonceptivos) y con la exposición solar."
+        ]
+      },
+      {
+        h: "Por qué no es 'una mancha más'",
+        p: [
+          "El melasma tiende a ser más persistente y más sensible al sol que otras manchas. Una exposición solar breve puede hacer que reaparezca incluso después de mejorar, por eso el manejo va mucho más allá de aplicar una crema despigmentante."
+        ]
+      },
+      {
+        h: "Qué lo empeora",
+        list: [
+          "La exposición solar sin protección constante, incluso breve",
+          "El calor directo sobre el rostro (cocinar cerca de una hornilla, saunas)",
+          "Cambios hormonales: embarazo, anticonceptivos, terapias hormonales",
+          "Procedimientos cosméticos agresivos hechos sin evaluación previa",
+          "Productos exfoliantes fuertes usados sin criterio, que irritan y oscurecen más la zona"
+        ]
+      },
+      {
+        h: "Qué ayuda mientras defines un plan",
+        p: ["Son medidas de cuidado, no un tratamiento del melasma en sí, que se define en consulta:"],
+        list: [
+          "Protector solar de amplio espectro, reaplicado, todos los días: es la medida más importante de todas",
+          "Sombrero o gorra con visera si vas a estar mucho tiempo al sol",
+          "Evitar la exfoliación agresiva o los 'remedios' caseros para aclarar la piel",
+          "Ser constante: el melasma mejora con meses de cuidado sostenido, no con una sola aplicación"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿El melasma se cura para siempre?",
+        a: "Se controla muy bien, pero tiende a ser una condición que puede reactivarse con el sol o cambios hormonales. Por eso el cuidado sostenido, sobre todo la protección solar, es tan importante incluso después de mejorar."
+      },
+      {
+        q: "¿Cualquier mancha oscura en la cara es melasma?",
+        a: "No. Hay varios tipos de manchas —solares, posinflamatorias, melasma, entre otras— y cada una se maneja distinto. Por eso es importante que un dermatólogo confirme de cuál se trata antes de tratarla."
+      },
+      {
+        q: "¿El embarazo empeora las manchas?",
+        a: "Puede desencadenar o empeorar el melasma, conocido popularmente como 'paño del embarazo'. En muchos casos mejora después del parto, pero no siempre desaparece solo, y la protección solar sigue siendo clave durante y después."
+      }
+    ]
+  },
+  {
+    slug: "dermatitis-atopica-piel-sensible",
+    title: "Dermatitis atópica: qué es y cómo cuidar la piel sensible en casa",
+    excerpt:
+      "La dermatitis atópica es una de las consultas más frecuentes, sobre todo en niños. Esto es lo que la caracteriza, qué desencadena los brotes y qué hábitos ayudan en casa.",
+    seoTitle: "Dermatitis Atópica en Machala · Cuidado de la Piel Sensible",
+    seoDescription:
+      "Dermatitis atópica en Machala: qué es, por qué da brotes y qué hábitos de cuidado en casa ayudan a la piel sensible, en niños y adultos.",
+    category: "Dermatología clínica",
+    datePublished: "2026-08-21",
+    dateModified: "2026-08-21",
+    readingMin: 5,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "La dermatitis atópica es una de las condiciones de piel más frecuentes, especialmente en la infancia, aunque también persiste o aparece en adultos. Conocer sus desencadenantes ayuda a espaciar los brotes, aunque el manejo de fondo lo defina siempre tu dermatólogo.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Es una condición crónica de la piel, con base genética e inmunológica, que causa piel seca, picazón y brotes de enrojecimiento e inflamación. Suele aparecer en la infancia, en pliegues como codos y rodillas, y puede continuar o reaparecer en la adultez con otro patrón."
+        ]
+      },
+      {
+        h: "Por qué da brotes",
+        list: [
+          "La piel de una persona con dermatitis atópica tiene una barrera más débil, que pierde agua y deja entrar más fácil a irritantes y alérgenos",
+          "El clima seco o los cambios bruscos de temperatura pueden desencadenar brotes",
+          "Jabones y detergentes fuertes irritan una barrera ya de por sí sensible",
+          "El estrés no la causa, pero es un desencadenante frecuente de brotes",
+          "La sudoración excesiva y el roce de telas ásperas o sintéticas"
+        ]
+      },
+      {
+        h: "Cuidados en casa que sí ayudan",
+        p: ["Son hábitos de cuidado, no un tratamiento de los brotes activos, que necesita indicación médica:"],
+        list: [
+          "Baños cortos, con agua tibia (no caliente) y jabones suaves, sin fragancia",
+          "Hidratar la piel todos los días, sobre todo justo después del baño",
+          "Usar ropa de algodón, evitando telas sintéticas o de lana directa sobre la piel",
+          "Cortar las uñas cortas, sobre todo en niños, para reducir el daño del rascado",
+          "Identificar y anotar qué suele desencadenar los brotes en cada persona: no es igual para todos"
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        list: [
+          "Si los brotes son frecuentes o no mejoran con el cuidado básico",
+          "Si hay signos de infección: más enrojecimiento, calor, secreción o dolor en la zona",
+          "Si la picazón interrumpe el sueño, sobre todo en niños pequeños",
+          "Para definir un plan de tratamiento de los brotes, que va más allá de la hidratación diaria"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La dermatitis atópica se cura?",
+        a: "Es una condición crónica que tiende a mejorar con la edad en muchos niños, pero no siempre desaparece del todo. Se controla muy bien con un plan de cuidado sostenido y tratamiento oportuno de los brotes."
+      },
+      {
+        q: "¿Es contagiosa?",
+        a: "No, en absoluto. No se transmite de una persona a otra por contacto."
+      },
+      {
+        q: "¿Qué la diferencia de la piel simplemente seca?",
+        a: "La piel seca sin dermatitis no suele picar tanto ni formar placas rojas o brotes recurrentes en zonas típicas como los pliegues. Si hay picazón intensa y brotes que van y vienen, vale la pena una evaluación."
       }
     ]
   }
