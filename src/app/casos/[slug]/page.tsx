@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import CtaSection from "@/components/CtaSection";
+import WhatsAppLink from "@/components/WhatsAppLink";
 import JsonLd from "@/components/JsonLd";
 import { casos, getCaso } from "@/data/casos";
 import { getEspecialidad } from "@/data/especialidades";
@@ -19,13 +20,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = getCaso(slug);
   if (!c) return {};
   return {
-    title: c.title,
-    description: c.excerpt,
+    title: c.seoTitle ?? c.title,
+    description: c.seoDescription ?? c.excerpt,
     alternates: { canonical: `/casos/${c.slug}` },
     openGraph: {
       type: "article",
-      title: c.title,
-      description: c.excerpt,
+      title: c.seoTitle ?? c.title,
+      description: c.seoDescription ?? c.excerpt,
       images: [{ url: "/og.jpg", width: 1200, height: 630 }]
     }
   };
@@ -98,6 +99,23 @@ export default async function CasoPage({ params }: Props) {
                     ))}
                   </div>
                 )}
+                {s.img && (
+                  <figure style={{ margin: "24px 0" }}>
+                    <Image
+                      src={s.img.src}
+                      alt={s.img.alt}
+                      width={1280}
+                      height={1280}
+                      style={{ width: "100%", height: "auto", borderRadius: 12 }}
+                      sizes="(max-width:640px) 100vw, 720px"
+                    />
+                    {s.img.caption && (
+                      <figcaption style={{ fontSize: 12.5, color: "#8a8098", marginTop: 8, textAlign: "center" }}>
+                        {s.img.caption}
+                      </figcaption>
+                    )}
+                  </figure>
+                )}
               </div>
             ))}
 
@@ -142,10 +160,18 @@ export default async function CasoPage({ params }: Props) {
 
             <p className="consent-note">{c.consentNote}</p>
 
+            {c.ctaLabel && (
+              <div style={{ marginTop: 32 }}>
+                <WhatsAppLink className="btn btn-solid" location="caso_boton_final" serviceName={c.title}>
+                  {c.ctaLabel}
+                </WhatsAppLink>
+              </div>
+            )}
+
             {rel && (
               <div className="related-box">
                 <div>
-                  <div className="t">¿Tienes un problema en el cuero cabelludo o de caída?</div>
+                  <div className="t">{c.relatedPrompt ?? "¿Tienes un problema en el cuero cabelludo o de caída?"}</div>
                   <div className="s">La Dra. Andrade puede ayudarte en {rel.title.toLowerCase()}.</div>
                 </div>
                 <Link className="btn btn-ink" href={`/especialidades/${rel.slug}`}>Ver especialidad</Link>

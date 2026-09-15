@@ -1,15 +1,25 @@
 export interface CaseImg { src: string; alt: string }
-export interface CaseSection { h?: string; p?: string[]; list?: string[]; images?: CaseImg[] }
+export interface CaseSection {
+  h?: string;
+  p?: string[];
+  list?: string[];
+  images?: CaseImg[];
+  img?: { src: string; alt: string; caption?: string };
+}
 export interface ClinicalCase {
   slug: string;
   title: string;
   excerpt: string;
+  seoTitle?: string;
+  seoDescription?: string;
   category: string;
   diagnosis: string;
   datePublished: string;
   dateModified: string;
   readingMin: number;
   relatedEspecialidad: string;
+  /** Pregunta del bloque final que enlaza a la especialidad relacionada; si no se define, usa el texto genérico existente. */
+  relatedPrompt?: string;
   lead: string;
   sections: CaseSection[];
   beforeAfter?: {
@@ -18,6 +28,8 @@ export interface ClinicalCase {
   };
   keyMessages: string[];
   consentNote: string;
+  /** Texto del botón final del caso; si no se define, no se muestra un botón adicional (queda solo el CTA genérico de cierre de página). */
+  ctaLabel?: string;
 }
 
 export const casos: ClinicalCase[] = [
@@ -122,6 +134,60 @@ export const casos: ClinicalCase[] = [
     ],
     consentNote:
       "Caso publicado con el consentimiento informado de la paciente. Las imágenes muestran únicamente el cuero cabelludo, sin rasgos que permitan identificarla. La información clínica es educativa y no sustituye una consulta médica ni debe usarse para automedicarse."
+  },
+  {
+    slug: "resultado-natural-toxina-botulinica-hombre",
+    title: "Resultado natural con toxina botulínica en paciente masculino",
+    excerpt:
+      "Paciente masculino tratado con toxina botulínica para suavizar las líneas de expresión de la frente, el entrecejo y el contorno de los ojos, con un resultado natural.",
+    seoTitle: "Toxina botulínica en hombres | Caso clínico en Machala",
+    seoDescription:
+      "Caso clínico de tratamiento con toxina botulínica en paciente masculino, con mejoría natural de las líneas de expresión de la frente, el entrecejo y el contorno de los ojos.",
+    category: "Medicina estética",
+    diagnosis: "Líneas de expresión dinámicas: frente, entrecejo y contorno de los ojos",
+    datePublished: "2026-09-15",
+    dateModified: "2026-09-15",
+    readingMin: 3,
+    relatedEspecialidad: "medicina-estetica",
+    relatedPrompt: "¿Te interesa un tratamiento estético con criterio médico?",
+    lead:
+      "Paciente masculino que consultó porque deseaba suavizar las líneas de expresión del entrecejo, la frente y el contorno de los ojos, manteniendo una apariencia masculina y natural.",
+    sections: [
+      {
+        h: "Evolución de las líneas frontales y del entrecejo",
+        img: {
+          src: "/casos/botox-frontal-entrecejo.jpg",
+          alt: "Antes y después de toxina botulínica en paciente masculino tratado por la Dra. Karla Andrade en Machala.",
+          caption: "Antes y después del tratamiento con toxina botulínica. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "Evolución del contorno de los ojos",
+        img: {
+          src: "/casos/botox-perioculares.jpg",
+          alt: "Antes y después de toxina botulínica en paciente masculino tratado por la Dra. Karla Andrade en Machala.",
+          caption: "Antes y después del tratamiento con toxina botulínica. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "El tratamiento",
+        p: [
+          "Se realizó tratamiento personalizado con toxina botulínica, respetando la anatomía y la expresión facial del paciente. En el control se observó una disminución visible de las arrugas dinámicas, sin perder naturalidad ni expresividad."
+        ]
+      },
+      {
+        h: "El resultado",
+        p: [
+          "El paciente se mostró muy satisfecho con el cambio y manifestó sentirse feliz con el resultado obtenido."
+        ]
+      }
+    ],
+    keyMessages: [
+      "Un resultado natural no cambia tus rasgos: ayuda a que tu rostro luzca más descansado y armónico."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso del paciente para el uso médico y publicitario de estas imágenes. La información clínica es educativa y no sustituye una consulta médica.",
+    ctaLabel: "Agenda tu valoración"
   }
 ];
 
