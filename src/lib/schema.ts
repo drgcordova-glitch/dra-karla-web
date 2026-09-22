@@ -1,4 +1,5 @@
 import { site } from "@/data/site";
+import { reviews } from "@/data/reviews";
 
 const physician = {
   "@type": "Physician",
@@ -72,6 +73,14 @@ export const organizationSchema = {
     longitude: site.geoLng
   },
   hasMap: site.mapsLink,
+  // Reseñas reales, visibles en la página de inicio (no se declara aggregateRating
+  // hasta confirmar el puntaje promedio real de las 18 reseñas de Google).
+  review: reviews.map((r) => ({
+    "@type": "Review",
+    author: { "@type": "Person", name: r.name },
+    reviewRating: { "@type": "Rating", ratingValue: r.rating, bestRating: 5 },
+    reviewBody: r.text
+  })),
   employee: physician
 };
 

@@ -106,8 +106,14 @@ section.block{padding:110px 0}
 .reviews{background:var(--plum);color:var(--crema);text-align:center}
 .reviews .eyebrow{color:var(--lila)}
 .reviews h2{font-size:clamp(28px,3.4vw,40px);margin:16px auto 20px;max-width:16em}
-.reviews .ph{margin-top:36px;border:1px dashed var(--plum-line);border-radius:4px;padding:44px;max-width:720px;margin-left:auto;margin-right:auto;color:rgba(202,180,226,.7);font-weight:300;font-size:16px}
-.reviews .ph b{font-family:var(--sans);font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--dorado);display:block;margin-bottom:10px;font-weight:600}
+.review-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:36px;text-align:left}
+.review-card{background:rgba(255,255,255,.04);border:1px solid var(--plum-line);border-radius:5px;padding:28px 26px;display:flex;flex-direction:column}
+.review-card .stars{color:var(--dorado);font-size:14px;letter-spacing:3px;margin-bottom:14px}
+.review-card p{font-size:15px;font-weight:300;color:rgba(236,230,244,.85);line-height:1.65;margin-bottom:18px;flex:1}
+.review-card .who{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--lila)}
+.review-more{display:inline-block;margin-top:32px;font-family:var(--sans);font-size:13px;font-weight:600;letter-spacing:.04em;color:var(--dorado);transition:.2s}
+.review-more:hover{color:#e0c290}
+@media(max-width:900px){.review-grid{grid-template-columns:1fr}}
 
 /* CTA */
 .ctaband{background:var(--plum-2);color:var(--crema);text-align:center;position:relative;overflow:hidden}

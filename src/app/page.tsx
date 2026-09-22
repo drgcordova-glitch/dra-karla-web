@@ -7,6 +7,8 @@ import WhatsAppLink from "@/components/WhatsAppLink";
 import TrackedLink from "@/components/TrackedLink";
 import { especialidades } from "@/data/especialidades";
 import { problemas } from "@/data/problemas";
+import { reviews } from "@/data/reviews";
+import { site } from "@/data/site";
 
 export default function Home() {
   const nucleo = especialidades.filter((e) => e.tier === "nucleo");
@@ -183,12 +185,25 @@ export default function Home() {
           <Reveal>
             <span className="eyebrow">Lo que dicen sus pacientes</span>
             <h2>La confianza se construye consulta a consulta.</h2>
-            <div className="ph">
-              <b>Espacio reservado</b>
-              Aquí se integran, en vivo, las reseñas reales verificadas de Google del
-              consultorio. Sin testimonios inventados ni promesas de resultado: solo la voz
-              auténtica de quienes ya se atendieron.
+            <div className="review-grid">
+              {reviews.map((r) => (
+                <div className="review-card" key={r.name}>
+                  <div className="stars" aria-label={`${r.rating} de 5 estrellas`}>
+                    {"★".repeat(r.rating)}
+                  </div>
+                  <p>&ldquo;{r.text}&rdquo;</p>
+                  <div className="who">{r.name} · Reseña de Google</div>
+                </div>
+              ))}
             </div>
+            <a
+              className="review-more"
+              href={site.mapsLink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver todas las reseñas en Google →
+            </a>
           </Reveal>
         </div>
       </section>
