@@ -14,7 +14,7 @@ export default function CtaSection({ serviceName }: { serviceName?: string }) {
           <p>Agenda tu cita y recibe un plan pensado para ti, no una fórmula para todos.</p>
           <div className="hero-actions">
             <WhatsAppLink className="btn btn-solid" location="banda_final" serviceName={serviceName}>
-              Escribir por WhatsApp
+              Agendar por WhatsApp
             </WhatsAppLink>
             <Link className="btn btn-light" href="/contacto">
               Ver ubicación

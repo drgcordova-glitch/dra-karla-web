@@ -12,13 +12,16 @@ export interface TrackEventParams {
   [key: string]: string | undefined;
 }
 
-// Envío de eventos a GA4 centralizado, seguro en SSR (no hace nada si `window`
-// todavía no existe) y siempre completa page_path/page_title automáticamente.
+// Envío de eventos centralizado a GA4 y Microsoft Clarity (los dos analíticos
+// instalados en el sitio, sin duplicar scripts). Seguro en SSR (no hace nada
+// si `window` todavía no existe) y siempre completa page_path/page_title.
 export function trackEvent(name: string, params: TrackEventParams = {}) {
   if (typeof window === "undefined") return;
-  sendGAEvent("event", name, {
+  const fullParams = {
     page_path: window.location.pathname,
     page_title: document.title,
     ...params
-  });
+  };
+  sendGAEvent("event", name, fullParams);
+  window.clarity?.("event", name);
 }

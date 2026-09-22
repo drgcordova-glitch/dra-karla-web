@@ -10,20 +10,21 @@ type Props = AnchorHTMLAttributes<HTMLAnchorElement> & {
   label?: string;
   /** Página/servicio desde el que se agenda, cuando aplica (especialidad, artículo, etc.). */
   serviceName?: string;
-  /** Falso para enlaces que solo muestran el número de contacto, sin ser un CTA de "agendar". */
-  isAppointment?: boolean;
+  /** Nombre del evento de conversión. "click_agendar_consulta" para los botones que dicen
+   * exactamente eso (header, hero); el resto de enlaces de WhatsApp usa el valor por defecto. */
+  eventName?: "click_whatsapp" | "click_agendar_consulta";
 };
 
 // Envuelve todo enlace a WhatsApp: mismo destino/atributos de seguridad en
-// todos lados, y dispara whatsapp_click (y appointment_click cuando el botón
-// es para agendar cita) en GA4 con la ubicación y el texto del botón.
+// todos lados, y dispara un evento de conversión (GA4 + Clarity) con la
+// ubicación y el texto del botón.
 export default function WhatsAppLink({
   location,
   onClick,
   children,
   label,
   serviceName,
-  isAppointment = true,
+  eventName = "click_whatsapp",
   ...rest
 }: Props) {
   return (
@@ -33,15 +34,13 @@ export default function WhatsAppLink({
       rel="noopener noreferrer"
       onClick={(e) => {
         const buttonText = label ?? (typeof children === "string" ? children : location);
-        const params = {
+        trackEvent(eventName, {
           location,
           link_url: waLink,
           button_text: buttonText,
-          contact_method: "whatsapp" as const,
+          contact_method: "whatsapp",
           ...(serviceName ? { service_name: serviceName } : {})
-        };
-        trackEvent("whatsapp_click", params);
-        if (isAppointment) trackEvent("appointment_click", params);
+        });
         onClick?.(e);
       }}
       {...rest}

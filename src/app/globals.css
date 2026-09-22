@@ -166,9 +166,10 @@ section.block{padding:110px 0}
 .foot-bottom{padding-top:26px;display:flex;justify-content:space-between;align-items:center;font-family:var(--sans);font-size:11.5px;letter-spacing:.03em;color:rgba(202,180,226,.55)}
 
 /* WHATSAPP FLOAT */
-.wa{position:fixed;right:24px;bottom:24px;z-index:60;background:#25D366;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px -8px rgba(0,0,0,.4);transition:.25s}
+.wa{position:fixed;right:24px;bottom:24px;z-index:60;background:#25D366;width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;gap:9px;box-shadow:0 10px 30px -8px rgba(0,0,0,.4);transition:.25s}
 .wa:hover{transform:scale(1.06)}
-.wa svg{width:30px;height:30px;fill:#fff}
+.wa svg{width:30px;height:30px;fill:#fff;flex-shrink:0}
+.wa-label{display:none}
 
 /* reveal — visible by default (no flash-of-invisible-content before JS runs); only
    elements confirmed to start off-screen get hidden by Reveal.tsx, then fade in on scroll */
@@ -196,6 +197,9 @@ section.block{padding:110px 0}
   .contact-grid{grid-template-columns:1fr;gap:32px}
   .foot-grid{grid-template-columns:1fr;gap:32px}
   .foot-bottom{flex-direction:column;gap:10px;text-align:center}
+  .wa{width:auto;height:auto;right:16px;bottom:16px;padding:13px 20px 13px 16px;border-radius:30px}
+  .wa svg{width:22px;height:22px}
+  .wa-label{display:inline;font-family:var(--sans);font-size:13.5px;font-weight:600;color:#fff;white-space:nowrap}
 }
 @media(max-width:520px){ .pillars{grid-template-columns:1fr} }
 

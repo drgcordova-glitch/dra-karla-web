@@ -4,6 +4,7 @@ import Reveal from "@/components/Reveal";
 import TrustStrip from "@/components/TrustStrip";
 import CtaSection from "@/components/CtaSection";
 import WhatsAppLink from "@/components/WhatsAppLink";
+import TrackedLink from "@/components/TrackedLink";
 import { especialidades } from "@/data/especialidades";
 import { problemas } from "@/data/problemas";
 
@@ -31,12 +32,17 @@ export default function Home() {
                 trato cercano.
               </p>
               <div className="hero-actions">
-                <WhatsAppLink className="btn btn-solid" location="hero_inicio">
+                <WhatsAppLink className="btn btn-solid" location="hero_inicio" eventName="click_agendar_consulta">
                   Agendar consulta
                 </WhatsAppLink>
-                <Link className="btn btn-light" href="/especialidades">
+                <TrackedLink
+                  className="btn btn-light"
+                  href="/especialidades"
+                  eventName="click_ver_especialidades"
+                  eventParams={{ location: "hero_inicio", button_text: "Ver especialidades" }}
+                >
                   Ver especialidades
-                </Link>
+                </TrackedLink>
               </div>
             </Reveal>
             <div className="hero-photo">
@@ -121,15 +127,11 @@ export default function Home() {
             <span className="eyebrow">Sobre la Dra.</span>
             <h2>Formada afuera. Cercana como si te conociera de siempre.</h2>
             <p>
-              Karla Andrade se especializó en Dermatología en la Universidad de Buenos
-              Aires, con formación hospitalaria en el Hospital Nacional Prof. Alejandro
-              Posadas, uno de los centros de referencia de Argentina.
-            </p>
-            <p>
-              Su práctica reúne la dermatología clínica, pediátrica y la detección del
-              cáncer de piel con la tricología y la medicina estética. Todo desde la misma
-              convicción: decisiones basadas en evidencia y una escucha real de cada
-              paciente.
+              Formación en la Universidad de Buenos Aires y en el Hospital Nacional Prof.
+              Alejandro Posadas, uno de los centros de referencia de Argentina. Su práctica
+              reúne la dermatología clínica, pediátrica y oncológica con la tricología y la
+              medicina estética, siempre con decisiones basadas en evidencia y una escucha
+              real de cada paciente.
             </p>
             <div className="cred">
               <div className="name">Dra. Karla Sophía Andrade Maldonado</div>
@@ -160,10 +162,16 @@ export default function Home() {
           </Reveal>
           <div className="probs">
             {problemas.map((p) => (
-              <Link key={p.title} className="prob" href={`/especialidades/${p.related}`}>
+              <TrackedLink
+                key={p.title}
+                className="prob"
+                href={p.href ?? `/especialidades/${p.related}`}
+                eventName="click_patologia"
+                eventParams={{ location: "problemas_frecuentes", service_name: p.title }}
+              >
                 <h3>{p.title}</h3>
                 <span className="arw">→</span>
-              </Link>
+              </TrackedLink>
             ))}
           </div>
         </div>
