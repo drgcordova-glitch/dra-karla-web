@@ -51,6 +51,13 @@ export const metadata: Metadata = {
       "Medicina de la piel con criterio: clínica, pediátrica, oncológica, capilar y estética. Formación internacional (UBA).",
     images: [{ url: "/og.jpg", width: 1200, height: 630 }]
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Dra. Karla Andrade · Dermatóloga en Machala",
+    description:
+      "Medicina de la piel con criterio: clínica, pediátrica, oncológica, capilar y estética. Formación internacional (UBA).",
+    images: ["/og.jpg"]
+  },
   robots: { index: true, follow: true }
 };
 
