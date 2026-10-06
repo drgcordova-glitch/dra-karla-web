@@ -48,9 +48,10 @@ export default function CasosHub() {
             {casos.map((c) => (
               <Link key={c.slug} className="blog-item" href={`/casos/${c.slug}`}>
                 <span className="cat">{c.category}</span>
-                <h2>{c.title}</h2>
-                <p>{c.excerpt}</p>
+                <h2>{c.cardTitle ?? c.title}</h2>
+                <p>{c.cardExcerpt ?? c.excerpt}</p>
                 <div className="meta">{fmt(c.datePublished)} · {c.readingMin} min de lectura</div>
+                <span className="go">Ver caso clínico <span className="arw">→</span></span>
               </Link>
             ))}
           </div>

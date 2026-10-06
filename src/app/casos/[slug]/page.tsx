@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import CtaSection from "@/components/CtaSection";
 import WhatsAppLink from "@/components/WhatsAppLink";
+import Lightbox from "@/components/Lightbox";
 import JsonLd from "@/components/JsonLd";
 import { casos, getCaso } from "@/data/casos";
 import { getEspecialidad } from "@/data/especialidades";
@@ -66,6 +67,7 @@ export default async function CasoPage({ params }: Props) {
             <Link href="/">Inicio</Link> / <Link href="/casos">Casos clínicos</Link> / {c.category}
           </div>
           <h1>{c.title}</h1>
+          {c.subtitle && <p>{c.subtitle}</p>}
           <div className="art-meta">Por la Dra. Karla Andrade · {fmt(c.datePublished)}</div>
         </div>
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -97,6 +99,28 @@ export default async function CasoPage({ params }: Props) {
                       <Image key={k} src={im.src} alt={im.alt} width={820} height={1027}
                         style={{ width: "100%", height: "auto" }} sizes="(max-width:640px) 100vw, 360px" />
                     ))}
+                  </div>
+                )}
+                {s.compare && (
+                  <div className="pair-compare">
+                    <div className="shot">
+                      <span className="tag antes">Antes</span>
+                      <Lightbox
+                        src={s.compare.antesSrc}
+                        alt={s.compare.antesAlt}
+                        width={s.compare.antesW}
+                        height={s.compare.antesH}
+                      />
+                    </div>
+                    <div className="shot">
+                      <span className="tag despues">Después de 3 meses</span>
+                      <Lightbox
+                        src={s.compare.despuesSrc}
+                        alt={s.compare.despuesAlt}
+                        width={s.compare.despuesW}
+                        height={s.compare.despuesH}
+                      />
+                    </div>
                   </div>
                 )}
                 {s.img && (
@@ -159,6 +183,16 @@ export default async function CasoPage({ params }: Props) {
             )}
 
             <p className="consent-note">{c.consentNote}</p>
+
+            {c.cta && (
+              <div className="case-cta">
+                <h3>{c.cta.title}</h3>
+                <p>{c.cta.text}</p>
+                <WhatsAppLink className="btn btn-solid" location="caso_cta" serviceName={c.title}>
+                  {c.cta.buttonLabel}
+                </WhatsAppLink>
+              </div>
+            )}
 
             {c.ctaLabel && (
               <div style={{ marginTop: 32 }}>

@@ -5,10 +5,21 @@ export interface CaseSection {
   list?: string[];
   images?: CaseImg[];
   img?: { src: string; alt: string; caption?: string };
+  /** Comparación antes/después de una sola vista, lado a lado, con zoom al tocar. */
+  compare?: {
+    antesSrc: string; antesAlt: string; antesW: number; antesH: number;
+    despuesSrc: string; despuesAlt: string; despuesW: number; despuesH: number;
+  };
 }
 export interface ClinicalCase {
   slug: string;
   title: string;
+  /** Título más corto para la tarjeta del índice de casos; si no se define, usa `title`. */
+  cardTitle?: string;
+  /** Descripción corta para la tarjeta del índice; si no se define, usa `excerpt`. */
+  cardExcerpt?: string;
+  /** Subtítulo que aparece bajo el H1, dentro del encabezado del caso. */
+  subtitle?: string;
   excerpt: string;
   seoTitle?: string;
   seoDescription?: string;
@@ -30,6 +41,8 @@ export interface ClinicalCase {
   consentNote: string;
   /** Texto del botón final del caso; si no se define, no se muestra un botón adicional (queda solo el CTA genérico de cierre de página). */
   ctaLabel?: string;
+  /** Bloque de llamado a la acción propio del caso (título + texto + botón de WhatsApp). */
+  cta?: { title: string; text: string; buttonLabel: string };
 }
 
 export const casos: ClinicalCase[] = [
@@ -188,6 +201,72 @@ export const casos: ClinicalCase[] = [
     consentNote:
       "Caso publicado con el consentimiento informado y expreso del paciente para el uso médico y publicitario de estas imágenes. La información clínica es educativa y no sustituye una consulta médica.",
     ctaLabel: "Agenda tu valoración"
+  },
+  {
+    slug: "recuperacion-densidad-capilar",
+    title: "Recuperación de la densidad capilar",
+    cardTitle: "Tratamiento integral para caída del cabello",
+    cardExcerpt: "Evolución después de 3 meses",
+    subtitle: "Evolución clínica después de 3 meses de tratamiento dermatológico personalizado",
+    excerpt:
+      "Evolución clínica después de 3 meses de tratamiento dermatológico personalizado para la caída del cabello.",
+    seoTitle: "Tratamiento para la caída del cabello en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de recuperación de la densidad capilar después de 3 meses de tratamiento dermatológico personalizado en Machala.",
+    category: "Tricología",
+    diagnosis: "Disminución progresiva de la densidad capilar",
+    datePublished: "2026-10-06",
+    dateModified: "2026-10-06",
+    readingMin: 3,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    relatedPrompt: "¿Quieres estudiar la causa de tu caída de cabello?",
+    lead:
+      "Paciente con disminución progresiva de la densidad capilar. Después de una valoración dermatológica se indicó un tratamiento combinado y personalizado con plasma rico en plaquetas, mesoterapia capilar, minoxidil y dutasteride. A los 3 meses se observa una evolución favorable, con mejor cobertura y densidad capilar.",
+    sections: [
+      {
+        h: "Vista de coronilla",
+        compare: {
+          antesSrc: "/casos/antes-coronilla.jpg",
+          antesAlt: "Antes de tratamiento para caída del cabello realizado por la Dra. Karla Andrade",
+          antesW: 800,
+          antesH: 900,
+          despuesSrc: "/casos/despues-coronilla.jpg",
+          despuesAlt: "Después de tratamiento para caída del cabello realizado por la Dra. Karla Andrade",
+          despuesW: 800,
+          despuesH: 900
+        }
+      },
+      {
+        h: "Vista de la línea de implantación",
+        compare: {
+          antesSrc: "/casos/antes-frontal.jpg",
+          antesAlt: "Antes de tratamiento para caída del cabello realizado por la Dra. Karla Andrade",
+          antesW: 762,
+          antesH: 850,
+          despuesSrc: "/casos/despues-frontal.jpg",
+          despuesAlt: "Después de tratamiento para caída del cabello realizado por la Dra. Karla Andrade",
+          despuesW: 730,
+          despuesH: 850
+        }
+      },
+      {
+        h: "Tratamiento realizado",
+        list: [
+          "Plasma rico en plaquetas (PRP)",
+          "Mesoterapia capilar",
+          "Minoxidil",
+          "Dutasteride, bajo supervisión médica"
+        ]
+      }
+    ],
+    keyMessages: [],
+    consentNote:
+      "Caso publicado con el consentimiento informado del paciente para el tratamiento documentado y para el uso de estas imágenes con fines médicos y educativos. Cada paciente responde de manera diferente: los resultados pueden variar y el tratamiento debe indicarse después de una valoración dermatológica.",
+    cta: {
+      title: "¿Notas caída o pérdida de densidad en tu cabello?",
+      text: "Una evaluación dermatológica permite identificar la causa y elegir el tratamiento adecuado para cada paciente.",
+      buttonLabel: "Agendar valoración capilar"
+    }
   }
 ];
 

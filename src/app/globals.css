@@ -252,5 +252,31 @@ section.block{padding:110px 0}
 .case-diag{display:inline-block;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--violeta);background:rgba(155,127,192,.12);padding:6px 14px;border-radius:20px;margin-top:18px}
 @media(max-width:640px){.ba-grid{grid-template-columns:1fr;gap:32px}.case-figs{grid-template-columns:1fr}}
 
+/* Comparación antes/después de una sola vista: en móvil debe conservar las
+   dos columnas lado a lado (a diferencia de .ba-grid, que sí se apila). */
+.pair-compare{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:22px 0 10px}
+.pair-compare .shot{text-align:center}
+.pair-compare .shot .tag{display:inline-block;font-family:var(--sans);font-size:10.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:5px 12px;border-radius:20px;margin-bottom:10px}
+.pair-compare .shot .tag.antes{color:#b06a6a;background:rgba(176,106,106,.12)}
+.pair-compare .shot .tag.despues{color:#5a8a6a;background:rgba(90,138,106,.12)}
+@media(max-width:640px){.pair-compare{gap:8px}.pair-compare .shot .tag{font-size:9.5px;padding:4px 9px}}
+
+.zoom-trigger{display:block;width:100%;border:0;background:none;padding:0;margin:0;cursor:zoom-in}
+.zoom-trigger img{width:100%;height:auto;border-radius:4px;border:1px solid rgba(42,30,58,.1);display:block}
+.zoom-trigger:focus-visible{outline:2px solid var(--violeta);outline-offset:2px}
+
+.lightbox-dialog{padding:0;border:0;border-radius:6px;background:transparent;max-width:92vw;max-height:92vh}
+.lightbox-dialog::backdrop{background:rgba(26,18,36,.86)}
+.lightbox-dialog img{display:block;max-width:92vw;max-height:92vh;width:auto;height:auto;border-radius:6px}
+.lightbox-close{position:fixed;top:18px;right:18px;width:40px;height:40px;border-radius:50%;border:0;background:rgba(255,255,255,.92);color:var(--plum);font-size:24px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center}
+
+.case-cta{margin-top:44px;background:var(--crema);border-radius:5px;padding:32px 34px;text-align:center}
+.case-cta h3{font-size:20px;color:var(--plum);margin-bottom:10px}
+.case-cta p{font-size:15.5px;color:var(--ink-soft);font-weight:300;margin:0 auto 22px;max-width:46em}
+
+.blog-item .go{display:inline-block;font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.04em;color:var(--violeta);margin-top:14px}
+.blog-item .go .arw{color:var(--dorado);display:inline-block;transition:.25s}
+.blog-item:hover .go .arw{transform:translateX(5px)}
+
 /* AVISO CITA PREVIA */
 .cita-aviso{margin-top:26px;padding:14px 18px;border-left:3px solid var(--dorado);background:rgba(201,169,110,.08);border-radius:2px;font-family:var(--sans);font-size:13.5px;font-weight:500;color:var(--plum);line-height:1.5}
