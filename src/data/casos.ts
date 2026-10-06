@@ -221,7 +221,7 @@ export const casos: ClinicalCase[] = [
     relatedEspecialidad: "tricologia-y-salud-capilar",
     relatedPrompt: "¿Quieres estudiar la causa de tu caída de cabello?",
     lead:
-      "Paciente con disminución progresiva de la densidad capilar. Después de una valoración dermatológica se indicó un tratamiento combinado y personalizado con plasma rico en plaquetas, mesoterapia capilar, minoxidil y dutasteride. A los 3 meses se observa una evolución favorable, con mejor cobertura y densidad capilar.",
+      "Paciente con disminución progresiva de la densidad capilar. Después de una valoración dermatológica se indicó un tratamiento combinado y personalizado con plasma rico en plaquetas, mesoterapia capilar y tratamiento oral. A los 3 meses se observa una evolución favorable, con mejor cobertura y densidad capilar.",
     sections: [
       {
         h: "Vista de coronilla",
@@ -254,8 +254,7 @@ export const casos: ClinicalCase[] = [
         list: [
           "Plasma rico en plaquetas (PRP)",
           "Mesoterapia capilar",
-          "Minoxidil",
-          "Dutasteride, bajo supervisión médica"
+          "Tratamiento oral, bajo supervisión médica"
         ]
       }
     ],
