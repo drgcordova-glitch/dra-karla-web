@@ -278,5 +278,17 @@ section.block{padding:110px 0}
 .blog-item .go .arw{color:var(--dorado);display:inline-block;transition:.25s}
 .blog-item:hover .go .arw{transform:translateX(5px)}
 
+/* Artículos relacionados y bibliografía, al final de un artículo del blog */
+.related-articles{margin-top:40px}
+.related-articles h3{font-size:16px;color:var(--plum);margin-bottom:12px}
+.related-articles ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.related-articles li a{display:inline-block;font-family:var(--sans);font-size:13px;font-weight:600;color:var(--violeta);background:rgba(155,127,192,.1);padding:8px 14px;border-radius:20px;transition:.2s}
+.related-articles li a:hover{background:rgba(155,127,192,.18)}
+.refs{margin-top:36px;padding-top:24px;border-top:1px solid rgba(42,30,58,.12)}
+.refs h3{font-family:var(--sans);font-size:12px;color:#8a8098;text-transform:uppercase;letter-spacing:.08em;font-weight:600;margin-bottom:12px}
+.refs ol{margin:0;padding-left:20px}
+.refs li{font-size:12.5px;color:#8a8098;line-height:1.6;margin-bottom:8px}
+.refs a{color:var(--violeta);text-decoration:underline;word-break:break-word}
+
 /* AVISO CITA PREVIA */
 .cita-aviso{margin-top:26px;padding:14px 18px;border-left:3px solid var(--dorado);background:rgba(201,169,110,.08);border-radius:2px;font-family:var(--sans);font-size:13.5px;font-weight:500;color:var(--plum);line-height:1.5}

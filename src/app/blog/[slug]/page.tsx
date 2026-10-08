@@ -43,6 +43,9 @@ export default async function ArticlePage({ params }: Props) {
   const a = getArticle(slug);
   if (!a) notFound();
   const rel = getEspecialidad(a.relatedEspecialidad);
+  const relatedArts = (a.relatedArticles ?? [])
+    .map((s) => getArticle(s))
+    .filter((x): x is NonNullable<typeof x> => Boolean(x));
 
   return (
     <>
@@ -124,6 +127,32 @@ export default async function ArticlePage({ params }: Props) {
                     <p>{f.a}</p>
                   </details>
                 ))}
+              </div>
+            )}
+
+            {relatedArts.length > 0 && (
+              <div className="related-articles">
+                <h3>Artículos relacionados</h3>
+                <ul>
+                  {relatedArts.map((ra) => (
+                    <li key={ra.slug}>
+                      <Link href={`/blog/${ra.slug}`}>{ra.title}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+
+            {a.references && a.references.length > 0 && (
+              <div className="refs">
+                <h3>Referencias</h3>
+                <ol>
+                  {a.references.map((r, i) => (
+                    <li key={i}>
+                      <a href={r.url} target="_blank" rel="noopener noreferrer">{r.label}</a>
+                    </li>
+                  ))}
+                </ol>
               </div>
             )}
 
