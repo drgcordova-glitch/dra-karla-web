@@ -1908,6 +1908,1008 @@ export const articles: Article[] = [
       { label: "Trichoscopy of androgenetic alopecia: a systematic review. J Clin Med. 2024. PMID 38610726.", url: "https://pubmed.ncbi.nlm.nih.gov/38610726/" },
       { label: "Kanti V, et al. Evidence-based (S3) guideline for the treatment of androgenetic alopecia in women and in men. J Eur Acad Dermatol Venereol. 2018. PMID 29178529.", url: "https://pubmed.ncbi.nlm.nih.gov/29178529/" }
     ]
+  },
+  {
+    slug: "es-segura-la-isotretinoina-para-el-acne",
+    title: "¿La isotretinoína es segura para tratar el acné?",
+    excerpt:
+      "La isotretinoína es uno de los tratamientos más efectivos para el acné, y también uno de los que más preguntas genera. Esto es lo que hay que entender sobre su balance entre beneficios y riesgos.",
+    seoTitle: "¿Es Segura la Isotretinoína? | Dra. Karla Andrade, Machala",
+    seoDescription:
+      "¿Es segura la isotretinoína para el acné? La Dra. Karla Andrade, dermatóloga en Machala, explica indicaciones, contraindicaciones y seguimiento médico.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 7,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "La isotretinoína es uno de los tratamientos más efectivos que existen para el acné, y también uno de los que más preguntas y temores genera. Tiene un perfil de seguridad bien estudiado después de décadas de uso, pero no es un medicamento neutro: requiere indicación médica, evaluación previa y seguimiento. Esto es lo que hay que entender para evaluar su balance real entre beneficios y riesgos.",
+    sections: [
+      {
+        h: "Qué es y cómo actúa",
+        p: [
+          "La isotretinoína es un derivado oral de la vitamina A, de la familia de los retinoides. A diferencia de otros tratamientos para el acné, que actúan sobre uno o dos factores de la enfermedad, la isotretinoína actúa sobre varios a la vez: reduce de forma marcada la producción de grasa (sebo), normaliza la manera en que se descaman las células dentro del folículo, reduce la inflamación y disminuye la bacteria asociada al acné. Por esta acción múltiple, es el tratamiento con mayor capacidad de lograr una remisión prolongada del acné, algo que la distingue de la mayoría de los demás tratamientos disponibles."
+        ]
+      },
+      {
+        h: "Para quién está indicada",
+        p: [
+          "Las guías de dermatología la recomiendan con fuerza para el acné severo, el acné que deja o amenaza con dejar cicatrices, el que tiene un impacto psicológico significativo, o el que no respondió a los tratamientos tópicos y orales habituales. No es, ni debería ser, la primera opción para un acné leve, que generalmente responde bien a tratamientos más simples."
+        ]
+      },
+      {
+        h: "Qué tan efectiva es",
+        p: [
+          "Es, hasta ahora, el tratamiento con mayor capacidad de producir una remisión prolongada del acné en una proporción importante de pacientes. Eso no significa que sea garantía de cura permanente para todos: una parte de los pacientes puede experimentar recaídas con el tiempo y necesitar un nuevo ciclo de tratamiento, algo que depende de varios factores individuales."
+        ]
+      },
+      {
+        h: "Contraindicaciones principales",
+        list: [
+          "Embarazo, de forma absoluta: es la contraindicación más importante del medicamento, por su alto riesgo de malformaciones fetales",
+          "Lactancia",
+          "Hipersensibilidad conocida al medicamento",
+          "Enfermedad hepática significativa no controlada",
+          "Niveles de grasas en sangre (lípidos) muy elevados y no controlados",
+          "Uso simultáneo con antibióticos del grupo de las tetraciclinas, por el riesgo de hipertensión intracraneal"
+        ]
+      },
+      {
+        h: "Efectos adversos más frecuentes",
+        p: [
+          "El más común, por lejos, es la sequedad de piel, labios y mucosas, un efecto esperado relacionado con su mecanismo de acción. Existen también otros efectos menos frecuentes, algunos de ellos motivo de seguimiento específico, que desarrollamos con más detalle en un artículo dedicado a este tema."
+        ]
+      },
+      {
+        h: "Seguimiento durante el tratamiento",
+        p: [
+          "El tratamiento se acompaña de controles clínicos periódicos y, según cada caso, de pruebas de laboratorio. En personas que puedan quedar embarazadas, el seguimiento incluye además pruebas de embarazo y la confirmación de un método anticonceptivo eficaz durante todo el tratamiento. La frecuencia exacta de estos controles varía según las recomendaciones regulatorias de cada país y el criterio médico individual."
+        ]
+      },
+      {
+        h: "Por qué no debe iniciarse ni manejarse por cuenta propia",
+        p: [
+          "Precisamente porque es un tratamiento potente, con contraindicaciones claras y necesidad de seguimiento, la isotretinoína no debería iniciarse, ajustarse ni suspenderse por cuenta propia. Tomarla sin evaluación médica, o usar la de otra persona, expone a riesgos que el seguimiento médico está diseñado justamente para prevenir."
+        ]
+      },
+      {
+        h: "El balance real entre beneficios y riesgos",
+        p: [
+          "Con una indicación correcta, una evaluación previa adecuada y un seguimiento responsable, la isotretinoína tiene, para el paciente correcto, un balance favorable entre beneficio y riesgo: puede resolver un acné que afecta profundamente la calidad de vida y prevenir cicatrices permanentes. Ese balance depende, sin embargo, de que el tratamiento se maneje con el cuidado que requiere, no de que se tome a la ligera.",
+          "¿Tienes acné persistente o dudas sobre el uso de isotretinoína? Una valoración dermatológica permite determinar qué tratamiento es adecuado y seguro para tu caso."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La isotretinoína es un tratamiento peligroso?",
+        a: "No, cuando se indica y se sigue correctamente. Como cualquier medicamento potente, tiene riesgos reales, pero su perfil de seguridad está bien documentado después de décadas de uso bajo supervisión médica."
+      },
+      {
+        q: "¿Cualquier persona con acné puede tomar isotretinoína?",
+        a: "No. Se indica según el tipo y la gravedad del acné, y requiere descartar antes las contraindicaciones de cada caso, como el embarazo o ciertas condiciones hepáticas."
+      },
+      {
+        q: "¿Qué tan grave debe ser mi acné para necesitarla?",
+        a: "No es solo una cuestión de qué tan intenso se ve: también se considera si hay riesgo de cicatrices, si hay impacto psicológico importante, o si otros tratamientos ya fallaron. Eso lo define la evaluación dermatológica."
+      },
+      {
+        q: "¿Necesito análisis antes de empezar?",
+        a: "En general sí, aunque el esquema exacto varía según cada caso. Lo desarrollamos con detalle en nuestro artículo sobre los exámenes antes y durante el tratamiento."
+      }
+    ],
+    relatedArticles: [
+      "puedo-quedar-embarazada-tomando-isotretinoina",
+      "puedo-tomar-isotretinoina-por-mi-cuenta",
+      "que-examenes-necesito-antes-y-durante-isotretinoina",
+      "efectos-secundarios-de-la-isotretinoina",
+      "la-isotretinoina-causa-depresion-o-ansiedad",
+      "la-isotretinoina-es-solo-para-acne-severo"
+    ],
+    references: [
+      { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" },
+      { label: "European Medicines Agency. Retinoid-containing medicinal products — referral (pregnancy prevention programme), 2018.", url: "https://www.ema.europa.eu/en/medicines/human/referrals/retinoid-containing-medicinal-products" },
+      { label: "Lee YH, et al. Laboratory monitoring during isotretinoin therapy for acne: a systematic review and meta-analysis. JAMA Dermatol. 2015.", url: "https://doi.org/10.1001/jamadermatol.2015.3091" }
+    ]
+  },
+  {
+    slug: "puedo-quedar-embarazada-tomando-isotretinoina",
+    title: "¿Puedo quedar embarazada si estoy tomando isotretinoína?",
+    excerpt:
+      "El embarazo durante el tratamiento con isotretinoína está absolutamente contraindicado. Esto es lo que hay que entender sobre la prevención del embarazo y qué hacer ante una sospecha.",
+    seoTitle: "Isotretinoína y Embarazo: Lo que Debes Saber | Dra. Karla Andrade",
+    seoDescription:
+      "¿Puedo quedar embarazada tomando isotretinoína? La Dra. Karla Andrade explica por qué está absolutamente contraindicada y cómo se previene durante el tratamiento.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Esta es, sin exagerar, la pregunta de seguridad más importante sobre la isotretinoína. La respuesta es clara: el embarazo durante el tratamiento está absolutamente contraindicado, por un riesgo alto y bien documentado de malformaciones graves y pérdida del embarazo. Esto es lo que hay que entender, y qué hacer si existe la posibilidad de un embarazo.",
+    sections: [
+      {
+        h: "Por qué está absolutamente contraindicado",
+        p: [
+          "La isotretinoína es un teratógeno conocido, es decir, una sustancia que puede causar malformaciones graves en un feto en desarrollo si se usa durante el embarazo. La exposición se asocia a un riesgo alto de malformaciones craneofaciales, cardíacas y del sistema nervioso central, además de un riesgo elevado de aborto espontáneo. Por esta razón, no existe una dosis ni un momento del embarazo considerado seguro: el riesgo aplica a todo el tratamiento."
+        ]
+      },
+      {
+        h: "Prevención del embarazo durante el tratamiento",
+        p: [
+          "Por este riesgo, las personas que pueden quedar embarazadas deben usar un método anticonceptivo eficaz durante todo el tratamiento, confirmado y supervisado por el médico. En distintos países existen programas regulatorios específicos de prevención del embarazo asociados a la isotretinoína —como el programa iPLEDGE en Estados Unidos o el programa de prevención de embarazo de la Agencia Europea de Medicamentos—, que establecen pruebas de embarazo antes de empezar, durante el tratamiento y después de finalizarlo, junto con la confirmación del método anticonceptivo."
+        ]
+      },
+      {
+        h: "Durante cuánto tiempo debe evitarse el embarazo",
+        p: [
+          "El embarazo debe evitarse durante todo el tratamiento y durante al menos un mes después de suspender la isotretinoína, el tiempo que se considera necesario para que el medicamento se elimine del organismo. Tu médico te indicará el plazo exacto recomendado según el contexto regulatorio vigente."
+        ]
+      },
+      {
+        h: "Qué hacer ante la sospecha de un embarazo",
+        list: [
+          "Suspender la isotretinoína de inmediato, sin esperar a confirmar el resultado",
+          "Contactar a tu médico con urgencia, el mismo día si es posible",
+          "No continuar ni reiniciar el tratamiento bajo ninguna circunstancia hasta que se aclare la situación",
+          "Acudir a control con un especialista en caso de confirmarse el embarazo, para una evaluación y consejería adecuadas"
+        ]
+      },
+      {
+        h: "Por qué este punto no es negociable",
+        p: [
+          "Entendemos que puede sonar como una advertencia extrema, pero no lo es: el riesgo de malformaciones graves con exposición durante el embarazo está bien documentado desde hace décadas, y es la razón por la que existen protocolos tan estrictos alrededor de este medicamento en todo el mundo. Ningún beneficio sobre el acné justifica tomar el riesgo de un embarazo no protegido durante el tratamiento."
+        ]
+      },
+      {
+        h: "Una conversación que debe darse sin incomodidad",
+        p: [
+          "Hablar con claridad sobre anticoncepción, planes reproductivos y la posibilidad de un embarazo es parte normal de la consulta antes de indicar isotretinoína, no un tema incómodo que evitar. Esa conversación es, de hecho, la que hace que el tratamiento pueda usarse de forma segura."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Qué tan alto es el riesgo si me expongo durante el embarazo?",
+        a: "Es un riesgo alto y bien documentado, por eso la contraindicación es absoluta, no relativa. No hay una dosis ni un momento del embarazo considerado seguro."
+      },
+      {
+        q: "¿Puedo tomar isotretinoína si estoy planeando un embarazo próximamente?",
+        a: "No mientras lo estés planeando activamente. El tratamiento y el período de espera posterior deben completarse antes de buscar un embarazo."
+      },
+      {
+        q: "¿Qué anticonceptivo debo usar durante el tratamiento?",
+        a: "Eso se define junto a tu médico, considerando eficacia y tu situación particular. Lo importante es que sea un método confiable y que lo mantengas durante todo el tratamiento."
+      },
+      {
+        q: "Si sospecho un embarazo, ¿puedo esperar al próximo control para avisar?",
+        a: "No. Debes suspender el medicamento de inmediato y contactar a tu médico con urgencia, sin esperar a la próxima cita programada."
+      }
+    ],
+    relatedArticles: [
+      "es-segura-la-isotretinoina-para-el-acne",
+      "que-examenes-necesito-antes-y-durante-isotretinoina",
+      "puedo-tomar-isotretinoina-por-mi-cuenta"
+    ],
+    references: [
+      { label: "European Medicines Agency. Retinoid-containing medicinal products — referral (pregnancy prevention programme), 2018.", url: "https://www.ema.europa.eu/en/medicines/human/referrals/retinoid-containing-medicinal-products" },
+      { label: "U.S. Food and Drug Administration. iPLEDGE REMS Program for isotretinoin.", url: "https://www.ipledgeprogram.com" }
+    ]
+  },
+  {
+    slug: "puedo-tomar-isotretinoina-por-mi-cuenta",
+    title: "¿Puedo tomar isotretinoína por mi cuenta y sin exámenes?",
+    excerpt:
+      "Conseguir isotretinoína sin receta o usar la de otra persona es más riesgoso de lo que parece. Esto es lo que se pierde al saltarse la evaluación médica y los controles.",
+    seoTitle: "Isotretinoína sin Receta: Los Riesgos | Dra. Karla Andrade",
+    seoDescription:
+      "¿Puedo tomar isotretinoína por mi cuenta? La Dra. Karla Andrade explica los riesgos de automedicarse sin supervisión médica ni exámenes previos.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Por su buena fama como tratamiento efectivo, algunas personas buscan conseguir isotretinoína sin receta, o usar la que le sobró a un familiar o amigo. Esto es, sin rodeos, una mala idea, y aquí explicamos por qué.",
+    sections: [
+      {
+        h: "Por qué automedicarse es un riesgo real",
+        p: [
+          "La isotretinoína no es un medicamento de uso libre. Requiere una evaluación previa que confirme que es el tratamiento adecuado para tu tipo de acné, que descarte contraindicaciones, y que establezca una indicación acorde a tu caso particular. Tomarla sin esa evaluación significa, en la práctica, exponerte a sus riesgos sin ninguna de las protecciones que normalmente los acompañan."
+        ]
+      },
+      {
+        h: "Usar la dosis de otra persona",
+        p: [
+          "Cada tratamiento con isotretinoína se ajusta a la persona que lo recibe: su peso, el tipo y la gravedad de su acné, su historia médica y sus antecedentes de laboratorio. Lo que funcionó —o fue seguro— para otra persona no dice nada sobre si es adecuado para ti. Además, compartir o reutilizar un tratamiento prescrito a otra persona puede implicar tomarlo sin confirmar un punto crítico: que no exista un embarazo en curso o en riesgo."
+        ]
+      },
+      {
+        h: "Comprarla sin supervisión médica",
+        p: [
+          "Conseguir isotretinoína fuera de un canal médico formal —por internet, sin receta, o de origen no verificado— suma riesgos adicionales: no hay garantía de que el producto sea auténtico, de que la indicación esté correctamente ajustada a tu caso, ni de que exista alguien evaluando tu respuesta y tus efectos adversos durante el tratamiento. Frente a un efecto adverso serio, además, no hay un médico ya al tanto de tu caso para actuar con rapidez."
+        ]
+      },
+      {
+        h: "Qué se pierde al omitir los controles clínicos y de laboratorio",
+        p: [
+          "El seguimiento médico durante el tratamiento no es un trámite burocrático: permite detectar a tiempo efectos adversos que requieren ajustar o suspender el tratamiento, confirmar que no haya un embarazo en curso en personas que puedan quedar embarazadas, y adaptar el plan según cómo evoluciona cada caso. Omitir estos controles no hace que esos riesgos desaparezcan: solo hace que, si aparecen, nadie los esté vigilando."
+        ]
+      },
+      {
+        h: "Por qué la evaluación inicial importa tanto como el seguimiento",
+        p: [
+          "Antes de iniciar el tratamiento, la evaluación médica confirma que la isotretinoína es la opción correcta para tu caso —y no, por ejemplo, un acné que respondería igual de bien a un tratamiento más simple y con menos implicaciones— y descarta contraindicaciones que, de pasarse por alto, pueden tener consecuencias serias."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Es tan grave tomarla sin supervisión si solo es por un tiempo corto?",
+        a: "Sí. El riesgo no depende solo de la duración, sino de contraindicaciones no evaluadas —como un posible embarazo— y de la falta de seguimiento ante efectos adversos, que pueden aparecer en cualquier momento del tratamiento."
+      },
+      {
+        q: "Mi conocido tomó isotretinoína y le fue bien, ¿puedo usar lo que le sobró?",
+        a: "No. La indicación y la seguridad de un tratamiento se definen para esa persona en particular, no para quien decida usarlo después."
+      },
+      {
+        q: "¿Por qué no puedo comprarla directamente sin receta?",
+        a: "Porque requiere una evaluación médica previa que confirme que es el tratamiento adecuado y que no existan contraindicaciones, como el embarazo o ciertas condiciones de salud."
+      },
+      {
+        q: "Si ya tomé isotretinoína antes con receta, ¿puedo repetir el tratamiento por mi cuenta si el acné vuelve?",
+        a: "No. Un nuevo ciclo de tratamiento también requiere evaluación médica, incluso si ya lo usaste antes."
+      }
+    ],
+    relatedArticles: [
+      "es-segura-la-isotretinoina-para-el-acne",
+      "puedo-quedar-embarazada-tomando-isotretinoina",
+      "que-examenes-necesito-antes-y-durante-isotretinoina"
+    ],
+    references: [
+      { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" },
+      { label: "European Medicines Agency. Retinoid-containing medicinal products — referral (pregnancy prevention programme), 2018.", url: "https://www.ema.europa.eu/en/medicines/human/referrals/retinoid-containing-medicinal-products" }
+    ]
+  },
+  {
+    slug: "que-examenes-necesito-antes-y-durante-isotretinoina",
+    title: "¿Qué exámenes necesito antes y durante la isotretinoína?",
+    excerpt:
+      "Antes de empezar un tratamiento con isotretinoína, y durante él, se realizan evaluaciones clínicas y análisis de laboratorio. Esto es lo que suele incluir ese seguimiento.",
+    seoTitle: "Exámenes para Isotretinoína en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué exámenes necesitas antes y durante la isotretinoína? La Dra. Karla Andrade, dermatóloga en Machala, explica la evaluación clínica y de laboratorio.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Antes de empezar un tratamiento con isotretinoína, y durante él, se realizan evaluaciones clínicas y, según el caso, análisis de laboratorio. Esto es lo que suele incluir ese seguimiento, y por qué no es exactamente igual para todos los pacientes.",
+    sections: [
+      {
+        h: "La evaluación clínica, el primer paso",
+        p: [
+          "Antes de cualquier análisis, la evaluación clínica es lo que define si la isotretinoína es el tratamiento adecuado: el tipo y la gravedad del acné, el historial médico, los medicamentos que ya tomas, y —en personas que puedan quedar embarazadas— la situación reproductiva y anticonceptiva actual."
+        ]
+      },
+      {
+        h: "Pruebas de embarazo, cuando corresponden",
+        p: [
+          "En personas que pueden quedar embarazadas, se realiza una prueba de embarazo antes de iniciar el tratamiento, y se repite de forma periódica durante todo el tratamiento, como parte de los protocolos de prevención del embarazo asociados a este medicamento. Este punto lo desarrollamos con más detalle en nuestro artículo sobre embarazo e isotretinoína."
+        ]
+      },
+      {
+        h: "Perfil lipídico",
+        p: [
+          "La isotretinoína puede elevar los niveles de triglicéridos y colesterol en algunas personas, por lo que se suele evaluar el perfil de lípidos antes de empezar y en algún punto durante el tratamiento. La frecuencia de estos controles ha sido objeto de revisión en los últimos años: varios estudios sugieren que, en pacientes sanos y sin factores de riesgo, los controles muy frecuentes detectan pocas alteraciones relevantes, aunque el esquema final siempre lo define tu médico según tu caso."
+        ]
+      },
+      {
+        h: "Pruebas de función hepática",
+        p: [
+          "De forma similar, se evalúa la función del hígado antes de iniciar el tratamiento y, según el criterio médico, en algún momento posterior, porque el medicamento se metaboliza en el hígado y puede, en algunos casos, alterar sus enzimas."
+        ]
+      },
+      {
+        h: "La frecuencia depende del riesgo individual",
+        p: [
+          "No todos los pacientes necesitan exactamente el mismo esquema de análisis. Factores como antecedentes de alteraciones de lípidos o del hígado, el uso de otros medicamentos, o hallazgos en los primeros controles pueden hacer que tu médico pida análisis con más frecuencia que a otra persona. Las recomendaciones también varían algo según el país y la guía que siga cada médico, por lo que no existe un esquema único válido para todo el mundo."
+        ]
+      },
+      {
+        h: "Qué no reemplaza este seguimiento",
+        p: [
+          "Los análisis de laboratorio acompañan, pero no reemplazan, la evaluación clínica periódica: cómo te sientes, qué síntomas notas, y cualquier cambio físico o emocional durante el tratamiento son información tan relevante como un resultado de laboratorio, y deben comentarse en cada control."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Necesito análisis de sangre todos los meses?",
+        a: "No necesariamente. La frecuencia depende de tu caso particular y del criterio de tu médico; la evidencia reciente sugiere que, en muchos pacientes sanos, no hace falta un control mensual de todos los parámetros."
+      },
+      {
+        q: "¿Qué pasa si mis análisis salen alterados?",
+        a: "Depende de qué tan alterados estén y de qué parámetro se trate. Puede implicar repetir el análisis, ajustar el tratamiento, o en algunos casos suspenderlo; siempre es tu médico quien decide según el resultado completo."
+      },
+      {
+        q: "¿Los hombres también necesitan pruebas de embarazo?",
+        a: "No, las pruebas de embarazo aplican a personas que pueden quedar embarazadas. El resto del seguimiento clínico y de laboratorio aplica, en general, a todos los pacientes."
+      },
+      {
+        q: "¿Puedo saltarme un control de laboratorio si me siento bien?",
+        a: "No deberías decidirlo por tu cuenta. Comenta cualquier inquietud con tu médico, que es quien evalúa si ese control en particular es necesario para tu seguimiento."
+      }
+    ],
+    relatedArticles: [
+      "es-segura-la-isotretinoina-para-el-acne",
+      "puedo-quedar-embarazada-tomando-isotretinoina",
+      "puedo-tomar-alcohol-con-isotretinoina"
+    ],
+    references: [
+      { label: "Lee YH, et al. Laboratory monitoring during isotretinoin therapy for acne: a systematic review and meta-analysis. JAMA Dermatol. 2015.", url: "https://doi.org/10.1001/jamadermatol.2015.3091" },
+      { label: "European Medicines Agency. Retinoid-containing medicinal products — referral (pregnancy prevention programme), 2018.", url: "https://www.ema.europa.eu/en/medicines/human/referrals/retinoid-containing-medicinal-products" },
+      { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" }
+    ]
+  },
+  {
+    slug: "la-isotretinoina-cura-el-acne-para-siempre",
+    title: "¿La isotretinoína cura definitivamente el acné?",
+    excerpt:
+      "Es común escuchar que la isotretinoína cura el acné para siempre. La realidad es más matizada: esto es lo que realmente se puede esperar, y qué pasa si el acné recae.",
+    seoTitle: "¿La Isotretinoína Cura el Acné para Siempre? | Dra. Karla Andrade",
+    seoDescription:
+      "¿La isotretinoína cura definitivamente el acné? La Dra. Karla Andrade explica resultados reales, recaídas y tratamientos de mantenimiento.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Es común escuchar que la isotretinoína 'cura' el acné para siempre. La realidad es más matizada: es el tratamiento con mayor capacidad de lograr una remisión prolongada, pero no es una garantía de cura permanente para todos los pacientes. Esto es lo que realmente se puede esperar.",
+    sections: [
+      {
+        h: "Qué tan buenos son los resultados",
+        p: [
+          "Después de un ciclo completo de tratamiento, una proporción importante de pacientes logra una mejoría marcada y sostenida del acné, en muchos casos sin necesitar tratamiento adicional por años. Es, en ese sentido, el tratamiento con el mayor potencial de modificar el curso de la enfermedad, no solo de controlarla mientras se usa, a diferencia de la mayoría de los tratamientos tópicos u orales disponibles."
+        ]
+      },
+      {
+        h: "Por qué no se habla de 'cura garantizada'",
+        p: [
+          "Pese a esos buenos resultados, una parte de los pacientes experimenta una recaída del acné en los años posteriores al tratamiento, en distintos grados de intensidad. Por eso, en dermatología, se prefiere hablar de remisión prolongada o de alta probabilidad de mejoría duradera, más que de una cura definitiva garantizada para cada persona."
+        ]
+      },
+      {
+        h: "Factores asociados a mayor probabilidad de recaída",
+        list: [
+          "Edad de inicio del acné más temprana",
+          "Acné con un componente hormonal importante, por ejemplo en el contexto de ciertas condiciones endocrinas",
+          "Sexo femenino, según reportan algunos estudios, aunque la razón exacta no está del todo establecida",
+          "Interrumpir el tratamiento antes de completar el ciclo indicado por el médico"
+        ]
+      },
+      {
+        h: "El rol de la dosis acumulada total",
+        p: [
+          "Varios estudios han analizado si una dosis acumulada total más alta a lo largo del tratamiento se asocia con menos recaídas, con resultados que, en conjunto, apuntan en esa dirección, aunque no de forma uniforme en todos los estudios, y sin que exista un umbral único aceptado por todos los especialistas. Esto es parte de lo que tu médico considera al definir la duración de tu tratamiento, y no algo que deba decidirse por cuenta propia."
+        ]
+      },
+      {
+        h: "Qué pasa si el acné recae",
+        p: [
+          "Si el acné reaparece después de un primer ciclo, eso no significa que el tratamiento haya fallado ni que no vaya a funcionar de nuevo: muchos pacientes responden bien a un segundo ciclo, evaluado nuevamente con el mismo cuidado que el primero. En otros casos, un acné residual más leve puede manejarse con tratamientos tópicos de mantenimiento, sin necesidad de repetir la isotretinoína."
+        ]
+      },
+      {
+        h: "Expectativas realistas",
+        p: [
+          "Lo más honesto que se puede decir es esto: la isotretinoína ofrece la mejor probabilidad disponible de una mejoría prolongada del acné, pero no una garantía absoluta para cada caso individual. Esa diferencia importa, porque entender esto desde el inicio ayuda a tener expectativas realistas y a no interpretar una eventual recaída como un fracaso personal o del tratamiento."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Qué porcentaje de pacientes recae después del tratamiento?",
+        a: "Varía según los estudios y los factores de cada paciente, por lo que no existe una cifra única aplicable a todos los casos. Lo que sí es consistente es que la mayoría experimenta una mejoría marcada y duradera."
+      },
+      {
+        q: "Si recae, ¿significa que el tratamiento no funcionó?",
+        a: "No necesariamente. Muchos pacientes que recaen responden bien a un segundo ciclo, y algunos recaen con una forma más leve de acné, manejable con otros tratamientos."
+      },
+      {
+        q: "¿Puedo acortar el tratamiento si ya veo mejoría?",
+        a: "No deberías decidirlo por tu cuenta. Completar el ciclo indicado por tu médico se relaciona con una menor probabilidad de recaída en varios estudios."
+      },
+      {
+        q: "¿Hay alguna forma de saber si yo específicamente voy a recaer?",
+        a: "No con certeza. Existen factores asociados a mayor riesgo de recaída, pero no permiten predecir con exactitud qué pasará en un paciente individual."
+      }
+    ],
+    relatedArticles: [
+      "es-segura-la-isotretinoina-para-el-acne",
+      "la-isotretinoina-es-solo-para-acne-severo",
+      "el-acne-deja-cicatrices-se-pueden-eliminar"
+    ],
+    references: [
+      { label: "Layton AM, Knaggs H, Taylor J, Cunliffe WJ. Isotretinoin for acne vulgaris — 10 years later: a safe and successful treatment. Br J Dermatol. 1993.", url: "https://doi.org/10.1111/j.1365-2133.1993.tb11849.x" },
+      { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" }
+    ]
+  },
+  {
+    slug: "la-isotretinoina-causa-depresion-o-ansiedad",
+    title: "¿La isotretinoína causa depresión o ansiedad?",
+    excerpt:
+      "Una de las preguntas más delicadas sobre la isotretinoína, y una de las que más ha evolucionado con la evidencia científica. Esto es lo que realmente muestran los estudios.",
+    seoTitle: "Isotretinoína y Depresión: Qué Dice la Evidencia | Dra. Karla Andrade",
+    seoDescription:
+      "¿La isotretinoína causa depresión o ansiedad? La Dra. Karla Andrade analiza la evidencia científica y explica cuándo consultar durante el tratamiento.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 7,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Esta es una de las preguntas más delicadas sobre la isotretinoína, y también una de las que más ha evolucionado con la evidencia científica. La respuesta honesta no es un simple sí o no: hay que diferenciar entre asociación y causalidad, y reconocer que todavía existen incertidumbres.",
+    sections: [
+      {
+        h: "De dónde viene esta preocupación",
+        p: [
+          "La preocupación por un posible vínculo entre isotretinoína y depresión surgió, en parte, de reportes de casos individuales publicados desde los años 80 y 90, en los que pacientes desarrollaron síntomas depresivos durante el tratamiento. Esos reportes, junto con el hecho de que la isotretinoína actúa sobre vías biológicas que también participan en la regulación del estado de ánimo, llevaron a las agencias regulatorias a incluir advertencias específicas sobre este tema en la información del medicamento."
+        ]
+      },
+      {
+        h: "Qué dicen los estudios más grandes y recientes",
+        p: [
+          "Los metaanálisis más robustos publicados en los últimos años, que combinan los resultados de muchos estudios, no han encontrado evidencia de un mayor riesgo de depresión o de conductas suicidas a nivel poblacional en personas que usan isotretinoína, comparadas con quienes no la usan. Algunos de estos análisis incluso reportan una mejoría de los síntomas depresivos después del tratamiento, posiblemente relacionada con la mejoría del acné en sí, que es una condición que puede afectar significativamente el bienestar emocional."
+        ]
+      },
+      {
+        h: "Por qué 'sin asociación poblacional' no es lo mismo que 'sin ningún riesgo'",
+        p: [
+          "Esta es la distinción más importante del artículo. Que los estudios a gran escala no muestren un mayor riesgo en la población general no significa que ningún paciente individual pueda verse afectado. Algunas revisiones plantean que podría existir una asociación en un subgrupo de personas particularmente susceptibles, posiblemente relacionada con antecedentes personales de salud mental, aunque la evidencia sobre este punto específico sigue siendo limitada y no permite identificar con certeza quién pertenece a ese subgrupo de antemano."
+        ]
+      },
+      {
+        h: "Por qué de todas formas se vigila durante el tratamiento",
+        p: [
+          "Precisamente por esta incertidumbre —y porque el acné en sí mismo puede afectar el estado de ánimo, independientemente del tratamiento— es una buena práctica médica preguntar y vigilar activamente el estado emocional antes y durante el uso de isotretinoína, más allá de lo que digan los promedios poblacionales. Esto no es una señal de que el medicamento sea especialmente peligroso en este sentido, sino una precaución razonable ante una posibilidad que no puede descartarse por completo a nivel individual."
+        ]
+      },
+      {
+        h: "Qué hacer si notas cambios emocionales durante el tratamiento",
+        p: [
+          "Si durante el tratamiento notas tristeza persistente, cambios marcados de ánimo, ansiedad significativa, o cualquier pensamiento de hacerte daño, es importante comunicarlo a tu médico de inmediato, sin esperar al próximo control programado. Esto permite evaluar si está relacionado con el tratamiento, con el contexto de vida, o con otra causa, y decidir junto a tu médico los pasos a seguir."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Está comprobado que la isotretinoína causa depresión?",
+        a: "No. Los estudios poblacionales más grandes y recientes no muestran un mayor riesgo de depresión a nivel de población. Sigue existiendo, sin embargo, la posibilidad de un efecto en personas particularmente susceptibles, que la evidencia actual no permite predecir con certeza."
+      },
+      {
+        q: "¿Debería evitar la isotretinoína si tengo antecedentes de depresión?",
+        a: "No significa que esté prohibida, pero es información que tu médico necesita conocer para decidir junto a ti, y para vigilar más de cerca tu estado emocional durante el tratamiento."
+      },
+      {
+        q: "¿Es cierto que puede mejorar el ánimo en vez de empeorarlo?",
+        a: "Algunos estudios reportan una mejoría de los síntomas depresivos tras el tratamiento, posiblemente relacionada con la mejoría del acné. Esto no significa que deba usarse como tratamiento para la depresión, solo que la relación no es unidireccional."
+      },
+      {
+        q: "¿Qué hago si me siento mal anímicamente durante el tratamiento?",
+        a: "Coméntalo con tu médico cuanto antes, sin esperar al próximo control. Es parte normal y esperada del seguimiento durante el tratamiento."
+      }
+    ],
+    relatedArticles: ["es-segura-la-isotretinoina-para-el-acne", "efectos-secundarios-de-la-isotretinoina"],
+    references: [
+      { label: "Huang YC, Cheng YC. Isotretinoin treatment for acne and risk of depression: a systematic review and meta-analysis. J Am Acad Dermatol. 2017. PMID 28291553.", url: "https://pubmed.ncbi.nlm.nih.gov/28291553/" },
+      { label: "Li C, et al. Use of isotretinoin and risk of depression in patients with acne: a systematic review and meta-analysis. BMJ Open. 2019. PMID 30670500.", url: "https://pubmed.ncbi.nlm.nih.gov/30670500/" },
+      { label: "Tan NKW, et al. Risk of suicide and psychiatric disorders among isotretinoin users: a meta-analysis. JAMA Dermatol. 2023. PMID 38019562.", url: "https://pubmed.ncbi.nlm.nih.gov/38019562/" }
+    ]
+  },
+  {
+    slug: "efectos-secundarios-de-la-isotretinoina",
+    title: "¿Qué efectos secundarios puede producir la isotretinoína?",
+    excerpt:
+      "La isotretinoína tiene un perfil de efectos secundarios que conviene conocer de antemano. Esto es lo que puedes esperar, y qué señales ameritan contactar a tu médico sin esperar.",
+    seoTitle: "Efectos Secundarios de la Isotretinoína | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué efectos secundarios produce la isotretinoína? La Dra. Karla Andrade explica los más frecuentes y las señales de alarma que requieren consulta.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 7,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "La isotretinoína es un medicamento efectivo, pero con un perfil de efectos secundarios que conviene conocer de antemano, tanto los muy frecuentes como los menos comunes. Esto es lo que puedes esperar, y qué señales ameritan contactar a tu médico sin esperar al próximo control.",
+    sections: [
+      {
+        h: "Los efectos más frecuentes: la sequedad",
+        p: [
+          "La gran mayoría de los pacientes experimenta algún grado de sequedad de piel, labios y mucosas durante el tratamiento. Es, por lejos, el efecto más común, relacionado directamente con el mecanismo de acción del medicamento sobre las glándulas sebáceas, y suele manejarse con hidratación labial y corporal frecuente, indicada por tu médico."
+        ],
+        list: [
+          "Labios resecos o agrietados (queilitis), casi universal durante el tratamiento",
+          "Piel seca, sobre todo en cara y cuerpo",
+          "Sequedad de mucosa nasal, que puede favorecer pequeños sangrados ocasionales",
+          "Ojos secos o mayor sensibilidad al usar lentes de contacto"
+        ]
+      },
+      {
+        h: "Efectos en piel y mucosas, más allá de la sequedad",
+        list: [
+          "Mayor sensibilidad de la piel a la irritación y al sol",
+          "Descamación en zonas como palmas y plantas en algunos casos",
+          "Dolor o sensibilidad muscular y articular ocasional"
+        ]
+      },
+      {
+        h: "Efectos menos frecuentes, pero que requieren vigilancia",
+        p: [
+          "Con menor frecuencia, pueden presentarse alteraciones en los análisis de lípidos o de la función hepática —por eso el seguimiento de laboratorio descrito en otro artículo—, dolores de cabeza, cambios relacionados con la visión nocturna, o síntomas digestivos. También se han reportado, con menor frecuencia, efectos sobre el estado de ánimo, un tema que desarrollamos en un artículo específico."
+        ]
+      },
+      {
+        h: "Signos de alarma: cuándo contactar al médico de inmediato",
+        list: [
+          "Dolor de cabeza intenso y persistente, acompañado de visión borrosa o náuseas (podría indicar una complicación poco frecuente pero seria, relacionada con la presión dentro del cráneo)",
+          "Dolor abdominal intenso, sobre todo si se acompaña de náuseas o vómitos",
+          "Ictericia (coloración amarilla de piel u ojos)",
+          "Cambios anímicos marcados, tristeza persistente o pensamientos de hacerte daño",
+          "Dolor o debilidad muscular intensa y fuera de lo habitual",
+          "Cualquier síntoma que te preocupe de forma significativa, aunque no esté en esta lista"
+        ]
+      },
+      {
+        h: "Por qué conocerlos de antemano ayuda, no asusta",
+        p: [
+          "Saber qué esperar no es una forma de generar miedo, sino de poder reconocer a tiempo lo que es parte esperada del tratamiento —como la sequedad— y diferenciarlo de lo que no lo es, y que amerita una consulta más temprana. Esa distinción es, justamente, uno de los motivos por los que el seguimiento médico regular acompaña a todo el tratamiento.",
+          "¿Tienes acné persistente o dudas sobre el uso de isotretinoína? Una valoración dermatológica permite determinar qué tratamiento es adecuado y seguro para tu caso."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Todos los pacientes tienen efectos secundarios?",
+        a: "La sequedad de piel y labios es casi universal en algún grado. Los efectos menos frecuentes no aparecen en todos los pacientes, y su intensidad varía de una persona a otra."
+      },
+      {
+        q: "¿La sequedad de labios significa que algo anda mal?",
+        a: "No, es un efecto esperado del mecanismo de acción del medicamento. Se maneja con hidratación adecuada, que tu médico puede recomendarte específicamente."
+      },
+      {
+        q: "¿Debo preocuparme por los dolores musculares?",
+        a: "Un dolor leve y ocasional es relativamente común. Si es intenso, persistente o inusualmente fuerte, coméntalo con tu médico."
+      },
+      {
+        q: "¿Qué hago si tengo un efecto que no está en esta lista?",
+        a: "Coméntalo igual con tu médico. Esta lista cubre los efectos más relevantes, pero no reemplaza una consulta ante cualquier síntoma que te preocupe."
+      }
+    ],
+    relatedArticles: [
+      "es-segura-la-isotretinoina-para-el-acne",
+      "la-isotretinoina-causa-depresion-o-ansiedad",
+      "puedo-tomar-alcohol-con-isotretinoina"
+    ],
+    references: [
+      { label: "Exploring the multifaceted side effects of isotretinoin: a deep dive into case reports and observational studies. PMID 40009222.", url: "https://pubmed.ncbi.nlm.nih.gov/40009222/" },
+      { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" }
+    ]
+  },
+  {
+    slug: "puedo-tomar-alcohol-con-isotretinoina",
+    title: "¿Puedo tomar alcohol mientras uso isotretinoína?",
+    excerpt:
+      "Una de las preguntas más frecuentes entre quienes empiezan isotretinoína. Esto es lo que hay que entender sobre su relación con los lípidos y el hígado, más allá de la prohibición.",
+    seoTitle: "Alcohol e Isotretinoína: ¿Es Seguro? | Dra. Karla Andrade",
+    seoDescription:
+      "¿Puedo tomar alcohol mientras uso isotretinoína? La Dra. Karla Andrade explica su relación con los lípidos y el hígado, y por qué individualizar el consejo.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Es una de las preguntas más frecuentes entre quienes empiezan un tratamiento con isotretinoína, sobre todo en adultos jóvenes. La respuesta corta es que se recomienda evitarlo o limitarlo mucho, pero vale la pena entender por qué, en lugar de quedarse solo con la prohibición.",
+    sections: [
+      {
+        h: "Por qué se relaciona con los lípidos",
+        p: [
+          "La isotretinoína puede elevar los niveles de triglicéridos en sangre en algunos pacientes, como parte de su efecto sobre el metabolismo de las grasas. El alcohol, de forma independiente, también puede elevar los triglicéridos, a través de su propio efecto sobre el hígado. Combinar ambos factores plantea, al menos en teoría, un riesgo mayor de elevaciones significativas de triglicéridos que cualquiera de los dos por separado, aunque la evidencia específica sobre la combinación isotretinoína más alcohol en humanos es limitada, y se basa sobre todo en reportes de casos más que en estudios grandes y controlados."
+        ]
+      },
+      {
+        h: "Por qué se relaciona con el hígado",
+        p: [
+          "Algo similar ocurre con el hígado: la isotretinoína se metaboliza allí y, en algunos pacientes, puede alterar sus enzimas. El consumo de alcohol es, por su cuenta, una causa conocida de estrés hepático. Aunque no existe evidencia sólida de un efecto sinérgico claramente demostrado en estudios grandes, la lógica de evitar sumar dos factores que pueden afectar al mismo órgano es razonable desde el punto de vista médico."
+        ]
+      },
+      {
+        h: "Qué tan frecuentes son las complicaciones reales",
+        p: [
+          "Las complicaciones serias relacionadas con triglicéridos muy elevados, como la pancreatitis, son poco frecuentes durante el tratamiento con isotretinoína en general, y existen sobre todo reportes de casos aislados, no una asociación establecida como común. Eso no elimina el motivo de precaución, pero ayuda a poner el riesgo en perspectiva: no se trata de un peligro inminente con cualquier consumo mínimo, sino de un factor que conviene minimizar."
+        ]
+      },
+      {
+        h: "Por qué la recomendación se individualiza",
+        p: [
+          "No es lo mismo un consumo ocasional y moderado que un consumo frecuente o intenso, y tampoco es igual el consejo para alguien con antecedentes de alteraciones de lípidos o del hígado que para alguien sin esos antecedentes. Por eso la recomendación final sobre el alcohol durante tu tratamiento debe conversarse con tu médico, que conoce tu historia clínica y tus resultados de laboratorio, en lugar de aplicar una misma regla a todos los pacientes por igual."
+        ]
+      },
+      {
+        h: "Qué es razonable mientras tanto",
+        p: [
+          "Como principio general, y mientras no tengas una indicación específica de tu médico, lo más prudente es evitar el alcohol, o limitarlo al mínimo, durante el tratamiento con isotretinoína, sobre todo si ya tienes antecedentes de alteraciones de lípidos o del hígado. Esta es una recomendación de precaución razonable, no una afirmación de que cualquier consumo producirá necesariamente un daño."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Una copa ocasional me va a hacer daño?",
+        a: "No existe evidencia sólida de que un consumo mínimo y ocasional cause daño grave en la mayoría de los pacientes, pero la recomendación general sigue siendo evitarlo o limitarlo, y conversar tu caso particular con tu médico."
+      },
+      {
+        q: "¿Por qué mi médico me pide análisis si el riesgo es bajo?",
+        a: "Porque el seguimiento de laboratorio está diseñado justamente para detectar a tiempo cualquier alteración de lípidos o del hígado, sea por el medicamento, por el alcohol, o por la combinación de ambos."
+      },
+      {
+        q: "¿El alcohol afecta la eficacia del tratamiento sobre el acné?",
+        a: "No hay evidencia clara de que afecte directamente la eficacia del tratamiento sobre el acné; la preocupación principal es sobre los lípidos y el hígado, no sobre el resultado estético."
+      },
+      {
+        q: "Tengo antecedentes de triglicéridos altos, ¿debo ser más estricto?",
+        a: "Sí, coméntalo con tu médico: en ese contexto, es razonable ser más cuidadoso con el alcohol durante el tratamiento, y es posible que te pida un seguimiento de laboratorio más cercano."
+      }
+    ],
+    relatedArticles: [
+      "que-examenes-necesito-antes-y-durante-isotretinoina",
+      "efectos-secundarios-de-la-isotretinoina",
+      "es-segura-la-isotretinoina-para-el-acne"
+    ],
+    references: [
+      { label: "Lee YH, et al. Laboratory monitoring during isotretinoin therapy for acne: a systematic review and meta-analysis. JAMA Dermatol. 2015.", url: "https://doi.org/10.1001/jamadermatol.2015.3091" },
+      { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" }
+    ]
+  },
+  {
+    slug: "la-isotretinoina-es-solo-para-acne-severo",
+    title: "¿La isotretinoína sirve solamente para el acné severo?",
+    excerpt:
+      "Se suele pensar que la isotretinoína es el último recurso solo para el acné más grave. Esto es lo que realmente consideran las guías dermatológicas al indicarla.",
+    seoTitle: "Isotretinoína: ¿Solo para Acné Severo? | Dra. Karla Andrade",
+    seoDescription:
+      "¿La isotretinoína es solo para el acné severo? La Dra. Karla Andrade, dermatóloga en Machala, explica los criterios reales de indicación.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Se suele pensar que la isotretinoína es 'el último recurso' reservado únicamente para el acné más grave. Es cierto que el acné severo es su indicación más clara, pero no es la única situación en la que puede recomendarse. Esto es lo que realmente consideran las guías dermatológicas al indicarla.",
+    sections: [
+      {
+        h: "El acné severo, la indicación más clara",
+        p: [
+          "El acné severo —con muchas lesiones inflamatorias, nódulos o quistes— es, efectivamente, la indicación más reconocida para la isotretinoína, y en estos casos las guías de dermatología la recomiendan con el nivel más alto de evidencia disponible."
+        ]
+      },
+      {
+        h: "Acné resistente a otros tratamientos",
+        p: [
+          "Más allá de la gravedad por sí sola, la isotretinoína también se indica cuando un acné moderado no respondió de forma adecuada a los tratamientos orales y tópicos habituales, después de haberles dado un tiempo razonable para hacer efecto. En estos casos, seguir probando tratamiento tras tratamiento sin resultado puede no ser la mejor estrategia frente a una opción con mayor probabilidad de éxito."
+        ]
+      },
+      {
+        h: "Riesgo de cicatrices, aunque el acné no sea extremadamente intenso",
+        p: [
+          "Otro criterio importante, independiente de qué tan grave se vea el acné en un momento dado, es el riesgo de cicatrices. Un acné que ya está dejando cicatrices, o que por su tipo de lesiones —como los nódulos profundos— tiene alto riesgo de dejarlas, puede justificar indicar isotretinoína de forma más temprana, precisamente para prevenir un daño que después es difícil de revertir por completo."
+        ]
+      },
+      {
+        h: "El impacto psicológico, un criterio reconocido",
+        p: [
+          "Las guías dermatológicas actuales también reconocen el impacto psicológico del acné como un criterio válido para considerar un tratamiento más definitivo, incluso en casos que, solo por el número de lesiones, podrían describirse como moderados. El acné puede afectar significativamente la autoestima, las relaciones sociales y el bienestar emocional, y ese impacto es parte legítima de la decisión clínica, no un argumento menor frente a la gravedad física de las lesiones."
+        ]
+      },
+      {
+        h: "Por qué no es, aun así, la primera opción para todos",
+        p: [
+          "Esto no significa que la isotretinoína deba ofrecerse a cualquier persona con acné desde el principio. Para el acné leve a moderado sin estos factores de riesgo, los tratamientos tópicos y orales más simples siguen siendo la primera línea razonable, reservando la isotretinoína para cuando el balance entre su potencia, sus implicaciones y el beneficio esperado tiene sentido."
+        ]
+      },
+      {
+        h: "Quién debe tomar esta decisión",
+        p: [
+          "Determinar si tu caso particular cumple alguno de estos criterios —gravedad, resistencia a otros tratamientos, riesgo de cicatrices o impacto psicológico— es una decisión clínica que debe tomar tu dermatólogo, después de evaluar tu historia completa, no algo que se pueda definir solo mirando fotos o comparando con el caso de otra persona."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Mi acné tiene que verse muy grave para que me indiquen isotretinoína?",
+        a: "No necesariamente. También se considera si hay riesgo de cicatrices, si no respondiste a otros tratamientos, o si el acné te está afectando emocionalmente de forma significativa."
+      },
+      {
+        q: "¿Puedo pedir isotretinoína directamente si ya probé muchos productos?",
+        a: "Puedes planteárselo a tu dermatólogo, pero la decisión final depende de una evaluación completa de tu caso, no solo de cuántos productos ya probaste."
+      },
+      {
+        q: "¿El impacto emocional del acné realmente cuenta para esta decisión?",
+        a: "Sí, es un criterio reconocido en las guías dermatológicas actuales, junto con la gravedad clínica y el riesgo de cicatrices."
+      },
+      {
+        q: "Si mi acné es moderado, ¿debo insistir en empezar con tratamientos más simples?",
+        a: "En general sí, salvo que existan factores de riesgo específicos, como cicatrices ya presentes. Tu dermatólogo es quien puede evaluar si tu caso amerita considerar isotretinoína antes."
+      }
+    ],
+    relatedArticles: [
+      "es-segura-la-isotretinoina-para-el-acne",
+      "la-isotretinoina-cura-el-acne-para-siempre",
+      "el-acne-deja-cicatrices-se-pueden-eliminar",
+      "acne-por-que-aparece-y-como-se-trata"
+    ],
+    references: [
+      { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" }
+    ]
+  },
+  {
+    slug: "acne-despues-de-los-25-o-30-anos",
+    title: "¿Por qué sigo teniendo acné después de los 25 o 30 años?",
+    excerpt:
+      "Muchas personas esperan haber dejado el acné atrás en la adolescencia. Esto es lo que suele explicar su persistencia —o su aparición por primera vez— después de los 25 o 30 años.",
+    seoTitle: "Acné Después de los 25 o 30 Años | Dra. Karla Andrade",
+    seoDescription:
+      "¿Por qué sigues teniendo acné después de los 25 o 30 años? La Dra. Karla Andrade, dermatóloga en Machala, explica las causas hormonales y de cuidado diario.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Muchas personas esperan haber dejado el acné atrás en la adolescencia, y se sorprenden —o frustran— al seguir lidiando con él a los 25, 30 o más. No estás solo en esto: es más frecuente de lo que se piensa, y suele tener causas algo distintas a las del acné adolescente.",
+    sections: [
+      {
+        h: "No es 'solo' el mismo acné que no se fue",
+        p: [
+          "Para muchas personas, el acné después de los 25-30 años no es simplemente una continuación sin cambios del acné adolescente: puede tratarse de un acné que efectivamente nunca se resolvió del todo, de un acné que reapareció después de años sin problemas, o de una forma de acné que empieza por primera vez en esta etapa de la vida, cada una con matices distintos a considerar."
+        ]
+      },
+      {
+        h: "El peso de las fluctuaciones hormonales",
+        p: [
+          "Los andrógenos —hormonas presentes en hombres y mujeres— siguen influyendo sobre la glándula sebácea durante toda la vida adulta, no solo en la adolescencia. En mujeres, los cambios hormonales relacionados con el ciclo menstrual, la aproximación a la perimenopausia, el uso o la suspensión de anticonceptivos hormonales, o condiciones como el síndrome de ovario poliquístico pueden mantener activo o reactivar el acné en esta etapa."
+        ]
+      },
+      {
+        h: "Por qué conviene descartar causas hormonales de fondo",
+        p: [
+          "Cuando el acné adulto se acompaña de otras señales —ciclos menstruales irregulares, exceso de vello, cambios de peso difíciles de explicar—, vale la pena que el dermatólogo evalúe la posibilidad de una causa hormonal de fondo, en ocasiones en conjunto con otro especialista, para dirigir el tratamiento de forma más precisa."
+        ]
+      },
+      {
+        h: "El estrés sostenido de la vida adulta",
+        p: [
+          "La década de los 25 a los 35 suele concentrar exigencias laborales, económicas y familiares distintas a las de la adolescencia. El estrés sostenido no causa el acné por sí solo, pero puede influir en su persistencia a través de mecanismos hormonales, y es un factor que muchas veces se subestima al buscar explicaciones."
+        ]
+      },
+      {
+        h: "Factores cosméticos que se acumulan con los años",
+        p: [
+          "Con la adultez suele aumentar el uso de maquillaje, protector solar, productos capilares y tratamientos cosméticos, algunos de los cuales pueden obstruir el poro o irritar la piel sin que se note de inmediato. La rutina de cuidado que funcionaba a los 18 no necesariamente es la adecuada —ni la causa— a los 30."
+        ]
+      },
+      {
+        h: "Medicamentos que pueden influir",
+        p: [
+          "Algunos medicamentos usados por motivos ajenos a la piel —ciertos anticonceptivos, corticoides, o algunos tratamientos para otras condiciones— pueden influir en la aparición o persistencia del acné en la adultez. Revisar contigo toda la medicación que tomas es, por eso, parte habitual de la evaluación."
+        ]
+      },
+      {
+        h: "Qué caminos de tratamiento existen",
+        p: [
+          "El tratamiento del acné adulto se construye según la causa identificada, y puede incluir desde tratamientos tópicos ajustados a una piel adulta, hasta opciones orales —incluyendo, en los casos que lo ameriten, la isotretinoína— o un enfoque hormonal específico cuando corresponde. En nuestro artículo sobre el acné en la adultez profundizamos además en qué lo distingue del acné adolescente y qué hábitos conviene evitar."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Es normal tener acné por primera vez a los 30 años?",
+        a: "Sí, puede ocurrir, sobre todo en mujeres y relacionado con cambios hormonales. No haber tenido acné antes no te protege de tenerlo en la adultez."
+      },
+      {
+        q: "¿El acné adulto siempre tiene una causa hormonal?",
+        a: "No siempre, pero es una de las causas más frecuentes a considerar, sobre todo si se acompaña de otras señales como irregularidad menstrual."
+      },
+      {
+        q: "¿Debería hacerme análisis hormonales?",
+        a: "No todos los casos lo requieren; tu dermatólogo decide si hace falta según tu historia y los síntomas que acompañan al acné."
+      },
+      {
+        q: "¿El acné adulto se trata igual que el adolescente?",
+        a: "El enfoque se ajusta a la piel adulta y a la causa identificada, por eso conviene una evaluación específica en lugar de repetir lo que funcionaba años atrás."
+      }
+    ],
+    relatedArticles: [
+      "acne-en-la-adultez",
+      "productos-que-empeoran-el-acne-sin-saberlo",
+      "es-segura-la-isotretinoina-para-el-acne"
+    ],
+    references: [
+      { label: "Adult female acne: clinical and therapeutic particularities (Review). Exp Ther Med. 2022. PMID 35069832.", url: "https://pubmed.ncbi.nlm.nih.gov/35069832/" },
+      { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" }
+    ]
+  },
+  {
+    slug: "el-acne-deja-cicatrices-se-pueden-eliminar",
+    title: "¿El acné deja cicatrices permanentes? ¿Se pueden eliminar?",
+    excerpt:
+      "Las marcas que deja el acné generan mucha confusión: no toda marca es una cicatriz permanente, y no toda cicatriz se trata igual. Esto es lo que las diferencia, y qué opciones existen.",
+    seoTitle: "Cicatrices de Acné: ¿Se Pueden Eliminar? | Dra. Karla Andrade",
+    seoDescription:
+      "¿El acné deja cicatrices permanentes? La Dra. Karla Andrade explica la diferencia con las manchas, y las opciones de tratamiento de cicatrices en Machala.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Las marcas que deja el acné generan mucha preocupación, y también mucha confusión: no toda marca es una cicatriz permanente, y no toda cicatriz se trata de la misma forma. Esto es lo que realmente las diferencia, y qué opciones existen hoy.",
+    sections: [
+      {
+        h: "Manchas posinflamatorias: no son cicatrices",
+        p: [
+          "Después de una lesión de acné, es muy frecuente que quede una mancha —rosada, rojiza o más oscura, según el tono de piel— llamada hiperpigmentación o eritema posinflamatorio. Esta mancha no es una cicatriz real: no implica pérdida ni exceso de tejido, y en la gran mayoría de los casos mejora con el tiempo, aunque puede tardar varios meses, y el proceso se beneficia de un tratamiento adecuado y de protección solar constante."
+        ]
+      },
+      {
+        h: "Cicatrices verdaderas: qué son",
+        p: [
+          "Una cicatriz verdadera implica un cambio estructural en la piel, por pérdida de colágeno —las cicatrices atróficas, las más frecuentes en el acné— o, con menos frecuencia, por exceso de tejido cicatricial —cicatrices hipertróficas o queloides—. A diferencia de una mancha, una cicatriz atrófica no desaparece sola con el tiempo."
+        ]
+      },
+      {
+        h: "Por qué la prevención es la estrategia más efectiva",
+        p: [
+          "La forma más efectiva de manejar las cicatrices de acné sigue siendo evitar que se formen: tratar el acné de forma oportuna y adecuada, sobre todo las lesiones más profundas e inflamatorias, que son las que más riesgo tienen de dejar cicatriz. Posponer el tratamiento del acné activo, con la idea de 'arreglar las marcas después', suele significar más cicatrices que tratar, no menos."
+        ]
+      },
+      {
+        h: "Opciones cuando la cicatriz ya está formada",
+        p: ["Una vez que una cicatriz atrófica ya se formó, existen varias opciones de tratamiento, que se eligen según el tipo y la profundidad de la cicatriz, evaluados por el dermatólogo:"],
+        list: [
+          "Láser fraccionado (como el CO2 fraccionado), que estimula la remodelación del colágeno",
+          "Microneedling, que con un mecanismo distinto también busca estimular la producción de colágeno",
+          "Peelings químicos, en cicatrices más superficiales",
+          "Rellenos, en algunos tipos de cicatrices puntuales",
+          "Combinaciones de estas técnicas, según el caso"
+        ]
+      },
+      {
+        h: "Qué dice la evidencia sobre estas opciones",
+        p: [
+          "Las revisiones científicas disponibles muestran que tanto el láser fraccionado como el microneedling pueden mejorar de forma significativa la apariencia de las cicatrices de acné, con eficacia relativamente comparable entre ambos en varios estudios, aunque el láser fraccionado muestra en algunos análisis una mayor probabilidad de éxito marcado. La elección entre una u otra técnica depende de las características de la cicatriz, el tipo de piel y el criterio del especialista, no de que una sea universalmente mejor que la otra."
+        ]
+      },
+      {
+        h: "Expectativas realistas: mejoría, no borrado total",
+        p: [
+          "Es importante ser honestos sobre esto: estos tratamientos mejoran de forma significativa la apariencia de las cicatrices, pero en la mayoría de los casos no las eliminan por completo. El objetivo realista es una mejoría notoria de la textura y la apariencia de la piel, no un borrado total e indetectable de toda marca previa. Desconfía de cualquier promesa de eliminación completa garantizada."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Las manchas oscuras que me quedan son cicatrices permanentes?",
+        a: "En la mayoría de los casos no. Son manchas posinflamatorias que mejoran con el tiempo y tratamiento, a diferencia de una cicatriz estructural verdadera."
+      },
+      {
+        q: "¿Cuál es mejor, láser o microneedling?",
+        a: "Ninguno es universalmente superior; la elección depende del tipo de cicatriz, tu tipo de piel y la evaluación de tu dermatólogo."
+      },
+      {
+        q: "¿Puedo eliminar completamente mis cicatrices de acné?",
+        a: "Los tratamientos disponibles logran una mejoría significativa, pero generalmente no una eliminación completa. Es importante partir de expectativas realistas."
+      },
+      {
+        q: "¿Vale la pena tratar el acné activo si ya tengo cicatrices?",
+        a: "Sí, es el primer paso: tratar el acné activo previene que se formen cicatrices nuevas, independientemente del tratamiento que elijas para las que ya existen."
+      }
+    ],
+    relatedArticles: ["la-isotretinoina-es-solo-para-acne-severo", "la-isotretinoina-cura-el-acne-para-siempre"],
+    references: [
+      { label: "Efficacy of microneedling and CO2 laser for acne scar remodelling: a comprehensive review.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10978375/" },
+      { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" }
+    ]
+  },
+  {
+    slug: "productos-que-empeoran-el-acne-sin-saberlo",
+    title: "¿Qué productos empeoran el acné sin que te des cuenta?",
+    excerpt:
+      "A veces el acné no mejora por productos y hábitos de cuidado que, sin darnos cuenta, están sumando al problema. Esto es lo que conviene revisar en tu rutina diaria.",
+    seoTitle: "Productos que Empeoran el Acné | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué productos empeoran el acné sin que te des cuenta? La Dra. Karla Andrade explica errores comunes de rutina que agravan el acné.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-08",
+    dateModified: "2026-10-08",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "A veces el acné no mejora —o incluso empeora— no por falta de tratamiento médico, sino por productos y hábitos de cuidado que, sin darnos cuenta, están sumando al problema. Esto es lo que conviene revisar en tu rutina diaria.",
+    sections: [
+      {
+        h: "Cosméticos comedogénicos: el concepto, con matices",
+        p: [
+          "Durante años se manejaron listas de ingredientes 'comedogénicos' a evitar, basadas en estudios en animales. Investigación más reciente mostró que un producto terminado no siempre es comedogénico solo porque contenga, en alguna proporción, un ingrediente que lo fue en pruebas aisladas: la fórmula completa importa más que un ingrediente individual fuera de contexto. Aun así, el concepto general sigue siendo útil: ciertos productos muy oclusivos u oleosos pueden obstruir el poro en pieles con tendencia acneica, y conviene elegir productos etiquetados como 'no comedogénicos', idealmente probados en la piel real y no solo en la lista de ingredientes."
+        ]
+      },
+      {
+        h: "Productos irritantes: el error de 'combatir' el acné con agresividad",
+        p: [
+          "Es un error frecuente pensar que, si el acné es un problema inflamatorio, hay que 'atacarlo' con productos fuertes. En la práctica, los limpiadores muy agresivos, los tónicos con alto contenido de alcohol, o varios activos fuertes aplicados a la vez, irritan la barrera de la piel y suelen empeorar la inflamación, no mejorarla."
+        ]
+      },
+      {
+        h: "Exfoliación excesiva",
+        p: [
+          "Exfoliar con gránulos gruesos, cepillos agresivos o con demasiada frecuencia, pensando que así se 'destapan' los poros más rápido, suele producir microdesgarros en la piel que empeoran la inflamación y, en pieles con acné activo, pueden incluso extender la irritación a zonas cercanas."
+        ]
+      },
+      {
+        h: "Rutinas muy complicadas, con demasiados pasos",
+        p: [
+          "Sumar muchos productos activos a la vez —varios ácidos, retinoides, vitamina C y otros ingredientes potentes simultáneamente— sin un orden ni una introducción gradual, es una causa frecuente de irritación que empeora el acné en lugar de mejorarlo. Una rutina simple y consistente suele funcionar mejor que una elaborada que cambia constantemente."
+        ]
+      },
+      {
+        h: "Productos capilares y su efecto en la frente y las sienes",
+        p: [
+          "Acondicionadores, ceras, geles y aceites capilares pueden entrar en contacto con la frente, las sienes y el cuello al aplicarse o al caer durante el día, y contribuir a un tipo de acné localizado en esas zonas que muchas personas no relacionan con sus productos para el cabello."
+        ]
+      },
+      {
+        h: "Errores cotidianos que suman",
+        list: [
+          "Tocarse la cara con frecuencia y apoyar el celular contra la mejilla al hablar",
+          "No retirar bien el maquillaje antes de dormir",
+          "No cambiar con regularidad la funda de la almohada",
+          "Usar protector solar o base muy oclusivos en climas cálidos y húmedos, como el de Machala",
+          "Probar un producto nuevo cada pocos días, sin darle tiempo suficiente a ninguno antes de cambiarlo"
+        ]
+      },
+      {
+        h: "Cómo construir una rutina que no empeore las cosas",
+        p: [
+          "La regla general es simplicidad y constancia: un limpiador suave, un hidratante no comedogénico adecuado a tu tipo de piel, protector solar no oclusivo, y los tratamientos específicos que te indique tu dermatólogo, introducidos de a uno y con tiempo para evaluar cómo responde tu piel.",
+          "¿Tienes acné persistente o dudas sobre tu rutina de cuidado? Una valoración dermatológica permite determinar qué tratamiento y qué ajustes son adecuados y seguros para tu caso."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Cómo sé si un producto es comedogénico para mí?",
+        a: "No hay una lista universal infalible: lo más confiable es observar cómo responde tu piel a un producto nuevo, introducido de forma aislada, y consultar con tu dermatólogo ante dudas."
+      },
+      {
+        q: "¿Exfoliar más seguido ayuda a que el acné se vaya más rápido?",
+        a: "No, suele empeorarlo. La exfoliación excesiva irrita la piel y puede agravar la inflamación en un acné activo."
+      },
+      {
+        q: "¿Los productos para el cabello realmente pueden causar acné en la frente?",
+        a: "Sí, es una causa reconocida y frecuentemente pasada por alto, sobre todo con productos oleosos o cerosos que entran en contacto con la piel."
+      },
+      {
+        q: "¿Debería dejar de usar maquillaje si tengo acné?",
+        a: "No necesariamente; lo importante es elegir productos no comedogénicos, retirarlos bien, y evitar sumarlos a una rutina ya recargada de otros activos."
+      }
+    ],
+    relatedArticles: ["acne-despues-de-los-25-o-30-anos", "cuidado-piel-acneica-en-casa", "mitos-sobre-el-acne"],
+    references: [
+      { label: "Draelos ZD, DiNardo JC. A re-evaluation of the comedogenicity concept. J Am Acad Dermatol. 2006.", url: "https://doi.org/10.1016/j.jaad.2005.11.1058" },
+      { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" }
+    ]
   }
 ];
 
