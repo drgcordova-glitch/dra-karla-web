@@ -226,6 +226,21 @@ section.block{padding:110px 0}
 .blog-card .meta{font-family:var(--sans);font-size:11px;color:#8a8098;margin-top:16px;letter-spacing:.02em}
 @media(max-width:900px){.blog-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:640px){.blog-grid{grid-template-columns:1fr}}
+
+/* Índice del blog: cada categoría se abre/cierra al tocar su título, para que
+   la página no se vea larga de entrada (mismo patrón +/- que las FAQs). */
+.blog-cat{border-top:1px solid rgba(42,30,58,.12)}
+.blog-cat:last-of-type{border-bottom:1px solid rgba(42,30,58,.12)}
+.blog-cat summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:16px;padding:26px 0}
+.blog-cat summary::-webkit-details-marker{display:none}
+.blog-cat summary .label{font-family:var(--sans);font-size:12px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--violeta)}
+.blog-cat summary .line{flex:1;height:1px;background:rgba(155,127,192,.3)}
+.blog-cat summary .count{font-family:var(--sans);font-size:12px;font-weight:400;color:#8a8098;letter-spacing:.02em;white-space:nowrap}
+.blog-cat summary::after{content:"+";font-family:var(--serif);color:var(--dorado);font-size:26px;font-weight:400;line-height:1;margin-left:4px}
+.blog-cat[open] summary::after{content:"–"}
+.blog-cat-body{padding:6px 0 44px}
+.blog-sub-label{font-family:var(--sans);font-size:12.5px;font-weight:600;letter-spacing:.06em;color:var(--plum);margin:0 0 16px}
+.blog-sub-label:not(:first-child){margin-top:36px}
 .art-meta{font-family:var(--sans);font-size:13px;color:rgba(202,180,226,.85);margin-top:18px;letter-spacing:.02em}
 .related-box{margin-top:48px;padding:28px 30px;background:var(--crema);border-radius:4px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
 .related-box .t{font-family:var(--serif);font-size:19px;color:var(--plum)}

@@ -29,7 +29,8 @@ export interface Article {
 // Nombre completo de cada categoría del blog, para que quede claro qué cubre
 // (ej. "Tricología" por sí solo no es obvio para todos los lectores).
 export const categoryLabel: Record<string, string> = {
-  "Tricología": "Tricología · Cuidado del cabello"
+  "Tricología": "Tricología · Cuidado del cabello",
+  "Aparatología": "Aparatología · Láser y procedimientos"
 };
 
 export const articles: Article[] = [
@@ -2909,6 +2910,382 @@ export const articles: Article[] = [
     references: [
       { label: "Draelos ZD, DiNardo JC. A re-evaluation of the comedogenicity concept. J Am Acad Dermatol. 2006.", url: "https://doi.org/10.1016/j.jaad.2005.11.1058" },
       { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" }
+    ]
+  },
+  {
+    slug: "laser-co2-fraccionado-que-es",
+    title: "Láser CO2 fraccionado: qué es y para qué sirve",
+    excerpt:
+      "El láser CO2 fraccionado es uno de los tratamientos más potentes para mejorar la textura de la piel. Esto es lo que hace realmente, y qué esperar de la recuperación.",
+    seoTitle: "Láser CO2 Fraccionado en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es el láser CO2 fraccionado y para qué sirve? La Dra. Karla Andrade, dermatóloga en Machala, explica sus usos, resultados y tiempo de recuperación.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-11",
+    dateModified: "2026-10-11",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Dentro de los distintos tipos de láser que se usan en dermatología, el CO2 fraccionado es uno de los más potentes para mejorar la textura de la piel. También es, por eso mismo, uno de los que más dudas generan: qué hace exactamente, para qué sirve, y qué implica la recuperación.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Es un láser ablativo, lo que significa que actúa vaporizando columnas microscópicas de piel de forma controlada, dejando entre ellas tejido sano intacto —de ahí el nombre 'fraccionado'—. Esa combinación de daño controlado y tejido respetado es lo que permite al organismo regenerar la piel con una producción renovada de colágeno, sin necesidad de tratar toda la superficie de una vez."
+        ]
+      },
+      {
+        h: "Para qué sirve",
+        p: [
+          "Las revisiones científicas disponibles sobre cicatrices de acné reportan, en conjunto, una mejoría relevante de su apariencia después del tratamiento, aunque el grado varía bastante de un estudio a otro y de un paciente a otro, según el tipo de cicatriz y el protocolo usado."
+        ],
+        list: [
+          "Cicatrices, incluidas las de acné, mejorando su profundidad y textura",
+          "Arrugas finas y líneas de expresión",
+          "Textura irregular de la piel y poros dilatados",
+          "Manchas superficiales asociadas al fotoenvejecimiento",
+          "Estrías, en algunos protocolos"
+        ]
+      },
+      {
+        h: "Qué esperar de la recuperación",
+        p: [
+          "Es, de los láseres que se usan en dermatología estética, uno de los que requiere un tiempo de recuperación más largo: enrojecimiento, hinchazón y descamación durante varios días, con cuidados específicos de la piel mientras se regenera. Esta es una diferencia importante frente a otras tecnologías con menos tiempo de inactividad, y una de las razones por las que la indicación y el protocolo deben ajustarse a cada caso."
+        ]
+      },
+      {
+        h: "No es para todo el mundo",
+        p: [
+          "No es un procedimiento sin consideraciones: el riesgo de hiperpigmentación posinflamatoria —manchas que aparecen después del tratamiento— es mayor en pieles más oscuras, y requiere protocolos y cuidados específicos en esos casos. Tampoco está exento de contraindicaciones, como infecciones activas en la piel, ciertos tratamientos recientes con isotretinoína, o cicatrización anómala conocida. Por eso la evaluación previa, antes de cualquier sesión, es un paso que no debería omitirse."
+        ]
+      },
+      {
+        h: "Por qué conviene revisar tu caso con un dermatólogo",
+        p: [
+          "Determinar si el láser CO2 fraccionado es la opción adecuada para tu piel —o si otra tecnología, con menos tiempo de recuperación, se ajusta mejor a tu objetivo— depende de una evaluación de tu tipo de piel, tu condición a tratar y tus expectativas.",
+          "¿Te interesa mejorar la textura de tu piel o tus cicatrices? Una valoración dermatológica permite determinar qué tratamiento es adecuado y seguro para tu caso."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿El láser CO2 fraccionado duele?",
+        a: "El procedimiento se realiza con anestesia tópica o local, según la extensión del área a tratar, por lo que las molestias durante la sesión suelen ser manejables. Los días posteriores pueden sentirse como una quemadura solar."
+      },
+      {
+        q: "¿Cuánto dura la recuperación?",
+        a: "El enrojecimiento y la descamación visible suelen durar entre 5 y 10 días, aunque la piel sigue mejorando de forma gradual durante varias semanas más."
+      },
+      {
+        q: "¿Sirve para todas las cicatrices de acné?",
+        a: "Depende del tipo y la profundidad de la cicatriz. En algunos casos se combina con otras técnicas, como el microneedling, según lo que indique la evaluación."
+      },
+      {
+        q: "¿Cuántas sesiones necesito?",
+        a: "Varía según el objetivo y la condición a tratar; se define en la consulta, no antes."
+      }
+    ],
+    relatedArticles: ["el-acne-deja-cicatrices-se-pueden-eliminar", "picolaser-que-es-para-que-sirve", "ipl-luz-pulsada-intensa-que-es"],
+    references: [
+      { label: "The use of a fractional laser in acne scar treatment — a systematic review. 2025.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12194615/" },
+      { label: "Fractional laser resurfacing for acne scars: a review. 2013. PMID 24131097.", url: "https://pubmed.ncbi.nlm.nih.gov/24131097/" }
+    ]
+  },
+  {
+    slug: "picolaser-que-es-para-que-sirve",
+    title: "Picoláser: qué es y para qué sirve en la piel",
+    excerpt:
+      "El picoláser es una de las tecnologías más recientes para tratar manchas y pigmentación. Esto es lo que lo distingue de otros láseres, y qué puede —y no puede— lograr.",
+    seoTitle: "Picoláser en Machala: Manchas y Pigmentación | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es el picoláser y para qué sirve? La Dra. Karla Andrade, dermatóloga en Machala, explica sus usos en manchas, melasma y tatuajes, con evidencia real.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-11",
+    dateModified: "2026-10-11",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "El picoláser es una de las tecnologías más recientes dentro del arsenal de láseres usados en dermatología, y se ha popularizado como opción para manchas, pigmentación y tatuajes. Esto es lo que realmente lo distingue de otros láseres, y qué puede —y no puede— lograr.",
+    sections: [
+      {
+        h: "Qué lo distingue de otros láseres",
+        p: [
+          "La diferencia principal está en la duración del pulso: mientras que los láseres tradicionales para pigmentación trabajan en nanosegundos, el picoláser emite pulsos miles de veces más cortos, en picosegundos. Ese pulso ultracorto fragmenta el pigmento de la piel por un efecto principalmente mecánico, en lugar de térmico, lo que en teoría reduce el daño por calor a la piel circundante."
+        ]
+      },
+      {
+        h: "Para qué se usa",
+        list: [
+          "Manchas pigmentarias superficiales, como los léntigos solares",
+          "Tatuajes, siendo una de sus indicaciones más estudiadas",
+          "Melasma, aunque con protocolos específicos y cuidadosos —es una condición que puede empeorar con un manejo inadecuado",
+          "Textura de la piel y cicatrices superficiales, en algunos protocolos",
+          "Rejuvenecimiento general de la piel"
+        ]
+      },
+      {
+        h: "Qué dice la evidencia sobre tatuajes",
+        p: [
+          "Es, de sus indicaciones, la más estudiada: las revisiones disponibles reportan una eliminación sustancial del pigmento del tatuaje en la mayoría de los pacientes después de varias sesiones, con mejores resultados documentados en tintas negras y azules que en otros colores. La evidencia de que el picoláser sea claramente superior a los láseres de nanosegundos más tradicionales para esta indicación, sin embargo, todavía es limitada y mixta según los estudios."
+        ]
+      },
+      {
+        h: "Por qué el melasma requiere especial cuidado",
+        p: [
+          "El melasma es una condición compleja, que puede empeorar —no solo no mejorar— si se trata con un láser, una energía o una frecuencia inadecuados para ese caso particular. Por eso, cuando se usa picoláser en melasma, debe ser dentro de un protocolo específico, generalmente combinado con otros tratamientos médicos, y nunca como primera ni única medida sin una evaluación dermatológica completa."
+        ]
+      },
+      {
+        h: "Expectativas realistas",
+        p: [
+          "Como con cualquier tratamiento de pigmentación, los resultados dependen del tipo de mancha, su profundidad y la causa de fondo. No todas las manchas responden igual, y algunas —como ciertas formas de melasma— tienden a recurrir con el tiempo si no se sostiene la protección solar y, cuando corresponde, el tratamiento médico de mantenimiento."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿El picoláser elimina cualquier mancha?",
+        a: "No todas las manchas responden igual; depende de su tipo, profundidad y causa. Algunas, como ciertas formas de melasma, requieren un enfoque combinado y pueden recurrir si no se mantiene la protección solar."
+      },
+      {
+        q: "¿Es mejor que otros láseres para tatuajes?",
+        a: "Tiene buena evidencia para esta indicación, pero no hay consenso claro de que sea siempre superior a los láseres tradicionales; depende del color del tatuaje y de cada caso."
+      },
+      {
+        q: "¿Tiene mucho tiempo de recuperación?",
+        a: "En general es menor que con láseres ablativos como el CO2 fraccionado, aunque puede haber enrojecimiento temporal según la indicación tratada."
+      },
+      {
+        q: "¿Puedo tratarme el melasma con picoláser por mi cuenta?",
+        a: "No es recomendable. El melasma puede empeorar con un manejo inadecuado; siempre debe evaluarse y tratarse bajo supervisión dermatológica."
+      }
+    ],
+    relatedArticles: ["manchas-y-melasma-en-la-piel", "laser-co2-fraccionado-que-es", "ipl-luz-pulsada-intensa-que-es"],
+    references: [
+      { label: "Picosecond lasers for tattoo removal: a systematic review. Lasers Med Sci. 2016. PMID 27311768.", url: "https://pubmed.ncbi.nlm.nih.gov/27311768/" },
+      { label: "Evolution of the picosecond laser: a review of literature. 2019. PMID 30702447.", url: "https://pubmed.ncbi.nlm.nih.gov/30702447/" }
+    ]
+  },
+  {
+    slug: "ipl-luz-pulsada-intensa-que-es",
+    title: "IPL (luz pulsada intensa): qué es y para qué sirve",
+    excerpt:
+      "La IPL es una de las tecnologías más versátiles en dermatología estética, aunque técnicamente no es un láser. Esto es lo que hace, y para qué se usa realmente.",
+    seoTitle: "IPL en Machala: Luz Pulsada Intensa | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es la IPL (luz pulsada intensa) y para qué sirve? La Dra. Karla Andrade, dermatóloga en Machala, explica sus usos en manchas, rosácea y fotorrejuvenecimiento.",
+    category: "Aparatología",
+    datePublished: "2026-10-11",
+    dateModified: "2026-10-11",
+    readingMin: 6,
+    relatedEspecialidad: "medicina-estetica",
+    lead:
+      "La IPL, o luz pulsada intensa, es una de las tecnologías más utilizadas en dermatología estética, y suele agruparse junto a los láseres aunque, técnicamente, no lo sea. Esto es lo que la distingue, y para qué sirve realmente.",
+    sections: [
+      {
+        h: "Qué es, y en qué se diferencia de un láser",
+        p: [
+          "Un láser emite luz de una sola longitud de onda, muy específica. La IPL, en cambio, emite un espectro amplio de longitudes de onda a la vez, como una luz blanca intensa filtrada. Esa diferencia le da versatilidad: con un mismo equipo, ajustando filtros y parámetros, se pueden abordar distintos objetivos en la piel, aunque con menor precisión que un láser dirigido a un blanco específico."
+        ]
+      },
+      {
+        h: "Para qué se usa",
+        list: [
+          "Manchas pigmentarias superficiales y léntigos solares",
+          "Lesiones vasculares superficiales y rojeces difusas, incluida la rosácea",
+          "Fotorrejuvenecimiento general: mejora la textura y el tono parejo de la piel",
+          "Depilación, en fototipos de piel claros a intermedios",
+          "Como parte de protocolos combinados con otros tratamientos dermatológicos"
+        ]
+      },
+      {
+        h: "Por qué se usa tanto en rosácea",
+        p: [
+          "La rosácea es una de las indicaciones donde la IPL tiene más respaldo: actúa sobre los vasos sanguíneos dilatados que producen el enrojecimiento característico de esta condición. No cura la rosácea de forma definitiva —es una condición crónica que se maneja, no se elimina—, pero puede reducir de forma notable el enrojecimiento visible como parte de un plan de tratamiento más amplio."
+        ]
+      },
+      {
+        h: "No es igual de efectiva para todos los fototipos",
+        p: [
+          "Por su mecanismo, basado en la absorción de luz por el pigmento de la piel o de las lesiones a tratar, la IPL es menos segura y menos predecible en pieles más oscuras, donde el riesgo de quemaduras o cambios de pigmentación es mayor. En estos fototipos, otras tecnologías —o protocolos específicamente ajustados— suelen ser más apropiadas."
+        ]
+      },
+      {
+        h: "Qué considerar antes de una sesión",
+        p: [
+          "El bronceado reciente, ciertos medicamentos fotosensibilizantes y algunas condiciones de la piel pueden contraindicar o posponer una sesión de IPL. Por eso, antes de empezar cualquier protocolo, la evaluación dermatológica confirma que es el momento y la tecnología adecuados para tu piel y tu objetivo."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La IPL es un láser?",
+        a: "No técnicamente: emite un espectro amplio de luz, no una sola longitud de onda como un láser. En la práctica clínica suele agruparse en la misma categoría por su uso similar."
+      },
+      {
+        q: "¿Sirve para cualquier tipo de piel?",
+        a: "No igual de bien. Es menos segura en pieles más oscuras, donde el riesgo de quemaduras o cambios de pigmentación es mayor; en esos casos se evalúan otras opciones."
+      },
+      {
+        q: "¿La IPL cura la rosácea?",
+        a: "No la cura, pero puede reducir de forma notable el enrojecimiento visible, como parte de un plan de manejo más amplio de esta condición crónica."
+      },
+      {
+        q: "¿Puedo broncearme antes de una sesión de IPL?",
+        a: "No es recomendable; el bronceado reciente puede contraindicar o posponer el tratamiento. Coméntalo en tu evaluación previa."
+      }
+    ],
+    relatedArticles: ["picolaser-que-es-para-que-sirve", "laser-diodo-que-es-para-que-sirve", "plasma-pen-que-es-que-puede-hacer"],
+    references: [
+      { label: "Intense Pulsed Light (IPL) Therapy. StatPearls.", url: "https://www.ncbi.nlm.nih.gov/books/NBK580525/" },
+      { label: "Intense pulsed light (IPL): a review. 2010. PMID 20166155.", url: "https://pubmed.ncbi.nlm.nih.gov/20166155/" }
+    ]
+  },
+  {
+    slug: "plasma-pen-que-es-que-puede-hacer",
+    title: "Plasma pen: qué es y qué puede (y no puede) hacer en la piel",
+    excerpt:
+      "El plasma pen se promociona como alternativa no quirúrgica a la blefaroplastia. Esto es lo que hace realmente, qué dice la evidencia disponible y qué verificar antes de hacértelo.",
+    seoTitle: "Plasma Pen en Machala: Qué Esperar | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es el plasma pen y qué puede hacer en la piel? La Dra. Karla Andrade, dermatóloga en Machala, explica sus usos reales, límites y qué verificar antes de hacértelo.",
+    category: "Aparatología",
+    datePublished: "2026-10-11",
+    dateModified: "2026-10-11",
+    readingMin: 6,
+    relatedEspecialidad: "medicina-estetica",
+    lead:
+      "El plasma pen se ha popularizado como alternativa no quirúrgica para tensar la piel, sobre todo en párpados. Es una de las tecnologías más recientes en estética, y también una de las que requiere más cautela: esto es lo que hace realmente, y qué conviene saber antes de considerarlo.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "A diferencia de un láser, el plasma pen no emite luz: genera un pequeño arco eléctrico entre la punta del dispositivo y la piel, sin llegar a tocarla, que ioniza el aire y produce plasma. Ese plasma sublima —convierte directamente en gas— una capa microscópica de la superficie de la piel, generando pequeños puntos de contracción que, con el tiempo, estimulan la producción de colágeno."
+        ]
+      },
+      {
+        h: "Para qué se usa",
+        list: [
+          "Flacidez leve a moderada del párpado superior, como alternativa no quirúrgica a la blefaroplastia",
+          "Líneas finas alrededor de los ojos y la boca",
+          "Tensado leve de áreas puntuales del rostro o el cuello",
+          "Algunas cicatrices superficiales"
+        ]
+      },
+      {
+        h: "Por qué la evidencia es todavía limitada",
+        p: [
+          "A diferencia del láser CO2 fraccionado o la IPL, que cuentan con décadas de estudios, el plasma pen es una tecnología más reciente, y la evidencia científica de buena calidad —estudios grandes, controlados y con seguimiento a largo plazo— sobre su eficacia todavía es limitada. Esto no significa que no funcione, sino que sus resultados dependen mucho del equipo usado, la técnica y la experiencia de quien lo realiza, más que en tecnologías más estandarizadas."
+        ]
+      },
+      {
+        h: "Un punto de seguridad importante: no todos los dispositivos de 'plasma' son iguales",
+        p: [
+          "Vale la pena aclarar algo que genera confusión: bajo el nombre de 'plasma' circulan distintas tecnologías, con distinto nivel de evidencia y distinta regulación. En 2022, la FDA —la agencia reguladora de medicamentos y dispositivos de Estados Unidos— emitió una advertencia específica sobre el uso de un dispositivo de plasma de uso quirúrgico, aprobado para otros fines, cuando se usaba fuera de su indicación para tensado o resurfacing de la piel, por reportes de quemaduras serias y otras complicaciones. Esto no significa que todo plasma pen sea igual de riesgoso, pero sí ilustra por qué, en esta categoría de tratamientos, importa tanto qué dispositivo específico se usa —que esté validado para ese fin— como quién lo realiza."
+        ]
+      },
+      {
+        h: "Qué verificar antes de hacértelo",
+        list: [
+          "Que el procedimiento lo realice un profesional de la salud con formación específica, no solo un técnico estético",
+          "Que el dispositivo utilizado esté validado y aprobado para el uso que se le va a dar",
+          "Una evaluación previa de tu piel y tus expectativas, no una indicación genérica para cualquier persona",
+          "Expectativas realistas: es un tratamiento de tensado leve a moderado, no un reemplazo de la cirugía en casos de flacidez más avanzada"
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿El plasma pen reemplaza una blefaroplastia quirúrgica?",
+        a: "Puede ser una alternativa en casos de flacidez leve a moderada, pero no sustituye la cirugía cuando la flacidez es más avanzada. Eso lo determina la evaluación de tu caso."
+      },
+      {
+        q: "¿Es un tratamiento con láser?",
+        a: "No. No emite luz como un láser; genera un arco de plasma que actúa de forma distinta sobre la piel."
+      },
+      {
+        q: "¿Es seguro?",
+        a: "La seguridad depende mucho del dispositivo específico usado y de quién lo realiza. Es importante verificar que el equipo esté validado para ese uso y que lo haga un profesional calificado."
+      },
+      {
+        q: "¿Cuánto dura el resultado?",
+        a: "Varía según cada caso; al ser una tecnología relativamente nueva, la evidencia sobre la duración exacta del efecto a largo plazo todavía es limitada."
+      }
+    ],
+    relatedArticles: ["ipl-luz-pulsada-intensa-que-es", "laser-co2-fraccionado-que-es"],
+    references: [
+      { label: "U.S. Food and Drug Administration. Safety communication: risks of the Renuvion/J-Plasma device for aesthetic skin procedures. 2022.", url: "https://www.fda.gov/media/157448/download" }
+    ]
+  },
+  {
+    slug: "laser-diodo-que-es-para-que-sirve",
+    title: "Láser diodo: qué es y para qué sirve",
+    excerpt:
+      "El láser diodo es la tecnología más usada para la depilación láser. Esto es lo que hace, qué tan efectivo es según tu tipo de piel y vello, y qué esperar del proceso completo.",
+    seoTitle: "Láser Diodo en Machala: Depilación Láser | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es el láser diodo y para qué sirve? La Dra. Karla Andrade, dermatóloga en Machala, explica cómo funciona la depilación láser y qué resultados esperar.",
+    category: "Aparatología",
+    datePublished: "2026-10-11",
+    dateModified: "2026-10-11",
+    readingMin: 6,
+    relatedEspecialidad: "medicina-estetica",
+    lead:
+      "El láser diodo es, hoy en día, una de las tecnologías más usadas para la depilación láser, por su buen perfil de seguridad en distintos tipos de piel. Esto es lo que hace, qué tan efectivo es según tu caso, y qué esperar del proceso completo.",
+    sections: [
+      {
+        h: "Cómo funciona",
+        p: [
+          "El láser diodo emite una longitud de onda que es absorbida selectivamente por la melanina, el pigmento presente en el folículo piloso. Esa energía se convierte en calor, que daña el folículo y reduce su capacidad de producir vello nuevo. Como el vello crece en ciclos, y el láser solo es efectivo sobre folículos en una fase activa de crecimiento, se necesitan varias sesiones espaciadas en el tiempo para tratar la mayor cantidad posible de folículos."
+        ]
+      },
+      {
+        h: "Qué tan efectivo es",
+        p: [
+          "Las revisiones disponibles muestran una reducción significativa y sostenida del vello después de varias sesiones, comparado con no tratar. La efectividad exacta varía según el contraste entre el color del vello y el de la piel: funciona mejor cuando hay más contraste —vello oscuro sobre piel clara—, aunque los equipos actuales han ampliado su rango de uso seguro a más tipos de piel que las tecnologías más antiguas."
+        ]
+      },
+      {
+        h: "Por qué el contraste de color importa",
+        p: [
+          "El mecanismo del láser depende de que la melanina del folículo absorba la energía de forma selectiva. Por eso, el vello muy claro, rubio o blanco —con poca melanina— responde mucho peor a este tipo de tratamiento, independientemente del tono de piel. Esta es una limitación real de la tecnología, no un problema de técnica o de equipo."
+        ]
+      },
+      {
+        h: "Seguridad según el tipo de piel",
+        p: [
+          "Los estudios que comparan resultados por tipo de piel muestran una eficacia en conjunto similar entre fototipos claros y oscuros, aunque el riesgo de efectos adversos en la piel —como quemaduras o cambios de pigmentación— es mayor en pieles más oscuras, lo que exige ajustar con más cuidado los parámetros del equipo y la experiencia de quien lo realiza en estos casos."
+        ]
+      },
+      {
+        h: "Qué esperar del proceso completo",
+        p: [
+          "No es un tratamiento de una sola sesión: se necesitan, en general, varias sesiones espaciadas en semanas, seguidas en algunos casos de sesiones de mantenimiento ocasionales, porque ningún protocolo actual logra una eliminación completa y permanente de todos los folículos en una sola ronda de tratamiento."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿El láser diodo elimina el vello para siempre?",
+        a: "Logra una reducción significativa y sostenida, pero no siempre una eliminación completa y permanente en el 100% de los folículos; algunas personas necesitan sesiones de mantenimiento ocasionales."
+      },
+      {
+        q: "¿Funciona en vello rubio o blanco?",
+        a: "Mucho menos. El mecanismo depende de la melanina del folículo, por lo que el vello con poco pigmento responde peor, sin importar el tono de piel."
+      },
+      {
+        q: "¿Es seguro en piel oscura?",
+        a: "Los equipos actuales son más seguros que las tecnologías antiguas en pieles oscuras, pero el riesgo de efectos adversos sigue siendo mayor, por lo que la experiencia de quien realiza el tratamiento importa especialmente en estos casos."
+      },
+      {
+        q: "¿Cuántas sesiones necesito?",
+        a: "Varía según la zona, el tipo de vello y tu respuesta individual; se define en la evaluación, no con un número único para todos."
+      }
+    ],
+    relatedArticles: ["ipl-luz-pulsada-intensa-que-es", "plasma-pen-que-es-que-puede-hacer"],
+    references: [
+      { label: "Efficacy of laser in hair removal: a network meta-analysis. 2023. PMID 37493187.", url: "https://pubmed.ncbi.nlm.nih.gov/37493187/" },
+      { label: "Lasers for reduction of unwanted hair in skin of colour: a systematic review and meta-analysis. 2020. PMID 31587390.", url: "https://pubmed.ncbi.nlm.nih.gov/31587390/" }
     ]
   }
 ];
