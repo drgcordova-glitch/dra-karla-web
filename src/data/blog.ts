@@ -3308,7 +3308,12 @@ export const articles: Article[] = [
         h: "La señal más importante: el cambio",
         p: [
           "Por encima de cualquier lista de síntomas, lo que más orienta hacia una evaluación es el cambio: un lunar que era igual durante años y empieza a verse distinto, un lunar nuevo que aparece después de los 30-40 años, o una lesión que no termina de sanar. El cambio, más que la apariencia en un momento puntual, es la señal que con más frecuencia lleva a un diagnóstico temprano."
-        ]
+        ],
+        img: {
+          src: "/blog/zonas-autoexamen-lunares.jpg",
+          alt: "Ilustración de una silueta humana con las zonas clave para revisar lunares: cuero cabelludo, detrás de las orejas, espalda, manos y plantas de los pies",
+          caption: "Zonas que conviene revisar en un autoexamen. Ilustración de referencia, no diagnóstica."
+        }
       },
       {
         h: "Señales que ameritan una cita pronto, no 'cuando se pueda'",
@@ -3398,7 +3403,12 @@ export const articles: Article[] = [
         h: "Carcinoma basocelular: el más frecuente",
         p: [
           "Es el tipo de cáncer de piel más común. Se origina en las células basales de la epidermis, crece de forma lenta y rara vez se disemina a otras partes del cuerpo. Eso no significa que deba ignorarse: sin tratamiento, puede crecer e invadir tejidos cercanos, incluyendo cartílago o hueso en casos avanzados, especialmente en el rostro."
-        ]
+        ],
+        img: {
+          src: "/blog/lupa-revision-piel.jpg",
+          alt: "Ilustración de una lupa sobre la silueta de un cuerpo humano de frente y de espaldas, representando la revisión general de la piel",
+          caption: "Ilustración de referencia, no diagnóstica."
+        }
       },
       {
         h: "Carcinoma espinocelular: el segundo más frecuente",
@@ -3484,7 +3494,12 @@ export const articles: Article[] = [
           "Muchos lunares, o lunares de aspecto atípico",
           "Antecedentes personales de cáncer de piel previo",
           "Ciertas condiciones genéticas que afectan la reparación del ADN de la piel"
-        ]
+        ],
+        img: {
+          src: "/blog/proteccion-solar-factores-riesgo.jpg",
+          alt: "Ilustración de un sol estilizado junto a un escudo que representa la protección de la piel frente a la radiación solar",
+          caption: "Ilustración de referencia, no diagnóstica."
+        }
       },
       {
         h: "Factores relacionados con la exposición solar",
@@ -3560,7 +3575,12 @@ export const articles: Article[] = [
         h: "Qué es una biopsia de piel",
         p: [
           "Es un procedimiento sencillo, realizado en consultorio, que consiste en retirar una muestra de piel —o la lesión completa, según el caso— para analizarla bajo el microscopio. Se indica cuando la evaluación clínica y la dermatoscopía no son suficientes para determinar con certeza qué es una lesión, o para confirmar un diagnóstico antes de planificar un tratamiento."
-        ]
+        ],
+        img: {
+          src: "/blog/biopsia-piel-laboratorio.jpg",
+          alt: "Ilustración de un maletín médico y un portaobjetos de laboratorio junto a un ícono de microscopio",
+          caption: "Ilustración de referencia, no diagnóstica."
+        }
       },
       {
         h: "Tipos de biopsia",
@@ -3640,7 +3660,12 @@ export const articles: Article[] = [
         h: "Qué es",
         p: [
           "Un dermatoscopio es un dispositivo con luz y aumento que permite examinar las capas superficiales de la piel con un detalle que el ojo desnudo no alcanza a ver. Revela estructuras y patrones de pigmento que ayudan a diferenciar lesiones benignas de aquellas que requieren más atención."
-        ]
+        ],
+        img: {
+          src: "/blog/dermatoscopia-ilustracion.jpg",
+          alt: "Ilustración de un dermatoscopio siendo usado sobre el hombro de una persona, sin mostrar ninguna lesión en la piel",
+          caption: "Ilustración de referencia, no diagnóstica."
+        }
       },
       {
         h: "Por qué mejora el diagnóstico",
