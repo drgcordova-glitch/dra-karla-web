@@ -3287,6 +3287,415 @@ export const articles: Article[] = [
       { label: "Efficacy of laser in hair removal: a network meta-analysis. 2023. PMID 37493187.", url: "https://pubmed.ncbi.nlm.nih.gov/37493187/" },
       { label: "Lasers for reduction of unwanted hair in skin of colour: a systematic review and meta-analysis. 2020. PMID 31587390.", url: "https://pubmed.ncbi.nlm.nih.gov/31587390/" }
     ]
+  },
+  {
+    slug: "cuando-debo-evaluarme-los-lunares",
+    title: "¿Cuándo debo hacerme una evaluación de lunares?",
+    excerpt:
+      "Saber cuándo pedir una cita no debería depender del azar. Esto es lo que indica que un lunar necesita evaluación pronto, y con qué frecuencia conviene un control general.",
+    seoTitle: "¿Cuándo Evaluar un Lunar? Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Cuándo debes hacerte una evaluación de lunares? La Dra. Karla Andrade, dermatóloga en Machala, explica las señales de alarma y la frecuencia de control recomendada.",
+    category: "Cáncer de piel",
+    datePublished: "2026-10-12",
+    dateModified: "2026-10-12",
+    readingMin: 6,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "Muchas personas posponen la evaluación de un lunar porque no saben si realmente amerita una cita, o porque piensan que 'si doliera, ya lo sabrían'. Esto es lo que realmente indica que conviene evaluarse pronto, y con qué frecuencia tiene sentido un control general, aunque no haya nada que te preocupe en particular.",
+    sections: [
+      {
+        h: "La señal más importante: el cambio",
+        p: [
+          "Por encima de cualquier lista de síntomas, lo que más orienta hacia una evaluación es el cambio: un lunar que era igual durante años y empieza a verse distinto, un lunar nuevo que aparece después de los 30-40 años, o una lesión que no termina de sanar. El cambio, más que la apariencia en un momento puntual, es la señal que con más frecuencia lleva a un diagnóstico temprano."
+        ]
+      },
+      {
+        h: "Señales que ameritan una cita pronto, no 'cuando se pueda'",
+        list: [
+          "Un lunar que cambia de tamaño, forma o color en semanas o pocos meses",
+          "Un lunar que sangra, pica o duele sin una causa clara (un golpe, el roce de la ropa)",
+          "Una lesión que parece una herida o costra y no cicatriza en varias semanas",
+          "Un lunar nuevo, distinto a los demás que tienes, sobre todo después de los 30-40 años",
+          "Un lunar que se ve notoriamente distinto a tus otros lunares —el llamado signo del patito feo—, aunque no cumpla ningún otro criterio por separado"
+        ]
+      },
+      {
+        h: "La regla ABCDE, como guía, no como diagnóstico",
+        p: [
+          "La regla ABCDE —asimetría, bordes irregulares, color desigual, diámetro mayor a 6 mm, evolución— sigue siendo una guía útil y ampliamente usada, aunque las revisiones más recientes señalan sus límites: no todos los melanomas cumplen estos criterios, especialmente los más pequeños o en etapas iniciales, y por eso la evolución —el cambio en el tiempo— se considera, cada vez más, el criterio más confiable de los cinco. Puedes repasar la regla completa, con una ilustración de referencia, en nuestro artículo sobre el autoexamen de lunares en casa."
+        ]
+      },
+      {
+        h: "Con qué frecuencia conviene un control, aunque no tengas síntomas",
+        p: [
+          "Más allá de señales puntuales, un control periódico con un dermatólogo tiene sentido incluso sin ningún lunar sospechoso, porque permite detectar cambios sutiles que son difíciles de notar por cuenta propia, y establecer una referencia para comparar en el futuro. La frecuencia ideal depende de tu nivel de riesgo, no es la misma para todas las personas."
+        ]
+      },
+      {
+        h: "Quién debería controlarse con más frecuencia",
+        p: [
+          "Desarrollamos estos factores con más detalle en nuestro artículo sobre factores de riesgo de cáncer de piel."
+        ],
+        list: [
+          "Personas con muchos lunares, o con lunares de aspecto atípico",
+          "Antecedentes familiares de melanoma u otros cánceres de piel",
+          "Piel clara, que se quema con facilidad y broncea poco",
+          "Antecedentes personales de quemaduras solares importantes, sobre todo en la infancia",
+          "Exposición solar acumulada por trabajo u otras actividades al aire libre",
+          "Un diagnóstico previo de cáncer de piel"
+        ]
+      },
+      {
+        h: "No esperes a la 'próxima vez que te acuerdes'",
+        p: [
+          "El motivo más común por el que una lesión se diagnostica tarde no es la falta de información, sino la postergación: 'lo voy a revisar', 'ya se me pasó la cita', 'seguro no es nada'. Si algo de esta lista te suena familiar sobre algún lunar tuyo, esa es, en sí misma, la señal de que conviene agendar la evaluación ahora, no después."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Un lunar que pica siempre es motivo de preocupación?",
+        a: "No siempre, pero si la picazón es nueva, persistente y sin causa clara —no por roce o irritación externa—, conviene que lo evalúe un dermatólogo."
+      },
+      {
+        q: "¿Debo esperar al control anual si noto un cambio antes?",
+        a: "No. El control anual es una referencia general; si notas un cambio antes, eso amerita adelantar la cita, no esperar a la fecha programada."
+      },
+      {
+        q: "Tengo muchos lunares desde siempre, ¿eso aumenta mi riesgo?",
+        a: "Sí, tener muchos lunares es uno de los factores que justifican un control más frecuente, aunque la mayoría de los lunares nunca se vuelven cáncer de piel."
+      },
+      {
+        q: "¿Puedo saber por una foto si un lunar es peligroso?",
+        a: "No con certeza. Una foto puede ayudar a notar un cambio en el tiempo, pero el diagnóstico requiere un examen presencial, idealmente con dermatoscopía."
+      }
+    ],
+    relatedArticles: ["autoexamen-de-lunares-en-casa", "factores-de-riesgo-de-cancer-de-piel", "dermatoscopia-que-es-y-por-que-importa"],
+    references: [
+      { label: "Early detection of melanoma: reviewing the ABCDEs. J Am Acad Dermatol. 2015. PMID 25698455.", url: "https://pubmed.ncbi.nlm.nih.gov/25698455/" },
+      { label: "ABCDE — an evolving concept in the early detection of melanoma. Arch Dermatol. 2005. PMID 16103334.", url: "https://pubmed.ncbi.nlm.nih.gov/16103334/" },
+      { label: "Early diagnosis of cutaneous melanoma: revisiting the ABCD criteria. JAMA. 2004. PMID 15585738.", url: "https://pubmed.ncbi.nlm.nih.gov/15585738/" }
+    ]
+  },
+  {
+    slug: "tipos-de-cancer-de-piel-melanoma-basocelular-espinocelular",
+    title: "Tipos de cáncer de piel: melanoma, carcinoma basocelular y espinocelular",
+    excerpt:
+      "No todos los cánceres de piel son iguales, ni igual de frecuentes, ni igual de agresivos. Esto es lo que distingue a los tres tipos principales.",
+    seoTitle: "Tipos de Cáncer de Piel Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Cuáles son los tipos de cáncer de piel? La Dra. Karla Andrade, dermatóloga en Machala, explica las diferencias entre melanoma, basocelular y espinocelular.",
+    category: "Cáncer de piel",
+    datePublished: "2026-10-12",
+    dateModified: "2026-10-12",
+    readingMin: 6,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "'Cáncer de piel' no es una sola enfermedad: agrupa varios tipos distintos, con orígenes, comportamientos y pronósticos diferentes. Entender esta diferencia ayuda a entender por qué el manejo —y la urgencia— no es igual en todos los casos.",
+    sections: [
+      {
+        h: "Carcinoma basocelular: el más frecuente",
+        p: [
+          "Es el tipo de cáncer de piel más común. Se origina en las células basales de la epidermis, crece de forma lenta y rara vez se disemina a otras partes del cuerpo. Eso no significa que deba ignorarse: sin tratamiento, puede crecer e invadir tejidos cercanos, incluyendo cartílago o hueso en casos avanzados, especialmente en el rostro."
+        ]
+      },
+      {
+        h: "Carcinoma espinocelular: el segundo más frecuente",
+        p: [
+          "Se origina en las células escamosas de la epidermis. Es más frecuente en zonas de exposición solar acumulada —orejas, labio inferior, dorso de las manos— y, a diferencia del basocelular, tiene mayor capacidad de diseminarse si no se trata a tiempo, aunque en la mayoría de los casos detectados temprano el pronóstico es muy favorable."
+        ]
+      },
+      {
+        h: "Melanoma: menos frecuente, pero el más agresivo",
+        p: [
+          "Se origina en los melanocitos, las células que producen el pigmento de la piel. Es mucho menos frecuente que los dos anteriores, pero tiene mayor capacidad de diseminarse a otros órganos si no se detecta a tiempo, lo que lo convierte en el tipo de cáncer de piel donde el diagnóstico precoz marca la mayor diferencia en el pronóstico."
+        ]
+      },
+      {
+        h: "Por qué el basocelular y el espinocelular se agrupan aparte",
+        p: [
+          "En la práctica clínica, el carcinoma basocelular y el espinocelular suelen agruparse bajo el término 'cáncer de piel no melanoma', porque comparten un origen —ambos derivan de los queratinocitos de la epidermis— y un abordaje de manejo en muchos sentidos similar, distinto al del melanoma."
+        ]
+      },
+      {
+        h: "Cómo se ve cada uno, en términos generales",
+        p: [
+          "Esta es una orientación general, no una guía para autodiagnosticarse: muchas lesiones benignas pueden parecerse a estas descripciones, y la única forma de confirmar el tipo de lesión es con evaluación clínica, dermatoscopía y, cuando corresponde, biopsia."
+        ],
+        list: [
+          "Carcinoma basocelular: con frecuencia una lesión perlada o translúcida, a veces con pequeños vasos visibles, que puede sangrar con facilidad ante un roce mínimo y no termina de sanar",
+          "Carcinoma espinocelular: suele verse como una placa rojiza, descamativa o costrosa, a veces como una verruga que no cicatriza, en zonas de exposición solar frecuente",
+          "Melanoma: con más frecuencia se relaciona con un lunar que cambia —en tamaño, forma, color— o con una lesión nueva con los signos de la regla ABCDE"
+        ]
+      },
+      {
+        h: "Por qué el tratamiento varía según el tipo",
+        p: [
+          "El tipo de cáncer de piel, su tamaño, su localización y su comportamiento determinan el tratamiento: desde procedimientos menores hasta cirugías más complejas, que en algunos casos requieren coordinación con servicios especializados, sobre todo en zonas donde la reconstrucción es más delicada, como el rostro."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Cuál es el cáncer de piel más peligroso?",
+        a: "El melanoma, por su mayor capacidad de diseminarse si no se detecta a tiempo, aunque es mucho menos frecuente que el basocelular o el espinocelular."
+      },
+      {
+        q: "¿El carcinoma basocelular es grave?",
+        a: "Rara vez se disemina a otros órganos, pero sin tratamiento puede crecer e invadir tejido cercano, por lo que de igual forma requiere diagnóstico y tratamiento oportunos."
+      },
+      {
+        q: "¿Puedo saber qué tipo de cáncer de piel tengo por cómo se ve la lesión?",
+        a: "No con certeza. La apariencia orienta, pero el diagnóstico definitivo requiere evaluación clínica y, generalmente, una biopsia."
+      },
+      {
+        q: "¿Todos los cánceres de piel requieren cirugía?",
+        a: "La mayoría sí requiere algún procedimiento para retirar la lesión, aunque el tipo de procedimiento varía mucho según el caso, desde técnicas menores hasta cirugías más extensas."
+      }
+    ],
+    relatedArticles: ["factores-de-riesgo-de-cancer-de-piel", "que-pasa-despues-de-una-biopsia-de-piel", "cuando-debo-evaluarme-los-lunares"],
+    references: [
+      { label: "Mittal A, Mittal V. Comparative analysis of US guidelines for the management of cutaneous squamous cell and basal cell carcinoma. J Skin Cancer. 2024.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10872771/" }
+    ]
+  },
+  {
+    slug: "factores-de-riesgo-de-cancer-de-piel",
+    title: "Factores de riesgo de cáncer de piel: quién debe controlarse con más frecuencia",
+    excerpt:
+      "El riesgo de cáncer de piel no es el mismo para todas las personas. Esto es lo que lo aumenta, y por qué algunos grupos necesitan controles más frecuentes que otros.",
+    seoTitle: "Factores de Riesgo de Cáncer de Piel | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué aumenta el riesgo de cáncer de piel? La Dra. Karla Andrade, dermatóloga en Machala, explica los factores de riesgo y quién debe controlarse con más frecuencia.",
+    category: "Cáncer de piel",
+    datePublished: "2026-10-12",
+    dateModified: "2026-10-12",
+    readingMin: 6,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "No todas las personas tienen el mismo riesgo de desarrollar cáncer de piel. Conocer qué lo aumenta ayuda a decidir, junto a tu dermatólogo, con qué frecuencia conviene un control, en lugar de aplicar la misma recomendación genérica a todo el mundo.",
+    sections: [
+      {
+        h: "Factores que no se pueden modificar",
+        list: [
+          "Piel clara, que se quema con facilidad y broncea poco",
+          "Cabello rubio o pelirrojo, y ojos claros",
+          "Antecedentes familiares de melanoma u otros cánceres de piel",
+          "Muchos lunares, o lunares de aspecto atípico",
+          "Antecedentes personales de cáncer de piel previo",
+          "Ciertas condiciones genéticas que afectan la reparación del ADN de la piel"
+        ]
+      },
+      {
+        h: "Factores relacionados con la exposición solar",
+        p: [
+          "La exposición a la radiación ultravioleta —ya sea del sol o de camas de bronceado artificial— es el principal factor de riesgo modificable. El patrón de exposición importa: el melanoma se ha asociado más con episodios de exposición intensa e intermitente (como quemaduras solares, sobre todo en la infancia y la adolescencia), mientras que el carcinoma basocelular y el espinocelular se relacionan más con la exposición acumulada a lo largo de los años, como ocurre en trabajos al aire libre."
+        ]
+      },
+      {
+        h: "Por qué las quemaduras solares en la infancia pesan tanto",
+        p: [
+          "Las quemaduras solares durante la infancia y la adolescencia tienen un peso particular en el riesgo futuro de melanoma, más que las quemaduras en la adultez. Esto no significa que la exposición solar adulta no importe —sí importa, y mucho, para los otros tipos de cáncer de piel—, pero sí explica por qué la protección solar desde la niñez es una medida de prevención con impacto a largo plazo."
+        ]
+      },
+      {
+        h: "Inmunosupresión",
+        p: [
+          "Las personas con el sistema inmune debilitado —por ciertos medicamentos, trasplantes de órganos, o algunas enfermedades— tienen un riesgo más alto de cáncer de piel, y suelen requerir controles dermatológicos más frecuentes como parte de su seguimiento general."
+        ]
+      },
+      {
+        h: "Vivir cerca de la línea ecuatorial, como en Machala",
+        p: [
+          "La radiación UV es más intensa cerca del ecuador, y se mantiene relativamente alta durante todo el año, no solo en 'temporada de sol'. Esto hace que la protección solar constante —no solo en la playa— sea especialmente relevante para quienes viven en zonas como Machala."
+        ]
+      },
+      {
+        h: "Qué significa tener uno o más de estos factores",
+        p: [
+          "Tener uno o varios factores de riesgo no significa que vayas a desarrollar cáncer de piel, pero sí es información útil para que tu dermatólogo defina la frecuencia de control adecuada para ti, en lugar de una recomendación genérica igual para todos."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Tener la piel oscura me protege del cáncer de piel?",
+        a: "Reduce el riesgo, pero no lo elimina. Además, cuando aparece en piel más oscura, suele diagnosticarse más tarde porque se sospecha menos, lo que puede empeorar el pronóstico."
+      },
+      {
+        q: "¿El riesgo se hereda directamente de mis padres?",
+        a: "Los antecedentes familiares aumentan el riesgo, pero la mayoría de los casos de cáncer de piel no tiene un familiar directo afectado; influyen varios factores a la vez, no solo la herencia."
+      },
+      {
+        q: "Trabajo bajo el sol, ¿debo controlarme más seguido?",
+        a: "Es razonable considerarlo, dado que la exposición solar acumulada es un factor de riesgo reconocido. Coméntalo con tu dermatólogo para definir la frecuencia adecuada."
+      },
+      {
+        q: "¿Las camas de bronceado son igual de riesgosas que el sol?",
+        a: "Sí, la radiación UV artificial de las camas de bronceado es un factor de riesgo reconocido para el cáncer de piel, de forma similar a la exposición solar."
+      }
+    ],
+    relatedArticles: ["cuando-debo-evaluarme-los-lunares", "proteccion-solar-que-realmente-funciona", "tipos-de-cancer-de-piel-melanoma-basocelular-espinocelular"],
+    references: [
+      { label: "Risk factors for skin cancer: a review. 2024.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10931186/" }
+    ]
+  },
+  {
+    slug: "que-pasa-despues-de-una-biopsia-de-piel",
+    title: "Qué pasa después de una biopsia de piel: del resultado al tratamiento",
+    excerpt:
+      "Que tu dermatólogo indique una biopsia genera ansiedad, y es comprensible. Esto es lo que realmente implica el proceso, paso a paso, desde el procedimiento hasta el resultado.",
+    seoTitle: "Biopsia de Piel en Machala: Qué Esperar | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué pasa después de una biopsia de piel? La Dra. Karla Andrade, dermatóloga en Machala, explica el proceso completo, del procedimiento al resultado y tratamiento.",
+    category: "Cáncer de piel",
+    datePublished: "2026-10-12",
+    dateModified: "2026-10-12",
+    readingMin: 6,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "Escuchar que tu dermatólogo quiere hacerte una biopsia genera ansiedad, y es comprensible: la palabra 'biopsia' suele asociarse de inmediato con cáncer. Pero una biopsia es, ante todo, una herramienta diagnóstica, no un diagnóstico en sí misma. Esto es lo que realmente implica el proceso.",
+    sections: [
+      {
+        h: "Qué es una biopsia de piel",
+        p: [
+          "Es un procedimiento sencillo, realizado en consultorio, que consiste en retirar una muestra de piel —o la lesión completa, según el caso— para analizarla bajo el microscopio. Se indica cuando la evaluación clínica y la dermatoscopía no son suficientes para determinar con certeza qué es una lesión, o para confirmar un diagnóstico antes de planificar un tratamiento."
+        ]
+      },
+      {
+        h: "Tipos de biopsia",
+        p: ["La elección del tipo de biopsia depende de dónde está la lesión, de qué tan profunda parece, y de qué se sospecha clínicamente; no es una decisión arbitraria."],
+        list: [
+          "Biopsia por rasurado (shave): retira una capa fina de la lesión, usada en lesiones superficiales",
+          "Biopsia por punch: usa un instrumento circular para obtener una muestra cilíndrica más profunda",
+          "Biopsia excisional: retira la lesión completa, con un margen de piel sana alrededor"
+        ]
+      },
+      {
+        h: "El procedimiento en sí",
+        p: [
+          "Se realiza con anestesia local, por lo que las molestias durante el procedimiento suelen ser mínimas. Según el tipo de biopsia, puede requerir uno o dos puntos de sutura. Es un procedimiento ambulatorio: no requiere hospitalización ni interrumpe tus actividades de forma prolongada."
+        ]
+      },
+      {
+        h: "Cuánto tarda el resultado",
+        p: [
+          "La muestra se envía a un laboratorio de patología, donde un especialista la analiza bajo el microscopio. El tiempo de espera varía según el laboratorio, pero generalmente toma entre una y dos semanas. Es una espera que genera ansiedad, y es válido sentirla así; preguntar a tu médico el tiempo estimado en tu caso particular ayuda a manejar esa espera con más claridad."
+        ]
+      },
+      {
+        h: "Qué significa cada resultado posible",
+        p: [
+          "La mayoría de las biopsias de piel confirman lesiones benignas, no cáncer. Si el resultado es benigno, en general no se requiere más que el seguimiento habitual. Si confirma una lesión premaligna o maligna, el siguiente paso depende del tipo, el tamaño y la ubicación: puede ser suficiente con el procedimiento ya realizado, puede requerir una segunda intervención para ampliar márgenes, o puede requerir coordinación con servicios especializados para una cirugía más extensa, por ejemplo cuando la reconstrucción del área es compleja."
+        ]
+      },
+      {
+        h: "Por qué un diagnóstico de cáncer de piel no es, en la mayoría de los casos, una sentencia grave",
+        p: [
+          "Vale la pena decirlo con claridad: la gran mayoría de los cánceres de piel, detectados a tiempo, tienen un pronóstico muy favorable con el tratamiento adecuado. Esto no minimiza lo que implica recibir ese diagnóstico, pero sí es información real que ayuda a enfrentarlo desde un lugar menos catastrófico del que muchas personas imaginan."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Una biopsia significa que mi médico ya sospecha cáncer?",
+        a: "No necesariamente. Se indica cada vez que la evaluación clínica no es suficiente para confirmar con certeza qué es una lesión, incluso cuando la sospecha de malignidad es baja."
+      },
+      {
+        q: "¿La biopsia duele?",
+        a: "Se realiza con anestesia local, por lo que las molestias durante el procedimiento suelen ser mínimas. Puede haber algo de sensibilidad los días posteriores."
+      },
+      {
+        q: "¿Qué pasa si el resultado confirma cáncer de piel?",
+        a: "El siguiente paso depende del tipo y la extensión: puede bastar con el procedimiento ya hecho, requerir una segunda intervención, o coordinarse con servicios especializados según la complejidad del caso."
+      },
+      {
+        q: "¿Queda cicatriz después de una biopsia?",
+        a: "Puede quedar una marca pequeña, que generalmente se difumina con el tiempo. El tamaño y la visibilidad dependen del tipo de biopsia y la zona tratada."
+      }
+    ],
+    relatedArticles: ["tipos-de-cancer-de-piel-melanoma-basocelular-espinocelular", "dermatoscopia-que-es-y-por-que-importa", "cuando-debo-evaluarme-los-lunares"],
+    references: [
+      { label: "Shave and punch biopsy for skin lesions. Am Fam Physician. 2011.", url: "https://www.aafp.org/pubs/afp/issues/2011/1101/p995.html" },
+      { label: "Mohs micrographic surgery — what the gold standard in dermatologic surgery offers us: a literature review.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5087221" }
+    ]
+  },
+  {
+    slug: "dermatoscopia-que-es-y-por-que-importa",
+    title: "Dermatoscopía: qué es y por qué cambia el diagnóstico temprano",
+    excerpt:
+      "La dermatoscopía es la herramienta central para diferenciar un lunar benigno de uno que merece más atención. Esto es lo que hace, y qué dice la evidencia sobre su precisión.",
+    seoTitle: "Dermatoscopía en Machala: Qué Es | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es la dermatoscopía y por qué es clave para el diagnóstico temprano? La Dra. Karla Andrade, dermatóloga en Machala, explica cómo funciona y qué dice la evidencia.",
+    category: "Cáncer de piel",
+    datePublished: "2026-10-12",
+    dateModified: "2026-10-12",
+    readingMin: 6,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "La dermatoscopía es, hoy en día, la herramienta central para evaluar lunares y lesiones de la piel con criterio, más allá de lo que se puede ver a simple vista. Esto es lo que hace exactamente, y qué respaldo tiene esta técnica.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Un dermatoscopio es un dispositivo con luz y aumento que permite examinar las capas superficiales de la piel con un detalle que el ojo desnudo no alcanza a ver. Revela estructuras y patrones de pigmento que ayudan a diferenciar lesiones benignas de aquellas que requieren más atención."
+        ]
+      },
+      {
+        h: "Por qué mejora el diagnóstico",
+        p: [
+          "Las revisiones científicas disponibles muestran que agregar dermatoscopía al examen visual tradicional mejora la precisión diagnóstica para detectar melanoma, comparado con la evaluación a simple vista únicamente. Esa mejoría es mayor cuando el examen se realiza de forma presencial, en consulta, que cuando se evalúa solo a partir de una imagen."
+        ]
+      },
+      {
+        h: "No es infalible, y eso también importa decirlo",
+        p: [
+          "La dermatoscopía mejora la precisión diagnóstica, pero no la garantiza al cien por ciento: sigue siendo, en parte, una evaluación visual que depende de la experiencia de quien la realiza, y algunas estructuras se interpretan con más certeza que otras. Por eso, ante cualquier duda razonable, el siguiente paso sigue siendo la biopsia, no una afirmación definitiva basada solo en la imagen dermatoscópica."
+        ]
+      },
+      {
+        h: "Qué patrones ayudan más a sospechar melanoma",
+        p: [
+          "Las revisiones sobre estructuras dermatoscópicas específicas señalan que ciertos hallazgos, como la pigmentación irregular o el llamado 'velo azul-blanquecino', se asocian con mayor frecuencia a melanoma cuando están presentes, aunque ningún hallazgo aislado es, por sí solo, diagnóstico: el patrón completo de la lesión es lo que orienta la decisión clínica."
+        ]
+      },
+      {
+        h: "Por qué no reemplaza el autoexamen, ni al revés",
+        p: [
+          "El autoexamen en casa y el control dermatoscópico profesional cumplen funciones distintas y complementarias: el autoexamen ayuda a notar cambios entre una consulta y otra; la dermatoscopía permite un análisis detallado que no se puede replicar en casa. Ninguno reemplaza al otro."
+        ]
+      },
+      {
+        h: "Es un examen simple, sin preparación",
+        p: [
+          "No duele ni requiere ninguna preparación previa: se apoya el dispositivo sobre la piel y se observa la lesión con aumento. En muchos casos, el dermatólogo puede fotografiar y archivar las imágenes dermatoscópicas de lunares que ameritan seguimiento, para comparar objetivamente su evolución en controles futuros."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La dermatoscopía reemplaza la biopsia?",
+        a: "No. Ayuda a decidir si una lesión necesita biopsia, y puede aumentar la confianza en que una lesión es benigna, pero no reemplaza el análisis bajo el microscopio cuando hay duda razonable."
+      },
+      {
+        q: "¿Es un examen doloroso?",
+        a: "No, es completamente indoloro y no requiere ninguna preparación."
+      },
+      {
+        q: "¿Todos los dermatólogos usan dermatoscopía?",
+        a: "Es una herramienta estándar en dermatología, aunque la experiencia con su interpretación varía; preguntar si tu evaluación incluye dermatoscopía es razonable si te preocupa un lunar en particular."
+      },
+      {
+        q: "¿Puedo pedir que fotografíen mis lunares para comparar en el futuro?",
+        a: "Sí, es una práctica habitual en el seguimiento de lunares que ameritan control, y le facilita a tu dermatólogo evaluar objetivamente si hubo cambios."
+      }
+    ],
+    relatedArticles: ["cuando-debo-evaluarme-los-lunares", "que-pasa-despues-de-una-biopsia-de-piel", "autoexamen-de-lunares-en-casa"],
+    references: [
+      { label: "Dermoscopic structures for diagnosing melanoma: a meta-analysis. JAMA Dermatol. 2021. PMID 34347005.", url: "https://pubmed.ncbi.nlm.nih.gov/34347005/" },
+      { label: "Dellavalle RP, et al. Cochrane review: dermoscopy versus visual inspection for diagnosing skin cancer in adults. 2018.", url: "https://www.cochrane.org/evidence/CD011902_how-accurate-dermoscopy-compared-visual-inspection-skin-diagnosing-skin-cancer-melanoma-adults" }
+    ]
   }
 ];
 
