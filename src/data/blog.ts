@@ -4011,6 +4011,1438 @@ export const articles: Article[] = [
       { label: "Scard C, et al. Risk of melanoma in congenital melanocytic nevi of all sizes: a systematic review. J Eur Acad Dermatol Venereol. 2023.", url: "https://doi.org/10.1111/jdv.18581" },
       { label: "Kim CC, et al. Clinical management of atypical (dysplastic) nevi: a consensus statement. JAMA Dermatol. 2015. PMID 25409291.", url: "https://pubmed.ncbi.nlm.nih.gov/25409291/" }
     ]
+  },
+  {
+    slug: "rosacea-que-es-y-como-se-trata",
+    title: "Rosácea: qué es y cómo se trata",
+    excerpt:
+      "La rosácea es una de las condiciones de piel más frecuentes en consulta, y también una de las más confundidas con piel sensible o acné adulto. Esto es lo que realmente es, y qué opciones de tratamiento existen.",
+    seoTitle: "Rosácea en Machala: Qué Es y Tratamiento | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es la rosácea y cómo se trata? La Dra. Karla Andrade, dermatóloga en Machala, explica sus causas, desencadenantes y las opciones de tratamiento disponibles.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "La rosácea es una de las condiciones de piel más frecuentes en consulta, y también una de las más mal entendidas: muchas personas la confunden con 'piel sensible' o con acné adulto durante años antes de recibir el diagnóstico correcto. Esto es lo que realmente es, y qué opciones de tratamiento existen.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Es una condición inflamatoria crónica que afecta principalmente el centro del rostro: mejillas, nariz, frente y mentón. Se manifiesta con enrojecimiento persistente, vasos sanguíneos visibles, y en muchos casos lesiones inflamatorias que se parecen al acné, aunque sin los puntos negros característicos de este. En algunos casos también afecta los ojos, con sequedad o irritación."
+        ]
+      },
+      {
+        h: "Por qué aparece",
+        p: [
+          "Su causa exacta no se conoce del todo, pero las revisiones actuales la describen como multifactorial: involucra una respuesta exagerada de los vasos sanguíneos, desregulación del sistema inmune de la piel, un posible rol de microorganismos que viven normalmente en la piel, y predisposición genética. No es causada por mala higiene ni por consumo excesivo de alcohol, aunque el alcohol sí puede ser un desencadenante de los brotes en algunas personas."
+        ]
+      },
+      {
+        h: "Distintas formas de presentarse",
+        list: [
+          "Enrojecimiento persistente y vasos sanguíneos visibles, sin necesariamente lesiones tipo grano",
+          "Lesiones inflamatorias tipo acné, con enrojecimiento de fondo",
+          "Engrosamiento de la piel, más frecuente en la nariz, en casos menos comunes y más avanzados",
+          "Afectación ocular, con sequedad, irritación o sensación de arenilla"
+        ]
+      },
+      {
+        h: "Qué la desencadena o empeora",
+        p: [
+          "Los desencadenantes varían bastante de una persona a otra, pero los más frecuentes incluyen la exposición solar, las comidas picantes o muy calientes, el alcohol, el estrés, el ejercicio intenso y los cambios bruscos de temperatura. Identificar tus propios desencadenantes —llevando un registro simple si hace falta— ayuda a espaciar los brotes."
+        ]
+      },
+      {
+        h: "Tratamiento",
+        p: [
+          "La rosácea no tiene cura definitiva, pero se controla muy bien. Las opciones incluyen tratamientos tópicos (como metronidazol, ácido azelaico o ivermectina), tratamiento oral en casos con más lesiones inflamatorias, y tecnologías como la luz pulsada intensa para mejorar los vasos visibles, que desarrollamos en nuestro artículo sobre IPL. La protección solar diaria es, en todos los casos, un pilar del tratamiento, no un complemento opcional."
+        ]
+      },
+      {
+        h: "Por qué el cuidado diario debe ser distinto",
+        p: [
+          "La piel con rosácea tiende a ser más reactiva: los exfoliantes agresivos, los productos con alcohol o fragancias fuertes, y el agua muy caliente suelen empeorar el enrojecimiento. Una rutina simple, con productos suaves y protector solar constante, es la base sobre la que se construye cualquier tratamiento médico."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La rosácea es lo mismo que el acné?",
+        a: "No. Aunque pueden parecerse, la rosácea no tiene los puntos negros característicos del acné y responde a tratamientos distintos. Confundirlas suele llevar a tratamientos que no funcionan."
+      },
+      {
+        q: "¿La rosácea se cura?",
+        a: "No tiene cura definitiva, pero se controla muy bien con el tratamiento adecuado, logrando largos períodos sin brotes visibles."
+      },
+      {
+        q: "¿Debo evitar el sol por completo?",
+        a: "No es necesario evitarlo por completo, pero la protección solar diaria es esencial, porque el sol es uno de los desencadenantes más frecuentes de los brotes."
+      },
+      {
+        q: "¿Por qué me arde la piel con productos que antes toleraba?",
+        a: "La piel con rosácea suele volverse más reactiva con el tiempo. Vale la pena simplificar tu rutina y evitar activos agresivos, y comentarlo con tu dermatólogo."
+      }
+    ],
+    relatedArticles: ["ipl-luz-pulsada-intensa-que-es"],
+    references: [
+      { label: "Rosacea pathogenesis and management: a practical clinical review.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10821660/" },
+      { label: "The latest advances in rosacea treatment: a systematic review. Pharmaceuticals. 2026.", url: "https://doi.org/10.3390/ph19070982" }
+    ]
+  },
+  {
+    slug: "dermatitis-seborreica-que-es-y-como-tratarla",
+    title: "Dermatitis seborreica: qué es y cómo tratarla",
+    excerpt:
+      "La dermatitis seborreica es una de las condiciones de piel más comunes, aunque la mayoría la conoce solo por uno de sus síntomas: la caspa. Esto es lo que realmente es, dónde más puede aparecer, y cómo se trata.",
+    seoTitle: "Dermatitis Seborreica en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es la dermatitis seborreica y cómo se trata? La Dra. Karla Andrade, dermatóloga en Machala, explica sus causas y el tratamiento en cara, cuero cabelludo y más.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "La dermatitis seborreica es una de las condiciones de piel más comunes y, a la vez, una de las menos reconocidas por su nombre: la mayoría de las personas la conoce solo por uno de sus síntomas, la caspa. Esto es lo que realmente es, dónde puede aparecer además del cuero cabelludo, y cómo se trata.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Es una condición inflamatoria crónica y recurrente, que afecta sobre todo las zonas de la piel con más glándulas sebáceas: cuero cabelludo, cejas, surcos a los lados de la nariz, y en ocasiones el pecho. Se caracteriza por enrojecimiento y escamas de aspecto grasoso."
+        ]
+      },
+      {
+        h: "Por qué aparece",
+        p: [
+          "Es multifactorial: interviene el exceso de grasa de la piel, una levadura llamada Malassezia que vive normalmente en la piel de todas las personas pero que en algunas desencadena una respuesta inflamatoria mayor, y la susceptibilidad individual de cada persona. No está causada por falta de higiene, y lavarse en exceso no la mejora, sino que puede irritar más la piel."
+        ]
+      },
+      {
+        h: "Cómo se ve según la zona",
+        list: [
+          "Cuero cabelludo: descamación (caspa), a veces con enrojecimiento y picazón",
+          "Cara: enrojecimiento con escamas grasosas en cejas, surcos nasales y a los lados de la nariz",
+          "Pecho y zona central del cuerpo: placas rojizas con descamación, en casos más extensos",
+          "Bebés: la llamada 'costra láctea' en el cuero cabelludo, generalmente benigna y que suele resolverse sola en los primeros meses de vida"
+        ]
+      },
+      {
+        h: "Qué la empeora",
+        p: [
+          "El estrés, el clima frío y seco, y ciertos medicamentos pueden intensificar los brotes. Algunas condiciones neurológicas se asocian con formas más persistentes, aunque la gran mayoría de los casos no tiene ninguna causa de fondo adicional que buscar."
+        ]
+      },
+      {
+        h: "Tratamiento",
+        p: [
+          "Se maneja con antifúngicos tópicos (que actúan sobre la Malassezia) y, en los brotes más intensos, corticoides tópicos de baja potencia por períodos cortos. Para el cuero cabelludo, los champús medicados son la base del tratamiento, un tema que desarrollamos con más detalle en nuestro artículo sobre la caspa. Es importante entender que es una condición crónica: el objetivo del tratamiento es controlarla, no eliminarla para siempre."
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        p: [
+          "Si no mejora con medidas básicas, si se extiende a zonas nuevas, o si genera mucha irritación o picazón, vale la pena una evaluación dermatológica para ajustar el tratamiento."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La dermatitis seborreica es por mala higiene?",
+        a: "No. Es una condición inflamatoria relacionada con la piel y una levadura que vive normalmente en ella, no con la frecuencia de lavado."
+      },
+      {
+        q: "¿Es lo mismo que la caspa?",
+        a: "La caspa es, en esencia, dermatitis seborreica limitada al cuero cabelludo y sin tanta inflamación. Ambas comparten el mismo origen."
+      },
+      {
+        q: "¿La costra láctea de mi bebé es lo mismo?",
+        a: "Sí, es una forma de dermatitis seborreica infantil, generalmente benigna, que suele resolverse sola en los primeros meses sin necesidad de tratamiento agresivo."
+      },
+      {
+        q: "¿Se cura definitivamente?",
+        a: "Es una condición crónica que tiende a tener brotes y períodos de mejoría. Se controla muy bien con tratamiento sostenido, pero no suele 'curarse' de forma permanente."
+      }
+    ],
+    relatedArticles: ["caspa-por-que-aparece-y-como-tratarla"],
+    references: [
+      { label: "Seborrheic dermatitis and dandruff: a comprehensive review.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4852869/" },
+      { label: "Seborrheic dermatitis revisited: pathophysiology, diagnosis, and emerging therapies — a narrative review.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12562114/" }
+    ]
+  },
+  {
+    slug: "caspa-por-que-aparece-y-como-tratarla",
+    title: "Caspa: por qué aparece y cómo tratarla",
+    excerpt:
+      "La caspa es uno de los problemas de cuero cabelludo más comunes, y también uno de los que más remedios caseros y champús milagrosos genera. Esto es lo que realmente la causa, y qué champús tienen respaldo real.",
+    seoTitle: "Caspa: Por Qué Aparece y Cómo Tratarla | Dra. Karla Andrade",
+    seoDescription:
+      "¿Por qué aparece la caspa y cómo se trata? La Dra. Karla Andrade, dermatóloga en Machala, explica sus causas y qué champús tienen respaldo científico real.",
+    category: "Tricología",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 5,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    lead:
+      "La caspa es uno de los problemas de cuero cabelludo más comunes, y también uno de los que más remedios caseros y champús milagrosos genera. Esto es lo que realmente la causa, y qué champús y hábitos tienen respaldo real.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "La caspa es la descamación visible del cuero cabelludo. En términos médicos, es una forma más leve de dermatitis seborreica, limitada al cuero cabelludo y sin la inflamación o el enrojecimiento más marcado que puede verse en otras zonas, como explicamos en nuestro artículo sobre dermatitis seborreica."
+        ]
+      },
+      {
+        h: "Por qué aparece",
+        p: [
+          "Se relaciona con Malassezia, una levadura que vive normalmente en el cuero cabelludo de todas las personas. En quienes desarrollan caspa, esta levadura desencadena una renovación más rápida de las células de la piel, lo que produce las escamas visibles. También influyen el exceso de grasa y la sensibilidad individual de cada cuero cabelludo."
+        ]
+      },
+      {
+        h: "Caspa vs. cuero cabelludo reseco",
+        p: [
+          "Es un punto que confunde a muchas personas: la caspa típica produce escamas más grandes y de aspecto aceitoso, a veces con el cuero cabelludo algo irritado debajo. El cuero cabelludo simplemente reseco produce escamas más finas y blancas, sin ese componente graso, y suele mejorar solo con buena hidratación, sin necesitar un champú anticaspa."
+        ]
+      },
+      {
+        h: "Qué buscar en un champú anticaspa",
+        list: [
+          "Zinc piritiona o sulfuro de selenio, con efecto antifúngico y antiinflamatorio leve",
+          "Ketoconazol, un antifúngico específico más potente, generalmente de uso bajo indicación",
+          "Ácido salicílico o alquitrán de hulla, que ayudan a desprender las escamas"
+        ]
+      },
+      {
+        p: [
+          "Cada ingrediente actúa de forma distinta, y lo importante es dejarlo actuar el tiempo indicado en el producto antes de enjuagar, no solo pasarlo rápido por el cabello."
+        ]
+      },
+      {
+        h: "Por qué cambiar de champú cada semana no funciona",
+        p: [
+          "Ningún champú anticaspa da resultados en una sola lavada. Necesita uso constante, generalmente varias veces por semana durante algunas semanas, para notar una mejoría real. Cambiar de producto antes de darle ese tiempo es una de las razones más comunes por las que alguien siente que 'nada le funciona'."
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        p: [
+          "Si la caspa no mejora después de varias semanas de uso constante de un champú adecuado, si hay mucho enrojecimiento o picazón intensa, o si las escamas se extienden a la cara o el pecho, vale la pena una evaluación dermatológica."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La caspa es contagiosa?",
+        a: "No. No se transmite de una persona a otra; es una respuesta individual de tu cuero cabelludo a una levadura que normalmente vive en la piel de todos."
+      },
+      {
+        q: "¿Lavarme el cabello más seguido ayuda con la caspa?",
+        a: "Puede ayudar a retirar el exceso de grasa y escamas, pero no reemplaza un champú con ingrediente activo anticaspa si la causa de fondo sigue presente."
+      },
+      {
+        q: "¿Cuánto tiempo debo usar un champú anticaspa para ver resultado?",
+        a: "Generalmente varias semanas de uso constante, siguiendo la frecuencia indicada en el producto. Resultados en una sola aplicación no son realistas."
+      },
+      {
+        q: "¿La caspa causa caída del cabello?",
+        a: "La caspa en sí no destruye el folículo, pero el rascado intenso y la inflamación sostenida pueden contribuir a una caída temporal. Tratarla a tiempo ayuda a evitar ese efecto secundario."
+      }
+    ],
+    relatedArticles: ["dermatitis-seborreica-que-es-y-como-tratarla", "champus-anticaida-funcionan"],
+    references: [
+      { label: "Seborrheic dermatitis and dandruff: a comprehensive review.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4852869/" }
+    ]
+  },
+  {
+    slug: "hongos-en-la-piel-tina-pie-de-atleta",
+    title: "Hongos en la piel: tiña y pie de atleta",
+    excerpt:
+      "Los hongos en la piel son de las consultas dermatológicas más frecuentes, y también de las más automedicadas sin éxito. Esto es lo que realmente son, cómo se contagian, y por qué el tratamiento casero a veces falla.",
+    seoTitle: "Hongos en la Piel en Machala: Tiña y Pie de Atleta | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué son los hongos en la piel y cómo se tratan? La Dra. Karla Andrade, dermatóloga en Machala, explica la tiña, el pie de atleta y por qué el tratamiento casero falla.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Los hongos en la piel —tiña, pie de atleta— son de las consultas dermatológicas más frecuentes, y también de las más automedicadas sin éxito. Esto es lo que realmente son, cómo se contagian, y por qué muchas veces el tratamiento casero no funciona.",
+    sections: [
+      {
+        h: "Qué son",
+        p: [
+          "Son infecciones causadas por hongos llamados dermatofitos, que se alimentan de la queratina presente en la piel, el pelo y las uñas. Son extremadamente frecuentes en climas cálidos y húmedos, como el de Machala."
+        ]
+      },
+      {
+        h: "Cómo se ve la tiña corporal",
+        p: [
+          "Típicamente se presenta como una placa redondeada, con un borde más activo y a veces elevado, y un centro más claro —de ahí el nombre popular de 'anillo'—, acompañada de picazón."
+        ]
+      },
+      {
+        h: "Pie de atleta (tiña pedis)",
+        p: [
+          "Se presenta con descamación, picazón y a veces grietas dolorosas entre los dedos de los pies. Está favorecido por la humedad y el calzado cerrado durante muchas horas, por lo que es frecuente en personas que usan zapatos deportivos o de trabajo todo el día."
+        ]
+      },
+      {
+        h: "Cómo se contagian",
+        list: [
+          "Contacto directo piel con piel con una persona o mascota infectada",
+          "Superficies húmedas compartidas: duchas, piscinas, vestidores",
+          "Objetos compartidos: toallas, calzado"
+        ]
+      },
+      {
+        h: "Por qué el tratamiento casero a veces falla",
+        p: [
+          "El error más común es suspender el antifúngico tópico apenas desaparece el síntoma visible, cuando en realidad debe continuarse por el tiempo completo indicado —generalmente varias semanas— para eliminar el hongo por completo. Los casos extensos, muy inflamados o que no responden al tratamiento tópico suelen necesitar un antifúngico oral."
+        ]
+      },
+      {
+        h: "Cómo prevenir el contagio y la reinfección",
+        p: [
+          "Secar bien la piel después de bañarte, con especial atención entre los dedos de los pies, evitar compartir toallas o calzado, y usar calzado que permita ventilación son medidas simples que reducen tanto el contagio como las recaídas."
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        p: [
+          "Si no mejora con un tratamiento de venta libre después de dos a cuatro semanas, si se extiende mucho, o si notas signos de infección bacteriana sobreañadida (más dolor, pus, fiebre), es momento de una evaluación dermatológica."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Puedo contagiarme de hongos en la piscina?",
+        a: "Sí, las superficies húmedas compartidas son una vía de contagio frecuente, sobre todo para el pie de atleta. Usar sandalias en vestidores y duchas comunes ayuda a prevenirlo."
+      },
+      {
+        q: "¿Cuánto debo usar la crema antifúngica?",
+        a: "Generalmente más tiempo del que parece necesario: el tratamiento debe continuarse por varias semanas, incluso después de que el síntoma visible desaparezca, para eliminar el hongo por completo."
+      },
+      {
+        q: "¿Mi mascota puede contagiarme hongos en la piel?",
+        a: "Sí, algunas tiñas se transmiten por contacto con animales infectados. Si tu mascota tiene zonas de pelo caído o irritadas, vale la pena que también la revise un veterinario."
+      },
+      {
+        q: "¿Por qué me sigue volviendo el pie de atleta?",
+        a: "Suele deberse a que el calzado o las superficies que usas siguen siendo fuente de reinfección, o a que el tratamiento no se completó por el tiempo necesario la vez anterior."
+      }
+    ],
+    relatedArticles: ["hongos-en-las-unas-onicomicosis"],
+    references: [
+      { label: "Tinea corporis: an updated review. Drugs Context. 2020. PMID 32742295.", url: "https://pubmed.ncbi.nlm.nih.gov/32742295/" },
+      { label: "A comprehensive review of tinea corporis, cruris and pedis. Indian Dermatol Online J. 2016.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4804599" }
+    ]
+  },
+  {
+    slug: "hongos-en-las-unas-onicomicosis",
+    title: "Hongos en las uñas (onicomicosis): por qué es tan difícil de curar",
+    excerpt:
+      "Los hongos en las uñas tienen fama merecida de ser difíciles de curar. Esto es lo que explica esa dificultad, y qué hace que un tratamiento tenga más probabilidades de funcionar.",
+    seoTitle: "Hongos en las Uñas en Machala: Onicomicosis | Dra. Karla Andrade",
+    seoDescription:
+      "¿Por qué es tan difícil curar los hongos en las uñas? La Dra. Karla Andrade, dermatóloga en Machala, explica la onicomicosis y qué tratamientos funcionan mejor.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Los hongos en las uñas —onicomicosis— tienen fama merecida de ser difíciles de curar. Esto es lo que explica esa dificultad, y qué hace que un tratamiento tenga más probabilidades de funcionar.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Es una infección de la uña, generalmente causada por los mismos hongos dermatofitos que producen la tiña en la piel, aunque en algunos casos intervienen levaduras u otros hongos. Se ve como una uña engrosada, de color amarillento o blanquecino, quebradiza, que en casos avanzados puede despegarse del lecho ungueal."
+        ]
+      },
+      {
+        h: "Por qué es tan difícil de tratar",
+        list: [
+          "La uña es una barrera física densa que dificulta que los medicamentos tópicos penetren en cantidad suficiente",
+          "El hongo puede alojarse profundamente bajo la placa ungueal, fuera del alcance de tratamientos superficiales",
+          "Una uña nueva y sana crece muy lento —varios meses—, por lo que el tratamiento debe sostenerse todo ese tiempo para notar el resultado, aunque el hongo ya esté controlado"
+        ]
+      },
+      {
+        h: "Opciones de tratamiento",
+        p: [
+          "Los antifúngicos tópicos específicos para uñas pueden ser suficientes en casos leves o muy iniciales. En casos más establecidos, los antifúngicos orales suelen ser más efectivos, aunque requieren seguimiento médico durante el tratamiento. Combinar tratamiento oral y tópico suele dar mejores resultados que usar uno solo, y en los últimos años el láser se usa también como complemento en algunos casos."
+        ]
+      },
+      {
+        h: "Por qué recae tanto",
+        p: [
+          "Una causa frecuente de recaída es la reinfección desde un pie de atleta no tratado, desde el calzado o desde superficies contaminadas. Por eso la prevención —secar bien los pies, no compartir cortaúñas, tratar también cualquier hongo activo en la piel— es parte del tratamiento, no un paso opcional aparte."
+        ]
+      },
+      {
+        h: "Expectativas realistas",
+        p: [
+          "No existe una solución rápida para la onicomicosis. El objetivo realista es una uña visiblemente más sana con el tiempo, a medida que crece la parte nueva libre de hongo, no un cambio de la noche a la mañana. Mantener el tratamiento completo, aunque la mejoría parezca lenta, es lo que marca la diferencia entre curar la infección y que vuelva a aparecer."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Por qué mi uña sigue viéndose mal si ya terminé el tratamiento?",
+        a: "Porque la parte ya dañada de la uña no se repara: lo que se ve sano es la uña nueva que va creciendo desde la base. Toma varios meses que la uña completa se reemplace."
+      },
+      {
+        q: "¿El esmalte antifúngico es suficiente?",
+        a: "Puede ser suficiente en casos muy leves o iniciales, pero en infecciones más establecidas suele necesitar combinarse con tratamiento oral para ser efectivo."
+      },
+      {
+        q: "¿Por qué me recomendaron análisis de sangre si es solo la uña?",
+        a: "Algunos antifúngicos orales requieren control de la función hepática durante el tratamiento, por eso tu médico puede solicitar análisis antes o durante el proceso."
+      },
+      {
+        q: "¿Puedo usar esmalte de uñas normal mientras me trato?",
+        a: "Es mejor evitarlo o consultarlo con tu médico, porque puede dificultar la penetración de algunos tratamientos tópicos antifúngicos."
+      }
+    ],
+    relatedArticles: ["hongos-en-la-piel-tina-pie-de-atleta"],
+    references: [
+      { label: "Onychomycosis: diagnosis and definitive treatment. J Am Acad Dermatol. 2018. PMID 29959962.", url: "https://pubmed.ncbi.nlm.nih.gov/29959962/" }
+    ]
+  },
+  {
+    slug: "urticaria-ronchas-en-la-piel-causas",
+    title: "Urticaria: por qué salen ronchas que pican y van y vienen",
+    excerpt:
+      "Despertar con ronchas que pican y desaparecen en horas es una de las experiencias más desconcertantes en dermatología. Esto es lo que es la urticaria, y por qué muchas veces no se encuentra 'la causa'.",
+    seoTitle: "Urticaria en Machala: Ronchas en la Piel | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué causa la urticaria y las ronchas que pican? La Dra. Karla Andrade, dermatóloga en Machala, explica la diferencia entre urticaria aguda y crónica, y su tratamiento.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Despertar con ronchas que pican, que aparecen y desaparecen en cuestión de horas, es una de las experiencias más desconcertantes en dermatología. Esto es lo que es la urticaria, por qué es tan difícil encontrar 'la causa' en muchos casos, y cómo se maneja.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "La urticaria se manifiesta con ronchas —también llamadas habones— rojas, elevadas, que pican intensamente. Lo característico es que cada roncha individual suele durar menos de 24 horas y desaparece sin dejar marca, aunque pueden seguir apareciendo ronchas nuevas en otras zonas de forma continua."
+        ]
+      },
+      {
+        h: "Aguda vs. crónica",
+        p: [
+          "La urticaria aguda dura menos de seis semanas, y en muchos casos se logra identificar un desencadenante claro: un alimento, un medicamento, una infección viral reciente. La urticaria crónica se define como la que persiste más de seis semanas, y en la gran mayoría de estos casos, a pesar de estudios, no se identifica una causa externa específica."
+        ]
+      },
+      {
+        h: "Por qué 'no se encuentra la causa' en la mayoría de los casos crónicos",
+        p: [
+          "La urticaria crónica espontánea —el nombre médico más preciso para la mayoría de estos casos— suele relacionarse con una activación del propio sistema inmune, no con una alergia a algo identificable en el entorno o la dieta. Por eso, ir eliminando alimentos uno por uno en busca de 'el culpable' rara vez resuelve el problema en la urticaria crónica, y puede llevar a restricciones innecesarias."
+        ]
+      },
+      {
+        h: "Qué la puede desencadenar o empeorar",
+        list: [
+          "El calor y el ejercicio",
+          "El estrés",
+          "La fricción o presión sostenida sobre la piel",
+          "Ciertos medicamentos, como los antiinflamatorios"
+        ]
+      },
+      {
+        p: [
+          "Estos factores pueden empeorar los brotes sin ser, necesariamente, la causa de fondo del problema."
+        ]
+      },
+      {
+        h: "Tratamiento escalonado",
+        p: [
+          "La primera línea de tratamiento son los antihistamínicos de segunda generación, que en casos que no responden pueden indicarse a dosis mayores que las estándar, siempre bajo indicación médica. Si la respuesta sigue siendo insuficiente, existen opciones de manejo más específico, evaluadas caso por caso."
+        ]
+      },
+      {
+        h: "Cuándo es una urgencia, no una urticaria simple",
+        p: [
+          "Si las ronchas se acompañan de hinchazón de labios, lengua o garganta, dificultad para respirar, o sensación de desmayo, no es una urticaria simple: es una posible reacción alérgica grave (angioedema o anafilaxia) y requiere atención médica inmediata, no una consulta de rutina."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Debo eliminar alimentos de mi dieta si tengo urticaria crónica?",
+        a: "No es la estrategia recomendada en la mayoría de los casos, porque la urticaria crónica rara vez se relaciona con un alimento específico. Hazlo solo si tu médico lo indica tras una evaluación."
+      },
+      {
+        q: "¿La urticaria es contagiosa?",
+        a: "No, en ningún caso. No se transmite de una persona a otra."
+      },
+      {
+        q: "¿Por qué las ronchas cambian de lugar?",
+        a: "Es parte del comportamiento típico de la urticaria: una roncha individual dura horas y desaparece, mientras pueden aparecer otras nuevas en distintas zonas del cuerpo."
+      },
+      {
+        q: "¿Cuándo debo ir a emergencias en vez de a una consulta normal?",
+        a: "Si hay hinchazón de labios, lengua o garganta, dificultad para respirar, o sensación de desmayo. Esos síntomas requieren atención inmediata."
+      }
+    ],
+    relatedArticles: [],
+    references: [
+      { label: "Mustafa SS, Sánchez-Borges M. Chronic urticaria: comparisons of US, European, and Asian guidelines. Curr Allergy Asthma Rep. 2018. PMID 29796863.", url: "https://pubmed.ncbi.nlm.nih.gov/29796863/" }
+    ]
+  },
+  {
+    slug: "psoriasis-que-es-y-como-se-trata",
+    title: "Psoriasis: qué es y cómo se trata",
+    excerpt:
+      "La psoriasis es una enfermedad crónica de la piel rodeada de mitos, empezando por la idea de que es contagiosa, algo completamente falso. Esto es lo que realmente es, y qué opciones de tratamiento existen hoy.",
+    seoTitle: "Psoriasis en Machala: Qué Es y Tratamiento | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es la psoriasis y cómo se trata? La Dra. Karla Andrade, dermatóloga en Machala, explica esta enfermedad crónica, sus desencadenantes y las opciones de tratamiento.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 7,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "La psoriasis es una enfermedad crónica de la piel rodeada de mitos —empezando por la idea de que es contagiosa, algo completamente falso—. Esto es lo que realmente es, por qué va más allá de la piel, y qué opciones de tratamiento existen hoy.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Es una enfermedad inflamatoria crónica, de origen inmunológico, que acelera el recambio de las células de la piel. Esto produce placas engrosadas, rojas, cubiertas de escamas plateadas características, típicamente en codos, rodillas, cuero cabelludo y zona lumbar, aunque puede aparecer en cualquier parte del cuerpo."
+        ]
+      },
+      {
+        h: "No es contagiosa",
+        p: [
+          "Vale la pena decirlo con total claridad: la psoriasis no se transmite de una persona a otra bajo ninguna circunstancia. El estigma social que todavía rodea a esta enfermedad afecta de forma real la calidad de vida de quienes la tienen, y combatirlo empieza por entender este punto básico."
+        ]
+      },
+      {
+        h: "Por qué va más allá de la piel",
+        p: [
+          "La psoriasis se asocia a un mayor riesgo de artritis psoriásica, con dolor e inflamación en las articulaciones, y las guías actuales recomiendan evaluar también otras condiciones asociadas, como factores de riesgo cardiovascular y metabólico. Por eso el manejo integral —no solo tratar las placas visibles— es parte del estándar de cuidado actual."
+        ]
+      },
+      {
+        h: "Qué la desencadena o empeora",
+        list: [
+          "El estrés sostenido",
+          "Ciertas infecciones",
+          "Algunos medicamentos",
+          "El consumo de alcohol y el tabaco",
+          "Lesiones o traumatismos en la piel, que pueden generar placas nuevas en esa zona (fenómeno de Koebner)"
+        ]
+      },
+      {
+        h: "Opciones de tratamiento, según la gravedad",
+        p: [
+          "Los casos leves suelen manejarse con tratamientos tópicos. Los casos más extensos pueden requerir fototerapia, y los casos moderados a severos —o con impacto significativo en la calidad de vida— suelen tratarse con medicamentos orales o biológicos, que actúan de forma más dirigida sobre el sistema inmune. La elección depende de la extensión de la enfermedad, su impacto en tu vida diaria, y tu historia de salud general."
+        ]
+      },
+      {
+        h: "No tiene cura, pero se controla muy bien",
+        p: [
+          "Con el tratamiento adecuado, la mayoría de los pacientes logra una piel prácticamente libre de lesiones durante períodos prolongados. El seguimiento con tu dermatólogo permite ajustar el tratamiento a medida que cambia la respuesta de tu enfermedad."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La psoriasis es contagiosa?",
+        a: "No, de ninguna manera. No se transmite por contacto con la piel de otra persona."
+      },
+      {
+        q: "¿Por qué me dicen que revise mis articulaciones si tengo psoriasis en la piel?",
+        a: "Porque existe un riesgo asociado de artritis psoriásica. Detectarla a tiempo permite tratarla antes de que cause daño articular permanente."
+      },
+      {
+        q: "¿El estrés realmente empeora la psoriasis?",
+        a: "Sí, es uno de los desencadenantes más reportados por los pacientes, aunque no es la única causa de los brotes."
+      },
+      {
+        q: "¿Voy a necesitar tratamiento de por vida?",
+        a: "Depende de la gravedad y evolución de tu caso. Muchos pacientes logran largos períodos de control, con ajustes del tratamiento según cómo evoluciona la enfermedad."
+      }
+    ],
+    relatedArticles: [],
+    references: [
+      { label: "Menter A, et al. Joint AAD-NPF guidelines of care for the management and treatment of psoriasis with biologics. J Am Acad Dermatol. 2019. PMID 30772098.", url: "https://pubmed.ncbi.nlm.nih.gov/30772098/" },
+      { label: "Elmets CA, et al. Joint AAD-NPF guidelines of care for the management and treatment of psoriasis with topical therapy. J Am Acad Dermatol. 2020. PMID 32738429.", url: "https://pubmed.ncbi.nlm.nih.gov/32738429/" }
+    ]
+  },
+  {
+    slug: "vitiligo-que-es-y-tratamientos",
+    title: "Vitíligo: qué es y qué tratamientos existen",
+    excerpt:
+      "El vitíligo genera un impacto emocional desproporcionado a su gravedad médica, precisamente por ser muy visible. Esto es lo que realmente lo causa, y qué opciones de tratamiento existen, con expectativas realistas.",
+    seoTitle: "Vitíligo en Machala: Qué Es y Tratamientos | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es el vitíligo y qué tratamientos existen? La Dra. Karla Andrade, dermatóloga en Machala, explica sus causas y las opciones de tratamiento disponibles.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "El vitíligo es una condición que genera un impacto emocional desproporcionado a su gravedad médica, precisamente porque es muy visible. Esto es lo que realmente lo causa, y qué opciones de tratamiento existen, con expectativas realistas.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Es la pérdida de pigmento de la piel en zonas específicas, causada por la destrucción de los melanocitos, las células que producen el pigmento. Es de origen autoinmune: el propio sistema inmune ataca por error a estas células."
+        ]
+      },
+      {
+        h: "Por qué el sistema inmune ataca sus propios melanocitos",
+        p: [
+          "El mecanismo exacto todavía no se conoce con total precisión, pero involucra una combinación de predisposición genética y la activación de células del sistema inmune (linfocitos T) que atacan selectivamente a los melanocitos. Es un área de investigación activa, con avances relevantes en los últimos años."
+        ]
+      },
+      {
+        h: "No es contagioso ni es una infección",
+        p: [
+          "Otro punto importante de aclarar: el vitíligo no se transmite de ninguna forma entre personas, y no está causado por ningún microorganismo."
+        ]
+      },
+      {
+        h: "Cómo se presenta",
+        p: [
+          "Puede estar localizado en unas pocas zonas, o ser generalizado y más extenso. Su curso es impredecible: puede progresar con el tiempo, con períodos de actividad y de estabilidad, que varían mucho de una persona a otra."
+        ]
+      },
+      {
+        h: "Opciones de tratamiento",
+        p: [
+          "Para casos localizados, se usan corticoides tópicos o inhibidores de calcineurina. Para casos más extensos, la fototerapia es una opción establecida. En los últimos años, los inhibidores de JAK —una familia de medicamentos más reciente— han mostrado resultados prometedores en varios estudios, aunque el campo todavía no cuenta con un tratamiento plenamente satisfactorio para todos los casos."
+        ]
+      },
+      {
+        h: "Expectativas realistas",
+        p: [
+          "Cuando ocurre, la repigmentación es gradual y no siempre completa. El objetivo del tratamiento es repigmentar lo que sea posible y frenar la progresión, no necesariamente devolver el color original a toda la piel afectada. Partir de esa expectativa realista ayuda a no vivir el proceso como un fracaso si la repigmentación es parcial."
+        ]
+      },
+      {
+        h: "El impacto emocional es real",
+        p: [
+          "El vitíligo puede afectar significativamente la autoestima y la vida social, precisamente por su visibilidad. Buscar apoyo —profesional o de grupos de personas con la misma condición— es una parte legítima del manejo, no algo secundario al tratamiento médico."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿El vitíligo es contagioso?",
+        a: "No, de ninguna manera. No se transmite por contacto ni de ninguna otra forma entre personas."
+      },
+      {
+        q: "¿El vitíligo se puede curar por completo?",
+        a: "No existe, por ahora, una cura garantizada para todos los casos. Los tratamientos buscan repigmentar lo posible y frenar la progresión, con resultados variables según cada persona."
+      },
+      {
+        q: "¿Es lo mismo que la pitiriasis versicolor?",
+        a: "No. Son condiciones distintas: la pitiriasis versicolor es una infección por hongo y responde a antifúngicos; el vitíligo es autoinmune y no. Lo desarrollamos en nuestro artículo sobre manchas blancas en la piel."
+      },
+      {
+        q: "¿El vitíligo progresa siempre?",
+        a: "No necesariamente. El curso es muy variable: algunas personas tienen períodos largos de estabilidad, y otras progresan de forma más activa. El seguimiento con tu dermatólogo ayuda a monitorear esa evolución."
+      }
+    ],
+    relatedArticles: ["manchas-blancas-en-la-piel-pitiriasis-versicolor"],
+    references: [
+      { label: "Vitiligo: pathogenesis and new and emerging treatments. Int J Mol Sci. 2023.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10743634/" }
+    ]
+  },
+  {
+    slug: "manchas-blancas-en-la-piel-pitiriasis-versicolor",
+    title: "Manchas blancas en la piel: ¿vitíligo o pitiriasis versicolor?",
+    excerpt:
+      "Las manchas blancas en la piel generan una confusión muy frecuente: muchos temen que sea vitíligo, cuando en la mayoría de los casos se trata de algo mucho más común. Esto es lo que las diferencia.",
+    seoTitle: "Manchas Blancas en la Piel en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Las manchas blancas en la piel son vitíligo o pitiriasis versicolor? La Dra. Karla Andrade, dermatóloga en Machala, explica cómo diferenciarlas y cómo se tratan.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Las manchas blancas en la piel generan una confusión muy frecuente: mucha gente teme que sea vitíligo, cuando en la gran mayoría de los casos se trata de algo completamente distinto y mucho más común: la pitiriasis versicolor. Esto es lo que las diferencia.",
+    sections: [
+      {
+        h: "Qué es la pitiriasis versicolor",
+        p: [
+          "Es una infección superficial de la piel causada por Malassezia, una levadura que vive normalmente en la piel de todas las personas, pero que en ciertas condiciones prolifera más de lo habitual y altera la pigmentación de la zona afectada."
+        ]
+      },
+      {
+        h: "Por qué se llama 'versicolor'",
+        p: [
+          "Porque las manchas pueden verse de distinto tono según el contraste con la piel de cada persona: más claras que la piel circundante en quienes tienen la piel bronceada —lo más frecuente—, o más rosadas u oscuras en piel sin broncear."
+        ]
+      },
+      {
+        h: "Por qué es tan frecuente en climas como el de Machala",
+        p: [
+          "Los climas cálidos y húmedos, la sudoración excesiva, la piel grasa y la ropa que no transpira favorecen la proliferación de esta levadura, lo que explica por qué la pitiriasis versicolor es particularmente común en zonas tropicales."
+        ]
+      },
+      {
+        h: "Diferencias clave con el vitíligo",
+        list: [
+          "La pitiriasis versicolor suele tener una descamación fina, apenas visible al raspar suavemente la piel; el vitíligo no descama",
+          "La pitiriasis versicolor responde a tratamiento antifúngico; el vitíligo no, porque no es una infección",
+          "El vitíligo tiende a tener bordes más netos y bien definidos; la pitiriasis versicolor suele presentarse con manchas más difusas y numerosas",
+          "Ante la duda, un examen simple con luz especial, o la evaluación directa de un dermatólogo, permite diferenciarlas con certeza"
+        ]
+      },
+      {
+        h: "Tratamiento",
+        p: [
+          "La mayoría de los casos se trata con antifúngicos tópicos, en champú o crema. Los casos más extensos o recurrentes pueden requerir tratamiento oral. Es importante saber que, aunque el hongo se elimine con éxito, la pigmentación de la piel tarda semanas o meses en normalizarse por completo: eso no significa que el tratamiento haya fallado."
+        ]
+      },
+      {
+        h: "Por qué recurre tanto",
+        p: [
+          "La levadura que la causa es parte normal de la piel, por lo que nunca se 'elimina' para siempre. En personas propensas, puede reaparecer con facilidad, sobre todo en climas cálidos y húmedos o en épocas de más sudoración."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Cómo sé si mis manchas blancas son vitíligo o pitiriasis versicolor?",
+        a: "La forma más confiable es una evaluación dermatológica, que puede incluir un examen simple con luz especial para diferenciarlas con certeza."
+      },
+      {
+        q: "¿Por qué mis manchas no desaparecen aunque ya traté el hongo?",
+        a: "La pigmentación tarda semanas o meses en normalizarse después de eliminar el hongo. No es una señal de que el tratamiento no funcionó."
+      },
+      {
+        q: "¿La pitiriasis versicolor es contagiosa?",
+        a: "Es poco contagiosa en la práctica, porque la levadura que la causa ya vive normalmente en la piel de la mayoría de las personas; lo que varía es la proliferación en condiciones favorables."
+      },
+      {
+        q: "¿Puedo prevenir que vuelva a aparecer?",
+        a: "Mantener la piel seca, usar ropa transpirable y, en personas muy propensas, usar ocasionalmente un champú antifúngico como medida preventiva, bajo indicación médica, puede ayudar a espaciar las recurrencias."
+      }
+    ],
+    relatedArticles: ["vitiligo-que-es-y-tratamientos"],
+    references: [
+      { label: "Gupta AK, Foley KA. Antifungal treatment for pityriasis versicolor. J Fungi. 2015. PMID 29376896.", url: "https://pubmed.ncbi.nlm.nih.gov/29376896/" }
+    ]
+  },
+  {
+    slug: "queratosis-actinicas-que-son",
+    title: "Queratosis actínicas: qué son y por qué conviene tratarlas",
+    excerpt:
+      "Las queratosis actínicas son, probablemente, la lesión de piel relacionada con el sol que más se subestima. Esto es lo que son, por qué importa tratarlas, y qué relación tienen con el cáncer de piel.",
+    seoTitle: "Queratosis Actínicas en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué son las queratosis actínicas y por qué tratarlas? La Dra. Karla Andrade, dermatóloga en Machala, explica su relación con el cáncer de piel y su tratamiento.",
+    category: "Cáncer de piel",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "Las queratosis actínicas son, probablemente, la lesión de piel relacionada con el sol que más se subestima. Esto es lo que son, por qué importa tratarlas, y qué relación tienen con el cáncer de piel.",
+    sections: [
+      {
+        h: "Qué son",
+        p: [
+          "Son lesiones precancerosas: parches ásperos al tacto, de color rosado o similar al de la piel, con una escama fina, que aparecen en zonas de exposición solar acumulada a lo largo de los años —cara, cuero cabelludo con poco cabello, orejas, dorso de las manos, antebrazos—."
+        ]
+      },
+      {
+        h: "Por qué se llaman 'precancerosas'",
+        p: [
+          "Representan un daño acumulado en las células de la epidermis por años de radiación ultravioleta. Una proporción de estas lesiones, si no se tratan, puede progresar a un carcinoma espinocelular, uno de los tipos de cáncer de piel que desarrollamos en otro artículo. Es importante decirlo con precisión: la mayoría de las queratosis actínicas individuales no progresa a cáncer, pero no existe forma segura de saber de antemano cuál sí lo hará, y esa incertidumbre es justamente la razón por la que se recomienda tratarlas."
+        ]
+      },
+      {
+        h: "A veces se sienten antes de verse",
+        p: [
+          "Es frecuente notarlas primero al tacto —ásperas, como papel de lija— antes de que sean muy visibles a simple vista, sobre todo en el cuero cabelludo con poco cabello, una zona que muchas personas no revisan con regularidad."
+        ]
+      },
+      {
+        h: "Factores de riesgo",
+        p: [
+          "Comparten buena parte de los factores de riesgo del cáncer de piel en general: piel clara, exposición solar acumulada a lo largo de la vida, edad, e inmunosupresión. Los desarrollamos con más detalle en nuestro artículo sobre factores de riesgo de cáncer de piel."
+        ]
+      },
+      {
+        h: "Tratamiento",
+        p: [
+          "Para lesiones puntuales, la crioterapia (congelamiento) es una opción rápida y efectiva. Cuando hay varias lesiones en una misma zona —lo que se conoce como 'cancerización de campo'—, se prefieren tratamientos tópicos que actúan sobre toda el área, o la terapia fotodinámica en algunos casos, en lugar de tratar lesión por lesión."
+        ]
+      },
+      {
+        h: "Por qué el seguimiento no termina con el tratamiento",
+        p: [
+          "Quien tuvo queratosis actínicas conserva el mismo daño solar acumulado de base que las generó, por lo que es esperable que puedan aparecer lesiones nuevas con el tiempo. Esto hace que el control periódico y la protección solar estricta sean parte permanente del cuidado, no algo que termina al tratar las lesiones actuales."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Todas las queratosis actínicas se vuelven cáncer de piel?",
+        a: "No, la mayoría no progresa. Pero como no hay forma segura de saber cuáles sí lo harán, se recomienda tratarlas todas."
+      },
+      {
+        q: "¿Duele el tratamiento con crioterapia?",
+        a: "Genera una molestia breve, similar a una picadura de frío intenso, que la mayoría de los pacientes tolera bien sin necesidad de anestesia."
+      },
+      {
+        q: "¿Por qué me recetaron una crema en vez de congelar las lesiones?",
+        a: "Cuando hay varias lesiones en una misma zona, tratar toda el área con un producto tópico suele ser más efectivo que congelar cada una por separado."
+      },
+      {
+        q: "¿Si ya me trataron, puedo dejar de usar protector solar?",
+        a: "No. El daño de base que las generó sigue presente, y la protección solar constante es lo que ayuda a prevenir que aparezcan lesiones nuevas."
+      }
+    ],
+    relatedArticles: ["tipos-de-cancer-de-piel-melanoma-basocelular-espinocelular", "factores-de-riesgo-de-cancer-de-piel"],
+    references: [
+      { label: "Balcere A, et al. Clinical characteristics of actinic keratosis associated with the risk of progression to invasive squamous cell carcinoma: a systematic review. J Clin Med. 2022.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9571814/" },
+      { label: "From actinic keratosis to cutaneous squamous cell carcinoma: the key pathogenesis and treatments.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11802505/" }
+    ]
+  },
+  {
+    slug: "dermatitis-del-panal-causas-y-cuidado",
+    title: "Dermatitis del pañal: causas y cuidado en casa",
+    excerpt:
+      "La dermatitis del pañal es, probablemente, el motivo de consulta más frecuente en los primeros meses de vida. Esto es lo que realmente la causa, qué hacer en casa, y cuándo conviene una evaluación.",
+    seoTitle: "Dermatitis del Pañal en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué causa la dermatitis del pañal y cómo se cuida? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica qué hacer en casa y cuándo consultar.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 5,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    lead:
+      "La dermatitis del pañal es, probablemente, el motivo de consulta más frecuente en los primeros meses de vida. Esto es lo que realmente la causa, qué hacer en casa, y cuándo conviene una evaluación.",
+    sections: [
+      {
+        h: "Qué es y por qué aparece",
+        p: [
+          "Es una irritación de la piel en el área cubierta por el pañal. La causa más común no es infecciosa, sino irritativa: el contacto prolongado con orina y heces, la humedad constante, la fricción del pañal y el cambio del pH de la piel en esa zona generan una barrera cutánea más débil y vulnerable a la irritación."
+        ]
+      },
+      {
+        h: "Cuándo interviene un hongo",
+        p: [
+          "La Candida (un hongo) puede sumarse como causa secundaria, cuando la piel ya lleva un tiempo irritada. Suele reconocerse por un patrón distinto: un enrojecimiento más intenso y uniforme, con pequeñas lesiones satélite alrededor de la zona principal, distinto a la irritación simple."
+        ]
+      },
+      {
+        h: "Qué ayuda en casa",
+        list: [
+          "Cambiar el pañal con frecuencia, sin esperar a que esté muy cargado",
+          "Limpiar con suavidad, evitando toallitas con fragancia o alcohol si la piel ya está muy irritada; en esos casos, agua tibia y un paño suave son más adecuados",
+          "Dejar la piel al aire libre de pañal ratos cortos cuando sea posible",
+          "Aplicar una crema de barrera con óxido de zinc en capa generosa en cada cambio, no solo cuando ya hay irritación"
+        ]
+      },
+      {
+        h: "Qué evitar",
+        list: [
+          "Los talcos: tienen poca evidencia de beneficio y un riesgo real si se inhalan",
+          "Frotar con fuerza al limpiar la zona",
+          "Pañales demasiado ajustados, que aumentan la fricción y la humedad retenida"
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        p: [
+          "Si la irritación no mejora en dos o tres días con cuidados básicos, si aparecen ampollas, si la piel sangra, si hay fiebre, o si el patrón sugiere una infección que necesita tratamiento específico, es momento de una evaluación con el pediatra o dermatólogo."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La dermatitis del pañal significa que algo anda mal con la piel de mi bebé?",
+        a: "No. Es una de las condiciones más comunes y esperables en los primeros meses de vida, relacionada con el contacto prolongado con humedad, no con un problema de fondo en la piel."
+      },
+      {
+        q: "¿Debo cambiar de marca de pañal si le sale irritación?",
+        a: "No siempre es necesario; primero intenta cambiar el pañal con más frecuencia y usar una crema de barrera. Si la irritación persiste, coméntalo en la consulta antes de probar varias marcas distintas."
+      },
+      {
+        q: "¿El talco ayuda a mantener la piel seca?",
+        a: "No se recomienda: tiene poca evidencia de beneficio real y existe el riesgo de que el bebé lo inhale, lo cual sí es un riesgo conocido."
+      },
+      {
+        q: "¿Cómo sé si es un hongo y no solo irritación?",
+        a: "El patrón suele ser distinto: un enrojecimiento más intenso y con pequeñas lesiones alrededor de la zona principal. Ante la duda, una evaluación confirma el diagnóstico y ajusta el tratamiento."
+      }
+    ],
+    relatedArticles: [],
+    references: [
+      { label: "Klunk C, et al. An update on diaper dermatitis. Clin Dermatol. 2014. PMID 25017459.", url: "https://pubmed.ncbi.nlm.nih.gov/25017459/" },
+      { label: "Ravanfar P, et al. Diaper dermatitis: a review and update. Curr Opin Pediatr. 2012. PMID 22790100.", url: "https://pubmed.ncbi.nlm.nih.gov/22790100/" }
+    ]
+  },
+  {
+    slug: "varicela-en-ninos-cuidado-de-la-piel",
+    title: "Varicela en niños: cuidado de la piel durante el brote",
+    excerpt:
+      "La varicela sigue siendo una enfermedad frecuente en la infancia, y el cuidado de la piel durante el brote es una de las principales preocupaciones de los padres. Esto es lo que conviene saber.",
+    seoTitle: "Varicela en Niños: Cuidado de la Piel | Dra. Karla Andrade",
+    seoDescription:
+      "¿Cómo cuidar la piel de un niño con varicela? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica la evolución del sarpullido y las señales de alarma.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 5,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    lead:
+      "La varicela sigue siendo una enfermedad frecuente en la infancia, y el cuidado de la piel durante el brote es una de las principales preocupaciones de los padres. Esto es lo que conviene saber.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Es una infección viral causada por el virus varicela-zóster, altamente contagiosa, que produce un sarpullido característico con ampollas pequeñas que evolucionan por etapas en el transcurso de varios días."
+        ]
+      },
+      {
+        h: "Cómo evoluciona el sarpullido",
+        p: [
+          "Pasa por etapas: primero manchas rojas, que se convierten en ampollas pequeñas con líquido claro, que luego se opacan y forman costra. Esto ocurre en oleadas sucesivas, por lo que es normal ver lesiones en distintas etapas al mismo tiempo en un mismo niño."
+        ]
+      },
+      {
+        h: "Por qué no hay que rascar",
+        p: [
+          "Romper las ampollas al rascarlas aumenta el riesgo de infección bacteriana de la piel, que es la complicación cutánea más frecuente de la varicela, y también aumenta el riesgo de que queden cicatrices permanentes."
+        ]
+      },
+      {
+        h: "Qué ayuda con la picazón",
+        list: [
+          "Mantener las uñas del niño cortas",
+          "Baños tibios, no calientes",
+          "Loción de calamina u otro producto indicado por el pediatra",
+          "Ropa suelta y de algodón, que roce lo menos posible la piel"
+        ]
+      },
+      {
+        h: "Señales de alarma en la piel",
+        p: [
+          "Zonas muy rojas, calientes, hinchadas o con pus —que sugieren una infección bacteriana sobreañadida—, fiebre alta persistente, o lesiones muy extensas acompañadas de mal estado general, ameritan una evaluación médica pronto, no esperar a que el brote termine solo."
+        ]
+      },
+      {
+        h: "Sobre las cicatrices",
+        p: [
+          "El riesgo de que quede una cicatriz permanente aumenta mucho si las lesiones se rascan o se infectan. El cuidado adecuado durante el brote —evitar el rascado, mantener la piel limpia— es lo que más influye en evitarlas, más que cualquier producto aplicado después."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Es normal que mi hijo tenga ampollas nuevas varios días después de empezar?",
+        a: "Sí, es parte del curso normal de la enfermedad: las lesiones aparecen en oleadas durante varios días antes de que el brote se detenga."
+      },
+      {
+        q: "¿Debo reventar las ampollas para que se sequen más rápido?",
+        a: "No, nunca. Romperlas aumenta el riesgo de infección y de cicatrices; es mejor dejar que seque de forma natural."
+      },
+      {
+        q: "¿Cuánto dura el período de contagio?",
+        a: "Generalmente es contagiosa desde un poco antes de que aparezca el sarpullido hasta que todas las lesiones han formado costra. Tu pediatra puede darte el plazo exacto según la evolución de tu hijo."
+      },
+      {
+        q: "¿Cuándo debo llevar a mi hijo a emergencias por la varicela?",
+        a: "Si hay signos de infección bacteriana en la piel, fiebre alta persistente, dificultad para respirar, o cualquier síntoma que te preocupe más allá del sarpullido típico."
+      }
+    ],
+    relatedArticles: ["molusco-contagioso-en-ninos"],
+    references: [
+      { label: "Bozzola E, et al. Varicella skin complications in childhood: a case series and a systematic review of the literature. Int J Mol Sci. 2016.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4881514/" }
+    ]
+  },
+  {
+    slug: "molusco-contagioso-en-ninos",
+    title: "Molusco contagioso en niños: ¿tratar o esperar?",
+    excerpt:
+      "El molusco contagioso es una de las infecciones de piel más frecuentes en niños, y también una de las que genera más dudas sobre si tratarla o simplemente esperar. Esto es lo que conviene saber.",
+    seoTitle: "Molusco Contagioso en Niños Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Cómo tratar el molusco contagioso en niños? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica cuándo observar y cuándo tratar activamente.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 5,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    lead:
+      "El molusco contagioso es una de las infecciones de piel más frecuentes en niños, y también una de las que genera más dudas sobre si tratarla o simplemente esperar. Esto es lo que conviene saber.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Es una infección viral de la piel, causada por un poxvirus, que produce pequeñas pápulas —bultos— con un característico hoyuelo central, generalmente indoloras."
+        ]
+      },
+      {
+        h: "Cómo se contagia",
+        p: [
+          "Por contacto directo piel con piel, o a través de superficies y objetos contaminados, como toallas o juguetes de baño. También puede diseminarse dentro de la propia piel del niño si se rasca las lesiones."
+        ]
+      },
+      {
+        h: "Es benigno y, en la mayoría de los casos, se resuelve solo",
+        p: [
+          "En niños sanos, el molusco contagioso suele desaparecer por sí solo con el tiempo, aunque el proceso puede ser bastante largo: incluso un año o más en algunos casos."
+        ]
+      },
+      {
+        h: "Por qué existe debate entre tratar o esperar",
+        p: [
+          "La evidencia disponible no muestra que ningún tratamiento sea claramente superior a la observación en niños sanos. La decisión de tratar o esperar depende de cuántas lesiones hay, en qué zona están, si generan molestia, y la preferencia de cada familia, más que de una regla única válida para todos los casos."
+        ]
+      },
+      {
+        h: "Opciones si se decide tratar",
+        p: [
+          "El curetaje (raspado) en consulta y la cantaridina (un producto que se aplica en el consultorio) son de las opciones más estudiadas. Cada una tiene sus ventajas y molestias asociadas, que conviene conversar según la edad y tolerancia del niño."
+        ]
+      },
+      {
+        h: "Qué hacer mientras tanto",
+        p: [
+          "Evitar que el niño se rasque, para no diseminar las lesiones a otras zonas de su propia piel, no compartir toallas, y tener paciencia, porque es un proceso que naturalmente lleva tiempo."
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        p: [
+          "Si las lesiones se inflaman mucho, si aparecen muchas y se extienden rápidamente, o si existe duda real sobre el diagnóstico, vale la pena una evaluación dermatológica."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Es grave que mi hijo tenga molusco contagioso?",
+        a: "No. Es una infección benigna que, en niños sanos, suele resolverse sola con el tiempo, aunque el proceso puede tardar meses."
+      },
+      {
+        q: "¿Debo aislar a mi hijo de otros niños?",
+        a: "No es necesario aislarlo por completo, pero evitar compartir toallas y fomentar que no se rasque ayuda a reducir el contagio a otros niños y a otras zonas de su propia piel."
+      },
+      {
+        q: "¿El tratamiento duele?",
+        a: "Algunas opciones, como el curetaje, pueden generar molestia breve. Existen alternativas menos incómodas; coméntalo con tu dermatólogo según la edad y tolerancia de tu hijo."
+      },
+      {
+        q: "¿Si no lo trato, puede empeorar?",
+        a: "Puede extenderse a más zonas de la piel del niño mientras el sistema inmune lo controla, pero no suele representar un riesgo grave de salud en niños sanos."
+      }
+    ],
+    relatedArticles: ["verrugas-en-ninos-cuando-preocuparse", "varicela-en-ninos-cuidado-de-la-piel"],
+    references: [
+      { label: "van der Wouden JC, et al. Interventions for cutaneous molluscum contagiosum. Cochrane Database Syst Rev. 2017. PMID 28513067.", url: "https://pubmed.ncbi.nlm.nih.gov/28513067/" },
+      { label: "Leung AKC, et al. Molluscum contagiosum: an update. Recent Pat Inflamm Allergy Drug Discov. 2017. PMID 28521677.", url: "https://pubmed.ncbi.nlm.nih.gov/28521677/" }
+    ]
+  },
+  {
+    slug: "manchas-de-nacimiento-cuando-preocuparse",
+    title: "Manchas de nacimiento: cuándo preocuparse",
+    excerpt:
+      "Encontrar una marca en la piel de tu bebé al nacer, o que aparezca en los primeros meses, es motivo frecuente de consulta. Esto es lo que suelen ser, y qué características ameritan una evaluación más cercana.",
+    seoTitle: "Manchas de Nacimiento en Bebés Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Cuándo preocuparse por una mancha de nacimiento? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica hemangiomas, manchas café con leche y más.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    lead:
+      "Encontrar una mancha en la piel de tu bebé al nacer, o que aparezca en los primeros meses, es motivo frecuente de consulta. Esto es lo que suelen ser, y qué características ameritan una evaluación más cercana.",
+    sections: [
+      {
+        h: "Qué tan frecuentes son",
+        p: [
+          "Muy frecuentes: la mayoría de los bebés tiene alguna marca de nacimiento, y la gran mayoría de estas marcas son completamente benignas y no requieren ningún tratamiento."
+        ]
+      },
+      {
+        h: "Manchas café con leche",
+        p: [
+          "Son manchas planas, de color marrón claro uniforme. Tener una o dos es común y, en general, no amerita preocupación. Tener varias —seis o más— sí es una señal que amerita evaluación, porque puede asociarse a ciertas condiciones genéticas que conviene descartar con un especialista."
+        ]
+      },
+      {
+        h: "Hemangiomas infantiles",
+        p: [
+          "Son acumulaciones de vasos sanguíneos que típicamente no son muy visibles al nacer, pero crecen durante las primeras semanas o meses de vida, antes de empezar a desaparecer gradualmente por cuenta propia en la mayoría de los casos, a lo largo de los primeros años."
+        ]
+      },
+      {
+        h: "Cuándo un hemangioma amerita evaluación más urgente",
+        list: [
+          "Si crece muy rápido en poco tiempo",
+          "Si está cerca de los ojos, la vía aérea, u otras zonas funcionalmente delicadas",
+          "Si se ulcera, es decir, se abre una herida en su superficie",
+          "Si aparecen varios hemangiomas a la vez"
+        ]
+      },
+      {
+        h: "Manchas vasculares planas",
+        p: [
+          "Las manchas salmón —a veces llamadas coloquialmente 'beso de ángel' o 'pico de cigüeña', según la zona— son muy frecuentes y generalmente se desvanecen solas durante los primeros años de vida, sobre todo las ubicadas en los párpados o la nuca."
+        ]
+      },
+      {
+        h: "Por qué la evaluación temprana importa en casos con señales de alarma",
+        p: [
+          "Algunos hemangiomas que requieren tratamiento —como con propranolol, según las guías pediátricas actuales— tienen una ventana de oportunidad en la que el tratamiento es más efectivo. Por eso, ante cualquier señal de alarma, no conviene simplemente 'esperar a ver qué pasa': una evaluación oportuna amplía las opciones disponibles."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Las manchas café con leche son peligrosas?",
+        a: "Una o dos, aisladas, generalmente no lo son. Varias manchas café con leche sí ameritan evaluación, porque pueden asociarse a ciertas condiciones genéticas."
+      },
+      {
+        q: "¿Todos los hemangiomas necesitan tratamiento?",
+        a: "No, muchos se resuelven solos sin necesidad de tratamiento. El tratamiento se reserva para los que tienen señales de alarma o ubicaciones de riesgo."
+      },
+      {
+        q: "¿La mancha salmón de mi bebé desaparecerá?",
+        a: "En la mayoría de los casos sí, de forma gradual durante los primeros años de vida, sobre todo si está en párpados o nuca."
+      },
+      {
+        q: "¿Cuándo debo llevar a mi bebé a un dermatólogo por una marca de nacimiento?",
+        a: "Si crece muy rápido, está en una zona delicada como cerca de los ojos, se abre una herida en su superficie, o si tienes cualquier duda que te preocupe."
+      }
+    ],
+    relatedArticles: [],
+    references: [
+      { label: "Krowchuk DP, et al. Clinical practice guideline for the management of infantile hemangiomas. Pediatrics. 2019.", url: "https://doi.org/10.1542/peds.2018-3475" },
+      { label: "Drolet BA, et al. Initiation and use of propranolol for infantile hemangioma. Pediatrics. 2013. PMID 23266923.", url: "https://pubmed.ncbi.nlm.nih.gov/23266923/" }
+    ]
+  },
+  {
+    slug: "alopecia-areata-que-es-y-tratamientos",
+    title: "Alopecia areata: qué es y qué tratamientos existen",
+    excerpt:
+      "La alopecia areata es una de las causas de caída de cabello que más angustia genera, por lo repentina e impredecible que puede ser. Esto es lo que la causa, y qué opciones de tratamiento existen hoy.",
+    seoTitle: "Alopecia Areata en Machala: Tratamientos | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es la alopecia areata y qué tratamientos existen? La Dra. Karla Andrade, dermatóloga en Machala, explica sus causas y los avances recientes en tratamiento.",
+    category: "Tricología",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 7,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    lead:
+      "La alopecia areata es una de las causas de caída de cabello que más angustia genera, por lo repentina e impredecible que puede ser. Esto es lo que la causa, y qué opciones de tratamiento existen hoy, incluyendo avances recientes.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Es la pérdida de cabello en parches, generalmente redondeados, de origen autoinmune: el sistema inmune ataca por error a los folículos pilosos, sin destruirlos de forma permanente en la mayoría de los casos."
+        ]
+      },
+      {
+        h: "Por qué es tan impredecible",
+        p: [
+          "Su curso varía muchísimo de una persona a otra: algunos casos se resuelven solos en meses, otros persisten o recurren con el tiempo, y en una minoría puede progresar hacia una pérdida más extensa, incluso de todo el cuero cabelludo o de todo el cuerpo en los casos más severos."
+        ]
+      },
+      {
+        h: "No es solo por estrés, aunque puede ser un desencadenante",
+        p: [
+          "Como en otras condiciones autoinmunes, existe una predisposición genética de base. El estrés puede actuar como gatillo en algunas personas, pero no es 'la causa' en el sentido de que manejarlo sea suficiente para resolver la condición por sí solo."
+        ]
+      },
+      {
+        h: "Tratamientos tradicionales",
+        p: [
+          "Incluyen corticoides —inyectados directamente en el cuero cabelludo, tópicos u orales según el caso— e inmunoterapia tópica en casos más extensos, buscando modular la respuesta inmune local."
+        ]
+      },
+      {
+        h: "El avance más reciente: inhibidores de JAK",
+        p: [
+          "Es una familia de medicamentos que ha mostrado, en varios estudios, tasas de respuesta más altas que las opciones previas, incluyendo mejoría significativa del cuero cabelludo afectado en una proporción relevante de pacientes tratados. No están exentos de posibles efectos adversos, y en general requieren mantenerse en el tiempo, porque la tasa de recaída al suspenderlos es alta."
+        ]
+      },
+      {
+        h: "Por qué el tratamiento se decide caso por caso",
+        p: [
+          "La extensión de la pérdida, el tiempo de evolución, la edad del paciente y la respuesta a tratamientos previos influyen en qué opción tiene más sentido para cada persona. No existe un protocolo único aplicable a todos los casos."
+        ]
+      },
+      {
+        h: "El impacto emocional",
+        p: [
+          "Al igual que el vitíligo, es una condición muy visible que puede afectar de forma significativa la autoestima. El apoyo psicológico, cuando hace falta, es parte legítima del manejo integral, no un aspecto secundario al tratamiento médico de la piel."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La alopecia areata se cura?",
+        a: "No hay garantía de cura definitiva, pero muchos casos se resuelven solos o responden bien al tratamiento. El curso es muy variable entre personas."
+      },
+      {
+        q: "¿El cabello vuelve a crecer igual que antes?",
+        a: "En muchos casos sí, total o parcialmente, aunque puede recurrir con el tiempo. La evolución depende de cada caso particular."
+      },
+      {
+        q: "¿Los inhibidores de JAK son seguros?",
+        a: "Son considerados generalmente seguros bajo supervisión médica, aunque como todo medicamento tienen posibles efectos adversos que deben explicarse antes de iniciar el tratamiento."
+      },
+      {
+        q: "¿Debo dejar de tratarme si el tratamiento no funciona de inmediato?",
+        a: "No necesariamente. Varios tratamientos para alopecia areata necesitan semanas o meses para mostrar resultado; esto debe conversarse con tu dermatólogo antes de suspender algo por cuenta propia."
+      }
+    ],
+    relatedArticles: ["que-tratamiento-capilar-necesito-segun-mi-alopecia"],
+    references: [
+      { label: "The evaluation of JAK inhibitors on effect and safety in alopecia areata: a systematic review and meta-analysis of 2018 patients.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10272608/" }
+    ]
+  },
+  {
+    slug: "hiperhidrosis-tratamiento-con-toxina-botulinica",
+    title: "Hiperhidrosis: cómo la toxina botulínica trata la sudoración excesiva",
+    excerpt:
+      "La hiperhidrosis puede afectar significativamente la vida diaria. Esto es lo que la causa, y cómo la toxina botulínica se volvió una de las opciones de tratamiento más efectivas.",
+    seoTitle: "Hiperhidrosis en Machala: Tratamiento con Botox | Dra. Karla Andrade",
+    seoDescription:
+      "¿Cómo se trata la hiperhidrosis (sudoración excesiva)? La Dra. Karla Andrade, dermatóloga en Machala, explica cómo la toxina botulínica reduce la sudoración.",
+    category: "Aparatología",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "medicina-estetica",
+    lead:
+      "La hiperhidrosis —sudoración excesiva, más allá de lo que el cuerpo necesita para regular su temperatura— puede afectar significativamente la vida diaria. Esto es lo que la causa, y cómo la toxina botulínica se volvió una de las opciones de tratamiento más efectivas.",
+    sections: [
+      {
+        h: "Qué es",
+        p: [
+          "Es la sudoración excesiva en zonas específicas —axilas, palmas, plantas, a veces cara o cuero cabelludo— más allá de lo necesario para regular la temperatura corporal, que puede presentarse incluso sin calor, ejercicio, ni ansiedad de por medio."
+        ]
+      },
+      {
+        h: "Primaria vs. secundaria",
+        p: [
+          "La forma primaria no tiene una causa médica de fondo identificable, es la más común, y suele comenzar en la infancia o la adolescencia. La forma secundaria es causada por otra condición o por algún medicamento, por lo que la evaluación inicial busca descartar causas de fondo cuando el patrón no es el típico."
+        ]
+      },
+      {
+        h: "Por qué afecta tanto la vida diaria",
+        p: [
+          "Más allá de la incomodidad física, genera un impacto social y emocional significativo: evitar saludar de mano, limitar el tipo de ropa, ansiedad en situaciones sociales. Por eso se considera una condición médica real que amerita tratamiento, no solo una molestia estética."
+        ]
+      },
+      {
+        h: "Cómo actúa la toxina botulínica",
+        p: [
+          "Bloquea la señal nerviosa que activa las glándulas sudoríparas en la zona tratada, reduciendo la sudoración de forma marcada en la mayoría de los pacientes."
+        ]
+      },
+      {
+        h: "Qué esperar del tratamiento",
+        p: [
+          "El efecto no es permanente: dura generalmente varios meses, por lo que requiere sesiones de mantenimiento periódicas. Se considera una alternativa efectiva cuando los antitranspirantes con sales de aluminio en concentración alta no son suficientes para controlar el problema."
+        ]
+      },
+      {
+        h: "Otras opciones, según el caso",
+        p: [
+          "Desde antitranspirantes de mayor concentración, hasta, en casos seleccionados, otros procedimientos más invasivos, reservados para cuando las opciones anteriores no logran un control adecuado."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La toxina botulínica para hiperhidrosis duele?",
+        a: "Genera molestias mínimas, similares a otras aplicaciones de toxina botulínica; en zonas sensibles como las palmas puede usarse anestesia tópica previa."
+      },
+      {
+        q: "¿Cuánto dura el efecto?",
+        a: "Generalmente varios meses, por lo que se requieren sesiones de mantenimiento periódicas para sostener el resultado."
+      },
+      {
+        q: "¿Sirve para cualquier grado de sudoración excesiva?",
+        a: "Es efectiva en la mayoría de los casos de hiperhidrosis primaria, pero la indicación y la zona a tratar deben evaluarse de forma individual."
+      },
+      {
+        q: "¿Debo descartar otras causas antes de tratarla?",
+        a: "Si el patrón de sudoración no es el típico de la hiperhidrosis primaria, tu médico puede evaluar si existe una causa secundaria antes de definir el tratamiento."
+      }
+    ],
+    relatedArticles: ["botox-en-el-masetero-para-que-sirve"],
+    references: [
+      { label: "Botulinum toxin for hyperhidrosis: a review. Am J Clin Dermatol. 2009. PMID 19222249.", url: "https://pubmed.ncbi.nlm.nih.gov/19222249/" }
+    ]
+  },
+  {
+    slug: "estrias-tratamientos-que-funcionan",
+    title: "Estrías: qué tratamientos realmente funcionan",
+    excerpt:
+      "Las estrías son una de las preocupaciones de piel más comunes, y también una de las que más productos milagrosos promete resolver. Esto es lo que realmente dice la evidencia sobre qué funciona, y qué no.",
+    seoTitle: "Estrías: ¿Qué Tratamientos Funcionan? | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué tratamientos funcionan realmente para las estrías? La Dra. Karla Andrade, dermatóloga en Machala, explica qué dice la evidencia científica sobre su tratamiento.",
+    category: "Aparatología",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "medicina-estetica",
+    lead:
+      "Las estrías son una de las preocupaciones de piel más comunes, y también una de las que más productos milagrosos promete resolver. Esto es lo que realmente dice la evidencia sobre qué funciona, y qué no.",
+    sections: [
+      {
+        h: "Qué son",
+        p: [
+          "Son líneas en la piel que aparecen cuando esta se estira de forma relativamente rápida —durante el crecimiento, el embarazo, o cambios de peso—, superando la capacidad de las fibras de colágeno y elastina de adaptarse a ese cambio. El resultado es una especie de cicatriz interna, visible en la superficie."
+        ]
+      },
+      {
+        h: "Por qué cambian de aspecto con el tiempo",
+        p: [
+          "Inicialmente suelen verse rojizas o moradas —las llamadas estrías 'activas'—, y con el tiempo se aclaran hasta verse blanquecinas o plateadas —estrías 'maduras'—. Esto importa en la práctica, porque el momento en que se tratan influye en la respuesta al tratamiento."
+        ]
+      },
+      {
+        h: "Por qué la prevención total no es realista",
+        p: [
+          "Pese a lo que promete buena parte de la publicidad de cremas 'anti-estrías', no existe evidencia sólida de que los productos tópicos las prevengan de forma confiable cuando el estiramiento de la piel es significativo, como en el embarazo. La predisposición genética también influye mucho, independientemente de los cuidados que se apliquen."
+        ]
+      },
+      {
+        h: "Qué tiene algo de evidencia para mejorarlas",
+        p: [
+          "En la fase inicial roja, ciertos tratamientos como el láser vascular pueden ayudar más que en la fase blanca ya establecida. Para las estrías ya maduras, algunos láseres fraccionados y el microneedling muestran una mejoría parcial de su apariencia en varios estudios, aunque la evidencia en conjunto sigue siendo limitada."
+        ]
+      },
+      {
+        h: "Expectativas realistas",
+        p: [
+          "Ningún tratamiento disponible las elimina por completo. El objetivo realista es una mejoría de su apariencia, no un borrado total, de forma similar a lo que explicamos en nuestro artículo sobre cicatrices de acné."
+        ]
+      },
+      {
+        h: "Por qué conviene una evaluación antes de invertir en tratamientos",
+        p: [
+          "El tipo de estría —activa o madura—, tu tipo de piel, y la zona afectada determinan qué opción tiene sentido, si alguna, para tu caso particular. Invertir en un tratamiento sin esa evaluación previa suele llevar a expectativas y resultados desalineados."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Las cremas para estrías realmente funcionan?",
+        a: "La evidencia de que prevengan las estrías de forma confiable es limitada, sobre todo cuando el estiramiento de la piel es significativo, como en el embarazo."
+      },
+      {
+        q: "¿Es mejor tratar las estrías rojas o esperar a que se vuelvan blancas?",
+        a: "En general, la fase roja responde mejor a ciertos tratamientos, como el láser vascular, que la fase blanca ya establecida."
+      },
+      {
+        q: "¿El láser elimina las estrías por completo?",
+        a: "No. Los tratamientos disponibles mejoran su apariencia, pero no las eliminan por completo. Es importante partir de expectativas realistas."
+      },
+      {
+        q: "¿Las estrías del embarazo se pueden prevenir con cuidados?",
+        a: "Los cuidados de la piel ayudan a mantenerla en buenas condiciones, pero no hay evidencia sólida de que prevengan las estrías de forma confiable cuando el estiramiento es significativo."
+      }
+    ],
+    relatedArticles: ["el-acne-deja-cicatrices-se-pueden-eliminar", "laser-co2-fraccionado-que-es"],
+    references: [
+      { label: "A narrative review of current striae treatments. Healthcare. 2022. PMID 36554088.", url: "https://pubmed.ncbi.nlm.nih.gov/36554088/" },
+      { label: "Striae distensae: a comprehensive review and evidence-based evaluation of prophylaxis and treatment. 2013. PMID 24125059.", url: "https://pubmed.ncbi.nlm.nih.gov/24125059/" }
+    ]
+  },
+  {
+    slug: "celulitis-piel-de-naranja-tratamientos",
+    title: "Celulitis (piel de naranja): por qué aparece y qué tratamientos ayudan",
+    excerpt:
+      "La celulitis estética es una de las preocupaciones más comunes, y también de las más rodeadas de promesas poco realistas. Esto es lo que realmente la causa, y qué tratamientos tienen algo de respaldo.",
+    seoTitle: "Celulitis (Piel de Naranja): Tratamientos | Dra. Karla Andrade",
+    seoDescription:
+      "¿Por qué aparece la celulitis y qué tratamientos ayudan? La Dra. Karla Andrade, dermatóloga en Machala, explica qué dice la evidencia sobre su causa y tratamiento.",
+    category: "Aparatología",
+    datePublished: "2026-10-13",
+    dateModified: "2026-10-13",
+    readingMin: 6,
+    relatedEspecialidad: "medicina-estetica",
+    lead:
+      "La celulitis —la 'piel de naranja' en muslos y glúteos, no la infección bacteriana que comparte el nombre— es una de las preocupaciones estéticas más comunes, y también de las más rodeadas de promesas poco realistas. Esto es lo que realmente la causa, y qué tratamientos tienen algo de respaldo.",
+    sections: [
+      {
+        h: "Aclaremos el nombre primero",
+        p: [
+          "En medicina estética, 'celulitis' se refiere a la apariencia irregular, tipo piel de naranja, de la piel en ciertas zonas. No tiene relación con la celulitis infecciosa, una infección bacteriana de la piel que es una condición médica completamente distinta y no se trata en este artículo."
+        ]
+      },
+      {
+        h: "Por qué aparece",
+        p: [
+          "Las revisiones más recientes apuntan a que el origen principal está en los tabiques fibrosos que conectan la piel con las capas más profundas: cuando estos tabiques tiran de la piel de forma irregular mientras el tejido graso se expande entre ellos, se genera la apariencia ondulada característica, más que un problema del tejido graso en sí mismo."
+        ]
+      },
+      {
+        h: "No es exclusiva del sobrepeso",
+        p: [
+          "Afecta a personas de todos los tipos de cuerpo, incluidas muchas con un peso dentro de rangos considerados saludables. La predisposición genética y hormonal influye más de lo que suele pensarse."
+        ]
+      },
+      {
+        h: "Por qué es tan difícil de tratar de forma duradera",
+        p: [
+          "Al estar relacionada con una estructura fibrosa fija —los tabiques—, los tratamientos que no abordan directamente esa estructura tienden a dar resultados poco duraderos o inconsistentes entre una persona y otra."
+        ]
+      },
+      {
+        h: "Qué opciones tienen más evidencia",
+        p: [
+          "Los enfoques que actúan directamente sobre los tabiques fibrosos, como la subcisión —un procedimiento que libera mecánicamente esas bandas—, muestran resultados más consistentes en las revisiones recientes que los tratamientos puramente tópicos o superficiales. Las terapias con láser, luz y radiofrecuencia tienen un buen perfil de seguridad, aunque usadas solas, sus resultados suelen ser más modestos."
+        ]
+      },
+      {
+        h: "Por qué casi siempre se combina más de un enfoque",
+        p: [
+          "Dada la variabilidad de resultados de cualquier técnica usada por sí sola, las revisiones sugieren que combinar métodos suele dar mejores resultados que depender de uno solo."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La celulitis solo le da a personas con sobrepeso?",
+        a: "No. Afecta a personas de todos los tipos de cuerpo, incluidas muchas con peso saludable; la predisposición genética y hormonal influye mucho."
+      },
+      {
+        q: "¿Las cremas reductoras eliminan la celulitis?",
+        a: "No hay evidencia sólida de que los tratamientos tópicos por sí solos la eliminen, porque el origen principal está en una estructura fibrosa más profunda que una crema no alcanza a modificar."
+      },
+      {
+        q: "¿Cuál es el mejor tratamiento para la celulitis?",
+        a: "No existe un tratamiento único superior para todos los casos; las revisiones sugieren que combinar métodos suele dar mejores resultados que usar uno solo, según cada caso."
+      },
+      {
+        q: "¿Hacer ejercicio elimina la celulitis?",
+        a: "El ejercicio mejora la salud general de la piel y el tono muscular, pero no modifica directamente los tabiques fibrosos que generan la apariencia característica de la celulitis."
+      }
+    ],
+    relatedArticles: ["estrias-tratamientos-que-funcionan"],
+    references: [
+      { label: "Bass LS, Kaminer MS. Insights into the pathophysiology of cellulite: a review. Dermatol Surg. 2020. PMID 32976174.", url: "https://pubmed.ncbi.nlm.nih.gov/32976174/" }
+    ]
   }
 ];
 
