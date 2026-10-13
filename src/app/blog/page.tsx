@@ -42,15 +42,18 @@ const categoryColor: Record<string, string> = {
 // Dentro de "Dermatología clínica" hay demasiados artículos para una sola grilla
 // (acné/isotretinoína, láser y el resto): los separamos en sub-bloques con su
 // propio título dentro de la categoría, sin tocar los datos de cada artículo.
-function subGroups(category: string, items: Article[]): { label: string | null; items: Article[] }[] {
-  if (category !== "Dermatología clínica") return [{ label: null, items }];
+// `tag` es el texto corto que se agrega a la etiqueta de cada tarjeta (ej. "Dermatología
+// clínica · Acné"), para que se entienda el tema aunque el título use un término técnico
+// como "isotretinoína" que el lector no reconozca de entrada.
+function subGroups(category: string, items: Article[]): { label: string | null; tag: string | null; items: Article[] }[] {
+  if (category !== "Dermatología clínica") return [{ label: null, tag: null, items }];
   const acne = items.filter((a) => a.slug.includes("acne") || a.slug.includes("isotretinoina"));
   const laser = items.filter((a) => !acne.includes(a) && a.slug.includes("laser"));
   const rest = items.filter((a) => !acne.includes(a) && !laser.includes(a));
-  const out: { label: string | null; items: Article[] }[] = [];
-  if (acne.length) out.push({ label: "Acné e isotretinoína", items: acne });
-  if (laser.length) out.push({ label: "Láser y procedimientos", items: laser });
-  if (rest.length) out.push({ label: "Otras consultas frecuentes", items: rest });
+  const out: { label: string | null; tag: string | null; items: Article[] }[] = [];
+  if (acne.length) out.push({ label: "Acné e isotretinoína", tag: "Acné", items: acne });
+  if (laser.length) out.push({ label: "Láser y procedimientos", tag: "Láser", items: laser });
+  if (rest.length) out.push({ label: "Otras consultas frecuentes", tag: null, items: rest });
   return out;
 }
 
@@ -109,7 +112,10 @@ export default function BlogHub() {
                           href={`/blog/${a.slug}`}
                           style={{ ["--card-accent" as string]: categoryColor[a.category] ?? "var(--dorado)" }}
                         >
-                          <span className="cat">{categoryLabel[a.category] ?? a.category}</span>
+                          <span className="cat">
+                            {categoryLabel[a.category] ?? a.category}
+                            {g.tag ? ` · ${g.tag}` : ""}
+                          </span>
                           <h2>{a.title}</h2>
                           <p>{a.excerpt}</p>
                           <div className="meta">

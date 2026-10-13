@@ -3721,6 +3721,296 @@ export const articles: Article[] = [
       { label: "Dermoscopic structures for diagnosing melanoma: a meta-analysis. JAMA Dermatol. 2021. PMID 34347005.", url: "https://pubmed.ncbi.nlm.nih.gov/34347005/" },
       { label: "Dellavalle RP, et al. Cochrane review: dermoscopy versus visual inspection for diagnosing skin cancer in adults. 2018.", url: "https://www.cochrane.org/evidence/CD011902_how-accurate-dermoscopy-compared-visual-inspection-skin-diagnosing-skin-cancer-melanoma-adults" }
     ]
+  },
+  {
+    slug: "botox-en-el-masetero-para-que-sirve",
+    title: "Botox en el masetero: para qué sirve y qué esperar",
+    excerpt:
+      "La toxina botulínica en el masetero se usa tanto para afinar el contorno del rostro como para aliviar el bruxismo. Esto es lo que hace, cómo funciona y qué resultados son realistas.",
+    seoTitle: "Botox en el Masetero en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Para qué sirve el Botox en el masetero? La Dra. Karla Andrade, dermatóloga en Machala, explica sus usos estético y terapéutico, y qué resultados esperar.",
+    category: "Aparatología",
+    datePublished: "2026-10-12",
+    dateModified: "2026-10-12",
+    readingMin: 6,
+    relatedEspecialidad: "medicina-estetica",
+    lead:
+      "El Botox en el masetero es uno de los procedimientos de medicina estética más pedidos, aunque muchas personas no saben que también tiene un uso terapéutico, más allá de lo cosmético. Esto es lo que hace realmente, para qué sirve, y qué resultados es razonable esperar.",
+    sections: [
+      {
+        h: "Qué es el masetero y por qué se trata",
+        p: [
+          "El masetero es uno de los principales músculos de la masticación, ubicado a los lados de la mandíbula. Cuando está hipertrofiado —agrandado, por lo general debido a apretar los dientes o rechinarlos de forma crónica— puede dar al rostro un aspecto más cuadrado o ancho en la zona inferior, y en algunos casos asociarse a dolor mandibular o dolor de cabeza."
+        ]
+      },
+      {
+        h: "Dos motivos distintos para tratarlo",
+        list: [
+          "Motivo estético: afinar el contorno del rostro en la zona mandibular, buscando un óvalo facial más definido",
+          "Motivo terapéutico: aliviar la tensión y el dolor asociados al bruxismo —apretar o rechinar los dientes—, cuando el masetero está crónicamente sobrecargado"
+        ]
+      },
+      {
+        p: [
+          "Ambos motivos son válidos y pueden coexistir en la misma persona, pero conviene tenerlos claros porque definen expectativas distintas: quien busca solo alivio del bruxismo no necesariamente busca, ni necesita, un cambio visible en el contorno facial."
+        ]
+      },
+      {
+        h: "Cómo actúa",
+        p: [
+          "La toxina botulínica relaja el músculo al bloquear temporalmente la señal nerviosa que provoca su contracción. Con el masetero, el efecto va más allá del alivio inmediato de la tensión: al usarse menos intensamente durante varios meses, el músculo tiende a atrofiarse parcialmente, lo que reduce su volumen. Por eso el cambio en el contorno del rostro no es inmediato, sino progresivo."
+        ]
+      },
+      {
+        h: "Qué tan rápido se ven los resultados",
+        p: [
+          "Este es uno de los puntos que más confunde a los pacientes: a diferencia de otras zonas donde el efecto estético se nota en días, en el masetero el afinamiento visible del rostro suele tomar entre dos y tres meses, y en algunos casos se consolida mejor después de dos o tres sesiones espaciadas. Esperar un cambio inmediato lleva a expectativas frustradas sobre un procedimiento que, en realidad, sí está funcionando."
+        ]
+      },
+      {
+        h: "Duración del efecto",
+        p: [
+          "El efecto no es permanente: tanto el alivio del bruxismo como el afinamiento del contorno tienden a revertirse gradualmente si no se repite el tratamiento, generalmente cada 6 a 12 meses según la respuesta individual."
+        ]
+      },
+      {
+        h: "Quién es candidato",
+        p: [
+          "No toda persona con un rostro de aspecto cuadrado necesita este procedimiento, ni todo bruxismo requiere toxina botulínica: hay casos donde otras intervenciones —como una férula dental, manejo del estrés, o fisioterapia— son más adecuadas, solas o combinadas. Determinar si el masetero es, realmente, la causa del dolor o del contorno que te preocupa, es parte de la evaluación."
+        ]
+      },
+      {
+        h: "Riesgos y qué evitar",
+        list: [
+          "Asimetría en la sonrisa, si la toxina migra a músculos cercanos",
+          "Dificultad para masticar alimentos duros, si la dosis es excesiva para tu caso",
+          "Resultado estético distinto al esperado, si la causa de fondo del contorno facial no era el masetero"
+        ]
+      },
+      {
+        p: [
+          "Estos riesgos son infrecuentes cuando el procedimiento lo realiza un profesional con experiencia y una dosis ajustada a cada paciente, pero existen, y deben explicarse antes del procedimiento, no después."
+        ]
+      },
+      {
+        h: "Qué dice la evidencia",
+        p: [
+          "Las revisiones disponibles describen el procedimiento como generalmente seguro, con efectos adversos poco frecuentes y en su mayoría temporales. Al mismo tiempo, señalan que todavía falta evidencia de ensayos clínicos grandes y bien diseñados sobre su eficacia a largo plazo, tanto para el bruxismo como para el afinamiento estético, por lo que buena parte del respaldo actual viene de la experiencia clínica acumulada más que de estudios controlados extensos."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿El Botox en el masetero duele?",
+        a: "Es un procedimiento con molestias mínimas, similar a otras aplicaciones de toxina botulínica; no suele requerir anestesia más que, en algunos casos, una crema tópica."
+      },
+      {
+        q: "¿Cuánto tarda en notarse el cambio en el rostro?",
+        a: "El afinamiento del contorno es progresivo, no inmediato: suele notarse con claridad entre los dos y tres meses posteriores al tratamiento."
+      },
+      {
+        q: "¿Sirve para cualquier tipo de bruxismo?",
+        a: "No necesariamente. Hay distintas causas y grados de bruxismo, y la evaluación determina si la toxina botulínica es la opción más adecuada o si conviene combinarla con otras medidas."
+      },
+      {
+        q: "¿El efecto es permanente?",
+        a: "No. Tanto el alivio del bruxismo como el afinamiento del rostro se revierten gradualmente con el tiempo, por lo que suele requerir sesiones de mantenimiento."
+      }
+    ],
+    relatedArticles: ["ipl-luz-pulsada-intensa-que-es", "plasma-pen-que-es-que-puede-hacer"],
+    references: [
+      { label: "The role of botulinum toxin for masseter muscle hypertrophy: a comprehensive review.", url: "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11860558/" },
+      { label: "Adverse effects of treating bruxism and masseter muscle hypertrophy with botulinum toxin injection — a literature review. Quality in Sport. 2024.", url: "https://doaj.org/article/8d9dcbb74a15443b9ee8f77fd6ee6cf5" }
+    ]
+  },
+  {
+    slug: "verrugas-en-ninos-cuando-preocuparse",
+    title: "Verrugas en niños: cuándo preocuparse y por qué consultar",
+    excerpt:
+      "Encontrar una verruga en la piel de tu hijo preocupa de inmediato, aunque casi nunca hay algo grave detrás. Esto es lo que son, por qué son tan frecuentes, y qué señales sí ameritan evaluación pronto.",
+    seoTitle: "Verrugas en Niños Machala: ¿Cuándo Preocuparse? | Dra. Karla Andrade",
+    seoDescription:
+      "¿Cuándo preocuparse por una verruga en un niño? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica las señales de alarma y el tratamiento.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-12",
+    dateModified: "2026-10-12",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    lead:
+      "Encontrar una verruga en la piel de tu hijo genera preocupación inmediata, aunque en la gran mayoría de los casos no hay nada grave detrás. Esto es lo que realmente son, por qué son tan frecuentes en la infancia, y qué señales sí ameritan una evaluación pronto.",
+    sections: [
+      {
+        h: "Qué son y por qué son tan frecuentes en niños",
+        p: [
+          "Las verrugas son causadas por el virus del papiloma humano (VPH), que infecta las capas superficiales de la piel. Son extremadamente frecuentes en la edad escolar —se estima que afectan entre el 30% y el 70% de los niños en algún momento— y se contagian por contacto directo con la piel o con superficies, favorecidas por pequeñas heridas o por la piel húmeda, como en piscinas o vestidores."
+        ]
+      },
+      {
+        h: "La buena noticia: la mayoría desaparece sola",
+        p: [
+          "Sin ningún tratamiento, una parte importante de las verrugas se resuelve por sí sola con el tiempo: aproximadamente un 30% desaparece en el primer año, y hasta un 60% en dos años, a medida que el sistema inmune del niño las controla. Esto no significa que nunca haya que tratarlas, pero sí explica por qué 'esperar y observar' es, en muchos casos, una estrategia razonable, no una negligencia."
+        ]
+      },
+      {
+        h: "Señales que sí ameritan una evaluación pronto",
+        list: [
+          "La verruga duele, sangra con facilidad, o crece rápidamente en poco tiempo",
+          "Cambia de forma o color de manera notoria",
+          "No responde a un tratamiento de venta libre después de varias semanas de uso constante",
+          "Se multiplica o se extiende rápidamente a otras zonas",
+          "El niño tiene una condición que afecta su sistema inmune, lo que puede hacer que las verrugas sean más persistentes o numerosas",
+          "Existe duda real sobre si realmente es una verruga, y no otra cosa que se le parece"
+        ]
+      },
+      {
+        h: "Por qué puede confundirse con otras lesiones",
+        p: [
+          "No toda lesión que parece una verruga lo es: el molusco contagioso, por ejemplo, es otra infección viral frecuente en niños, con un aspecto distinto pero que a veces se confunde. Una evaluación profesional, ante la duda, evita tratar algo por lo que no es."
+        ]
+      },
+      {
+        h: "Verrugas en el área genital: un caso distinto",
+        p: [
+          "Las verrugas en el área genital de un niño son poco frecuentes y siempre ameritan una evaluación cuidadosa por un profesional. Aunque pueden tener explicaciones no relacionadas con abuso —como el contacto con verrugas de otras partes del propio cuerpo del niño, o el contagio no sexual por otras vías—, es importante que un médico evalúe cada caso de forma individual, con la seriedad y el cuidado que amerita."
+        ]
+      },
+      {
+        h: "Tratamiento: con paciencia, no con prisa",
+        p: [
+          "Los tratamientos más usados y con mejor respaldo son el ácido salicílico, de aplicación tópica repetida durante varias semanas, y la crioterapia (congelamiento), aplicada en consulta. Ningún tratamiento es efectivo en una sola sesión: ambos requieren constancia, y combinarlos suele dar mejores resultados que usar uno solo. Es importante tener expectativas realistas desde el inicio, sobre todo en niños, para quienes el proceso puede ser incómodo."
+        ]
+      },
+      {
+        h: "Qué no hacer en casa",
+        p: [
+          "Cortar, arrancar o quemar una verruga por cuenta propia no es seguro: puede causar sangrado, infección, o diseminar el virus a otras zonas de la piel del niño. Si vas a intentar un tratamiento de venta libre, hazlo con un producto pensado para ese fin y, ante cualquier duda, consulta antes de intentar algo más agresivo."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Las verrugas de mi hijo son contagiosas para otros niños?",
+        a: "Sí, se contagian por contacto directo con la piel o con superficies compartidas, como en piscinas o vestidores. No es necesario aislar al niño, pero evitar compartir toallas o calzado húmedo ayuda a reducir el contagio."
+      },
+      {
+        q: "¿Debo tratar la verruga aunque no moleste?",
+        a: "No siempre es necesario de inmediato; muchas desaparecen solas. Si no genera molestia ni cumple ninguna señal de alarma, observarla durante un tiempo es una opción razonable, idealmente comentada con el pediatra o dermatólogo."
+      },
+      {
+        q: "¿Es normal que le salgan varias verrugas a la vez?",
+        a: "Es relativamente frecuente, sobre todo en niños con piel atópica o con heridas pequeñas frecuentes. Si se multiplican muy rápido, vale la pena una evaluación."
+      },
+      {
+        q: "¿La crioterapia es dolorosa para un niño?",
+        a: "Puede generar molestia breve durante la aplicación. En niños muy pequeños, a veces se prefiere empezar con tratamientos tópicos menos incómodos antes de considerar la crioterapia."
+      },
+      {
+        q: "¿Debo preocuparme si aparece una verruga en el área genital?",
+        a: "Amerita siempre una evaluación médica cuidadosa. Existen explicaciones no relacionadas con abuso, pero un profesional debe evaluar cada caso de forma individual."
+      }
+    ],
+    relatedArticles: ["tipos-de-nevos-lunares-seguimiento-especial", "dermatoscopia-que-es-y-por-que-importa"],
+    references: [
+      { label: "Gerlero P, Hernández-Martín A. Treatment of warts in children: an update. Actas Dermosifiliogr. 2016.", url: "https://actasdermo.org/es-download-pdf-S1578219016301329" },
+      { label: "Kwok CS, et al. Topical treatments for cutaneous warts. Cochrane Database Syst Rev. 2012. PMID 22972052.", url: "https://pubmed.ncbi.nlm.nih.gov/22972052/" }
+    ]
+  },
+  {
+    slug: "tipos-de-nevos-lunares-seguimiento-especial",
+    title: "Tipos de nevos (lunares): ¿cuáles necesitan seguimiento especial?",
+    excerpt:
+      "No todos los lunares tienen el mismo origen ni el mismo riesgo. Esto es lo que distingue a los distintos tipos de nevos, y por qué algunos requieren un seguimiento más cercano que otros.",
+    seoTitle: "Tipos de Nevos y Lunares en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué tipos de nevos existen y cuáles necesitan seguimiento especial? La Dra. Karla Andrade, dermatóloga en Machala, explica los nevos congénitos, atípicos y más.",
+    category: "Cáncer de piel",
+    datePublished: "2026-10-12",
+    dateModified: "2026-10-12",
+    readingMin: 7,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "No todos los lunares —o nevos, su nombre médico— son iguales ni tienen el mismo origen. Esto es lo que distingue a los distintos tipos, y por qué algunos requieren un seguimiento más cercano que otros.",
+    sections: [
+      {
+        h: "Qué es un nevo",
+        p: [
+          "Un nevo es una acumulación benigna de melanocitos, las células que producen el pigmento de la piel. Es el término médico para lo que coloquialmente llamamos lunar. La gran mayoría de las personas tiene decenas de nevos, y la inmensa mayoría permanece benigna durante toda la vida."
+        ]
+      },
+      {
+        h: "Nevos congénitos vs. adquiridos",
+        p: [
+          "Los nevos congénitos están presentes desde el nacimiento o aparecen en los primeros meses de vida, y son menos frecuentes que los adquiridos, que aparecen después, principalmente durante la infancia y la adolescencia, y siguen apareciendo —en menor medida— durante la adultez temprana. La mayoría de los lunares que tiene una persona son de tipo adquirido."
+        ]
+      },
+      {
+        h: "Por qué el tamaño de un nevo congénito importa",
+        p: [
+          "Los nevos congénitos se clasifican, sobre todo, según su tamaño: pequeños, medianos, grandes y gigantes. Esta clasificación no es solo descriptiva: se relaciona con el riesgo de melanoma a lo largo de la vida. Las revisiones disponibles muestran que los nevos congénitos medianos, grandes y gigantes conllevan un riesgo de melanoma mayor al de la población general, mientras que el riesgo asociado a los nevos congénitos pequeños sigue sin estar claramente establecido en la evidencia actual."
+        ]
+      },
+      {
+        h: "Qué tan alto es ese riesgo",
+        p: [
+          "El riesgo absoluto de desarrollar melanoma varía mucho según el tamaño: en nevos congénitos grandes o gigantes, algunas revisiones lo estiman entre 1% y 10% a lo largo de la vida, muy por encima del riesgo poblacional general. En nevos medianos y pequeños, el riesgo absoluto estimado es considerablemente menor, aunque sigue siendo más alto que en la población sin estos nevos. Estas cifras son estimaciones de revisiones científicas, no un pronóstico individual: el seguimiento especializado es lo que permite interpretar el riesgo real de cada caso."
+        ]
+      },
+      {
+        h: "Nevos atípicos o displásicos",
+        p: [
+          "Son nevos adquiridos con características distintas a un lunar típico —bordes menos definidos, color variado, tamaño mayor al habitual—, que pueden parecerse, hasta cierto punto, a los signos de alerta de un melanoma. Su manejo genera debate incluso entre especialistas: no existe consenso único sobre cuándo extirparlos y cuándo solo darles seguimiento, y la evidencia disponible es limitada. En la práctica, el seguimiento clínico y fotográfico cercano suele ser la estrategia más aceptada para la mayoría de los casos, reservando la biopsia para los nevos que cambian o generan mayor duda."
+        ]
+      },
+      {
+        h: "Otros tipos que conviene conocer",
+        list: [
+          "Nevo de Spitz: más frecuente en niños y adultos jóvenes, de crecimiento a veces rápido, que puede generar dudas diagnósticas incluso para especialistas con experiencia",
+          "Nevo azul: de color azul-grisáceo característico, generalmente benigno, pero que en ocasiones requiere diferenciarlo de otras lesiones pigmentadas",
+          "Nevo halo: un lunar rodeado por un área de piel despigmentada, por una reacción inmune local; en general es benigno, aunque amerita evaluación para confirmarlo"
+        ]
+      },
+      {
+        h: "Por qué no todos los nevos 'raros' necesitan biopsia inmediata",
+        p: [
+          "Que un nevo no se vea como el típico lunar redondo y uniforme no significa, automáticamente, que sea peligroso: existen varios tipos de nevos benignos con apariencias particulares, como los mencionados arriba. Lo que determina si un nevo necesita biopsia no es solo su apariencia aislada, sino la evaluación clínica completa, la dermatoscopía, y —sobre todo— si ha cambiado respecto a como era antes."
+        ]
+      },
+      {
+        h: "El valor del seguimiento fotográfico",
+        p: [
+          "Para nevos atípicos o congénitos que ameritan vigilancia, fotografiar y documentar su apariencia permite comparar objetivamente su evolución en controles futuros, en lugar de depender de la memoria o la impresión subjetiva de un control a otro. Es una herramienta simple que aporta mucho valor en el seguimiento a largo plazo."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Todos los nevos congénitos deben extirparse?",
+        a: "No. La decisión depende del tamaño, la ubicación y la evaluación individual; muchos se controlan con seguimiento clínico y fotográfico sin necesidad de cirugía."
+      },
+      {
+        q: "¿Un nevo atípico es lo mismo que un melanoma?",
+        a: "No. Un nevo atípico es una lesión benigna con ciertas características distintas a un lunar típico; el melanoma es un tipo de cáncer. La diferencia la establece la evaluación médica, no la apariencia por sí sola."
+      },
+      {
+        q: "¿Los nevos que salen de adulto son más peligrosos que los de la infancia?",
+        a: "Un nevo nuevo en la adultez, sobre todo después de los 30-40 años, amerita evaluación, porque la mayoría de los nevos adquiridos aparecen antes de esa edad. Eso no significa automáticamente que sea peligroso, pero sí que vale la pena revisarlo."
+      },
+      {
+        q: "¿Con qué frecuencia debo controlar un nevo atípico?",
+        a: "Depende del caso particular: tu dermatólogo define la frecuencia según el tipo de nevo, tus antecedentes y los hallazgos del control inicial."
+      }
+    ],
+    relatedArticles: [
+      "cuando-debo-evaluarme-los-lunares",
+      "autoexamen-de-lunares-en-casa",
+      "dermatoscopia-que-es-y-por-que-importa",
+      "verrugas-en-ninos-cuando-preocuparse"
+    ],
+    references: [
+      { label: "Scard C, et al. Risk of melanoma in congenital melanocytic nevi of all sizes: a systematic review. J Eur Acad Dermatol Venereol. 2023.", url: "https://doi.org/10.1111/jdv.18581" },
+      { label: "Kim CC, et al. Clinical management of atypical (dysplastic) nevi: a consensus statement. JAMA Dermatol. 2015. PMID 25409291.", url: "https://pubmed.ncbi.nlm.nih.gov/25409291/" }
+    ]
   }
 ];
 
