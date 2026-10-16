@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
-import { articles, categoryLabel, type Article } from "@/data/blog";
+import { articles, categoryLabel, getArticle, type Article } from "@/data/blog";
 import { breadcrumb, medicalWebPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -38,6 +38,30 @@ const categoryColor: Record<string, string> = {
   "Cáncer de piel": "var(--plum)",
   "Aparatología": "var(--lila)"
 };
+
+// Id ancla para saltar desde las tarjetas de acceso rápido a cada categoría del acordeón.
+const categoryAnchor: Record<string, string> = {
+  "Dermatología clínica": "dermatologia-clinica",
+  "Tricología": "tricologia",
+  "Cáncer de piel": "cancer-de-piel",
+  "Aparatología": "aparatologia"
+};
+
+const categoryBlurb: Record<string, string> = {
+  "Dermatología clínica": "Acné, manchas, piel sensible y las consultas más frecuentes del día a día.",
+  "Tricología": "Caída del cabello, alopecia y tratamientos para el cuero cabelludo.",
+  "Cáncer de piel": "Cuándo evaluarte los lunares, tipos de cáncer de piel y seguimiento.",
+  "Aparatología": "Láser, luz pulsada, toxina botulínica y otros tratamientos con equipos."
+};
+
+// Elegidos según las búsquedas reales con más impresiones en Search Console,
+// no por preferencia editorial: son los temas que más gente ya está buscando.
+const featuredSlugs = [
+  "mesoterapia-capilar-que-es-y-que-dice-la-evidencia",
+  "verrugas-genitales-que-son-y-cuando-consultar",
+  "la-isotretinoina-cura-el-acne-para-siempre",
+  "por-que-se-me-cae-el-cabello"
+];
 
 // Dentro de "Dermatología clínica" hay demasiados artículos para una sola grilla
 // (acné/isotretinoína, láser y el resto): los separamos en sub-bloques con su
@@ -89,10 +113,57 @@ export default function BlogHub() {
         <img className="mark" src="/face-lilac.png" alt="" aria-hidden="true" loading="lazy" />
       </section>
 
+      <section className="block" style={{ paddingBottom: 0 }}>
+        <div className="wrap">
+          <p className="tier-label">Ir directo a un tema</p>
+          <div className="pillars">
+            {groups.map(({ category, items }) => (
+              <Link
+                key={category}
+                className="pillar"
+                href={`#${categoryAnchor[category] ?? category}`}
+                style={{ borderTop: `3px solid ${categoryColor[category] ?? "var(--dorado)"}` }}
+              >
+                <span className="num">
+                  {items.length} artículo{items.length === 1 ? "" : "s"}
+                </span>
+                <h3 style={{ fontSize: 20 }}>{categoryLabel[category] ?? category}</h3>
+                <p>{categoryBlurb[category] ?? ""}</p>
+                <span className="more">Ver artículos →</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="block">
         <div className="wrap">
+          <p className="tier-label">Lo más buscado</p>
+          <div className="blog-grid">
+            {featuredSlugs
+              .map((s) => getArticle(s))
+              .filter((a): a is NonNullable<typeof a> => Boolean(a))
+              .map((a) => (
+                <Link
+                  key={a.slug}
+                  className="blog-card"
+                  href={`/blog/${a.slug}`}
+                  style={{ ["--card-accent" as string]: categoryColor[a.category] ?? "var(--dorado)" }}
+                >
+                  <span className="cat">{categoryLabel[a.category] ?? a.category}</span>
+                  <h2>{a.title}</h2>
+                  <p>{a.excerpt}</p>
+                  <div className="meta">{a.readingMin} min de lectura</div>
+                </Link>
+              ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="block" style={{ paddingTop: 0 }}>
+        <div className="wrap">
           {groups.map(({ category, items }) => (
-            <details key={category} className="blog-cat">
+            <details key={category} className="blog-cat" id={categoryAnchor[category] ?? category}>
               <summary>
                 <span className="label">{categoryLabel[category] ?? category}</span>
                 <span className="line" />
