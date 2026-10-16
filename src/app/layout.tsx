@@ -27,11 +27,11 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Dermatóloga en Machala · Dra. Karla Andrade",
+    default: "Dermatóloga en Machala · Dra. Karla Andrade | Agenda tu cita",
     template: "%s · Dra. Karla Andrade"
   },
   description:
-    "Dermatóloga en Machala, El Oro, con formación en la Universidad de Buenos Aires. Caída del cabello y tricología, cáncer de piel, dermatología pediátrica, acné y medicina estética.",
+    "Dermatóloga formada en la Universidad de Buenos Aires. Acné, caída del cabello, manchas, lunares y cáncer de piel, dermatología pediátrica en Machala. Agenda tu cita por WhatsApp.",
   keywords: [
     "dermatóloga Machala",
     "dermatólogo Machala",
