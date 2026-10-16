@@ -5443,6 +5443,109 @@ export const articles: Article[] = [
     references: [
       { label: "Bass LS, Kaminer MS. Insights into the pathophysiology of cellulite: a review. Dermatol Surg. 2020. PMID 32976174.", url: "https://pubmed.ncbi.nlm.nih.gov/32976174/" }
     ]
+  },
+  {
+    slug: "verrugas-genitales-que-son-y-cuando-consultar",
+    title: "Verrugas genitales: qué son, por qué aparecen y cuándo consultar",
+    excerpt:
+      "Son una de las infecciones de transmisión sexual más comunes y, a la vez, de las que menos se habla abiertamente. Qué son, cómo se tratan y por qué no conviene intentar quitarlas por cuenta propia.",
+    seoTitle: "Verrugas Genitales: Qué Son y Cuándo Consultar | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué son las verrugas genitales y cómo se tratan? La Dra. Karla Andrade, dermatóloga en Machala, explica causas, opciones de tratamiento y cuándo consultar.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-16",
+    dateModified: "2026-10-16",
+    readingMin: 7,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Las verrugas genitales son una de las infecciones de transmisión sexual más frecuentes, y también de las que generan más incomodidad para consultar. Es un motivo de consulta común, no algo excepcional ni motivo de vergüenza. Esto es lo que realmente son, cómo se tratan y por qué no conviene intentar resolverlas por cuenta propia.",
+    sections: [
+      {
+        h: "¿Qué son y qué las causa?",
+        p: [
+          "Son pequeñas lesiones elevadas en la piel o mucosas de la zona genital o anal, causadas por ciertos tipos del virus del papiloma humano (VPH), principalmente los tipos 6 y 11.",
+          "Es importante esta distinción: los tipos de VPH que causan verrugas genitales son distintos de los tipos de 'alto riesgo' asociados a cáncer de cuello uterino y otros cánceres. Tener verrugas genitales no significa tener mayor riesgo de cáncer por ese motivo."
+        ]
+      },
+      {
+        h: "¿Cómo se transmiten?",
+        p: [
+          "Se transmiten por contacto directo piel con piel durante la actividad sexual, no únicamente por penetración. El preservativo reduce el riesgo de transmisión, pero no lo elimina por completo, porque puede haber zonas de piel infectada que no queda cubierta.",
+          "El tiempo entre el contacto y la aparición de las verrugas es muy variable (semanas a meses, a veces más), por lo que no siempre es posible identificar el momento exacto del contagio ni 'culpar' a una pareja reciente."
+        ]
+      },
+      {
+        h: "Por qué no conviene usar removedores de verrugas comunes",
+        p: [
+          "Los productos de venta libre para verrugas de manos o pies (ácido salicílico y similares) no están pensados para la piel genital ni las mucosas, que son mucho más sensibles. Usarlos en esa zona puede causar quemaduras, irritación intensa o lesiones que tardan en sanar.",
+          "Además, no toda lesión nueva en la zona genital es una verruga por VPH: puede tratarse de molusco contagioso, quistes, pápulas normales de la piel (como las pápulas perladas del pene) u otras condiciones que requieren un manejo distinto. Un examen permite diferenciarlas antes de iniciar cualquier tratamiento."
+        ]
+      },
+      {
+        h: "Opciones de tratamiento",
+        list: [
+          "Tratamientos de aplicación en el propio domicilio, indicados y recetados por el médico: cremas o soluciones como imiquimod, podofilotoxina o sinecatequinas, usadas según un esquema específico que el médico define para cada caso.",
+          "Tratamientos aplicados en el consultorio: crioterapia (congelación), ácido tricloroacético, electrocauterio o remoción quirúrgica, entre otros.",
+          "Láser, en casos más extensos o que no respondieron a otras opciones."
+        ]
+      },
+      {
+        h: "Qué esperar del tratamiento",
+        p: [
+          "La elección depende del tamaño, número y ubicación de las verrugas, y de la preferencia del paciente. Las guías clínicas no señalan una única opción como superior para todos los casos: cada una tiene ventajas y desventajas, y suele indicarse más de una sesión o aplicación antes de ver el resultado completo.",
+          "Un punto clave que conviene entender desde el inicio: los tratamientos eliminan las verrugas visibles, pero no eliminan el virus del organismo. Por eso es frecuente que reaparezcan después de un tiempo, incluso tras un tratamiento exitoso, y eso no significa que algo se haya hecho mal."
+        ]
+      },
+      {
+        h: "Durante el embarazo",
+        p: [
+          "Si hay verrugas genitales durante el embarazo, el tratamiento debe ser indicado por un médico que considere esa condición: algunas opciones (como podofilotoxina o imiquimod) no se recomiendan en el embarazo, mientras que otras (como la crioterapia) suelen preferirse. Nunca debe iniciarse un tratamiento por cuenta propia en esta situación."
+        ]
+      },
+      {
+        h: "La vacuna contra el VPH como prevención",
+        p: [
+          "La vacunación contra el VPH, cuando se aplica antes de la exposición al virus, reduce de forma importante el riesgo de desarrollar verrugas genitales más adelante; estudios poblacionales muestran una caída marcada en los nuevos casos en personas vacunadas a edades tempranas. Si tienes dudas sobre si corresponde la vacuna para ti o para alguien de tu familia, es una buena pregunta para llevar a la consulta."
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        list: [
+          "Ante cualquier bulto, protuberancia o cambio nuevo en la piel genital o anal, aunque no duela.",
+          "Si no estás seguro de qué es la lesión: un autodiagnóstico por internet no reemplaza un examen.",
+          "Si estás embarazada y notas lesiones de este tipo.",
+          "Si una lesión sangra, crece rápido o cambia de aspecto de forma notoria."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Las verrugas genitales son cáncer?",
+        a: "No. Están causadas por tipos de VPH distintos a los que se asocian con cáncer de cuello uterino y otros cánceres. Son una condición benigna, aunque incómoda y molesta de manejar."
+      },
+      {
+        q: "¿Desaparecen solas sin tratamiento?",
+        a: "En algunos casos el propio sistema inmune las resuelve con el tiempo, pero no es algo predecible ni garantizado. Lo recomendable es que un médico evalúe cada caso para decidir si conviene tratarlas."
+      },
+      {
+        q: "¿Puedo seguir teniendo relaciones si tengo verrugas genitales?",
+        a: "Es una conversación que conviene tener con tu médico y, en pareja, de forma abierta. El riesgo de transmisión existe mientras las verrugas estén presentes, y el preservativo ayuda a reducirlo sin eliminarlo del todo."
+      },
+      {
+        q: "¿Mi pareja también debe revisarse o tratarse?",
+        a: "Es recomendable que la pareja también sea evaluada, aunque no tenga lesiones visibles, ya que el virus puede estar presente sin causar síntomas evidentes."
+      },
+      {
+        q: "¿Por qué volvieron a aparecer después del tratamiento?",
+        a: "Porque el tratamiento elimina las verrugas visibles, no el virus en sí. Las recurrencias son frecuentes y no significan que el tratamiento haya fallado ni que haya un nuevo contagio."
+      }
+    ],
+    references: [
+      { label: "Lazaro N, et al. British Association for Sexual Health and HIV national guideline for the management of anogenital warts in adults (2024). Int J STD AIDS. PMID 38456387.", url: "https://pubmed.ncbi.nlm.nih.gov/38456387/" },
+      { label: "Gobierno de Canadá. Guía de verrugas anogenitales: tratamiento y seguimiento.", url: "https://www.canada.ca/en/public-health/services/infectious-diseases/sexual-health-sexually-transmitted-infections/canadian-guidelines/anogenital-warts/treatment-follow-up.html" },
+      { label: "Network meta-analysis de tratamientos para verrugas anogenitales. PMID 31606873.", url: "https://pubmed.ncbi.nlm.nih.gov/31606873/" },
+      { label: "Leval A, et al. Incidence of genital warts in Sweden before and after quadrivalent human papillomavirus vaccine availability. J Infect Dis. 2012. PMID 22815381.", url: "https://pubmed.ncbi.nlm.nih.gov/22815381/" }
+    ]
   }
 ];
 
