@@ -5636,6 +5636,101 @@ export const articles: Article[] = [
     references: [
       { label: "Aledani EM, et al. Mesotherapy as a Promising Alternative to Minoxidil for Androgenetic Alopecia: A Systematic Review. Cureus. 2024. PMID 38841017.", url: "https://pubmed.ncbi.nlm.nih.gov/38841017/" }
     ]
+  },
+  {
+    slug: "psoriasis-mitos-y-verdades",
+    title: "Psoriasis: mitos y verdades que debes conocer",
+    excerpt:
+      "Pocas enfermedades de la piel están tan rodeadas de ideas equivocadas como la psoriasis, incluyendo una muy frecuente: confundirla con hongos y tratarla como tal. Separamos los mitos de lo que realmente dice la evidencia.",
+    seoTitle: "Psoriasis: Mitos y Verdades | Dra. Karla Andrade",
+    seoDescription:
+      "¿Es contagiosa la psoriasis? ¿Es lo mismo que un hongo en la piel? La Dra. Karla Andrade, dermatóloga en Machala, aclara los mitos más comunes sobre la psoriasis.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-16",
+    dateModified: "2026-10-16",
+    readingMin: 7,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Pocas enfermedades de la piel están tan rodeadas de ideas equivocadas como la psoriasis. Esa confusión no es inofensiva: algunas de estas ideas llevan a las personas a tratarse por su cuenta la condición equivocada, o a cargar con un estigma que no tiene fundamento médico. Repasamos los mitos más comunes.",
+    sections: [
+      {
+        h: "Mito: \"Si tengo manchas con escamas, son hongos\"",
+        p: [
+          "Este es, en la práctica, uno de los errores más frecuentes y con más consecuencias. Las placas de psoriasis —sobre todo en el cuero cabelludo, las uñas y los pliegues de la piel— pueden parecerse mucho, a simple vista, a una infección por hongos, y mucha gente las trata con antimicóticos de venta libre sin que nadie las haya examinado antes.",
+          "La confusión es tan real que, incluso clínicamente, a veces coexisten las dos cosas en la misma persona: un estudio de 2024 con pacientes con psoriasis ungueal (en las uñas) encontró que un 22% de ellos tenía además una infección por hongos confirmada por laboratorio. Es decir, ni siquiera para un ojo entrenado alcanza con mirar: hace falta un examen (a veces con cultivo o dermatoscopía) para diferenciarlas con certeza.",
+          "La consecuencia práctica de este mito es tratar con antimicóticos algo que no va a responder a ellos porque no es un hongo, lo que retrasa semanas o meses el diagnóstico correcto. Si tienes placas escamosas que no mejoran con un tratamiento antimicótico, es una señal de que conviene revisar el diagnóstico, no de insistir con el mismo producto."
+        ]
+      },
+      {
+        h: "Mito: \"Es contagiosa\"",
+        p: [
+          "No lo es, bajo ninguna circunstancia. No se transmite por tocar a alguien, compartir ropa, toallas, piscinas ni ningún otro contacto. Es una enfermedad de origen inmunológico, no una infección."
+        ]
+      },
+      {
+        h: "Mito: \"Es solo un problema estético de la piel\"",
+        p: [
+          "Es uno de los mitos más importantes de desmentir, porque tiene consecuencias reales para la salud. La psoriasis es una enfermedad inflamatoria sistémica: aproximadamente 1 de cada 5 personas con psoriasis desarrolla también artritis psoriásica, con dolor e inflamación articular, según el metaanálisis más grande disponible sobre el tema. También se asocia a mayor riesgo cardiovascular y metabólico, por lo que el seguimiento médico no debería limitarse a las placas visibles en la piel."
+        ]
+      },
+      {
+        h: "Mito: \"Es por mala higiene\"",
+        p: [
+          "No guarda relación con la higiene personal. Es una enfermedad con base genética e inmunológica; ninguna rutina de limpieza, por rigurosa que sea, la previene ni la cura."
+        ]
+      },
+      {
+        h: "Mito: \"Si nadie en mi familia la tiene, yo no la puedo desarrollar\"",
+        p: [
+          "Existe un componente genético que aumenta el riesgo, pero no es determinante por sí solo: también influyen factores ambientales y del sistema inmune. Es perfectamente posible desarrollar psoriasis sin antecedentes familiares directos conocidos."
+        ]
+      },
+      {
+        h: "Mito: \"Solo les da a personas adultas o mayores\"",
+        p: [
+          "Puede aparecer a cualquier edad, incluida la infancia y la adolescencia. No es exclusiva de ningún grupo etario."
+        ]
+      },
+      {
+        h: "Mito: \"Es psicológica, me la provoco yo con el estrés\"",
+        p: [
+          "El estrés es un desencadenante reconocido de los brotes, pero no es la causa de la enfermedad ni algo que la persona se 'provoque' a sí misma. Es una enfermedad inmunológica real, no un trastorno psicológico, aunque el estrés y el impacto emocional de vivir con ella sí merecen atención como parte del cuidado integral."
+        ]
+      },
+      {
+        h: "Mito: \"Cuando las placas desaparecen, ya no tengo la enfermedad\"",
+        p: [
+          "La piel puede verse completamente libre de lesiones durante largos períodos, pero la condición de base sigue presente. Por eso es una enfermedad crónica que se controla, más que algo que se 'cura' de una vez y para siempre."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Cómo sé si lo que tengo es psoriasis o un hongo?",
+        a: "A simple vista puede ser muy difícil diferenciarlas, incluso para un profesional, especialmente en uñas, cuero cabelludo y pliegues de la piel. Lo correcto es que un médico examine la lesión y, si hace falta, tome una muestra para confirmar o descartar un hongo antes de decidir cómo tratarla."
+      },
+      {
+        q: "¿Por qué mi 'hongo' no mejora con antimicóticos?",
+        a: "Si una lesión escamosa no responde a un tratamiento antimicótico adecuado, es una señal de que conviene reevaluar el diagnóstico: puede tratarse de psoriasis u otra condición distinta a una infección por hongos."
+      },
+      {
+        q: "¿La psoriasis se puede confundir con otras condiciones además de hongos?",
+        a: "Sí. En el cuero cabelludo suele confundirse con dermatitis seborreica o caspa, y en los pliegues de la piel con otras irritaciones. Por eso el examen médico es importante antes de asumir un diagnóstico."
+      },
+      {
+        q: "¿Tener psoriasis significa que también tendré artritis?",
+        a: "No necesariamente, pero el riesgo está aumentado: cerca de 1 de cada 5 personas con psoriasis desarrolla artritis psoriásica. Por eso se recomienda estar atento a dolor o inflamación en las articulaciones y comentarlo con tu médico."
+      }
+    ],
+    relatedArticles: [
+      "psoriasis-que-es-y-como-se-trata",
+      "hongos-en-la-piel-tina-pie-de-atleta",
+      "dermatitis-seborreica-que-es-y-como-tratarla"
+    ],
+    references: [
+      { label: "Abdo HM, et al. Prevalence of onychomycosis among psoriasis patients: a clinico-mycological and dermoscopic comparative cross sectional study. Sci Rep. 2024. DOI 10.1038/s41598-024-71321-6.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11408611/" },
+      { label: "Alinaghi F, et al. Prevalence of psoriatic arthritis in patients with psoriasis: a systematic review and meta-analysis. J Am Acad Dermatol. 2019. DOI 10.1016/j.jaad.2018.06.027.", url: "https://doi.org/10.1016/j.jaad.2018.06.027" }
+    ]
   }
 ];
 
