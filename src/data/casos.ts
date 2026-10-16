@@ -266,6 +266,80 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica permite identificar la causa y elegir el tratamiento adecuado para cada paciente.",
       buttonLabel: "Agendar valoración capilar"
     }
+  },
+  {
+    slug: "cicatriz-queloide-por-picadura-de-insecto",
+    title: "La cicatriz que no dejaba de crecer: queloide por una picadura de insecto",
+    cardTitle: "Queloide por picadura de insecto",
+    cardExcerpt: "Tratamiento con infiltraciones, en curso",
+    subtitle: "Mujer de 30 años, con más de 5 años de evolución",
+    excerpt:
+      "Mujer de 30 años con una cicatriz gruesa y elevada en el hombro, de más de 5 años de evolución, formada después de una picadura de insecto. Tratamiento con infiltraciones.",
+    seoTitle: "Queloide por Picadura de Insecto: Caso Clínico | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de un queloide (cicatriz gruesa) en el hombro por una picadura de insecto, tratado con infiltraciones por la Dra. Karla Andrade en Machala.",
+    category: "Dermatología clínica",
+    diagnosis: "Cicatriz queloide postpicadura de insecto",
+    datePublished: "2026-10-16",
+    dateModified: "2026-10-16",
+    readingMin: 4,
+    relatedEspecialidad: "dermatologia-clinica",
+    relatedPrompt: "¿Tienes una cicatriz que no deja de crecer o te molesta?",
+    lead:
+      "Una paciente de 30 años llegó a la consulta con una cicatriz gruesa y elevada en el hombro, que llevaba más de 5 años ahí desde una picadura de insecto. En vez de sanar como una cicatriz normal, la piel de esa zona siguió creciendo sobre sí misma. Este es el tratamiento que se le dio y cómo va evolucionando.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Mujer de 30 años, sin otras condiciones de piel relevantes, con una lesión en el hombro que apareció después de una picadura de insecto hace más de 5 años. En vez de quedar como una marca plana, la zona fue creciendo: se volvió dura, elevada, de color entre marrón y violáceo, más grande que la picadura original."
+        ]
+      },
+      {
+        h: "¿Qué es lo que tenía, en palabras simples?",
+        p: [
+          "Se llama queloide: es lo que pasa cuando, al cicatrizar una herida (aunque sea pequeña, como la de un insecto), la piel 'se pasa de la raya' y sigue fabricando tejido de más, incluso después de que la herida original ya sanó. Por eso el bulto sigue ahí, e incluso puede seguir creciendo, años después de que pase lo que lo originó.",
+          "No es algo que dependa de falta de cuidado ni de haberse rascado: es la forma en que esa piel, en particular, responde al cicatrizar."
+        ]
+      },
+      {
+        h: "El tratamiento",
+        p: [
+          "Se realizaron infiltraciones: inyecciones aplicadas directamente en la cicatriz, en consultorio, en dos sesiones. El objetivo de esta primera etapa era bajar el grosor y el relieve del queloide, no todavía la mancha de color."
+        ]
+      },
+      {
+        h: "El resultado hasta ahora",
+        p: [
+          "Con las dos sesiones, la lesión se aplanó de forma notoria: el bulto duro y elevado que tenía antes ya no está. Lo que queda ahora es la mancha de color (la hiperpigmentación) que dejó la cicatriz, sin el relieve ni el grosor previos."
+        ]
+      },
+      {
+        h: "El siguiente paso",
+        p: [
+          "Aplanar la cicatriz y aclarar la mancha que deja son dos cosas distintas, y se trabajan en etapas separadas. Ahora que el relieve está controlado, el siguiente paso del tratamiento se enfoca en esa mancha residual."
+        ]
+      }
+    ],
+    beforeAfter: {
+      antesLabel: "Antes",
+      antesDesc: "Cicatriz gruesa, dura y elevada, de más de 5 años de evolución.",
+      antes: [
+        { src: "/casos/queloide-hombro-antes.jpg", alt: "Queloide en el hombro antes del tratamiento con infiltraciones" }
+      ],
+      despuesLabel: "Después de 2 sesiones de infiltraciones",
+      despuesDesc: "La lesión se aplanó; queda la mancha de color, que es el siguiente paso a tratar.",
+      despues: [
+        { src: "/casos/queloide-hombro-despues.jpg", alt: "Queloide en el hombro después de 2 sesiones de infiltraciones, ya aplanado" }
+      ]
+    },
+    keyMessages: [
+      "Un queloide no desaparece solo con el tiempo: tiende a mantenerse o incluso seguir creciendo si no se trata.",
+      "Las infiltraciones son un tratamiento médico aplicado en consultorio, no algo que pueda hacerse en casa.",
+      "Aplanar el relieve de la cicatriz y aclarar la mancha que deja son dos etapas distintas del tratamiento.",
+      "Cuanto antes se empieza a tratar un queloide, más manejable suele ser."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso de la paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la zona del hombro, sin rasgos que permitan identificarla. El tratamiento sigue en curso: los resultados pueden variar en cada paciente y no sustituyen una consulta médica."
   }
 ];
 
