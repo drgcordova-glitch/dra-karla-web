@@ -5731,6 +5731,359 @@ export const articles: Article[] = [
       { label: "Abdo HM, et al. Prevalence of onychomycosis among psoriasis patients: a clinico-mycological and dermoscopic comparative cross sectional study. Sci Rep. 2024. DOI 10.1038/s41598-024-71321-6.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11408611/" },
       { label: "Alinaghi F, et al. Prevalence of psoriatic arthritis in patients with psoriasis: a systematic review and meta-analysis. J Am Acad Dermatol. 2019. DOI 10.1016/j.jaad.2018.06.027.", url: "https://doi.org/10.1016/j.jaad.2018.06.027" }
     ]
+  },
+  {
+    slug: "acrocordones-bolitas-de-piel-colgantes-que-son",
+    title: "Esas bolitas de piel colgantes en el cuello o las axilas: qué son",
+    excerpt:
+      "Pequeñas, suaves, del color de la piel, y muy comunes en el cuello, las axilas o los párpados. Qué son los acrocordones, por qué aparecen y por qué no conviene cortarlos en casa.",
+    seoTitle: "Bolitas de Piel Colgantes (Acrocordones): Qué Son | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué son esas bolitas de piel colgantes en el cuello o las axilas? La Dra. Karla Andrade, dermatóloga en Machala, explica qué son los acrocordones y cuándo consultar.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-16",
+    dateModified: "2026-10-16",
+    readingMin: 5,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Son una de las consultas más frecuentes y menos comentadas: esas pequeñas bolitas de piel colgantes que aparecen en el cuello, las axilas, los párpados o debajo del busto. Tienen nombre médico —acrocordones— y esto es lo que realmente son.",
+    sections: [
+      {
+        h: "¿Qué son?",
+        p: [
+          "Son pequeños crecimientos benignos de piel, blandos, del mismo color o un poco más oscuros que la piel alrededor, que cuelgan de un pequeño tallo. Aparecen sobre todo en zonas donde hay roce de piel con piel o con ropa: cuello, axilas, párpados, ingles y debajo del busto."
+        ]
+      },
+      {
+        h: "¿Por qué aparecen?",
+        p: [
+          "El roce repetido de la piel es un factor conocido, por eso son más frecuentes en los pliegues del cuerpo. También hay varios estudios que encuentran una asociación entre tener múltiples acrocordones y la resistencia a la insulina o el síndrome metabólico, aunque esto no significa que todas las personas con acrocordones tengan esas condiciones: es una asociación observada, no una regla fija."
+        ]
+      },
+      {
+        h: "Por qué no conviene cortarlos en casa",
+        p: [
+          "Es común la idea de 'amarrarlos con un hilo' o cortarlos con tijeras o cortaúñas en casa. No es recomendable: puede causar sangrado, infección, una cicatriz innecesaria, y además impide confirmar primero que se trata realmente de un acrocordón y no de otro tipo de lesión que requiera una evaluación distinta."
+        ]
+      },
+      {
+        h: "¿Son peligrosos?",
+        p: [
+          "No, son benignos y no se transforman en cáncer de piel. Se retiran únicamente por molestia (si se enganchan con la ropa o joyas) o por preferencia estética, nunca por una urgencia médica."
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        list: [
+          "Si una de estas lesiones cambia de color, tamaño o forma de manera notoria.",
+          "Si sangra sin que se haya enganchado con algo.",
+          "Si no estás seguro de que sea realmente un acrocordón y no otra cosa.",
+          "Si quieres que te las retiren, para hacerlo de forma segura en el consultorio."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Los acrocordones son peligrosos o pueden convertirse en cáncer?",
+        a: "No. Son lesiones benignas y no se transforman en cáncer de piel."
+      },
+      {
+        q: "¿Me los puedo quitar yo mismo/a en casa?",
+        a: "No es recomendable. Cortarlos o amarrarlos en casa puede causar sangrado e infección, y no permite confirmar primero el diagnóstico. Lo seguro es que te los retire un profesional."
+      },
+      {
+        q: "¿Tienen relación con la diabetes?",
+        a: "Hay estudios que encuentran una asociación entre tener múltiples acrocordones y la resistencia a la insulina, pero no es una regla: muchas personas los tienen sin ninguna alteración metabólica. Si te preocupa, es una buena pregunta para la consulta."
+      },
+      {
+        q: "¿Vuelven a salir después de quitarlos?",
+        a: "Pueden aparecer nuevos acrocordones en otras zonas con el tiempo, ya que la tendencia a desarrollarlos no desaparece, aunque el que se retiró no vuelve a crecer en el mismo punto."
+      }
+    ],
+    relatedArticles: ["acantosis-nigricans-manchas-oscuras-en-el-cuello"],
+    references: [
+      { label: "Akpinar F, Dervis E. Association between acrochordons and the components of metabolic syndrome. Eur J Dermatol. 2012. PMID 22063265.", url: "https://pubmed.ncbi.nlm.nih.gov/22063265/" }
+    ]
+  },
+  {
+    slug: "acantosis-nigricans-manchas-oscuras-en-el-cuello",
+    title: "Manchas oscuras y aterciopeladas en el cuello: qué pueden significar",
+    excerpt:
+      "Un oscurecimiento y engrosamiento de la piel en el cuello, las axilas o las ingles no es falta de higiene: tiene nombre médico, acantosis nigricans, y suele ser una señal que vale la pena investigar.",
+    seoTitle: "Manchas Oscuras en el Cuello (Acantosis Nigricans) | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué significan las manchas oscuras y aterciopeladas en el cuello o las axilas? La Dra. Karla Andrade, dermatóloga en Machala, explica la acantosis nigricans.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-16",
+    dateModified: "2026-10-16",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Un oscurecimiento aterciopelado de la piel en el cuello, las axilas o las ingles se confunde a menudo con suciedad que 'no sale al lavar'. No lo es. Tiene nombre médico —acantosis nigricans— y en la mayoría de los casos es una señal del cuerpo que vale la pena escuchar.",
+    sections: [
+      {
+        h: "¿Qué es?",
+        p: [
+          "Es un engrosamiento y oscurecimiento de la piel, de aspecto aterciopelado, que aparece típicamente en los pliegues: la parte posterior y lateral del cuello, las axilas y las ingles. No es suciedad ni falta de higiene, y ningún tallado por más fuerte que sea lo hace desaparecer."
+        ]
+      },
+      {
+        h: "La causa más frecuente",
+        p: [
+          "En la gran mayoría de los casos, refleja resistencia a la insulina, y se asocia a sobrepeso, prediabetes o diabetes tipo 2. Por eso, más que un problema estético, suele funcionar como una señal visible de que conviene revisar el metabolismo."
+        ]
+      },
+      {
+        h: "Una forma rara que sí requiere atención especial",
+        p: [
+          "Existe una forma mucho menos frecuente que puede ser señal de un problema de salud interno distinto, especialmente cuando aparece de forma repentina en una persona adulta sin sobrepeso, se extiende rápido, o compromete zonas poco habituales como las palmas de las manos o el interior de la boca. No es lo más común, pero es la razón por la que esta mancha no debe evaluarse 'a la ligera' ni asumirse siempre como lo mismo."
+        ]
+      },
+      {
+        h: "Qué hace el médico",
+        p: [
+          "La evaluación generalmente incluye revisar el peso, la circunferencia abdominal y, según el caso, solicitar estudios de glucosa e insulina para confirmar si hay resistencia a la insulina de fondo. El abordaje se centra en tratar la causa, no solo la apariencia de la piel."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Se quita exfoliando o con más higiene?",
+        a: "No. No es suciedad, por lo que ninguna exfoliación ni jabón la elimina. Requiere identificar y abordar la causa de fondo."
+      },
+      {
+        q: "¿Significa que tengo diabetes?",
+        a: "No necesariamente, pero sí es una señal frecuente de resistencia a la insulina, que puede preceder a la diabetes tipo 2. Vale la pena que un médico lo evalúe."
+      },
+      {
+        q: "¿Desaparece si bajo de peso?",
+        a: "En los casos asociados a resistencia a la insulina y sobrepeso, suele mejorar de forma gradual al mejorar esos factores, aunque no siempre desaparece por completo."
+      },
+      {
+        q: "¿Cuándo es más urgente consultar?",
+        a: "Si aparece de forma repentina en la edad adulta sin sobrepeso asociado, progresa rápido, o afecta zonas como las palmas o la boca, conviene consultar pronto para descartar causas menos frecuentes."
+      }
+    ],
+    relatedArticles: ["acrocordones-bolitas-de-piel-colgantes-que-son"],
+    references: [
+      { label: "Hughes BR, Brady M, Rawla P. Acanthosis Nigricans. StatPearls. 2023. PMID 28613711.", url: "https://pubmed.ncbi.nlm.nih.gov/28613711/" },
+      { label: "Das A, et al. Acanthosis nigricans: A review. J Cosmet Dermatol. 2020. PMID 32516476.", url: "https://pubmed.ncbi.nlm.nih.gov/32516476/" }
+    ]
+  },
+  {
+    slug: "raya-oscura-en-la-una-cuando-preocuparse",
+    title: "Una raya oscura en la uña: cuándo es normal y cuándo preocuparse",
+    excerpt:
+      "Una línea o banda oscura a lo largo de la uña casi siempre es benigna, pero en casos poco frecuentes puede ser la señal más temprana de un melanoma. Esto es lo que hay que saber para diferenciarlas.",
+    seoTitle: "Raya Oscura en la Uña: Cuándo Preocuparse | Dra. Karla Andrade",
+    seoDescription:
+      "¿Es normal una raya oscura en la uña? La Dra. Karla Andrade, dermatóloga en Machala, explica cuándo es benigna y cuándo conviene evaluarla con urgencia.",
+    category: "Cáncer de piel",
+    datePublished: "2026-10-16",
+    dateModified: "2026-10-16",
+    readingMin: 6,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    lead:
+      "Una línea o banda oscura a lo largo de la uña —de la cutícula hacia la punta— es un motivo de consulta que genera mucha inquietud, con razón: en la gran mayoría de los casos es benigna, pero en un número pequeño de casos puede ser la señal más temprana de un melanoma en la uña. Esto es lo que ayuda a diferenciarlas.",
+    sections: [
+      {
+        h: "¿Qué es esta banda oscura?",
+        p: [
+          "Tiene nombre médico: melanoniquia longitudinal. Es una banda de pigmento que recorre la uña de la base hacia la punta. Las causas benignas son, por lejos, las más frecuentes: un lunar en la matriz de la uña (la zona donde la uña se forma), o simplemente más pigmento natural, algo que es especialmente común y normal en personas de piel oscura, donde puede aparecer en varias uñas a la vez sin ningún significado preocupante."
+        ]
+      },
+      {
+        h: "Cuándo genera más dudas",
+        p: [
+          "La causa que preocupa, aunque es poco frecuente, es el melanoma subungueal: un melanoma que se origina en la matriz de la uña. Diferenciarlo de una causa benigna no siempre es posible solo con mirar, por lo que ante cualquier duda la recomendación es que lo evalúe un dermatólogo."
+        ]
+      },
+      {
+        h: "Señales que aumentan la sospecha",
+        list: [
+          "Aparece en un solo dedo, sin antecedente de golpe.",
+          "La banda es ancha, o se hace más ancha con el tiempo.",
+          "Los bordes o el color dejan de ser uniformes.",
+          "El color se extiende más allá de la uña, hacia la piel de alrededor (lo que se conoce como 'signo de Hutchinson').",
+          "Cambia de aspecto de forma progresiva en lugar de mantenerse estable."
+        ]
+      },
+      {
+        h: "\"Pero yo me golpeé esa uña\"",
+        p: [
+          "Un golpe puede causar un moretón debajo de la uña (hematoma subungueal), que también se ve oscuro. La diferencia clave es que un moretón se mantiene del mismo tamaño y color mientras la uña va creciendo, y va desapareciendo con el crecimiento de la uña desde la base. Una banda que no cambia de posición a medida que la uña crece, que aparece sin golpe claro, o que persiste más de lo esperable, debe evaluarse."
+        ]
+      },
+      {
+        h: "Por qué no conviene 'esperar a ver'",
+        p: [
+          "El melanoma subungueal suele diagnosticarse tarde precisamente porque se confunde con causas benignas durante meses o años. Cuando hay dudas, el método para confirmar el diagnóstico es una biopsia dirigida a la matriz de la uña, no la sola observación."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Toda raya oscura en la uña es cáncer?",
+        a: "No, la gran mayoría son benignas. Pero como no siempre se puede diferenciar solo mirando, cualquier banda nueva o que genere dudas debe ser evaluada por un dermatólogo."
+      },
+      {
+        q: "¿Es normal tener varias uñas con bandas oscuras si tengo piel morena o negra?",
+        a: "Sí, es un hallazgo frecuente y generalmente benigno en personas de piel oscura. Aun así, cualquier cambio en una de esas bandas vale la pena comentarlo en la consulta."
+      },
+      {
+        q: "Me golpeé la uña y se puso oscura, ¿puede ser solo un moretón?",
+        a: "Es probable, pero la forma de confirmarlo es observar que la mancha se desplace hacia la punta y desaparezca a medida que la uña crece. Si no se mueve con el crecimiento de la uña, o no hay golpe que lo explique, conviene evaluarla."
+      },
+      {
+        q: "¿Cómo confirma el médico si es melanoma o no?",
+        a: "Con una evaluación clínica y dermatoscópica, y si hay signos de alarma, con una biopsia de la matriz de la uña, que es el único método que da un diagnóstico certero."
+      }
+    ],
+    relatedArticles: [
+      "dermatoscopia-que-es-y-por-que-importa",
+      "cuando-debo-evaluarme-los-lunares",
+      "tipos-de-cancer-de-piel-melanoma-basocelular-espinocelular"
+    ],
+    references: [
+      { label: "Ko D, Oromendia C, Scher R, Lipner SR. Retrospective single-center study evaluating clinical and dermoscopic features of longitudinal melanonychia. J Am Acad Dermatol. 2019. PMID 30765143.", url: "https://pubmed.ncbi.nlm.nih.gov/30765143/" }
+    ]
+  },
+  {
+    slug: "sarna-escabiosis-sintomas-y-cuando-consultar",
+    title: "Sarna (escabiosis): síntomas, contagio y cuándo consultar",
+    excerpt:
+      "Pica mucho, empeora de noche, y todavía carga con un estigma que no tiene fundamento: no es señal de falta de higiene. Esto es lo que hay que saber sobre la sarna.",
+    seoTitle: "Sarna (Escabiosis): Síntomas y Contagio | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es la sarna y cómo se contagia? La Dra. Karla Andrade, dermatóloga en Machala, explica los síntomas de la escabiosis y cuándo consultar.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-16",
+    dateModified: "2026-10-16",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "La sarna (escabiosis) es una de las causas de picazón intensa más frecuentes, y también una de las más rodeadas de vergüenza, por la idea equivocada de que se relaciona con falta de higiene. No es así: cualquier persona, sin importar cuánto se cuide, puede contagiarse.",
+    sections: [
+      {
+        h: "¿Qué es?",
+        p: [
+          "Es una infestación de la piel causada por un ácaro microscópico (Sarcoptes scabiei), que se instala en las capas superficiales de la piel. No tiene relación con la higiene personal: se transmite por contacto, no por suciedad."
+        ]
+      },
+      {
+        h: "Síntomas característicos",
+        list: [
+          "Picazón intensa, que típicamente empeora durante la noche.",
+          "Pequeñas ronchas o lesiones, a veces con líneas finas visibles (los túneles que forma el ácaro bajo la piel).",
+          "Ubicación característica: entre los dedos, muñecas, codos, axilas, cintura y genitales.",
+          "En bebés y niños pequeños, puede afectar también palmas, plantas y cara."
+        ]
+      },
+      {
+        h: "¿Cómo se contagia?",
+        p: [
+          "Principalmente por contacto piel con piel prolongado, como el que ocurre entre convivientes de una misma casa, en pareja, o entre cuidadores y niños pequeños. El contagio a través de ropa de cama o toallas es posible pero menos frecuente, y generalmente requiere que esos objetos hayan estado en contacto reciente con una persona infestada."
+        ]
+      },
+      {
+        h: "Por qué deben tratarse todos los convivientes",
+        p: [
+          "Una particularidad importante de la sarna es que el médico suele indicar tratar a todos los convivientes cercanos al mismo tiempo, incluso a quienes todavía no tienen síntomas, porque el período entre el contagio y la aparición de la picazón puede ser de varias semanas. Tratar solo a la persona con síntomas visibles suele llevar a que la infestación se mantenga circulando en la casa."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Tener sarna significa que soy una persona sucia?",
+        a: "No. No tiene ninguna relación con la higiene personal. Se transmite por contacto cercano y prolongado, y le puede pasar a cualquier persona."
+      },
+      {
+        q: "¿Por qué pica más de noche?",
+        a: "Es un patrón característico de esta condición, aunque la causa exacta de por qué empeora por la noche no está del todo establecida; es uno de los datos que más ayuda al médico a sospechar el diagnóstico."
+      },
+      {
+        q: "Si tengo sarna, ¿toda mi familia debe tratarse aunque no tenga síntomas?",
+        a: "Generalmente sí, según indique el médico: tratar solo a quien ya tiene síntomas suele resultar en que la infestación siga pasando de una persona a otra dentro de la casa."
+      },
+      {
+        q: "¿Puedo contagiarme solo por usar la cama de alguien con sarna?",
+        a: "Es posible, aunque es menos frecuente que el contagio por contacto directo con la piel, y generalmente requiere que la ropa o cama haya sido usada muy recientemente por la persona infestada."
+      }
+    ],
+    relatedArticles: ["urticaria-ronchas-en-la-piel-causas"],
+    references: [
+      { label: "CDC Yellow Book. Scabies. Centers for Disease Control and Prevention. 2024.", url: "https://wwwnc.cdc.gov/travel/yellowbook/2024/infections-diseases/scabies" }
+    ]
+  },
+  {
+    slug: "pitiriasis-rosada-manchas-que-aparecen-de-repente",
+    title: "Manchas que aparecen de repente en el tronco: pitiriasis rosada",
+    excerpt:
+      "Una mancha inicial seguida, días después, de muchas más repartidas por el tronco, sin razón aparente. No es alergia ni hongos: es un cuadro frecuente, benigno y autolimitado llamado pitiriasis rosada.",
+    seoTitle: "Pitiriasis Rosada: Manchas Repentinas en el Tronco | Dra. Karla Andrade",
+    seoDescription:
+      "¿Por qué aparecieron manchas de golpe en el pecho o la espalda? La Dra. Karla Andrade, dermatóloga en Machala, explica la pitiriasis rosada.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-16",
+    dateModified: "2026-10-16",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Una mancha inicial, más grande, seguida unos días después por muchas manchas más pequeñas repartidas por el pecho, la espalda o el abdomen: es un patrón que genera bastante alarma por lo repentino que parece, pero suele tratarse de un cuadro benigno y conocido, la pitiriasis rosada.",
+    sections: [
+      {
+        h: "¿Qué es?",
+        p: [
+          "Es una erupción de la piel benigna y autolimitada —es decir, que se resuelve sola con el tiempo—, que se asocia a la reactivación de dos virus comunes de la familia del herpes (VHH-6 y VHH-7), los mismos que casi toda la población ha tenido en algún momento de la vida sin saberlo. No es una alergia, ni un hongo, ni está relacionada con productos nuevos que hayas usado."
+        ]
+      },
+      {
+        h: "El patrón característico",
+        p: [
+          "Suele empezar con una sola mancha más grande, ovalada, llamada 'placa heraldo' o 'mancha madre'. Entre unos días y dos semanas después, aparecen muchas manchas más pequeñas, sobre todo en el tronco, que tienden a distribuirse siguiendo las líneas naturales de la piel, lo que le da un patrón descrito clásicamente como de 'árbol de Navidad' en la espalda."
+        ]
+      },
+      {
+        h: "¿Es contagiosa?",
+        p: [
+          "El riesgo de contagio entre personas es considerado bajo. No hace falta aislarse ni evitar el contacto habitual con la familia."
+        ]
+      },
+      {
+        h: "¿Cuánto dura?",
+        p: [
+          "Es autolimitada: en la mayoría de los casos se resuelve por sí sola en algunas semanas, aunque el tiempo exacto varía de una persona a otra."
+        ]
+      },
+      {
+        h: "Un punto importante durante el embarazo",
+        p: [
+          "Los estudios sobre pitiriasis rosada durante el embarazo muestran resultados variables entre sí, pero varios de ellos reportan una posible asociación con complicaciones del embarazo, sobre todo cuando aparece en etapas tempranas. Por eso, si estás embarazada y notas este patrón de manchas, es importante que lo converses con tu médico (dermatólogo y obstetra) en lugar de asumir que, por ser 'solo piel', no amerita consulta."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La pitiriasis rosada es una alergia?",
+        a: "No. Se asocia a la reactivación de virus comunes de la familia del herpes, no a una reacción alérgica a algún producto."
+      },
+      {
+        q: "¿Es contagiosa para mi familia?",
+        a: "El riesgo de contagio entre personas se considera bajo, por lo que no es necesario aislarse del resto de la familia."
+      },
+      {
+        q: "¿Cuánto tiempo tardan en desaparecer las manchas?",
+        a: "Generalmente se resuelve sola en algunas semanas, aunque el tiempo varía según cada persona."
+      },
+      {
+        q: "Estoy embarazada y me salieron estas manchas, ¿debo preocuparme?",
+        a: "Es importante que lo converses con tu médico. Algunos estudios reportan una posible asociación con complicaciones del embarazo, especialmente si aparece en etapas tempranas, por lo que amerita una evaluación y seguimiento, no solo observación."
+      }
+    ],
+    relatedArticles: ["urticaria-ronchas-en-la-piel-causas"],
+    references: [
+      { label: "Stashower J, et al. Pregnancy complications associated with pityriasis rosea: a multicenter retrospective study. J Am Acad Dermatol. 2021. PMID 33422632.", url: "https://pubmed.ncbi.nlm.nih.gov/33422632/" }
+    ]
   }
 ];
 
