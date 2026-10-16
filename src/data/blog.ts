@@ -5546,6 +5546,96 @@ export const articles: Article[] = [
       { label: "Network meta-analysis de tratamientos para verrugas anogenitales. PMID 31606873.", url: "https://pubmed.ncbi.nlm.nih.gov/31606873/" },
       { label: "Leval A, et al. Incidence of genital warts in Sweden before and after quadrivalent human papillomavirus vaccine availability. J Infect Dis. 2012. PMID 22815381.", url: "https://pubmed.ncbi.nlm.nih.gov/22815381/" }
     ]
+  },
+  {
+    slug: "mesoterapia-capilar-que-es-y-que-dice-la-evidencia",
+    title: "Mesoterapia capilar: qué es y qué dice la evidencia científica",
+    excerpt:
+      "Es uno de los procedimientos más ofrecidos contra la caída del cabello, pero también uno de los menos entendidos. Qué es realmente, qué dice la evidencia y por qué nunca debería hacerse fuera de un consultorio médico.",
+    seoTitle: "Mesoterapia Capilar: Qué Es y Si Funciona | Dra. Karla Andrade",
+    seoDescription:
+      "¿Funciona la mesoterapia capilar? La Dra. Karla Andrade, dermatóloga en Machala, explica en qué consiste este procedimiento y qué dice la evidencia científica.",
+    category: "Tricología",
+    datePublished: "2026-10-16",
+    dateModified: "2026-10-16",
+    readingMin: 6,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    lead:
+      "La mesoterapia capilar es uno de los procedimientos más promocionados contra la caída del cabello, y también uno de los que más confusión genera: ¿qué es exactamente, funciona, y es algo que cualquiera puede ofrecer? Esto es lo que hay que saber antes de considerarla.",
+    sections: [
+      {
+        h: "¿Qué es la mesoterapia capilar?",
+        p: [
+          "Es un procedimiento médico en el que un profesional inyecta, con agujas muy finas, pequeñas cantidades de sustancias activas directamente en la piel del cuero cabelludo. El objetivo es llevar esos componentes cerca del folículo piloso, en lugar de depender de que penetren a través de la piel como ocurre con una loción o crema.",
+          "Según el caso, las sustancias utilizadas pueden incluir vitaminas, aminoácidos, minoxidil u otros compuestos, y la combinación exacta es una decisión médica que depende de cada paciente — no existe una fórmula única ni genérica."
+        ]
+      },
+      {
+        h: "¿Para qué se usa?",
+        p: [
+          "Se utiliza principalmente como apoyo en el tratamiento de la alopecia androgenética (la caída de patrón hereditario, tanto en hombres como en mujeres), generalmente combinada con otros tratamientos con más respaldo, como el minoxidil."
+        ]
+      },
+      {
+        h: "¿Qué dice la evidencia científica?",
+        p: [
+          "Una revisión sistemática publicada en 2024 analizó 11 estudios sobre mesoterapia capilar y encontró resultados estadísticamente significativos y alta satisfacción de los pacientes en la mayoría de ellos.",
+          "Sin embargo, es importante matizarlo: los propios autores señalan que los estudios disponibles son en general pequeños, de corta duración, y con protocolos muy variables entre sí (distintas sustancias, distintas concentraciones, distinta frecuencia). Eso significa que la evidencia es prometedora pero todavía limitada, no una certeza equivalente a la de tratamientos como el minoxidil o la finasterida/dutasterida, que cuentan con estudios más sólidos y de más largo plazo."
+        ]
+      },
+      {
+        h: "Por qué debe hacerla siempre un profesional de la salud",
+        p: [
+          "Al ser un procedimiento inyectable, conlleva riesgos que no tiene una loción o champú: infecciones si no se usa técnica estéril, reacciones a los componentes, o nódulos e inflamación si las sustancias no son las adecuadas para uso inyectable en piel.",
+          "Es importante saber que existe mesoterapia capilar ofrecida en lugares sin supervisión médica (algunos centros de estética o peluquerías). Eso incrementa el riesgo de complicaciones, porque la selección de sustancias, las dosis y la técnica de aplicación son decisiones clínicas que debe tomar un médico, no un procedimiento que deba o pueda hacerse una misma persona en casa ni en un entorno sin formación médica."
+        ]
+      },
+      {
+        h: "¿Reemplaza a otros tratamientos?",
+        p: [
+          "No. La evidencia actual la posiciona como un complemento, no como un sustituto de tratamientos con más respaldo científico como el minoxidil o la finasterida/dutasterida. La decisión de combinarla o no con otros tratamientos, y el número de sesiones, depende de la evaluación de cada caso por un médico."
+        ]
+      },
+      {
+        h: "¿Quién no debería hacérsela?",
+        list: [
+          "Personas embarazadas o en lactancia.",
+          "Personas con infecciones activas o heridas en el cuero cabelludo.",
+          "Personas con alergia conocida a alguno de los componentes a inyectar.",
+          "Personas con trastornos de la coagulación no controlados."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Funciona la mesoterapia capilar?",
+        a: "Hay estudios con resultados favorables y buena satisfacción de los pacientes, pero en general son estudios pequeños y de corta duración. La evidencia es prometedora pero todavía más limitada que la de tratamientos como el minoxidil."
+      },
+      {
+        q: "¿Es dolorosa?",
+        a: "Puede generar molestia durante las inyecciones, variable según la persona y la zona. Es algo que conviene conversar con el médico que la realice."
+      },
+      {
+        q: "¿Es lo mismo que el PRP capilar?",
+        a: "No. El PRP utiliza plasma rico en plaquetas obtenido de la propia sangre del paciente, mientras que la mesoterapia inyecta sustancias externas (vitaminas, minoxidil u otras, según el caso). Son procedimientos distintos, aunque comparten la vía de aplicación inyectable."
+      },
+      {
+        q: "¿Me la puedo aplicar yo misma/o en casa?",
+        a: "No. Es un procedimiento médico inyectable que requiere técnica estéril y criterio clínico para elegir qué sustancias usar y en qué paciente. Hacerlo fuera de un entorno médico aumenta el riesgo de infecciones y otras complicaciones."
+      },
+      {
+        q: "¿Cuántas sesiones se necesitan?",
+        a: "Varía según cada caso y debe definirlo el médico tratante según la evolución; no hay un número fijo válido para todas las personas."
+      }
+    ],
+    relatedArticles: [
+      "que-tratamiento-capilar-necesito-segun-mi-alopecia",
+      "prp-capilar-tratamiento-cientifico-o-moda",
+      "minoxidil-para-el-cabello-funciona"
+    ],
+    references: [
+      { label: "Aledani EM, et al. Mesotherapy as a Promising Alternative to Minoxidil for Androgenetic Alopecia: A Systematic Review. Cureus. 2024. PMID 38841017.", url: "https://pubmed.ncbi.nlm.nih.gov/38841017/" }
+    ]
   }
 ];
 
