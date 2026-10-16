@@ -6084,6 +6084,115 @@ export const articles: Article[] = [
     references: [
       { label: "Stashower J, et al. Pregnancy complications associated with pityriasis rosea: a multicenter retrospective study. J Am Acad Dermatol. 2021. PMID 33422632.", url: "https://pubmed.ncbi.nlm.nih.gov/33422632/" }
     ]
+  },
+  {
+    slug: "aparatologia-cuando-usarla-y-para-que-sirve",
+    title: "Aparatología en dermatología: cuándo usarla y para qué sirve cada tratamiento",
+    excerpt:
+      "Láser, luz pulsada, radiofrecuencia, toxina botulínica: son herramientas distintas, para objetivos distintos. Esta guía reúne qué hace cada una y cuándo tiene sentido considerarla.",
+    seoTitle: "Aparatología: Cuándo Usarla y Para Qué Sirve | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué tratamiento de aparatología necesitas? Guía completa de la Dra. Karla Andrade, dermatóloga en Machala, sobre láser, luz pulsada, toxina botulínica y más.",
+    category: "Aparatología",
+    datePublished: "2026-10-16",
+    dateModified: "2026-10-16",
+    readingMin: 8,
+    relatedEspecialidad: "medicina-estetica",
+    lead:
+      "'Aparatología' es un término que agrupa tratamientos muy distintos entre sí —láser, luz pulsada, radiofrecuencia, toxina botulínica, entre otros—, cada uno pensado para un objetivo específico. Esta guía reúne, en un solo lugar, qué hace cada herramienta y cuándo tiene sentido considerarla.",
+    sections: [
+      {
+        h: "¿Qué es la aparatología?",
+        p: [
+          "Es el conjunto de tratamientos que usan equipos (de ahí el nombre) basados en distintos tipos de energía —luz, calor, radiofrecuencia, o sustancias inyectables como la toxina botulínica— para actuar sobre la piel, el cabello o el contorno corporal. No es un tratamiento único: cada equipo tiene un mecanismo distinto, pensado para un objetivo distinto, y ninguno sirve para todo."
+        ]
+      },
+      {
+        h: "Por qué importa quién lo realiza",
+        p: [
+          "No es un detalle menor: un análisis de complicaciones por tratamientos láser encontró que el 82% de los casos reportados ocurrió en lugares sin supervisión médica presencial. Son procedimientos que, aunque parezcan sencillos, requieren criterio médico para elegir el equipo correcto, ajustarlo a cada tipo de piel, y reconocer y manejar una complicación si ocurre."
+        ]
+      },
+      {
+        h: "Para manchas, textura y fotoenvejecimiento: láser CO2 fraccionado, picoláser e IPL",
+        p: [
+          "Son tres herramientas distintas para objetivos que se superponen parcialmente. El láser CO2 fraccionado trabaja renovando la piel en profundidad, útil en cicatrices y textura. El picoláser se usa principalmente para manchas y, en otro contexto, para tatuajes. La IPL (luz pulsada intensa) actúa sobre manchas superficiales, vasos visibles y signos generales de fotoenvejecimiento. Cada uno de estos artículos explica en detalle para qué sirve y qué esperar:"
+        ],
+        list: [
+          "Láser CO2 fraccionado: qué es y para qué sirve",
+          "Picoláser: qué es y para qué sirve en la piel",
+          "IPL (luz pulsada intensa): qué es y para qué sirve"
+        ]
+      },
+      {
+        h: "Para rejuvenecimiento más superficial: plasma pen",
+        p: [
+          "Es una herramienta distinta a un láser, con sus propios usos y límites, explicados en detalle en su artículo específico."
+        ]
+      },
+      {
+        h: "Para depilación: láser diodo",
+        p: [
+          "Es el tratamiento con más respaldo para la reducción duradera del vello, con sus propias consideraciones según el tipo de piel y vello de cada persona."
+        ]
+      },
+      {
+        h: "Toxina botulínica: no es solo para arrugas",
+        p: [
+          "Más allá del uso estético conocido, la toxina botulínica tiene aplicaciones médicas específicas: en el masetero (el músculo de la mandíbula, útil en casos de bruxismo o para afinar el contorno del rostro) y en el manejo de la hiperhidrosis (sudoración excesiva)."
+        ]
+      },
+      {
+        h: "Para estrías y celulitis",
+        p: [
+          "Son dos de las preocupaciones estéticas más consultadas, y también de las más rodeadas de promesas poco realistas. Ningún tratamiento único es efectivo para todos los casos; la evidencia actual favorece combinar más de un enfoque, como se explica en el detalle de cada tema."
+        ]
+      },
+      {
+        h: "Cómo se elige el tratamiento adecuado",
+        p: [
+          "La elección depende del diagnóstico, el objetivo específico, el tipo de piel y, en algunos casos, de combinar más de una herramienta. Por eso el primer paso nunca es elegir un equipo, sino una evaluación que determine qué problema se está tratando realmente."
+        ]
+      },
+      {
+        h: "Lo que la aparatología no reemplaza",
+        p: [
+          "Ningún tratamiento de aparatología reemplaza el diagnóstico ni el tratamiento médico de una condición de base: no trata el acné activo en lugar de un tratamiento dermatológico, no reemplaza el seguimiento de un lunar sospechoso, y no es un sustituto del cuidado médico cuando hay una enfermedad de la piel de por medio. Su lugar es como complemento, dentro de un plan guiado por un diagnóstico claro."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La aparatología reemplaza el tratamiento médico de una condición de la piel?",
+        a: "No. Es un complemento, no un reemplazo. Si hay una condición médica de base (acné activo, una lesión sospechosa, una enfermedad de la piel), esta debe diagnosticarse y tratarse primero."
+      },
+      {
+        q: "¿Cualquier persona puede hacerse cualquiera de estos tratamientos?",
+        a: "No necesariamente. El tipo de piel, el objetivo y los antecedentes de cada persona determinan qué tratamiento es apropiado y cuál no. Por eso la evaluación previa es un paso que no conviene saltarse."
+      },
+      {
+        q: "¿Por qué es importante que lo haga un médico y no solo un técnico?",
+        a: "Porque elegir el equipo y los parámetros correctos para cada tipo de piel, y reconocer y manejar una complicación si ocurre, requiere criterio médico. Los reportes de complicaciones por tratamientos láser son notablemente más frecuentes en lugares sin supervisión médica presencial."
+      },
+      {
+        q: "¿Cuántas sesiones se necesitan en general?",
+        a: "Varía mucho según el tratamiento, el objetivo y cada persona; no hay un número fijo válido para todos los casos. Es algo que se define en la evaluación inicial."
+      }
+    ],
+    relatedArticles: [
+      "laser-co2-fraccionado-que-es",
+      "picolaser-que-es-para-que-sirve",
+      "ipl-luz-pulsada-intensa-que-es",
+      "plasma-pen-que-es-que-puede-hacer",
+      "laser-diodo-que-es-para-que-sirve",
+      "botox-en-el-masetero-para-que-sirve",
+      "hiperhidrosis-tratamiento-con-toxina-botulinica",
+      "estrias-tratamientos-que-funcionan",
+      "celulitis-piel-de-naranja-tratamientos"
+    ],
+    references: [
+      { label: "American Society for Dermatologic Surgery Association (ASDSA). Protecting Patients from Harm: Laser Use. Position Statement.", url: "https://www.asds.net/Portals/0/PDF/asdsa/asdsa-position-statement-laser-use.pdf" }
+    ]
   }
 ];
 
