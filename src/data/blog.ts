@@ -6193,6 +6193,292 @@ export const articles: Article[] = [
     references: [
       { label: "American Society for Dermatologic Surgery Association (ASDSA). Protecting Patients from Harm: Laser Use. Position Statement.", url: "https://www.asds.net/Portals/0/PDF/asdsa/asdsa-position-statement-laser-use.pdf" }
     ]
+  },
+  {
+    slug: "onicomicosis-en-las-unas-de-las-manos",
+    title: "Onicomicosis en las uñas de las manos: en qué se diferencia de la de los pies",
+    excerpt:
+      "Los hongos en las uñas de las manos son menos frecuentes que en los pies, tienen causas algo distintas, y no toda uña fea de la mano es un hongo. Esto es lo que hay que saber antes de tratarla.",
+    seoTitle: "Onicomicosis en las Uñas de las Manos | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué causa la onicomicosis en las uñas de las manos y en qué se diferencia de la de los pies? La Dra. Karla Andrade, dermatóloga en Machala, lo explica.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-19",
+    dateModified: "2026-10-19",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Los hongos en las uñas de las manos son menos frecuentes que en los pies, y eso no es un dato menor: tienen causas que a veces son distintas, y una particularidad importante: no toda uña de la mano que se ve fea o engrosada es en realidad un hongo. Esto es lo que conviene saber antes de empezar cualquier tratamiento.",
+    sections: [
+      {
+        h: "¿Es igual que la onicomicosis de los pies?",
+        p: [
+          "No del todo. Es menos frecuente que en los pies, y mientras que en los pies suelen predominar los hongos dermatofitos (los mismos de la tiña), en las manos es más frecuente que intervengan levaduras como Candida, sobre todo en mujeres."
+        ]
+      },
+      {
+        h: "Factores de riesgo más específicos de las manos",
+        list: [
+          "Trabajos u oficios con las manos mojadas de forma prolongada y repetida",
+          "Traumatismos repetidos en la uña",
+          "Diabetes",
+          "Psoriasis (que además puede, por sí sola, parecerse mucho a un hongo en la uña)",
+          "Edad avanzada"
+        ]
+      },
+      {
+        h: "Por qué no toda uña de la mano que se ve mal es un hongo",
+        p: [
+          "Este es el punto más importante: hay otras condiciones —la psoriasis ungueal es la más frecuente de confundir— que pueden producir un engrosamiento, decoloración o deformidad de la uña muy similar a la de un hongo. Tratar con antimicóticos algo que en realidad es psoriasis, o viceversa, no da resultado y retrasa el diagnóstico correcto.",
+          "Por eso, antes de sostener un tratamiento antimicótico por meses, lo recomendable es confirmar el diagnóstico con un examen de laboratorio (cultivo o estudio directo de una muestra de la uña)."
+        ]
+      },
+      {
+        h: "El tratamiento",
+        p: [
+          "El enfoque general es similar al de los pies: antimicóticos tópicos en casos leves o iniciales, y antimicóticos orales (con seguimiento médico) en casos más establecidos. Como las uñas de las manos crecen más rápido que las de los pies, la mejoría suele notarse en menos tiempo, aunque sigue siendo un proceso de varios meses, no de días."
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        list: [
+          "Si la uña cambia de color, grosor o forma de manera sostenida.",
+          "Antes de iniciar un tratamiento antimicótico por tu cuenta, para confirmar que realmente se trata de un hongo.",
+          "Si ya usaste un antimicótico de venta libre por semanas sin ninguna mejoría."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Por qué me recomiendan un examen antes de empezar el tratamiento?",
+        a: "Porque otras condiciones, sobre todo la psoriasis ungueal, pueden verse muy parecidas a un hongo pero requieren un manejo distinto. Confirmar el diagnóstico evita meses de tratamiento sin resultado."
+      },
+      {
+        q: "¿Por qué me dio esto en las manos si nunca tuve hongos en los pies?",
+        a: "Son cuadros que pueden darse de forma independiente. En las manos, las levaduras como Candida son una causa frecuente, distinta de los hongos típicos de los pies, y se relaciona más con el contacto prolongado con agua."
+      },
+      {
+        q: "¿Se cura más rápido que en los pies?",
+        a: "Suele notarse mejoría en menos tiempo porque las uñas de las manos crecen más rápido, pero igual requiere varios meses de tratamiento sostenido."
+      }
+    ],
+    relatedArticles: ["hongos-en-las-unas-onicomicosis", "psoriasis-mitos-y-verdades", "raya-oscura-en-la-una-cuando-preocuparse"],
+    references: [
+      { label: "Ghannoum M, Isham N. Fungal Nail Infections (Onychomycosis): A Never-Ending Story? PLoS Pathog. 2014.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4047123/" }
+    ]
+  },
+  {
+    slug: "hiperqueratosis-en-las-manos-causas",
+    title: "Piel gruesa y áspera en las manos (hiperqueratosis): por qué aparece",
+    excerpt:
+      "Piel engrosada, áspera, a veces con grietas, en las palmas o los dedos. No siempre tiene la misma causa, y eso es justo lo que define cómo tratarla.",
+    seoTitle: "Hiperqueratosis en las Manos: Causas | Dra. Karla Andrade",
+    seoDescription:
+      "¿Por qué se engrosa y se agrieta la piel de las manos? La Dra. Karla Andrade, dermatóloga en Machala, explica las causas más frecuentes de la hiperqueratosis en manos.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-19",
+    dateModified: "2026-10-19",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Piel engrosada, áspera y a veces agrietada en las palmas o los dedos es un motivo de consulta frecuente, sobre todo en personas que trabajan mucho con las manos. Pero 'piel gruesa en las manos' no es un diagnóstico único: puede tener más de una causa, y de eso depende el tratamiento.",
+    sections: [
+      {
+        h: "¿Qué es?",
+        p: [
+          "Hiperqueratosis es, en términos simples, un engrosamiento de la capa más externa de la piel. En las manos suele aparecer en las palmas o en la base de los dedos, como zonas de piel dura, áspera, a veces con grietas (fisuras) que pueden doler."
+        ]
+      },
+      {
+        h: "Causas más frecuentes",
+        list: [
+          "Fricción y trabajo manual repetido: es la causa más directa y frecuente, por el roce constante de herramientas, objetos o superficies.",
+          "Dermatitis de contacto irritativa: por exposición repetida a sustancias que irritan la piel (de ahí que el eccema de manos sea de las enfermedades de piel más comunes relacionadas con el trabajo).",
+          "Psoriasis palmar: una forma de psoriasis que afecta específicamente las palmas, y que puede verse muy parecida a otras causas de piel gruesa.",
+          "Queratodermia palmar: un grupo de condiciones, algunas hereditarias, que producen un engrosamiento marcado y sostenido de las palmas."
+        ]
+      },
+      {
+        h: "Por qué importa diferenciar la causa",
+        p: [
+          "El manejo no es el mismo si la causa es el roce de un oficio manual, una dermatitis irritativa, una psoriasis o una queratodermia de base. Usar solo cremas humectantes puede no alcanzar si hay una condición de fondo que requiere otro enfoque, y por eso identificar la causa específica es el primer paso antes de insistir con un mismo producto que no está funcionando."
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        list: [
+          "Si las grietas duelen o sangran.",
+          "Si no mejora pese a semanas de cuidado con humectantes.",
+          "Si apareció de forma relativamente súbita, no solo por desgaste progresivo del trabajo manual.",
+          "Si se acompaña de otras lesiones en la piel, uñas o articulaciones."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Es solo por trabajar mucho con las manos?",
+        a: "Puede serlo, pero no siempre. La fricción y el trabajo manual son una causa frecuente, pero una dermatitis, una psoriasis palmar u otra condición de base también pueden producir el mismo aspecto, y requieren un manejo distinto."
+      },
+      {
+        q: "¿Las cremas humectantes son suficientes?",
+        a: "Ayudan en muchos casos, pero si no hay mejoría después de varias semanas, es señal de que puede haber una causa de fondo que requiere una evaluación específica."
+      },
+      {
+        q: "¿Puede ser psoriasis aunque no tenga placas en otras partes del cuerpo?",
+        a: "Sí. La psoriasis palmar puede presentarse de forma localizada en las manos, sin necesariamente tener lesiones visibles en otras zonas del cuerpo."
+      }
+    ],
+    relatedArticles: ["psoriasis-mitos-y-verdades", "psoriasis-que-es-y-como-se-trata"],
+    references: [
+      { label: "Rallis E, Liakopoulou A. Hyperkeratotic Plaques on Hands. Am Fam Physician. 2016;93(11):945.", url: "https://www.aafp.org/pubs/afp/issues/2016/0601/p945.html" },
+      { label: "DermNet. Hyperkeratotic palmar dermatitis.", url: "https://dermnetnz.org/topics/hyperkeratotic-palmar-dermatitis" }
+    ]
+  },
+  {
+    slug: "foliculitis-que-es-causas-comunes",
+    title: "Foliculitis: esos granitos irritados alrededor del vello",
+    excerpt:
+      "Pequeños granitos rojos, a veces con una puntita de pus, alrededor de un pelo. La foliculitis común es de los motivos de consulta más frecuentes, y casi siempre mucho menos complicada de lo que parece.",
+    seoTitle: "Foliculitis: Qué Es y Causas Comunes | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es la foliculitis y por qué aparece? La Dra. Karla Andrade, dermatóloga en Machala, explica las causas más comunes de estos granitos irritados.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-19",
+    dateModified: "2026-10-19",
+    readingMin: 5,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Pequeños granitos rojos, a veces con una puntita blanca de pus, agrupados alrededor de pelos, en piernas, axilas, barba o glúteos: es la foliculitis, una de las consultas más comunes en dermatología, y en la gran mayoría de los casos, mucho menos complicada de lo que parece a simple vista.",
+    sections: [
+      {
+        h: "¿Qué es?",
+        p: [
+          "Es la inflamación de uno o varios folículos pilosos (la estructura de la piel de donde sale cada pelo). En la mayoría de los casos es de origen bacteriano, generalmente por la misma bacteria (Staphylococcus aureus) que vive normalmente en la piel de muchas personas sin causar problemas, hasta que algo irrita o lesiona el folículo y le da oportunidad de infectarlo."
+        ]
+      },
+      {
+        h: "Las causas más comunes",
+        list: [
+          "Rasurado o depilación: el roce de la máquina o la cera irrita el folículo y facilita la infección.",
+          "Ropa ajustada o sudoración sostenida, que mantiene la piel húmeda e irritada.",
+          "'Foliculitis del jacuzzi': por otra bacteria distinta (Pseudomonas), asociada a piscinas o jacuzzis con un mantenimiento de cloro inadecuado.",
+          "Fricción repetida de la piel contra la ropa o entre pliegues del cuerpo."
+        ]
+      },
+      {
+        h: "¿Es lo mismo que la foliculitis decalvante?",
+        p: [
+          "No. Existe un tipo de foliculitis mucho menos frecuente y más complejo —la foliculitis decalvante—, que afecta específicamente el cuero cabelludo, es crónica, y puede dejar cicatriz y pérdida de cabello permanente si no se trata a tiempo. Es un cuadro distinto al que se describe aquí: la foliculitis común, en cambio, suele ser leve, localizada y de resolución más sencilla."
+        ]
+      },
+      {
+        h: "Qué suele ayudar",
+        p: [
+          "En los casos leves, mantener la zona limpia y evitar el factor que la irritó (rasurado repetido, ropa ajustada) suele ser suficiente para que mejore sola en poco tiempo. En casos que no mejoran, se extienden o son más dolorosos, el médico puede indicar un tratamiento dirigido según la causa."
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        list: [
+          "Si no mejora después de una a dos semanas.",
+          "Si se extiende a un área más grande o se vuelve muy dolorosa.",
+          "Si aparece fiebre o se forman bultos más grandes y profundos.",
+          "Si es un cuadro que se repite una y otra vez en la misma zona."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La foliculitis es contagiosa?",
+        a: "La bacteria que más frecuentemente la causa puede transmitirse por contacto cercano, pero el riesgo real de contagio es bajo y depende del caso. No es necesario un aislamiento especial."
+      },
+      {
+        q: "¿Por qué me da siempre después de afeitarme?",
+        a: "El roce de la máquina de afeitar irrita el folículo y facilita que se infecte. Cambiar la técnica de rasurado y mantener la piel limpia suele reducir los episodios."
+      },
+      {
+        q: "¿Es lo mismo que el acné?",
+        a: "No, aunque pueden parecerse. El acné involucra las glándulas sebáceas y comedones; la foliculitis es una inflamación o infección del folículo piloso en sí, con una causa y manejo distintos."
+      },
+      {
+        q: "¿Puede dejar cicatriz?",
+        a: "La foliculitis común, leve y bien resuelta, generalmente no deja cicatriz. El riesgo de cicatriz permanente aplica sobre todo a cuadros crónicos y distintos, como la foliculitis decalvante del cuero cabelludo."
+      }
+    ],
+    relatedArticles: [],
+    references: [
+      { label: "Winters RD, Mitchell M. Folliculitis. StatPearls. 2023. PMID 31613534.", url: "https://pubmed.ncbi.nlm.nih.gov/31613534/" }
+    ]
+  },
+  {
+    slug: "eccema-dishidrotico-ampollas-en-las-manos",
+    title: "Ampollas pequeñas y picazón en las manos: eccema dishidrótico",
+    excerpt:
+      "Ampollas diminutas, muy profundas y muy pruriginosas, en los dedos o las palmas, que aparecen y desaparecen en brotes. No son hongos ni son contagiosas: es un tipo particular de eccema.",
+    seoTitle: "Eccema Dishidrótico: Ampollas en las Manos | Dra. Karla Andrade",
+    seoDescription:
+      "¿Por qué salen ampollas pequeñas y con mucha picazón en las manos? La Dra. Karla Andrade, dermatóloga en Machala, explica el eccema dishidrótico.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-19",
+    dateModified: "2026-10-19",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Ampollas diminutas, muy profundas bajo la piel y con mucha picazón, en los costados de los dedos o en las palmas, que aparecen en brotes que duran unas semanas y luego ceden: es el eccema dishidrótico (también llamado pompholyx), una de las formas de eccema de manos menos conocidas pero bastante frecuentes.",
+    sections: [
+      {
+        h: "¿Qué es?",
+        p: [
+          "Es un tipo particular de eccema que afecta las manos (y a veces los pies), con ampollas pequeñas, profundas y muy pruriginosas, típicamente en los bordes de los dedos y las palmas. Se presenta en brotes que suelen durar entre dos y tres semanas, y que pueden repetirse con el tiempo."
+        ]
+      },
+      {
+        h: "¿Por qué aparece?",
+        p: [
+          "La causa exacta no se conoce con certeza; se cree que involucra al sistema inmunológico respondiendo a ciertos desencadenantes. Entre los más mencionados están el estrés, el contacto con metales como el níquel, la sudoración excesiva y el calor. Es más frecuente en personas que ya tienen otras formas de eccema o antecedentes familiares de la condición."
+        ]
+      },
+      {
+        h: "Por qué se confunde con un hongo",
+        p: [
+          "Es un error común, porque ambos afectan las manos y producen picazón. La diferencia está en el tipo de lesión: el eccema dishidrótico forma ampollas pequeñas y profundas que se sienten como granos de tapioca bajo la piel, mientras que una infección por hongos suele dar más bien descamación, enrojecimiento o cambios en la uña, sin ese patrón de ampollas. Confirmarlo con una evaluación evita tratar con antimicóticos algo que no va a responder a ellos."
+        ]
+      },
+      {
+        h: "¿Es contagioso?",
+        p: [
+          "No. No se transmite de una persona a otra bajo ninguna circunstancia."
+        ]
+      },
+      {
+        h: "Qué ayuda a manejarlo",
+        p: [
+          "El manejo médico suele incluir tratamiento tópico indicado por el dermatólogo para controlar la inflamación durante los brotes, cuidado de la piel con humectantes, e identificar y evitar, en lo posible, los desencadenantes propios de cada persona. Cuando hay sospecha de una infección agregada en las ampollas, eso también debe evaluarse y tratarse aparte."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Las ampollas se deben reventar?",
+        a: "No es recomendable manipularlas por cuenta propia: hacerlo aumenta el riesgo de infección. Lo adecuado es que el manejo lo indique un médico."
+      },
+      {
+        q: "¿Es lo mismo que un hongo en las manos?",
+        a: "No. Aunque ambos pican y afectan las manos, el eccema dishidrótico forma ampollas profundas, mientras que una infección por hongos se manifiesta distinto. Confirmarlo con una evaluación es clave antes de tratar."
+      },
+      {
+        q: "¿Desaparece para siempre después de un brote?",
+        a: "Es una condición que tiende a repetirse en brotes a lo largo del tiempo, no algo que se cure de una sola vez. El objetivo del manejo es controlar los brotes y espaciarlos lo más posible."
+      },
+      {
+        q: "¿El estrés es la causa principal?",
+        a: "Es uno de los desencadenantes reportados, pero no la única causa ni algo que la persona se provoque a sí misma. La causa de fondo no se conoce con certeza."
+      }
+    ],
+    relatedArticles: ["hiperqueratosis-en-las-manos-causas", "hongos-en-la-piel-tina-pie-de-atleta"],
+    references: [
+      { label: "Wollina U. Pompholyx: a review of clinical features, differential diagnosis, and management. Am J Clin Dermatol. 2010. PMID 20642293.", url: "https://pubmed.ncbi.nlm.nih.gov/20642293/" }
+    ]
   }
 ];
 
