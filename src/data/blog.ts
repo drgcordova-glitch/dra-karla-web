@@ -6479,6 +6479,78 @@ export const articles: Article[] = [
     references: [
       { label: "Wollina U. Pompholyx: a review of clinical features, differential diagnosis, and management. Am J Clin Dermatol. 2010. PMID 20642293.", url: "https://pubmed.ncbi.nlm.nih.gov/20642293/" }
     ]
+  },
+  {
+    slug: "existe-una-vacuna-para-las-verrugas",
+    title: "¿Existe una vacuna para las verrugas?",
+    excerpt:
+      "Es una pregunta frecuente en consulta, y la respuesta es más interesante de lo que parece: existe un tratamiento real que usa vacunas ya existentes para hacer que el cuerpo combata las verrugas, aunque no es lo que la mayoría imagina.",
+    seoTitle: "¿Existe una Vacuna para las Verrugas? | Dra. Karla Andrade",
+    seoDescription:
+      "¿Hay una vacuna para quitar las verrugas? La Dra. Karla Andrade, dermatóloga en Machala, explica qué es la inmunoterapia para verrugas y cuándo se usa.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-19",
+    dateModified: "2026-10-19",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "Es una pregunta que surge seguido en consulta: '¿no hay una vacuna para las verrugas?'. La respuesta es más interesante de lo que parece: existe un tratamiento real, con respaldo en estudios clínicos, que usa vacunas que ya existen para otra cosa, aplicadas de una forma distinta a la habitual.",
+    sections: [
+      {
+        h: "No es una vacuna preventiva",
+        p: [
+          "Lo primero para aclarar: esto no es una vacuna que se aplique para prevenir las verrugas, como una vacuna tradicional. Es un tratamiento para verrugas que ya están presentes, que usa el sistema inmunológico como herramienta, por eso se le llama inmunoterapia."
+        ]
+      },
+      {
+        h: "¿Cómo funciona?",
+        p: [
+          "Consiste en inyectar, directamente en una de las verrugas, una vacuna que ya existe y se usa normalmente para otra cosa —la más estudiada es la vacuna triple viral (sarampión, paperas y rubéola)— o un antígeno (como el de Candida). La idea es provocar, en ese punto, una reacción del sistema inmunológico que termina reconociendo y atacando el virus (VPH) responsable de la verruga.",
+          "Un dato llamativo: en algunos casos, no solo mejora la verruga donde se aplicó la inyección, sino también otras verrugas del cuerpo que no fueron inyectadas, porque la respuesta inmunológica que se genera no se queda localizada."
+        ]
+      },
+      {
+        h: "¿Qué tan efectiva es?",
+        p: [
+          "Una revisión que reunió 62 estudios clínicos encontró tasas de respuesta completa (desaparición total de la verruga) de hasta 62-90% en algunos de los esquemas estudiados con la vacuna triple viral, y resultados similares con el antígeno de Candida. Dicho esto, los propios estudios señalan que todavía no hay un consenso sobre cuál esquema es el más efectivo, ni una aprobación formal específica para este uso, por lo que sigue siendo una opción que se indica caso por caso."
+        ]
+      },
+      {
+        h: "Por qué puede valer la pena considerarla",
+        p: [
+          "No es el tratamiento de primera línea para una verruga aislada y simple. Donde más sentido tiene es en casos de verrugas múltiples, muy extendidas, o que no respondieron a tratamientos más habituales (como la crioterapia). En esos casos, en vez de tratar verruga por verruga durante meses, esta opción apunta a generar una respuesta inmune que puede ayudar con varias a la vez, incluidas algunas que no se inyectaron directamente."
+        ]
+      },
+      {
+        h: "Es un procedimiento médico, no algo casero",
+        p: [
+          "Requiere indicación y aplicación por un médico: implica seleccionar el producto adecuado, la técnica de inyección, y vigilar la respuesta (los efectos más frecuentes son reacción en el sitio de la inyección y síntomas leves parecidos a los de un resfriado). No es un procedimiento para hacerse uno mismo ni fuera de un consultorio."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Es la misma vacuna del VPH?",
+        a: "No. Es un uso distinto de otras vacunas que ya existen (como la triple viral), aplicadas directamente en la verruga para generar una respuesta inmune local, y no tiene relación con la vacuna del VPH."
+      },
+      {
+        q: "¿Sirve para cualquier tipo de verruga?",
+        a: "Se usa sobre todo en casos de verrugas múltiples, extensas o que no respondieron a otros tratamientos, no como primera opción para una verruga simple y aislada."
+      },
+      {
+        q: "¿Por qué mejoran verrugas que no se inyectaron?",
+        a: "Porque el objetivo del tratamiento es generar una respuesta inmunológica contra el virus, que no queda limitada al punto exacto de la inyección."
+      },
+      {
+        q: "¿Tiene efectos secundarios?",
+        a: "Los más frecuentes son molestia en el sitio de la inyección y síntomas leves parecidos a un resfriado. Debe aplicarse y supervisarse por un médico."
+      }
+    ],
+    relatedArticles: ["verrugas-en-ninos-cuando-preocuparse", "verrugas-genitales-que-son-y-cuando-consultar"],
+    references: [
+      { label: "Intralesional immunotherapy for the treatment of warts: a systematic review. JID Innovations. 2024.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10990969" },
+      { label: "Candida antigen immunotherapy for cutaneous warts: a systematic review and meta-analysis. Acta Derm Venereol. 2024.", url: "https://medicaljournalssweden.se/actadv/article/download/40819/48034" }
+    ]
   }
 ];
 
