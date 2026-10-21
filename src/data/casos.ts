@@ -340,6 +340,89 @@ export const casos: ClinicalCase[] = [
     ],
     consentNote:
       "Caso publicado con el consentimiento informado y expreso de la paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la zona del hombro, sin rasgos que permitan identificarla. El tratamiento sigue en curso: los resultados pueden variar en cada paciente y no sustituyen una consulta médica."
+  },
+  {
+    slug: "carcinoma-basocelular-frontal-cirugia-conjunta",
+    title: "Carcinoma basocelular en la frente: diagnóstico, biopsia y cirugía conjunta con cirugía plástica",
+    cardTitle: "Carcinoma basocelular en la frente",
+    cardExcerpt: "Diagnóstico, biopsia y cirugía con cirugía plástica",
+    subtitle: "Hombre de 84 años",
+    excerpt:
+      "Hombre de 84 años con una lesión en la frente que no cicatrizaba y sangraba con facilidad. La biopsia confirmó un carcinoma basocelular. Diagnóstico, biopsia y cirugía realizados en conjunto con un cirujano plástico.",
+    seoTitle: "Carcinoma Basocelular: Caso Clínico en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de carcinoma basocelular en la frente: diagnóstico, biopsia y cirugía realizada por la Dra. Karla Andrade junto a un cirujano plástico en Machala.",
+    category: "Cáncer de piel",
+    diagnosis: "Carcinoma basocelular, variantes nodular e infiltrante",
+    datePublished: "2026-10-21",
+    dateModified: "2026-10-21",
+    readingMin: 5,
+    relatedEspecialidad: "cancer-de-piel-y-dermatoscopia",
+    relatedPrompt: "¿Tienes una lesión en la piel que no cicatriza o te preocupa?",
+    lead:
+      "Un hombre de 84 años consultó por una lesión en la frente que llevaba tiempo sin sanar y sangraba con facilidad ante el roce mínimo. La biopsia confirmó un carcinoma basocelular. Este es el recorrido diagnóstico y el tratamiento, realizado en conjunto con un cirujano plástico para asegurar tanto la eliminación completa del tumor como un buen resultado estético.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente masculino de 84 años, con una lesión en la región frontal derecha de evolución prolongada. Llamaba la atención que no cicatrizaba como una herida normal y que sangraba con facilidad ante mínimos roces, dos señales que no deben pasarse por alto en una lesión de la piel, especialmente en piel con años de exposición solar acumulada."
+        ]
+      },
+      {
+        h: "Hallazgos clínicos",
+        p: [
+          "Al examen se observó una lesión ulcerada, de bordes poco definidos, en la frente derecha. Este tipo de aspecto —una 'herida' que no termina de cerrar y sangra con facilidad— es una presentación característica del carcinoma basocelular, el tipo de cáncer de piel más frecuente."
+        ]
+      },
+      {
+        h: "La biopsia",
+        p: [
+          "Se realizó una biopsia diagnóstica de la lesión. El resultado confirmó un carcinoma basocelular, con dos variantes presentes en la misma lesión: nodular e infiltrante. La variante infiltrante tiene un patrón de crecimiento con bordes menos definidos que la nodular, lo que exige una planificación quirúrgica más cuidadosa para asegurar que se retire todo el tejido comprometido."
+        ]
+      },
+      {
+        h: "El día de la cirugía",
+        p: [
+          "La cirugía se realizó en conjunto entre la Dra. Karla Andrade —quien hizo el diagnóstico, la biopsia y participó directamente en la cirugía— y un cirujano plástico. Este trabajo conjunto combina dos objetivos: la extirpación completa del tumor, con el margen de seguridad adecuado, y una reconstrucción cuidadosa de la zona, especialmente delicada por su cercanía con la ceja."
+        ],
+        img: {
+          src: "/casos/cbc-frontal-suturas.jpg",
+          alt: "Sutura en la frente tras la extirpación quirúrgica del carcinoma basocelular",
+          caption: "Resultado inmediato de la cirugía, el mismo día del procedimiento."
+        }
+      },
+      {
+        h: "El resultado, un mes después",
+        p: [
+          "Al mes de la cirugía, la cicatriz se integró bien en las líneas naturales de la frente, con buena preservación de la zona de la ceja. El seguimiento de este tipo de casos continúa en el tiempo, tanto para vigilar la cicatrización como para los controles dermatológicos periódicos que todo paciente con antecedente de cáncer de piel debe mantener."
+        ]
+      }
+    ],
+    beforeAfter: {
+      antesLabel: "Antes",
+      antesDesc: "Lesión ulcerada en la frente derecha, que no cicatrizaba y sangraba con facilidad.",
+      antes: [
+        { src: "/casos/cbc-frontal-antes.jpg", alt: "Lesión de carcinoma basocelular en la frente antes de la cirugía" }
+      ],
+      despuesLabel: "Un mes después de la cirugía",
+      despuesDesc: "Cicatriz integrada en las líneas naturales de la frente.",
+      despues: [
+        { src: "/casos/cbc-frontal-final.jpg", alt: "Resultado de la cicatriz un mes después de la cirugía de carcinoma basocelular" }
+      ]
+    },
+    keyMessages: [
+      "El carcinoma basocelular es el cáncer de piel más frecuente. Rara vez pone en riesgo la vida, pero si no se trata puede seguir creciendo e invadir el tejido alrededor.",
+      "Una lesión en la piel que no cicatriza en varias semanas, sobre todo si sangra con facilidad, debe evaluarse por un dermatólogo.",
+      "La variante infiltrante tiene un patrón de crecimiento menos definido que la nodular, por lo que requiere una planificación quirúrgica más cuidadosa.",
+      "El trabajo conjunto entre dermatología y cirugía plástica permite retirar el tumor por completo y, al mismo tiempo, cuidar el resultado estético, algo especialmente importante en zonas visibles como el rostro."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso del paciente para el uso médico y publicitario de estas imágenes. Las fotografías fueron recortadas para mostrar únicamente la zona de la lesión en la frente, sin rasgos del rostro que permitan identificarlo. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Tienes una lesión en la piel que no cicatriza o sangra con facilidad?",
+      text: "Una evaluación dermatológica a tiempo permite diagnosticar a tiempo y elegir el tratamiento adecuado para cada caso.",
+      buttonLabel: "Agendar evaluación de la piel"
+    }
   }
 ];
 
