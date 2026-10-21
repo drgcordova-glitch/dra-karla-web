@@ -1,5 +1,5 @@
 export const site = {
-  url: "https://drakarladermatologa.com",
+  url: "https://www.drakarladermatologa.com",
   drName: "Dra. Karla Sophía Andrade Maldonado",
   shortName: "Dra. Karla Andrade",
   role: "Médica Especialista en Dermatología",
