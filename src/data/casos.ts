@@ -495,6 +495,72 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación temprana permite confirmar el diagnóstico y empezar el tratamiento adecuado a tiempo.",
       buttonLabel: "Agendar evaluación capilar"
     }
+  },
+  {
+    slug: "alopecia-androgenetica-prp-mesoterapia-tratamiento-oral",
+    title: "Alopecia androgenética: mejoría de densidad con PRP, mesoterapia y tratamiento oral",
+    cardTitle: "Alopecia androgenética masculina",
+    cardExcerpt: "Evolución a los 3 meses y medio de tratamiento",
+    subtitle: "Hombre de 24 años",
+    excerpt:
+      "Hombre de 24 años con alopecia androgenética, tratado con una combinación de plasma rico en plaquetas, mesoterapia capilar y tratamiento oral. Mejoría del grosor, la densidad y reducción de las áreas con menos cabello.",
+    seoTitle: "Alopecia Androgenética: Caso Clínico en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de alopecia androgenética en un paciente joven, tratado por la Dra. Karla Andrade en Machala con PRP, mesoterapia y tratamiento oral.",
+    category: "Tricología",
+    diagnosis: "Alopecia androgenética",
+    datePublished: "2026-10-23",
+    dateModified: "2026-10-23",
+    readingMin: 4,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    relatedPrompt: "¿Notas menos densidad o entradas que avanzan?",
+    lead:
+      "Un hombre de 24 años consultó por una pérdida progresiva de densidad capilar, con afinamiento notorio en la zona de la coronilla. El diagnóstico fue alopecia androgenética. Este es el tratamiento combinado indicado y la evolución observada en poco más de tres meses.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente masculino de 24 años, con pérdida progresiva de densidad capilar, más notoria en la zona de la coronilla, compatible con alopecia androgenética: la causa más frecuente de caída de cabello, de origen hormonal y genético."
+        ]
+      },
+      {
+        h: "El tratamiento",
+        p: [
+          "Se indicó un tratamiento combinado: plasma rico en plaquetas (PRP), mesoterapia capilar y tratamiento oral, bajo supervisión médica. Combinar estos enfoques, en lugar de depender de uno solo, suele asociarse a mejores resultados en casos de alopecia androgenética."
+        ]
+      },
+      {
+        h: "El resultado",
+        p: [
+          "En poco más de tres meses de tratamiento se observa mejoría en el grosor y la densidad del cabello, con una reducción visible de las áreas donde antes se notaba más el cuero cabelludo. La alopecia androgenética es una condición progresiva y crónica: sostener el tratamiento en el tiempo es lo que permite mantener y seguir mejorando estos resultados."
+        ]
+      }
+    ],
+    beforeAfter: {
+      antesLabel: "Antes",
+      antesDesc: "Menor densidad capilar, con afinamiento notorio en la zona de la coronilla.",
+      antes: [
+        { src: "/casos/prp-androgenetica-antes.jpg", alt: "Alopecia androgenética en la coronilla antes del tratamiento" }
+      ],
+      despuesLabel: "Poco más de 3 meses después",
+      despuesDesc: "Mejoría de grosor y densidad capilar, con menos área de cuero cabelludo visible.",
+      despues: [
+        { src: "/casos/prp-androgenetica-despues.jpg", alt: "Mejoría de la densidad capilar tras el tratamiento combinado para alopecia androgenética" }
+      ]
+    },
+    keyMessages: [
+      "La alopecia androgenética es la causa más frecuente de caída de cabello, de origen hormonal y genético.",
+      "Combinar PRP, mesoterapia y tratamiento oral suele dar mejores resultados que depender de un solo enfoque.",
+      "Es una condición progresiva y crónica: sostener el tratamiento en el tiempo es lo que permite mantener los resultados.",
+      "Cada caso evoluciona de forma distinta: los resultados pueden variar entre pacientes."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso del paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la parte superior del cuero cabelludo, sin rasgos del rostro que permitan identificarlo. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Notas menos densidad o entradas que avanzan?",
+      text: "Una evaluación dermatológica permite confirmar el diagnóstico y diseñar un tratamiento combinado adecuado para cada caso.",
+      buttonLabel: "Agendar evaluación capilar"
+    }
   }
 ];
 
