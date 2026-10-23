@@ -6551,6 +6551,100 @@ export const articles: Article[] = [
       { label: "Intralesional immunotherapy for the treatment of warts: a systematic review. JID Innovations. 2024.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10990969" },
       { label: "Candida antigen immunotherapy for cutaneous warts: a systematic review and meta-analysis. Acta Derm Venereol. 2024.", url: "https://medicaljournalssweden.se/actadv/article/download/40819/48034" }
     ]
+  },
+  {
+    slug: "manchas-y-marcas-comunes-en-la-piel-del-recien-nacido",
+    title: "Manchas y marcas comunes en la piel del recién nacido: guía para padres",
+    excerpt:
+      "Manchas azuladas, puntitos blancos, granitos que van y vienen: la piel de un recién nacido suele tener marcas que generan alarma sin necesidad. Esto es lo que suelen ser, y qué sí amerita consultar.",
+    seoTitle: "Manchas en la Piel del Recién Nacido: Guía | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué son esas manchas y marcas en la piel de un recién nacido? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica las más comunes y cuándo consultar.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-23",
+    dateModified: "2026-10-23",
+    readingMin: 7,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    lead:
+      "Manchas azuladas, puntitos blancos en la cara, granitos que aparecen y desaparecen solos: la piel de un recién nacido suele traer varias marcas que generan alarma en los primeros días, casi siempre sin necesidad. Esto es lo que suelen ser las más comunes, y qué señales sí ameritan una consulta.",
+    sections: [
+      {
+        h: "Por qué la piel de un recién nacido tiene tantas marcas",
+        p: [
+          "La piel de un bebé recién nacido todavía se está adaptando a la vida fuera del útero: las glándulas, los vasos sanguíneos y la pigmentación siguen madurando en las primeras semanas. Por eso es tan común que aparezcan marcas que, vistas sin contexto, pueden parecer preocupantes, y que en la gran mayoría de los casos son completamente normales."
+        ]
+      },
+      {
+        h: "Mancha mongólica",
+        p: [
+          "Es una mancha de color azulado o gris, de bordes poco definidos, típicamente en la zona baja de la espalda o los glúteos, presente desde el nacimiento. Es muy frecuente y benigna, y suele irse desvaneciendo durante los primeros años de vida.",
+          "Vale la pena mencionarlo con claridad: a veces se confunde con un moretón, lo cual puede generar preguntas incómodas de terceros. Por eso es útil que quede registrada en la historia clínica del bebé desde el primer control. Cuando es muy extensa, oscura o sigue apareciendo en más zonas con el tiempo, sí amerita que el pediatra o dermatólogo la evalúe con más detalle."
+        ]
+      },
+      {
+        h: "Milia (puntitos blancos en la cara)",
+        p: [
+          "Son pequeños puntos blancos o amarillentos, del tamaño de una cabeza de alfiler, que aparecen sobre todo en la nariz, el mentón y las mejillas. Son extremadamente comunes en recién nacidos y se deben a que las glándulas de la piel todavía están madurando. Se resuelven solos en las primeras semanas, sin necesidad de ningún tratamiento, y no deben exprimirse ni manipularse."
+        ]
+      },
+      {
+        h: "Eritema tóxico neonatal",
+        p: [
+          "A pesar de su nombre, que puede sonar alarmante, es una de las erupciones más comunes y benignas en bebés nacidos a término: pequeñas manchas rojas con un punto blanco o amarillento en el centro, que aparecen entre el primer y tercer día de vida. Es característico que 'vayan y vengan': pueden aparecer en una zona, desaparecer, y aparecer en otra distinta en cuestión de horas. Se resuelve sola en una a dos semanas."
+        ]
+      },
+      {
+        h: "Acné neonatal",
+        p: [
+          "Pequeños granitos rojos o con cabeza blanca en las mejillas, la nariz o la frente, que suelen aparecer varias semanas después del nacimiento (a diferencia del eritema tóxico, que aparece en los primeros días). Se resuelve solo, generalmente en unos meses, y no requiere productos especiales ni limpiezas agresivas, que más bien pueden irritar la piel del bebé."
+        ]
+      },
+      {
+        h: "Costra láctea",
+        p: [
+          "Son escamas amarillentas y grasosas en el cuero cabelludo, a veces también en cejas o detrás de las orejas. Es una forma de dermatitis seborreica propia de los primeros meses de vida, no tiene relación con la higiene, y en la mayoría de los casos se resuelve sola hacia los primeros 8 meses. El cuidado suave con un champú para bebés y un cepillado delicado suele ser suficiente; si persiste o se inflama, puede evaluarse un tratamiento específico."
+        ]
+      },
+      {
+        h: "¿Y las manchas café con leche, los hemangiomas o los lunares?",
+        p: [
+          "Esas marcas —más relacionadas con la pigmentación o los vasos sanguíneos, y con sus propias señales de alarma específicas— las desarrollamos en detalle en dos artículos dedicados: uno sobre manchas de nacimiento (café con leche, hemangiomas, manchas salmón) y otro sobre los distintos tipos de nevos o lunares congénitos."
+        ]
+      },
+      {
+        h: "Cuándo consultar sin esperar",
+        list: [
+          "Si el bebé se ve decaído, con fiebre, o la lesión tiene pus, mal olor o se ve claramente infectada.",
+          "Si una marca crece muy rápido o cambia mucho de aspecto en poco tiempo.",
+          "Si la mancha mongólica es muy extensa, muy oscura, o sigue apareciendo en nuevas zonas.",
+          "Siempre que algo te genere duda: no hace falta esperar a que sea muy evidente para preguntar."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La mancha mongólica significa que le pegaron a mi bebé?",
+        a: "No. Es una marca de nacimiento benigna que puede parecerse a un moretón, pero no tiene relación con ningún golpe. Por eso es útil que quede registrada en su historia clínica desde el primer control."
+      },
+      {
+        q: "¿Puedo exprimir los puntitos blancos (milia) de la cara de mi bebé?",
+        a: "No. Se resuelven solos en las primeras semanas; manipularlos puede irritar la piel o causar una infección."
+      },
+      {
+        q: "¿La costra láctea es por falta de higiene?",
+        a: "No, no tiene relación con la higiene. Es una forma de dermatitis seborreica propia de los primeros meses de vida, que en la mayoría de los casos se resuelve sola."
+      },
+      {
+        q: "¿El eritema tóxico neonatal es grave?",
+        a: "No, es una de las erupciones más comunes y benignas en bebés nacidos a término, y se resuelve sola en una a dos semanas. Si el bebé se ve decaído o con fiebre, eso sí amerita evaluación para descartar otras causas."
+      }
+    ],
+    relatedArticles: ["manchas-de-nacimiento-cuando-preocuparse", "tipos-de-nevos-lunares-seguimiento-especial", "dermatitis-del-panal-causas-y-cuidado"],
+    references: [
+      { label: "Dermal Melanocytosis (Mongolian Spot). StatPearls. 2026.", url: "https://www.ncbi.nlm.nih.gov/books/NBK557408/" },
+      { label: "O'Connor NR, McLaughlin MR, Ham P. Newborn Skin: Part I. Common Rashes. Am Fam Physician. 2008;77(1):47-52.", url: "https://www.aafp.org/pubs/afp/issues/2008/0101/p47.html" },
+      { label: "Victoire A, et al. Interventions for infantile seborrhoeic dermatitis (including cradle cap). Cochrane Database Syst Rev.", url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD011380.pub2/information" }
+    ]
   }
 ];
 
