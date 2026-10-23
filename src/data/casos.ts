@@ -423,6 +423,78 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica a tiempo permite diagnosticar a tiempo y elegir el tratamiento adecuado para cada caso.",
       buttonLabel: "Agendar evaluación de la piel"
     }
+  },
+  {
+    slug: "alopecia-areata-parches-recuperacion-en-dos-meses",
+    title: "Alopecia areata: recuperación de parches de calvicie en dos meses de tratamiento",
+    cardTitle: "Alopecia areata: parches de calvicie",
+    cardExcerpt: "Evolución a los 2 meses de tratamiento",
+    subtitle: "Hombre de 28 años",
+    excerpt:
+      "Hombre de 28 años con varios parches de caída de cabello en la zona posterior del cuero cabelludo. Diagnóstico: alopecia areata. A los dos meses de tratamiento ya se observa crecimiento de cabello nuevo, con el tratamiento todavía en curso.",
+    seoTitle: "Alopecia Areata: Caso Clínico en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de alopecia areata con parches de calvicie, tratada por la Dra. Karla Andrade en Machala. Evolución a los dos meses de tratamiento.",
+    category: "Tricología",
+    diagnosis: "Alopecia areata",
+    datePublished: "2026-10-23",
+    dateModified: "2026-10-23",
+    readingMin: 4,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    relatedPrompt: "¿Notas parches de calvicie o caída repentina del cabello?",
+    lead:
+      "Un hombre de 28 años consultó al notar varios parches redondeados de caída de cabello en la zona posterior del cuero cabelludo. El diagnóstico fue alopecia areata. Este es el tratamiento indicado y la evolución observada a los dos meses.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente masculino de 28 años, que consultó por la aparición de varios parches de caída de cabello en la zona posterior del cuero cabelludo, de bordes bien definidos y forma redondeada u ovalada, sin otros síntomas asociados como dolor o picazón."
+        ]
+      },
+      {
+        h: "¿Qué es la alopecia areata?",
+        p: [
+          "Es una enfermedad autoinmune: el sistema inmune ataca por error a los folículos pilosos, lo que detiene temporalmente la producción de cabello en las zonas afectadas. A diferencia de las alopecias cicatriciales, aquí el folículo no se destruye de forma permanente, por lo que generalmente conserva la capacidad de volver a producir cabello."
+        ]
+      },
+      {
+        h: "El tratamiento",
+        p: [
+          "Se indicó un tratamiento específico para alopecia areata, con controles periódicos para evaluar la respuesta y ajustar el manejo según la evolución de cada parche."
+        ]
+      },
+      {
+        h: "El resultado, a los dos meses",
+        p: [
+          "A los dos meses de tratamiento ya se observa crecimiento de cabello nuevo en las zonas que antes estaban sin pelo. El tratamiento continúa en curso: la alopecia areata puede requerir varios meses para una recuperación más completa, y el seguimiento sigue siendo importante incluso después de ver una buena respuesta inicial."
+        ]
+      }
+    ],
+    beforeAfter: {
+      antesLabel: "Antes",
+      antesDesc: "Varios parches de caída de cabello en la zona posterior del cuero cabelludo.",
+      antes: [
+        { src: "/casos/alopecia-areata-antes.jpg", alt: "Parches de alopecia areata en el cuero cabelludo antes del tratamiento" }
+      ],
+      despuesLabel: "Dos meses después",
+      despuesDesc: "Crecimiento de cabello nuevo visible en las zonas afectadas; tratamiento en curso.",
+      despues: [
+        { src: "/casos/alopecia-areata-despues.jpg", alt: "Crecimiento de cabello nuevo tras dos meses de tratamiento para alopecia areata" }
+      ]
+    },
+    keyMessages: [
+      "La alopecia areata es autoinmune, no cicatricial: por eso el folículo generalmente conserva la capacidad de volver a producir cabello.",
+      "El tratamiento temprano suele asociarse a mejores resultados.",
+      "Puede reaparecer incluso después de una buena respuesta inicial, por lo que el seguimiento continúa siendo importante.",
+      "Cada caso evoluciona de forma distinta: los resultados pueden variar entre pacientes."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso del paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la zona posterior del cuero cabelludo, sin rasgos del rostro que permitan identificarlo. El tratamiento sigue en curso: los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Notas parches de calvicie o caída repentina del cabello?",
+      text: "Una evaluación temprana permite confirmar el diagnóstico y empezar el tratamiento adecuado a tiempo.",
+      buttonLabel: "Agendar evaluación capilar"
+    }
   }
 ];
 
