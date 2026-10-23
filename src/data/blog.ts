@@ -6645,6 +6645,230 @@ export const articles: Article[] = [
       { label: "O'Connor NR, McLaughlin MR, Ham P. Newborn Skin: Part I. Common Rashes. Am Fam Physician. 2008;77(1):47-52.", url: "https://www.aafp.org/pubs/afp/issues/2008/0101/p47.html" },
       { label: "Victoire A, et al. Interventions for infantile seborrhoeic dermatitis (including cradle cap). Cochrane Database Syst Rev.", url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD011380.pub2/information" }
     ]
+  },
+  {
+    slug: "tina-capitis-en-ninos-hongo-en-el-cuero-cabelludo",
+    title: "Tiña capitis en niños: el hongo del cuero cabelludo que causa calvas",
+    excerpt:
+      "Una zona con menos pelo, escamas y pelos quebrados en la cabeza de un niño no suele ser 'solo caspa'. Es una infección por hongos frecuente en edad escolar, y a diferencia de otros hongos de la piel, no se trata solo con crema.",
+    seoTitle: "Tiña Capitis en Niños: Hongo en el Cuero Cabelludo | Dra. Karla Andrade",
+    seoDescription:
+      "¿Qué es la tiña capitis en niños y por qué causa calvas? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica causas, contagio y tratamiento.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-23",
+    dateModified: "2026-10-23",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    lead:
+      "Una zona del cuero cabelludo con menos pelo, escamas y pelos que se rompen fácilmente en un niño no suele ser 'solo caspa' ni falta de higiene. Es una infección por hongos, muy frecuente en edad escolar, y tiene una particularidad importante: a diferencia de los hongos en otras partes de la piel, no se trata solo con crema.",
+    sections: [
+      {
+        h: "¿Qué es?",
+        p: [
+          "Es una infección por hongos del cuero cabelludo, especialmente frecuente en niños en edad escolar. Se presenta como una o varias zonas con menos cabello, escamas, y pelos que se rompen cerca de la raíz, a veces acompañado de enrojecimiento o pequeñas pústulas."
+        ]
+      },
+      {
+        h: "Por qué no basta con crema o champú anticaspa",
+        p: [
+          "A diferencia de los hongos que afectan solo la superficie de la piel, en la tiña capitis el hongo se instala dentro del folículo piloso, donde una crema no logra penetrar lo suficiente. Por eso el tratamiento de elección es un antifúngico oral, indicado y supervisado por el médico; un champú o crema antimicótica sola generalmente no resuelve la infección, aunque puede usarse como complemento para reducir el contagio."
+        ]
+      },
+      {
+        h: "¿Cómo se contagia?",
+        p: [
+          "Por contacto cercano con otra persona infectada, y también al compartir objetos como peines, gorras, almohadas o cepillos. En algunos casos, el contagio viene de una mascota (sobre todo gatos)."
+        ]
+      },
+      {
+        h: "¿Debe faltar a la escuela?",
+        p: [
+          "Una vez iniciado el tratamiento adecuado, la mayoría de las guías no considera necesaria la exclusión escolar de rutina, aunque esto puede variar según las políticas de cada institución. Es una buena pregunta para conversar tanto con el médico tratante como con la escuela."
+        ]
+      },
+      {
+        h: "Por qué no conviene 'esperar a ver'",
+        p: [
+          "Postergar el diagnóstico y tratamiento tiene un costo real: en casos más avanzados o muy inflamados (lo que se conoce como querion), existe riesgo de que la pérdida de cabello en esa zona quede permanente por la cicatriz que deja la inflamación. Cuanto antes se identifica y trata, menor es ese riesgo."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Se contagia de las mascotas?",
+        a: "Sí, es posible, sobre todo de gatos. Si el niño tiene tiña capitis y hay mascotas en casa, vale la pena que también sean revisadas por un veterinario."
+      },
+      {
+        q: "¿Basta con un champú o crema antimicótica?",
+        a: "Generalmente no. El hongo se instala dentro del folículo piloso, donde una crema no penetra lo suficiente, por lo que el tratamiento de elección es un antifúngico oral indicado por el médico. El champú puede usarse como complemento."
+      },
+      {
+        q: "¿Mi hijo debe faltar a clases mientras se trata?",
+        a: "Una vez iniciado el tratamiento, la mayoría de las guías no considera necesaria la exclusión escolar de rutina, aunque conviene confirmarlo con el médico y la política de la escuela."
+      },
+      {
+        q: "¿Puede dejar una calva permanente?",
+        a: "Si no se trata a tiempo, sobre todo en casos muy inflamados, existe ese riesgo por la cicatriz que deja la inflamación. El diagnóstico y tratamiento tempranos reducen significativamente esa posibilidad."
+      }
+    ],
+    relatedArticles: ["hongos-en-la-piel-tina-pie-de-atleta", "caspa-por-que-aparece-y-como-tratarla"],
+    references: [
+      { label: "Chen X, et al. Systemic antifungal therapy for tinea capitis in children. Cochrane Database Syst Rev. 2016. DOI 10.1002/14651858.CD004685.pub3.", url: "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004685.pub3/information" }
+    ]
+  },
+  {
+    slug: "alergias-y-piel-en-ninos-cuando-sospechar",
+    title: "Alergias y piel en niños: cuándo sospechar y qué hacer",
+    excerpt:
+      "No toda piel irritada en un niño es 'alergia a algo que comió'. Esto es lo que realmente dice la evidencia sobre la relación entre alergias y piel en la infancia, y por qué no conviene eliminar alimentos sin confirmación médica.",
+    seoTitle: "Alergias y Piel en Niños: Cuándo Sospechar | Dra. Karla Andrade",
+    seoDescription:
+      "¿Cuándo una piel irritada en un niño es realmente una alergia? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica cuándo sospechar y qué hacer.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-23",
+    dateModified: "2026-10-23",
+    readingMin: 7,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    lead:
+      "'Debe ser alérgico a algo que comió' es una de las frases más comunes cuando la piel de un niño se irrita. A veces es cierto, pero no siempre, y confundir las causas puede llevar a eliminar alimentos de la dieta sin necesidad. Esto es lo que realmente dice la evidencia.",
+    sections: [
+      {
+        h: "Dermatitis atópica y alergia alimentaria: una relación real, pero no automática",
+        p: [
+          "En niños con dermatitis atópica moderada a severa, la alergia alimentaria es más frecuente que en la población general: estudios reportan que hasta un 30% de estos niños también tiene alergia alimentaria. Pero esto no significa que toda dermatitis atópica sea causada por un alimento: en la mayoría de los casos, la piel reacciona por su propia predisposición, sin que haya un alimento responsable."
+        ]
+      },
+      {
+        h: "Por qué no conviene eliminar alimentos por cuenta propia",
+        p: [
+          "Restringir alimentos de la dieta de un niño sin una confirmación adecuada (como una evaluación alergológica y, si corresponde, una prueba de provocación controlada) puede generar riesgos nutricionales reales, sin necesariamente mejorar la piel si el alimento no era la causa. La decisión de eliminar un alimento debe tomarse junto con el médico, no por prueba y error en casa."
+        ]
+      },
+      {
+        h: "La alergia de contacto también existe en niños, y se subestima",
+        p: [
+          "Las revisiones disponibles muestran que la alergia de contacto es más común de lo que se pensaba en niños con dermatitis atópica, incluso a sustancias presentes en productos pensados para 'piel sensible'. Es decir: un producto etiquetado para pieles sensibles no garantiza que no vaya a producir una reacción alérgica en un niño en particular."
+        ]
+      },
+      {
+        h: "¿Y la urticaria?",
+        p: [
+          "Las ronchas que aparecen de golpe y pican (urticaria) sí pueden deberse a una alergia, pero también a infecciones, medicamentos o causas que nunca llegan a identificarse. No toda urticaria significa alergia alimentaria; el patrón, el tiempo de aparición después de comer, y otros síntomas asociados ayudan a diferenciarlo."
+        ]
+      },
+      {
+        h: "Cuándo derivar a alergología",
+        list: [
+          "Si hay una reacción inmediata y clara después de comer un alimento específico (ronchas, hinchazón, dificultad para respirar).",
+          "Si la dermatitis atópica no mejora pese a un tratamiento adecuado y sostenido.",
+          "Si hay sospecha fundamentada de un desencadenante específico que se repite."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Toda dermatitis atópica es por alergia a un alimento?",
+        a: "No. Es más frecuente en niños con dermatitis atópica moderada a severa, pero en la mayoría de los casos la piel reacciona por su propia predisposición, sin que haya un alimento responsable."
+      },
+      {
+        q: "¿Puedo quitar un alimento de la dieta de mi hijo por mi cuenta para ver si mejora?",
+        a: "No es recomendable. Puede generar riesgos nutricionales sin necesariamente resolver el problema de piel. Lo adecuado es confirmar la alergia con una evaluación médica antes de restringir alimentos."
+      },
+      {
+        q: "¿Un producto 'para piel sensible' garantiza que no le dará alergia a mi hijo?",
+        a: "No. La alergia de contacto en niños es más común de lo que se piensa, incluso con productos pensados para piel sensible. Cada piel puede reaccionar distinto."
+      },
+      {
+        q: "¿La urticaria siempre significa alergia alimentaria?",
+        a: "No necesariamente. Puede deberse a alergias, pero también a infecciones, medicamentos u otras causas. El contexto de cada caso ayuda a diferenciarlo."
+      }
+    ],
+    relatedArticles: ["dermatitis-atopica-piel-sensible", "urticaria-ronchas-en-la-piel-causas"],
+    references: [
+      { label: "Simonsen AB, et al. Contact allergy in children with atopic dermatitis: a systematic review. Br J Dermatol. 2017;177(2):395-405.", url: "https://onlinelibrary.wiley.com/doi/10.1111/bjd.15628" }
+    ]
+  },
+  {
+    slug: "picazon-en-ninos-causas-comunes",
+    title: "¿Por qué le pica la piel a mi hijo? Causas comunes",
+    excerpt:
+      "La picazón es uno de los motivos de consulta más frecuentes en dermatología pediátrica, y a veces no hay nada visible en la piel. Esto es lo que más frecuentemente la explica.",
+    seoTitle: "Picazón en Niños: Causas Comunes | Dra. Karla Andrade",
+    seoDescription:
+      "¿Por qué le pica la piel a tu hijo? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica las causas más comunes de la picazón en la infancia.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-23",
+    dateModified: "2026-10-23",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    lead:
+      "La picazón es uno de los motivos de consulta más frecuentes en dermatología pediátrica. A veces viene acompañada de un sarpullido evidente, y otras veces la piel se ve prácticamente normal, lo que genera más dudas todavía. Esto es lo que más frecuentemente la explica.",
+    sections: [
+      {
+        h: "La piel, más que una enfermedad interna, suele ser la causa",
+        p: [
+          "En niños, la picazón casi siempre se origina en la piel misma, más que en una enfermedad de otro órgano. Las causas dermatológicas más frecuentes son la dermatitis atópica y de contacto, la urticaria, el calor (miliaria), infecciones, picaduras o infestaciones como la sarna, y la piel simplemente seca."
+        ]
+      },
+      {
+        h: "Piel seca: la causa más común sin nada muy visible",
+        p: [
+          "La piel seca (xerosis) puede causar picazón notable incluso cuando no hay un sarpullido evidente a simple vista, sobre todo en climas o estaciones que resecan más la piel, o con baños muy frecuentes y prolongados."
+        ]
+      },
+      {
+        h: "Dermatitis atópica: la causa más frecuente en la primera infancia",
+        p: [
+          "Es, según las revisiones disponibles, la causa más común de picazón sostenida, especialmente durante la infancia temprana y la etapa preescolar. Suele acompañarse de piel enrojecida, áspera o con pequeñas lesiones, aunque en fases iniciales puede ser sutil."
+        ]
+      },
+      {
+        h: "Otras causas frecuentes",
+        list: [
+          "Sarna (escabiosis): picazón intensa que suele empeorar de noche",
+          "Urticaria: ronchas que aparecen y desaparecen, cambiando de lugar",
+          "Picaduras de insecto",
+          "Irritación por productos de higiene, detergentes o telas"
+        ]
+      },
+      {
+        h: "Por qué rascarse mucho empeora el problema",
+        p: [
+          "Rascarse alivia la picazón por un momento, pero irrita más la piel, lo que generalmente provoca más picazón después: es un círculo que se retroalimenta. Por eso, identificar y tratar la causa de fondo es más efectivo que depender solo de aliviar el síntoma."
+        ]
+      },
+      {
+        h: "Cuándo consultar",
+        list: [
+          "Si la picazón no deja dormir al niño o interfiere con su día a día.",
+          "Si dura varias semanas sin mejorar.",
+          "Si se acompaña de piel muy enrojecida, con heridas por rascado o signos de infección.",
+          "Si no identificas ninguna causa clara y la picazón persiste."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Es normal que un niño sano sienta picazón de vez en cuando?",
+        a: "Episodios aislados y breves pueden ocurrir sin mayor significado, pero la picazón sostenida o que interfiere con el sueño o las actividades diarias amerita evaluación."
+      },
+      {
+        q: "¿La piel seca puede picar aunque no se vea mal?",
+        a: "Sí. La piel seca puede causar picazón notable incluso sin un sarpullido evidente a simple vista."
+      },
+      {
+        q: "¿Cuándo la picazón es motivo de consulta urgente?",
+        a: "Cuando no deja dormir, dura semanas, o se acompaña de piel muy enrojecida, heridas por rascado o signos de infección."
+      },
+      {
+        q: "¿Rascarse mucho puede dañar la piel?",
+        a: "Sí, rascarse de forma repetida irrita más la piel y puede generar heridas o infecciones secundarias, además de empeorar la picazón con el tiempo."
+      }
+    ],
+    relatedArticles: ["dermatitis-atopica-piel-sensible", "sarna-escabiosis-sintomas-y-cuando-consultar", "urticaria-ronchas-en-la-piel-causas"],
+    references: [
+      { label: "Kang SY, et al. Differential Diagnosis and Treatment of Itching in Children and Adolescents. Biomedicines. 2021;9(8):919. PMID 34440123.", url: "https://pubmed.ncbi.nlm.nih.gov/34440123/" }
+    ]
   }
 ];
 
