@@ -14,6 +14,15 @@ export const metadata: Metadata = {
 const fmt = (d: string) =>
   new Date(d + "T00:00:00").toLocaleDateString("es-EC", { day: "numeric", month: "long", year: "numeric" });
 
+// Mismos colores de marca que usa el blog, para que categorías iguales se vean igual en todo el sitio.
+const categoryColor: Record<string, string> = {
+  "Dermatología clínica": "var(--dorado)",
+  "Tricología": "var(--violeta)",
+  "Cáncer de piel": "var(--plum)",
+  "Aparatología": "var(--lila)",
+  "Medicina estética": "var(--lila)"
+};
+
 function groupByCategory() {
   const order: string[] = [];
   const groups: Record<string, typeof casos> = {};
@@ -57,7 +66,7 @@ export default function CasosHub() {
       </section>
 
       <section className="block">
-        <div className="wrap" style={{ maxWidth: 840 }}>
+        <div className="wrap">
           {groups.map(({ category, items }) => (
             <details key={category} className="blog-cat">
               <summary>
@@ -68,14 +77,18 @@ export default function CasosHub() {
                 </span>
               </summary>
               <div className="blog-cat-body">
-                <div className="blog-list">
+                <div className="blog-grid">
                   {items.map((c) => (
-                    <Link key={c.slug} className="blog-item" href={`/casos/${c.slug}`}>
+                    <Link
+                      key={c.slug}
+                      className="blog-card"
+                      href={`/casos/${c.slug}`}
+                      style={{ ["--card-accent" as string]: categoryColor[c.category] ?? "var(--dorado)" }}
+                    >
                       <span className="cat">{c.category}</span>
                       <h2>{c.cardTitle ?? c.title}</h2>
                       <p>{c.cardExcerpt ?? c.excerpt}</p>
                       <div className="meta">{fmt(c.datePublished)} · {c.readingMin} min de lectura</div>
-                      <span className="go">Ver caso clínico <span className="arw">→</span></span>
                     </Link>
                   ))}
                 </div>
