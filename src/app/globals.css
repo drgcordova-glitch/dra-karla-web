@@ -244,18 +244,18 @@ section.block{padding:110px 0}
 .blog-sub-label:not(:first-child){margin-top:36px}
 
 /* Índice de casos clínicos: mismo patrón de acordeón que el blog, pero con
-   una franja de color por categoría y un adelanto de los títulos, para que
-   la vista cerrada se vea más viva que una simple línea de texto. */
+   una franja de color por categoría, para que la vista cerrada se vea más
+   viva que una simple línea de texto. Sin adelanto de títulos: con muchos
+   casos por categoría, esa lista se volvería larga e ilegible. */
 .casos-cat{margin-bottom:14px;border:1px solid rgba(42,30,58,.1);border-left:4px solid var(--cat-accent,var(--dorado));border-radius:4px;background:#fff;overflow:hidden}
 .casos-cat summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:18px;padding:22px 24px;transition:.2s}
 .casos-cat summary:hover{background:var(--crema)}
 .casos-cat summary::-webkit-details-marker{display:none}
 .casos-cat summary .label{font-family:var(--sans);font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--cat-accent,var(--violeta));white-space:nowrap}
-.casos-cat summary .preview{flex:1;font-size:14.5px;color:var(--ink-soft);font-weight:300;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.casos-cat summary .line{flex:1;height:1px;background:rgba(155,127,192,.3)}
 .casos-cat summary .count{font-family:var(--sans);font-size:12px;font-weight:400;color:#8a8098;letter-spacing:.02em;white-space:nowrap}
 .casos-cat summary::after{content:"+";font-family:var(--serif);color:var(--dorado);font-size:24px;font-weight:400;line-height:1;margin-left:4px}
 .casos-cat[open] summary::after{content:"–"}
-@media(max-width:640px){.casos-cat summary .preview{display:none}}
 .art-meta{font-family:var(--sans);font-size:13px;color:rgba(202,180,226,.85);margin-top:18px;letter-spacing:.02em}
 .related-box{margin-top:48px;padding:28px 30px;background:var(--crema);border-radius:4px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
 .related-box .t{font-family:var(--serif);font-size:19px;color:var(--plum)}

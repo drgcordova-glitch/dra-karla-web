@@ -75,7 +75,7 @@ export default function CasosHub() {
             >
               <summary>
                 <span className="label">{category}</span>
-                <span className="preview">{items.map((c) => c.cardTitle ?? c.title).join(" · ")}</span>
+                <span className="line" />
                 <span className="count">
                   {items.length} caso{items.length === 1 ? "" : "s"}
                 </span>
