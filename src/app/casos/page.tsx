@@ -14,7 +14,21 @@ export const metadata: Metadata = {
 const fmt = (d: string) =>
   new Date(d + "T00:00:00").toLocaleDateString("es-EC", { day: "numeric", month: "long", year: "numeric" });
 
+function groupByCategory() {
+  const order: string[] = [];
+  const groups: Record<string, typeof casos> = {};
+  for (const c of casos) {
+    if (!groups[c.category]) {
+      groups[c.category] = [];
+      order.push(c.category);
+    }
+    groups[c.category].push(c);
+  }
+  return order.map((category) => ({ category, items: groups[category] }));
+}
+
 export default function CasosHub() {
+  const groups = groupByCategory();
   return (
     <>
       <JsonLd
@@ -44,17 +58,30 @@ export default function CasosHub() {
 
       <section className="block">
         <div className="wrap" style={{ maxWidth: 840 }}>
-          <div className="blog-list">
-            {casos.map((c) => (
-              <Link key={c.slug} className="blog-item" href={`/casos/${c.slug}`}>
-                <span className="cat">{c.category}</span>
-                <h2>{c.cardTitle ?? c.title}</h2>
-                <p>{c.cardExcerpt ?? c.excerpt}</p>
-                <div className="meta">{fmt(c.datePublished)} · {c.readingMin} min de lectura</div>
-                <span className="go">Ver caso clínico <span className="arw">→</span></span>
-              </Link>
-            ))}
-          </div>
+          {groups.map(({ category, items }) => (
+            <details key={category} className="blog-cat">
+              <summary>
+                <span className="label">{category}</span>
+                <span className="line" />
+                <span className="count">
+                  {items.length} caso{items.length === 1 ? "" : "s"}
+                </span>
+              </summary>
+              <div className="blog-cat-body">
+                <div className="blog-list">
+                  {items.map((c) => (
+                    <Link key={c.slug} className="blog-item" href={`/casos/${c.slug}`}>
+                      <span className="cat">{c.category}</span>
+                      <h2>{c.cardTitle ?? c.title}</h2>
+                      <p>{c.cardExcerpt ?? c.excerpt}</p>
+                      <div className="meta">{fmt(c.datePublished)} · {c.readingMin} min de lectura</div>
+                      <span className="go">Ver caso clínico <span className="arw">→</span></span>
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </details>
+          ))}
         </div>
       </section>
     </>
