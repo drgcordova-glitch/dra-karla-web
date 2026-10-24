@@ -68,10 +68,14 @@ export default function CasosHub() {
       <section className="block">
         <div className="wrap">
           {groups.map(({ category, items }) => (
-            <details key={category} className="blog-cat">
+            <details
+              key={category}
+              className="casos-cat"
+              style={{ ["--cat-accent" as string]: categoryColor[category] ?? "var(--dorado)" }}
+            >
               <summary>
                 <span className="label">{category}</span>
-                <span className="line" />
+                <span className="preview">{items.map((c) => c.cardTitle ?? c.title).join(" · ")}</span>
                 <span className="count">
                   {items.length} caso{items.length === 1 ? "" : "s"}
                 </span>
