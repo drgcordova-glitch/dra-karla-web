@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const c = getCaso(slug);
   if (!c) return {};
   return {
-    title: c.seoTitle ?? c.title,
+    title: { absolute: c.seoTitle ?? c.title },
     description: c.seoDescription ?? c.excerpt,
     alternates: { canonical: `/casos/${c.slug}` },
     openGraph: {

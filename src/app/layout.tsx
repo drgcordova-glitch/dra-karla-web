@@ -27,7 +27,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Dermatóloga en Machala · Dra. Karla Andrade | Agenda tu cita",
+    default: "Dermatóloga en Machala · Dra. Karla Andrade Maldonado | Agenda tu cita",
     template: "%s · Dra. Karla Andrade"
   },
   description:

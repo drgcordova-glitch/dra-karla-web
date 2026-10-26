@@ -23,7 +23,7 @@ export default function Home() {
             <Reveal className="hero-copy">
               <span className="eyebrow">Dermatología · Machala, El Oro</span>
               <h1>
-                <span className="h1-name">Dra. Karla Andrade</span>
+                <span className="h1-name">Dra. Karla Andrade Maldonado</span>
                 Medicina de la piel,
                 <br />
                 <em>con criterio.</em>

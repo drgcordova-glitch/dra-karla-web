@@ -561,6 +561,56 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica permite confirmar el diagnóstico y diseñar un tratamiento combinado adecuado para cada caso.",
       buttonLabel: "Agendar evaluación capilar"
     }
+  },
+  {
+    slug: "acne-en-adolescente-evolucion-con-tratamiento",
+    title: "Acné en un adolescente: evolución con diagnóstico y tratamiento adecuados",
+    cardTitle: "Acné en adolescente",
+    cardExcerpt: "Evolución del rostro con un diagnóstico y tratamiento adecuados",
+    subtitle: "Paciente de 16 años",
+    excerpt:
+      "Paciente de 16 años con acné facial activo. La evolución del rostro después de un diagnóstico correcto y un tratamiento dermatológico adecuado.",
+    seoTitle: "Acné en Adolescentes: Caso Clínico en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de acné en un paciente adolescente, con evolución favorable del rostro gracias a un diagnóstico y tratamiento dermatológico adecuados.",
+    category: "Dermatología clínica",
+    diagnosis: "Acné",
+    datePublished: "2026-10-26",
+    dateModified: "2026-10-26",
+    readingMin: 3,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    relatedPrompt: "¿Tu hijo o hija tiene acné y no sabes cómo ayudarlo?",
+    lead:
+      "Paciente de 16 años que consultó por acné activo en el rostro, con lesiones inflamatorias visibles. Este es el antes y el después, una vez que el cuadro se abordó con el diagnóstico y el tratamiento adecuados.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente masculino de 16 años, que consultó por acné en el rostro, con lesiones inflamatorias y puntos negros, principalmente en las mejillas."
+        ]
+      },
+      {
+        h: "El resultado",
+        img: {
+          src: "/casos/acne-adolescente-evolucion.jpg",
+          alt: "Antes y después del acné en un paciente adolescente tratado por la Dra. Karla Andrade en Machala.",
+          caption: "Antes y después. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "La evolución",
+        p: [
+          "Con el diagnóstico correcto y un tratamiento dermatológico adecuado a su tipo de piel y de acné, el rostro mostró una mejoría notoria: menos lesiones inflamatorias y una piel visiblemente más sana y pareja."
+        ]
+      }
+    ],
+    keyMessages: [
+      "El acné en la adolescencia tiene tratamiento: no hay que esperar a que \"se le pase con la edad\".",
+      "Un diagnóstico correcto, adaptado a cada tipo de piel, es la base de un buen resultado.",
+      "Cuanto antes se trata el acné, menor es el riesgo de que deje cicatrices o manchas."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado del padre, madre o representante legal del paciente, menor de edad, para el uso médico y publicitario de estas imágenes. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica."
   }
 ];
 
