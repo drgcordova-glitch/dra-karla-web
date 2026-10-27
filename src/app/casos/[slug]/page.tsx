@@ -7,6 +7,7 @@ import WhatsAppLink from "@/components/WhatsAppLink";
 import Lightbox from "@/components/Lightbox";
 import JsonLd from "@/components/JsonLd";
 import { casos, getCaso } from "@/data/casos";
+import { categoryLabel } from "@/data/blog";
 import { getEspecialidad } from "@/data/especialidades";
 import { breadcrumb, articleSchema } from "@/lib/schema";
 
@@ -64,7 +65,7 @@ export default async function CasoPage({ params }: Props) {
       <section className="pagehead">
         <div className="wrap">
           <div className="crumb">
-            <Link href="/">Inicio</Link> / <Link href="/casos">Casos clínicos</Link> / {c.category}
+            <Link href="/">Inicio</Link> / <Link href="/casos">Casos clínicos</Link> / {categoryLabel[c.category] ?? c.category}
           </div>
           <h1>{c.title}</h1>
           {c.subtitle && <p>{c.subtitle}</p>}

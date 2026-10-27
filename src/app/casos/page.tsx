@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 import { casos } from "@/data/casos";
+import { categoryLabel } from "@/data/blog";
 import { breadcrumb, medicalWebPage } from "@/lib/schema";
 
 export const metadata: Metadata = {
@@ -74,7 +75,7 @@ export default function CasosHub() {
               style={{ ["--cat-accent" as string]: categoryColor[category] ?? "var(--dorado)" }}
             >
               <summary>
-                <span className="label">{category}</span>
+                <span className="label">{categoryLabel[category] ?? category}</span>
                 <span className="line" />
                 <span className="count">
                   {items.length} caso{items.length === 1 ? "" : "s"}
@@ -89,7 +90,7 @@ export default function CasosHub() {
                       href={`/casos/${c.slug}`}
                       style={{ ["--card-accent" as string]: categoryColor[c.category] ?? "var(--dorado)" }}
                     >
-                      <span className="cat">{c.category}</span>
+                      <span className="cat">{categoryLabel[c.category] ?? c.category}</span>
                       <h2>{c.cardTitle ?? c.title}</h2>
                       <p>{c.cardExcerpt ?? c.excerpt}</p>
                       <div className="meta">{fmt(c.datePublished)} · {c.readingMin} min de lectura</div>
