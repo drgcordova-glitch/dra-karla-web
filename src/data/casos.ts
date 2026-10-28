@@ -611,6 +611,72 @@ export const casos: ClinicalCase[] = [
     ],
     consentNote:
       "Caso publicado con el consentimiento informado del padre, madre o representante legal del paciente, menor de edad, para el uso médico y publicitario de estas imágenes. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica."
+  },
+  {
+    slug: "pilomatricoma-cirugia-dermatologica",
+    title: "El bulto duro que parecía un tumor: cirugía de un pilomatricoma",
+    cardTitle: "Pilomatricoma: cirugía dermatológica",
+    cardExcerpt: "Extirpación completa de un tumor benigno con aspecto alarmante",
+    subtitle: "Mujer de 23 años",
+    excerpt:
+      "Mujer de 23 años con un bulto duro bajo la piel, de aspecto llamativo. El diagnóstico fue pilomatricoma, un tumor benigno del folículo piloso, extirpado mediante cirugía dermatológica.",
+    seoTitle: "Pilomatricoma: Caso Clínico en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de pilomatricoma, un tumor benigno de la piel con aspecto llamativo, extirpado mediante cirugía dermatológica por la Dra. Karla Andrade en Machala.",
+    category: "Dermatología clínica",
+    diagnosis: "Pilomatricoma (tumor benigno del folículo piloso)",
+    datePublished: "2026-10-28",
+    dateModified: "2026-10-28",
+    readingMin: 4,
+    relatedEspecialidad: "dermatologia-clinica",
+    relatedPrompt: "¿Tienes un bulto bajo la piel que te preocupa?",
+    lead:
+      "Una paciente de 23 años consultó por un bulto duro bajo la piel, que se notaba al pellizcar la zona. Por su dureza y su crecimiento, generaba preocupación. El diagnóstico fue pilomatricoma, un tumor benigno, y se resolvió con cirugía dermatológica.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente femenina de 23 años, que consultó por un nódulo duro y móvil bajo la piel, perceptible sobre todo al pellizcar la zona entre los dedos. No presentaba dolor, pero su consistencia firme y su presencia sostenida en el tiempo motivaron la consulta."
+        ]
+      },
+      {
+        h: "¿Qué es un pilomatricoma?",
+        p: [
+          "Es un tumor benigno que se origina en las células de la matriz del folículo piloso, la estructura de la piel que da origen al pelo. Es una de las lesiones benignas más frecuentes en piel y, antes de la cirugía, suele confundirse con un quiste.",
+          "Por su consistencia muy dura al tacto y porque a veces crece de forma visible, puede generar preocupación en el paciente, como si se tratara de algo maligno. Sin embargo, es un tumor benigno: no se trata de cáncer de piel."
+        ]
+      },
+      {
+        h: "La cirugía",
+        p: [
+          "Se realizó la extirpación quirúrgica completa de la lesión mediante cirugía dermatológica, en consultorio. Retirar la totalidad del tumor, con su cápsula, es importante para evitar que vuelva a aparecer en la misma zona."
+        ],
+        img: {
+          src: "/casos/pilomatricoma-extirpacion.jpg",
+          alt: "Pilomatricoma antes de la cirugía y la pieza quirúrgica extirpada, caso tratado por la Dra. Karla Andrade en Machala.",
+          caption: "Izquierda: la lesión antes de la cirugía. Derecha: la pieza extirpada, con el aspecto irregular y lobulado característico de este tumor."
+        }
+      },
+      {
+        h: "El resultado",
+        p: [
+          "La lesión se retiró por completo. El aspecto irregular, lobulado y de superficie dura que se observa en la pieza quirúrgica es característico del pilomatricoma, aunque a simple vista pueda parecer alarmante."
+        ]
+      }
+    ],
+    keyMessages: [
+      "El pilomatricoma es un tumor benigno del folículo piloso, no un cáncer de piel, aunque su consistencia dura pueda generar esa preocupación.",
+      "Antes de la cirugía suele confundirse con un quiste: el examen dermatológico ayuda a diferenciarlos.",
+      "La cirugía, con extirpación completa de la lesión, es el tratamiento indicado y resuelve el cuadro.",
+      "Ante cualquier bulto nuevo o que crece bajo la piel, una evaluación dermatológica permite un diagnóstico certero."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso de la paciente para el uso médico y publicitario de estas imágenes. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Tienes un bulto bajo la piel que te preocupa?",
+      text: "Una evaluación dermatológica permite diferenciarlo de otras lesiones y, si corresponde, planificar su extirpación.",
+      buttonLabel: "Agendar evaluación de la piel"
+    }
   }
 ];
 
