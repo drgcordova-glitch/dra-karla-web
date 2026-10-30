@@ -744,6 +744,68 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica permite confirmar el diagnóstico y diseñar un tratamiento combinado adecuado para cada caso.",
       buttonLabel: "Agendar evaluación capilar"
     }
+  },
+  {
+    slug: "caida-de-cabello-en-mujer-linea-media-2-meses",
+    title: "Caída de cabello en mujeres: evolución del ensanchamiento de la línea media",
+    cardTitle: "Caída de cabello en la línea media",
+    cardExcerpt: "Evolución a los 2 meses de tratamiento",
+    subtitle: "Mujer de 34 años",
+    excerpt:
+      "Mujer de 34 años con ensanchamiento de la línea media del cabello, un patrón frecuente de caída en mujeres. Evolución a los 2 meses de un diagnóstico y tratamiento adecuados.",
+    seoTitle: "Caída de Cabello en Mujeres: Caso Clínico en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de caída de cabello en una paciente mujer, con ensanchamiento de la línea media, tratada por la Dra. Karla Andrade en Machala.",
+    category: "Tricología",
+    diagnosis: "Alopecia de patrón femenino, con ensanchamiento de la línea media",
+    datePublished: "2026-10-30",
+    dateModified: "2026-10-30",
+    readingMin: 3,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    relatedPrompt: "¿Notas tu línea media más ancha o el cuero cabelludo más visible?",
+    lead:
+      "Una mujer de 34 años consultó por un ensanchamiento progresivo de la línea media del cabello, con más cuero cabelludo visible en esa zona. Este es el antes y el después, a los 2 meses de un diagnóstico y tratamiento dermatológico adecuados.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente femenina de 34 años, que consultó por un ensanchamiento progresivo de la línea media de su cabello, con mayor visibilidad del cuero cabelludo en esa zona. Un patrón de caída muy frecuente en mujeres y que suele generar preocupación estética."
+        ]
+      },
+      {
+        h: "El resultado",
+        img: {
+          src: "/casos/alopecia-femenina-linea-media-antes.jpg",
+          alt: "Ensanchamiento de la línea media del cabello en una paciente mujer, antes del tratamiento",
+          caption: "Antes del tratamiento."
+        }
+      },
+      {
+        img: {
+          src: "/casos/alopecia-femenina-linea-media-despues.jpg",
+          alt: "Mejoría de la línea media del cabello en una paciente mujer, después de 2 meses de tratamiento",
+          caption: "Después de 2 meses de tratamiento. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "La evolución",
+        p: [
+          "Con el diagnóstico correcto y un tratamiento dermatológico adecuado, a los 2 meses se observa una mejoría visible: la línea media se ve más poblada y con menos cuero cabelludo expuesto."
+        ]
+      }
+    ],
+    keyMessages: [
+      "La caída de cabello en mujeres también tiene tratamiento, y el ensanchamiento de la línea media es uno de los patrones más frecuentes de consultar.",
+      "Un diagnóstico dermatológico permite identificar la causa y elegir el tratamiento adecuado para cada caso.",
+      "Cada caso evoluciona de forma distinta: los resultados pueden variar entre pacientes."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso de la paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la zona superior del cuero cabelludo, sin rasgos del rostro que permitan identificarla. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Notas tu línea media más ancha o el cuero cabelludo más visible?",
+      text: "Una evaluación dermatológica permite identificar la causa de la caída y diseñar un tratamiento adecuado.",
+      buttonLabel: "Agendar evaluación capilar"
+    }
   }
 ];
 
