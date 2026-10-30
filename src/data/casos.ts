@@ -868,6 +868,69 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica permite confirmar el diagnóstico y diseñar un tratamiento personalizado adecuado.",
       buttonLabel: "Agendar evaluación capilar"
     }
+  },
+  {
+    slug: "alopecia-androgenetica-tratamiento-medico-hombre-28-anos",
+    title: "Alopecia androgenética: mejoría a los 4 meses sin cirugía, en un hombre de 28 años",
+    cardTitle: "Alopecia androgenética sin cirugía",
+    cardExcerpt: "Evolución a los 4 meses de tratamiento médico",
+    subtitle: "Hombre de 28 años",
+    excerpt:
+      "Hombre de 28 años con pérdida de densidad en la zona frontal. Mejoría visible a los 4 meses de tratamiento médico dermatológico, sin cirugía ni trasplante.",
+    seoTitle: "Alopecia Androgenética sin Cirugía: Caso Clínico | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de alopecia androgenética en un hombre de 28 años, con mejoría a los 4 meses de tratamiento médico dermatológico, sin cirugía, por la Dra. Karla Andrade en Machala.",
+    category: "Tricología",
+    diagnosis: "Alopecia androgenética",
+    datePublished: "2026-10-30",
+    dateModified: "2026-10-30",
+    readingMin: 3,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    relatedPrompt: "¿Notas menos densidad y quieres evitar llegar a una cirugía?",
+    lead:
+      "Un hombre de 28 años consultó por pérdida de densidad capilar en la zona frontal. El diagnóstico fue alopecia androgenética. A los 4 meses de tratamiento médico dermatológico, sin cirugía ni trasplante, se observa una mejoría visible.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente masculino de 28 años, con pérdida progresiva de densidad capilar en la zona frontal, compatible con alopecia androgenética: la causa más frecuente de caída de cabello, de origen hormonal y genético."
+        ]
+      },
+      {
+        h: "El resultado",
+        img: {
+          src: "/casos/alopecia-androgenetica-28-anos-antes.jpg",
+          alt: "Alopecia androgenética en la zona frontal en un paciente de 28 años, antes del tratamiento",
+          caption: "Antes del tratamiento."
+        }
+      },
+      {
+        img: {
+          src: "/casos/alopecia-androgenetica-28-anos-despues.jpg",
+          alt: "Mejoría de la densidad capilar después de 4 meses de tratamiento médico, sin cirugía",
+          caption: "Después de 4 meses de tratamiento médico, sin cirugía ni trasplante. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "La evolución",
+        p: [
+          "Con un tratamiento médico dermatológico, sin necesidad de cirugía ni trasplante capilar, se observa a los 4 meses una mejoría notoria en la densidad de la zona frontal. La alopecia androgenética es una condición progresiva y crónica: sostener el tratamiento en el tiempo es lo que permite mantener y seguir mejorando estos resultados."
+        ]
+      }
+    ],
+    keyMessages: [
+      "No toda alopecia androgenética necesita cirugía: un tratamiento médico bien indicado puede dar resultados visibles.",
+      "Cuanto antes se trata, mejor suele responder el folículo que todavía está activo.",
+      "Es una condición progresiva y crónica: sostener el tratamiento en el tiempo es lo que permite mantener los resultados.",
+      "Cada caso evoluciona de forma distinta: los resultados pueden variar entre pacientes."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso del paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la zona frontal del cuero cabelludo, sin rasgos del rostro que permitan identificarlo. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Notas menos densidad y quieres evitar llegar a una cirugía?",
+      text: "Una evaluación dermatológica permite confirmar el diagnóstico y empezar a tiempo un tratamiento médico adecuado.",
+      buttonLabel: "Agendar evaluación capilar"
+    }
   }
 ];
 
