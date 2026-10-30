@@ -931,6 +931,75 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica permite confirmar el diagnóstico y empezar a tiempo un tratamiento médico adecuado.",
       buttonLabel: "Agendar evaluación capilar"
     }
+  },
+  {
+    slug: "alopecia-androgenetica-meso-prp-hombre-27-anos",
+    title: "Alopecia androgenética: mejoría a los 3 meses con mesoterapia y PRP, en un hombre de 27 años",
+    cardTitle: "Alopecia androgenética con meso y PRP",
+    cardExcerpt: "Evolución a los 3 meses de tratamiento",
+    subtitle: "Hombre de 27 años",
+    excerpt:
+      "Hombre de 27 años con alopecia androgenética en la zona frontal. Mejoría visible a los 3 meses de tratamiento con mesoterapia capilar y plasma rico en plaquetas (PRP).",
+    seoTitle: "Alopecia Androgenética con Mesoterapia y PRP: Caso Clínico | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de alopecia androgenética en un hombre de 27 años, con mejoría a los 3 meses de mesoterapia capilar y PRP, por la Dra. Karla Andrade en Machala.",
+    category: "Tricología",
+    diagnosis: "Alopecia androgenética",
+    datePublished: "2026-10-30",
+    dateModified: "2026-10-30",
+    readingMin: 3,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    relatedPrompt: "¿Notas menos densidad en la zona frontal?",
+    lead:
+      "Un hombre de 27 años consultó por pérdida de densidad capilar en la zona frontal. El diagnóstico fue alopecia androgenética. A los 3 meses de tratamiento con mesoterapia capilar y plasma rico en plaquetas (PRP) se observa una mejoría visible.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente masculino de 27 años, con pérdida progresiva de densidad capilar en la zona frontal, compatible con alopecia androgenética: la causa más frecuente de caída de cabello, de origen hormonal y genético."
+        ]
+      },
+      {
+        h: "El resultado",
+        img: {
+          src: "/casos/alopecia-androgenetica-27-anos-antes.jpg",
+          alt: "Alopecia androgenética en la zona frontal en un paciente de 27 años, antes del tratamiento",
+          caption: "Antes del tratamiento."
+        }
+      },
+      {
+        img: {
+          src: "/casos/alopecia-androgenetica-27-anos-despues.jpg",
+          alt: "Mejoría de la densidad capilar después de 3 meses de mesoterapia capilar y PRP",
+          caption: "Después de 3 meses de mesoterapia capilar y PRP. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "El tratamiento",
+        p: [
+          "Se indicó un tratamiento combinado de mesoterapia capilar y plasma rico en plaquetas (PRP), bajo supervisión médica."
+        ]
+      },
+      {
+        h: "La evolución",
+        p: [
+          "A los 3 meses de tratamiento se observa una mejoría notoria en la densidad de la zona frontal. La alopecia androgenética es una condición progresiva y crónica: sostener el tratamiento en el tiempo es lo que permite mantener y seguir mejorando estos resultados."
+        ]
+      }
+    ],
+    keyMessages: [
+      "Combinar mesoterapia capilar y PRP suele dar mejores resultados que depender de un solo enfoque.",
+      "Cuanto antes se trata, mejor suele responder el folículo que todavía está activo.",
+      "Es una condición progresiva y crónica: sostener el tratamiento en el tiempo es lo que permite mantener los resultados.",
+      "Cada caso evoluciona de forma distinta: los resultados pueden variar entre pacientes."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso del paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la zona frontal del cuero cabelludo, sin rasgos del rostro que permitan identificarlo. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Notas menos densidad en la zona frontal?",
+      text: "Una evaluación dermatológica permite confirmar el diagnóstico y diseñar un tratamiento combinado adecuado.",
+      buttonLabel: "Agendar evaluación capilar"
+    }
   }
 ];
 
