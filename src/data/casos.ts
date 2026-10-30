@@ -806,6 +806,68 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica permite identificar la causa de la caída y diseñar un tratamiento adecuado.",
       buttonLabel: "Agendar evaluación capilar"
     }
+  },
+  {
+    slug: "alopecia-androgenetica-entradas-hombre-44-anos",
+    title: "Alopecia androgenética en las entradas: mejoría en un hombre de 44 años",
+    cardTitle: "Alopecia androgenética en las entradas",
+    cardExcerpt: "Evolución con tratamiento dermatológico personalizado",
+    subtitle: "Hombre de 44 años",
+    excerpt:
+      "Hombre de 44 años con entradas marcadas y pérdida de densidad en la zona frontal. Evolución con un diagnóstico y tratamiento dermatológico personalizado.",
+    seoTitle: "Alopecia Androgenética en las Entradas: Caso Clínico | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de alopecia androgenética con entradas marcadas en un hombre de 44 años, tratado por la Dra. Karla Andrade en Machala.",
+    category: "Tricología",
+    diagnosis: "Alopecia androgenética (patrón de entradas frontales)",
+    datePublished: "2026-10-30",
+    dateModified: "2026-10-30",
+    readingMin: 3,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    relatedPrompt: "¿Notas tus entradas más marcadas o menos densidad al frente?",
+    lead:
+      "Un hombre de 44 años consultó por entradas marcadas y menor densidad capilar en la zona frontal. El diagnóstico fue alopecia androgenética. Este es el antes y el después, con un tratamiento dermatológico personalizado.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente masculino de 44 años, con entradas marcadas y pérdida progresiva de densidad en la zona frontal del cuero cabelludo, un patrón característico de la alopecia androgenética en el hombre."
+        ]
+      },
+      {
+        h: "El resultado",
+        img: {
+          src: "/casos/alopecia-androgenetica-entradas-antes.jpg",
+          alt: "Entradas marcadas por alopecia androgenética en un paciente hombre, antes del tratamiento",
+          caption: "Antes del tratamiento."
+        }
+      },
+      {
+        img: {
+          src: "/casos/alopecia-androgenetica-entradas-despues.jpg",
+          alt: "Mejoría de la densidad capilar en la zona frontal después del tratamiento",
+          caption: "Después del tratamiento. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "La evolución",
+        p: [
+          "Con el diagnóstico correcto y un tratamiento dermatológico personalizado, se observa una mejoría visible en la densidad de la zona frontal, con un contorno más poblado y menos cuero cabelludo expuesto."
+        ]
+      }
+    ],
+    keyMessages: [
+      "Las entradas marcadas en el hombre suelen responder bien a un tratamiento dermatológico cuando se indican a tiempo.",
+      "Un diagnóstico correcto permite diseñar un tratamiento personalizado para cada tipo y patrón de caída.",
+      "Cada caso evoluciona de forma distinta: los resultados pueden variar entre pacientes."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso del paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la zona frontal del cuero cabelludo, sin rasgos del rostro que permitan identificarlo. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Notas tus entradas más marcadas o menos densidad al frente?",
+      text: "Una evaluación dermatológica permite confirmar el diagnóstico y diseñar un tratamiento personalizado adecuado.",
+      buttonLabel: "Agendar evaluación capilar"
+    }
   }
 ];
 
