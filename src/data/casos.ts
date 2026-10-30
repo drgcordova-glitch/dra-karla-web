@@ -1000,6 +1000,55 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica permite confirmar el diagnóstico y diseñar un tratamiento combinado adecuado.",
       buttonLabel: "Agendar evaluación capilar"
     }
+  },
+  {
+    slug: "aumento-de-labio-superior-con-acido-hialuronico",
+    title: "Aumento de labio superior con ácido hialurónico",
+    cardTitle: "Aumento de labios con ácido hialurónico",
+    cardExcerpt: "Resultado natural en el labio superior",
+    excerpt:
+      "Paciente que deseaba un aumento natural del labio superior, tratada con ácido hialurónico.",
+    seoTitle: "Aumento de Labios con Ácido Hialurónico | Caso Clínico en Machala",
+    seoDescription:
+      "Caso clínico de aumento de labio superior con ácido hialurónico, con un resultado natural, por la Dra. Karla Andrade en Machala.",
+    category: "Medicina estética",
+    diagnosis: "Deseo de aumento y definición del labio superior",
+    datePublished: "2026-10-30",
+    dateModified: "2026-10-30",
+    readingMin: 3,
+    relatedEspecialidad: "medicina-estetica",
+    relatedPrompt: "¿Te interesa un tratamiento estético con criterio médico?",
+    lead:
+      "Paciente que consultó porque deseaba un aumento del labio superior, manteniendo un resultado natural y proporcionado a sus rasgos. Se trató con ácido hialurónico.",
+    sections: [
+      {
+        h: "El resultado",
+        img: {
+          src: "/casos/labios-acido-hialuronico-antes.jpg",
+          alt: "Labio superior antes del tratamiento con ácido hialurónico, caso tratado por la Dra. Karla Andrade en Machala.",
+          caption: "Antes del tratamiento."
+        }
+      },
+      {
+        img: {
+          src: "/casos/labios-acido-hialuronico-despues.jpg",
+          alt: "Labio superior después del tratamiento con ácido hialurónico, con un resultado natural.",
+          caption: "Después del tratamiento con ácido hialurónico. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "El tratamiento",
+        p: [
+          "Se realizó un tratamiento de aumento labial con ácido hialurónico, respetando la proporción natural del rostro para lograr un resultado armónico, sin perder la forma propia del labio."
+        ]
+      }
+    ],
+    keyMessages: [
+      "Un buen resultado en labios no busca cambiar tus rasgos, sino realzarlos de forma natural y proporcionada."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso de la paciente para el uso médico y publicitario de estas imágenes. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    ctaLabel: "Agenda tu valoración"
   }
 ];
 
