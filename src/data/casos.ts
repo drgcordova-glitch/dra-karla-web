@@ -677,6 +677,73 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica permite diferenciarlo de otras lesiones y, si corresponde, planificar su extirpación.",
       buttonLabel: "Agendar evaluación de la piel"
     }
+  },
+  {
+    slug: "alopecia-androgenetica-coronilla-hombre-46-anos",
+    title: "Alopecia androgenética en la coronilla: mejoría de densidad en un hombre de 46 años",
+    cardTitle: "Alopecia androgenética en la coronilla",
+    cardExcerpt: "Evolución a los 3 meses de tratamiento combinado",
+    subtitle: "Hombre de 46 años",
+    excerpt:
+      "Hombre de 46 años con una zona de menor densidad capilar en la coronilla. Tratamiento combinado con PRP, mesoterapia capilar y tratamiento oral, con mejoría visible a los 3 meses.",
+    seoTitle: "Alopecia Androgenética en la Coronilla: Caso Clínico | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de alopecia androgenética en la coronilla de un hombre de 46 años, tratado por la Dra. Karla Andrade en Machala con PRP, mesoterapia y tratamiento oral.",
+    category: "Tricología",
+    diagnosis: "Alopecia androgenética (patrón de coronilla)",
+    datePublished: "2026-10-30",
+    dateModified: "2026-10-30",
+    readingMin: 3,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    relatedPrompt: "¿Notas menos densidad o una zona más despejada en la coronilla?",
+    lead:
+      "Un hombre de 46 años consultó por una zona de menor densidad capilar, bien visible en la coronilla. El diagnóstico fue alopecia androgenética. Este es el tratamiento combinado indicado y la evolución observada a los 3 meses.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente masculino de 46 años, con pérdida progresiva de densidad capilar en la zona de la coronilla, donde se notaba una zona más despejada, de piel visible entre el cabello. Un patrón típico de la alopecia androgenética a esta edad."
+        ]
+      },
+      {
+        h: "Vista de coronilla",
+        compare: {
+          antesSrc: "/casos/alopecia-androgenetica-coronilla-antes.jpg",
+          antesAlt: "Alopecia androgenética en la coronilla antes del tratamiento, caso de hombre de 46 años",
+          antesW: 800,
+          antesH: 1003,
+          despuesSrc: "/casos/alopecia-androgenetica-coronilla-despues.jpg",
+          despuesAlt: "Mejoría de la densidad capilar en la coronilla después de 3 meses de tratamiento",
+          despuesW: 800,
+          despuesH: 1039
+        }
+      },
+      {
+        h: "El tratamiento",
+        p: [
+          "Se indicó un tratamiento combinado: plasma rico en plaquetas (PRP), mesoterapia capilar y tratamiento oral, bajo supervisión médica."
+        ]
+      },
+      {
+        h: "El resultado, a los 3 meses",
+        p: [
+          "A los 3 meses de tratamiento se observa una mejoría notoria de la densidad capilar en la coronilla, con menos piel visible entre el cabello. La alopecia androgenética es una condición progresiva y crónica: sostener el tratamiento en el tiempo es lo que permite mantener y seguir mejorando estos resultados."
+        ]
+      }
+    ],
+    keyMessages: [
+      "La alopecia androgenética también afecta a la coronilla, no solo a la línea frontal.",
+      "Combinar PRP, mesoterapia y tratamiento oral suele dar mejores resultados que depender de un solo enfoque.",
+      "Es una condición progresiva y crónica: sostener el tratamiento en el tiempo es lo que permite mantener los resultados.",
+      "Cada caso evoluciona de forma distinta: los resultados pueden variar entre pacientes."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso del paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la zona de la coronilla, sin rasgos del rostro que permitan identificarlo. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Notas menos densidad o una zona más despejada en la coronilla?",
+      text: "Una evaluación dermatológica permite confirmar el diagnóstico y diseñar un tratamiento combinado adecuado para cada caso.",
+      buttonLabel: "Agendar evaluación capilar"
+    }
   }
 ];
 
