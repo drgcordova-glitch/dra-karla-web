@@ -71,9 +71,9 @@ export const especialidades: Especialidad[] = [
     title: "Dermatología pediátrica",
     seoTitle: "Dermatología Pediátrica en Machala · Piel de bebés y niños",
     seoDescription:
-      "Atención dermatológica pediátrica en Machala, El Oro, desde los primeros días de vida: dermatitis atópica, dermatitis del pañal, manchas de nacimiento y más.",
+      "Dermatología infantil y pediátrica en Machala, El Oro, desde los primeros días de vida: dermatitis atópica, dermatitis del pañal, manchas de nacimiento y más.",
     cardText:
-      "La piel del bebé y del niño necesita una mirada distinta. Atención especializada desde los primeros días de vida.",
+      "La piel del bebé y del niño necesita una mirada distinta. Atención dermatológica para niños desde los primeros días de vida.",
     lead:
       "La piel de los niños no es una versión pequeña de la del adulto: reacciona distinto y necesita criterios propios. La Dra. Andrade cuenta con formación específica en dermatología pediátrica.",
     sections: [
@@ -102,6 +102,10 @@ export const especialidades: Especialidad[] = [
       }
     ],
     faqs: [
+      {
+        q: "¿La Dra. Andrade es dermatóloga pediatra?",
+        a: "Es médica especialista en Dermatología (Universidad de Buenos Aires), con formación de posgrado específica en dermatología pediátrica e infantil: el Curso Anual Superior de Dermatología Pediátrica (Hospital de Niños Ricardo Gutiérrez) y una Diplomatura en Dermatología Quirúrgica Infantil (UBA, Hospital Elizalde). Atiende con regularidad a bebés, niños y adolescentes."
+      },
       {
         q: "¿Desde qué edad se puede consultar?",
         a: "Desde los primeros días de vida. Muchas condiciones de la piel del recién nacido son normales y transitorias; una consulta ayuda a diferenciarlas de las que sí requieren tratamiento."

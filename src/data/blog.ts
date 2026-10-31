@@ -3831,7 +3831,7 @@ export const articles: Article[] = [
       "Encontrar una verruga en la piel de tu hijo preocupa de inmediato, aunque casi nunca hay algo grave detrás. Esto es lo que son, por qué son tan frecuentes, y qué señales sí ameritan evaluación pronto.",
     seoTitle: "Verrugas en Niños Machala: ¿Cuándo Preocuparse? | Dra. Karla Andrade",
     seoDescription:
-      "¿Cuándo preocuparse por una verruga en un niño? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica las señales de alarma y el tratamiento.",
+      "¿Cuándo preocuparse por una verruga en un niño? La Dra. Karla Andrade, dermatóloga en Machala con formación en dermatología pediátrica, explica las señales de alarma y el tratamiento.",
     category: "Dermatología clínica",
     datePublished: "2026-10-12",
     dateModified: "2026-10-12",
@@ -4822,7 +4822,7 @@ export const articles: Article[] = [
       "La dermatitis del pañal es, probablemente, el motivo de consulta más frecuente en los primeros meses de vida. Esto es lo que realmente la causa, qué hacer en casa, y cuándo conviene una evaluación.",
     seoTitle: "Dermatitis del Pañal en Machala | Dra. Karla Andrade",
     seoDescription:
-      "¿Qué causa la dermatitis del pañal y cómo se cuida? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica qué hacer en casa y cuándo consultar.",
+      "¿Qué causa la dermatitis del pañal y cómo se cuida? La Dra. Karla Andrade, dermatóloga en Machala con formación en dermatología pediátrica, explica qué hacer en casa y cuándo consultar.",
     category: "Dermatología clínica",
     datePublished: "2026-10-13",
     dateModified: "2026-10-13",
@@ -4898,7 +4898,7 @@ export const articles: Article[] = [
       "La varicela sigue siendo una enfermedad frecuente en la infancia, y el cuidado de la piel durante el brote es una de las principales preocupaciones de los padres. Esto es lo que conviene saber.",
     seoTitle: "Varicela en Niños: Cuidado de la Piel | Dra. Karla Andrade",
     seoDescription:
-      "¿Cómo cuidar la piel de un niño con varicela? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica la evolución del sarpullido y las señales de alarma.",
+      "¿Cómo cuidar la piel de un niño con varicela? La Dra. Karla Andrade, dermatóloga en Machala con formación en dermatología pediátrica, explica la evolución del sarpullido y las señales de alarma.",
     category: "Dermatología clínica",
     datePublished: "2026-10-13",
     dateModified: "2026-10-13",
@@ -4977,7 +4977,7 @@ export const articles: Article[] = [
       "El molusco contagioso es una de las infecciones de piel más frecuentes en niños, y también una de las que genera más dudas sobre si tratarla o simplemente esperar. Esto es lo que conviene saber.",
     seoTitle: "Molusco Contagioso en Niños Machala | Dra. Karla Andrade",
     seoDescription:
-      "¿Cómo tratar el molusco contagioso en niños? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica cuándo observar y cuándo tratar activamente.",
+      "¿Cómo tratar el molusco contagioso en niños? La Dra. Karla Andrade, dermatóloga en Machala con formación en dermatología pediátrica, explica cuándo observar y cuándo tratar activamente.",
     category: "Dermatología clínica",
     datePublished: "2026-10-13",
     dateModified: "2026-10-13",
@@ -5060,7 +5060,7 @@ export const articles: Article[] = [
       "Encontrar una marca en la piel de tu bebé al nacer, o que aparezca en los primeros meses, es motivo frecuente de consulta. Esto es lo que suelen ser, y qué características ameritan una evaluación más cercana.",
     seoTitle: "Manchas de Nacimiento en Bebés Machala | Dra. Karla Andrade",
     seoDescription:
-      "¿Cuándo preocuparse por una mancha de nacimiento? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica hemangiomas, manchas café con leche y más.",
+      "¿Cuándo preocuparse por una mancha de nacimiento? La Dra. Karla Andrade, dermatóloga en Machala con formación en dermatología pediátrica, explica hemangiomas, manchas café con leche y más.",
     category: "Dermatología clínica",
     datePublished: "2026-10-13",
     dateModified: "2026-10-13",
@@ -6559,7 +6559,7 @@ export const articles: Article[] = [
       "Manchas azuladas, puntitos blancos, granitos que van y vienen: la piel de un recién nacido suele tener marcas que generan alarma sin necesidad. Esto es lo que suelen ser, y qué sí amerita consultar.",
     seoTitle: "Manchas en la Piel del Recién Nacido: Guía | Dra. Karla Andrade",
     seoDescription:
-      "¿Qué son esas manchas y marcas en la piel de un recién nacido? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica las más comunes y cuándo consultar.",
+      "¿Qué son esas manchas y marcas en la piel de un recién nacido? La Dra. Karla Andrade, dermatóloga en Machala con formación en dermatología pediátrica, explica las más comunes y cuándo consultar.",
     category: "Dermatología clínica",
     datePublished: "2026-10-23",
     dateModified: "2026-10-23",
@@ -6653,7 +6653,7 @@ export const articles: Article[] = [
       "Una zona con menos pelo, escamas y pelos quebrados en la cabeza de un niño no suele ser 'solo caspa'. Es una infección por hongos frecuente en edad escolar, y a diferencia de otros hongos de la piel, no se trata solo con crema.",
     seoTitle: "Tiña Capitis en Niños: Hongo en el Cuero Cabelludo | Dra. Karla Andrade",
     seoDescription:
-      "¿Qué es la tiña capitis en niños y por qué causa calvas? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica causas, contagio y tratamiento.",
+      "¿Qué es la tiña capitis en niños y por qué causa calvas? La Dra. Karla Andrade, dermatóloga en Machala con formación en dermatología pediátrica, explica causas, contagio y tratamiento.",
     category: "Dermatología clínica",
     datePublished: "2026-10-23",
     dateModified: "2026-10-23",
@@ -6723,7 +6723,7 @@ export const articles: Article[] = [
       "No toda piel irritada en un niño es 'alergia a algo que comió'. Esto es lo que realmente dice la evidencia sobre la relación entre alergias y piel en la infancia, y por qué no conviene eliminar alimentos sin confirmación médica.",
     seoTitle: "Alergias y Piel en Niños: Cuándo Sospechar | Dra. Karla Andrade",
     seoDescription:
-      "¿Cuándo una piel irritada en un niño es realmente una alergia? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica cuándo sospechar y qué hacer.",
+      "¿Cuándo una piel irritada en un niño es realmente una alergia? La Dra. Karla Andrade, dermatóloga en Machala con formación en dermatología pediátrica, explica cuándo sospechar y qué hacer.",
     category: "Dermatología clínica",
     datePublished: "2026-10-23",
     dateModified: "2026-10-23",
@@ -6795,7 +6795,7 @@ export const articles: Article[] = [
       "La picazón es uno de los motivos de consulta más frecuentes en dermatología pediátrica, y a veces no hay nada visible en la piel. Esto es lo que más frecuentemente la explica.",
     seoTitle: "Picazón en Niños: Causas Comunes | Dra. Karla Andrade",
     seoDescription:
-      "¿Por qué le pica la piel a tu hijo? La Dra. Karla Andrade, dermatóloga pediátrica en Machala, explica las causas más comunes de la picazón en la infancia.",
+      "¿Por qué le pica la piel a tu hijo? La Dra. Karla Andrade, dermatóloga en Machala con formación en dermatología pediátrica, explica las causas más comunes de la picazón en la infancia.",
     category: "Dermatología clínica",
     datePublished: "2026-10-23",
     dateModified: "2026-10-23",

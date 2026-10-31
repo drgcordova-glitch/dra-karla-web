@@ -10,5 +10,6 @@ export const problemas: Problema[] = [
   { title: "Lunares y cáncer de piel", related: "cancer-de-piel-y-dermatoscopia" },
   { title: "Caída del cabello", related: "tricologia-y-salud-capilar" },
   { title: "Rosácea", related: "dermatologia-clinica" },
-  { title: "Dermatitis y piel sensible", related: "dermatologia-clinica", href: "/blog/dermatitis-atopica-piel-sensible" }
+  { title: "Dermatitis y piel sensible", related: "dermatologia-clinica", href: "/blog/dermatitis-atopica-piel-sensible" },
+  { title: "Piel de bebés y niños", related: "dermatologia-pediatrica" }
 ];

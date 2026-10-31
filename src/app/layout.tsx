@@ -38,6 +38,7 @@ export const metadata: Metadata = {
     "dermatólogo El Oro",
     "cáncer de piel Machala",
     "dermatología pediátrica Machala",
+    "dermatología infantil Machala",
     "caída del cabello",
     "medicina estética Machala"
   ],
