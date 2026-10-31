@@ -4885,7 +4885,7 @@ export const articles: Article[] = [
         a: "El patrón suele ser distinto: un enrojecimiento más intenso y con pequeñas lesiones alrededor de la zona principal. Ante la duda, una evaluación confirma el diagnóstico y ajusta el tratamiento."
       }
     ],
-    relatedArticles: [],
+    relatedArticles: ["dermatologo-pediatra-en-machala-quien-debe-atender-a-tu-hijo"],
     references: [
       { label: "Klunk C, et al. An update on diaper dermatitis. Clin Dermatol. 2014. PMID 25017459.", url: "https://pubmed.ncbi.nlm.nih.gov/25017459/" },
       { label: "Ravanfar P, et al. Diaper dermatitis: a review and update. Curr Opin Pediatr. 2012. PMID 22790100.", url: "https://pubmed.ncbi.nlm.nih.gov/22790100/" }
@@ -6639,7 +6639,7 @@ export const articles: Article[] = [
         a: "No, es una de las erupciones más comunes y benignas en bebés nacidos a término, y se resuelve sola en una a dos semanas. Si el bebé se ve decaído o con fiebre, eso sí amerita evaluación para descartar otras causas."
       }
     ],
-    relatedArticles: ["manchas-de-nacimiento-cuando-preocuparse", "tipos-de-nevos-lunares-seguimiento-especial", "dermatitis-del-panal-causas-y-cuidado"],
+    relatedArticles: ["manchas-de-nacimiento-cuando-preocuparse", "tipos-de-nevos-lunares-seguimiento-especial", "dermatologo-pediatra-en-machala-quien-debe-atender-a-tu-hijo"],
     references: [
       { label: "Dermal Melanocytosis (Mongolian Spot). StatPearls. 2026.", url: "https://www.ncbi.nlm.nih.gov/books/NBK557408/" },
       { label: "O'Connor NR, McLaughlin MR, Ham P. Newborn Skin: Part I. Common Rashes. Am Fam Physician. 2008;77(1):47-52.", url: "https://www.aafp.org/pubs/afp/issues/2008/0101/p47.html" },
@@ -6868,6 +6868,71 @@ export const articles: Article[] = [
     relatedArticles: ["dermatitis-atopica-piel-sensible", "sarna-escabiosis-sintomas-y-cuando-consultar", "urticaria-ronchas-en-la-piel-causas"],
     references: [
       { label: "Kang SY, et al. Differential Diagnosis and Treatment of Itching in Children and Adolescents. Biomedicines. 2021;9(8):919. PMID 34440123.", url: "https://pubmed.ncbi.nlm.nih.gov/34440123/" }
+    ]
+  },
+  {
+    slug: "dermatologo-pediatra-en-machala-quien-debe-atender-a-tu-hijo",
+    title: "¿Dermatólogo pediatra en Machala? Quién debe atender la piel de tu hijo",
+    excerpt:
+      "¿Necesitas un dermatólogo pediatra para la piel de tu hijo, o puede verlo un dermatólogo con formación en niños? Una guía clara para padres en Machala.",
+    seoTitle: "Dermatólogo Pediatra en Machala: Guía para Padres | Dra. Karla Andrade",
+    seoDescription:
+      "¿Buscas un dermatólogo pediatra en Machala? La Dra. Karla Andrade explica la diferencia con un dermatólogo general con formación pediátrica, y cuándo consultar a cada uno.",
+    category: "Dermatología clínica",
+    datePublished: "2026-10-31",
+    dateModified: "2026-10-31",
+    readingMin: 5,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    lead:
+      "Es una de las búsquedas más frecuentes de los padres: \"dermatólogo pediatra cerca de mí\". Pero, ¿qué es exactamente un dermatólogo pediatra, y es siempre necesario buscar uno para la piel de un niño? Esta es una guía honesta para decidir a quién consultar.",
+    sections: [
+      {
+        h: "¿Qué es un dermatólogo pediatra?",
+        p: [
+          "Un dermatólogo pediatra (o pediátrico) es un médico que, después de formarse como dermatólogo, realiza además una subespecialización específica y prolongada dedicada exclusivamente a la piel de bebés, niños y adolescentes. Es una subespecialidad poco frecuente: en muchos países de la región, incluido Ecuador, hay pocos especialistas con ese título formal, y suelen concentrarse en hospitales pediátricos de referencia en las grandes ciudades."
+        ]
+      },
+      {
+        h: "¿Entonces quién atiende a la mayoría de los niños?",
+        p: [
+          "En la práctica, la gran mayoría de las consultas dermatológicas infantiles —dermatitis atópica, dermatitis del pañal, manchas de nacimiento, verrugas, molusco contagioso, hongos del cuero cabelludo, acné del adolescente— las resuelve muy bien un dermatólogo general que cuenta con formación adicional específica en dermatología pediátrica, sin necesidad de un subespecialista formal.",
+          "La Dra. Karla Andrade es Médica Especialista en Dermatología (Universidad de Buenos Aires) y realizó formación de posgrado específica en esta área: el Curso Anual Superior de Dermatología Pediátrica (Hospital de Niños Ricardo Gutiérrez) y una Diplomatura en Dermatología Quirúrgica Infantil (UBA, Hospital Elizalde). Es, en otras palabras, una dermatóloga con formación específica en niños, y atiende con regularidad a bebés, niños y adolescentes en su consultorio en Machala."
+        ]
+      },
+      {
+        h: "¿Cuándo sí conviene buscar un subespecialista formal?",
+        p: [
+          "Hay situaciones puntuales —genodermatosis (enfermedades genéticas de la piel poco frecuentes), ciertos tumores vasculares complejos, o cuadros que no responden al tratamiento esperado— donde lo adecuado es derivar a un centro con un dermatólogo pediatra subespecialista. Una buena evaluación inicial permite identificar esos casos y hacer la derivación oportuna."
+        ]
+      },
+      {
+        h: "Qué puedes esperar de la consulta",
+        list: [
+          "Una evaluación pensada para la piel del niño, no una versión reducida de la consulta de un adulto.",
+          "Explicaciones claras para los padres, sin sobre-tratar ni alarmar de más.",
+          "Indicaciones seguras para la edad de tu hijo.",
+          "Derivación oportuna si el cuadro lo amerita."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿La Dra. Karla Andrade es dermatóloga pediatra?",
+        a: "Es médica especialista en Dermatología, con formación de posgrado específica en dermatología pediátrica e infantil (Curso Anual Superior de Dermatología Pediátrica y Diplomatura en Dermatología Quirúrgica Infantil). No es una subespecialista formal en dermatología pediátrica, pero atiende con regularidad a bebés, niños y adolescentes."
+      },
+      {
+        q: "¿Desde qué edad puede consultar mi hijo?",
+        a: "Desde los primeros días de vida. Muchas condiciones de la piel del recién nacido son normales y transitorias; una consulta ayuda a diferenciarlas de las que sí requieren tratamiento."
+      },
+      {
+        q: "¿Qué pasa si mi hijo necesita un subespecialista?",
+        a: "Si durante la evaluación se identifica un cuadro que lo amerita, se deriva de forma oportuna a un centro con un dermatólogo pediatra subespecialista."
+      }
+    ],
+    relatedArticles: [
+      "dermatitis-del-panal-causas-y-cuidado",
+      "manchas-y-marcas-comunes-en-la-piel-del-recien-nacido",
+      "picazon-en-ninos-causas-comunes"
     ]
   }
 ];
