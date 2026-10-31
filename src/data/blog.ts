@@ -2142,9 +2142,26 @@ export const articles: Article[] = [
         p: [
           "Antes de iniciar el tratamiento, la evaluación médica confirma que la isotretinoína es la opción correcta para tu caso —y no, por ejemplo, un acné que respondería igual de bien a un tratamiento más simple y con menos implicaciones— y descarta contraindicaciones que, de pasarse por alto, pueden tener consecuencias serias."
         ]
+      },
+      {
+        h: "Los efectos adversos que nadie está vigilando si la tomas sin control",
+        p: [
+          "La isotretinoína tiene un perfil de efectos adversos conocido: desde la sequedad de piel y labios, casi universal, hasta alteraciones en los análisis de lípidos o de la función hepática, dolores musculares o articulares, y —con menor frecuencia— cambios en el estado de ánimo. El riesgo más serio de todos es el efecto teratogénico: puede causar malformaciones graves en un embarazo, por lo que en cualquier persona que pueda quedar embarazada es indispensable descartarlo antes de empezar y durante todo el tratamiento.",
+          "Ninguno de estos efectos desaparece por tomarla sin receta: lo único que cambia es que, si aparecen, no hay un médico al tanto de tu caso para detectarlos a tiempo, ajustar la dosis o suspender el tratamiento. Los controles de laboratorio (función hepática, lípidos, y la prueba de embarazo cuando corresponde) existen justamente para detectar estas alteraciones antes de que generen un problema mayor."
+        ]
+      },
+      {
+        h: "Qué exámenes te estás saltando",
+        p: [
+          "El seguimiento habitual incluye análisis de sangre antes de iniciar el tratamiento y en controles periódicos durante este, además de la prueba de embarazo en quienes corresponda. Sin receta ni control médico, estos exámenes simplemente no se hacen, y con ellos se pierde la posibilidad de detectar a tiempo una alteración que todavía no da síntomas."
+        ]
       }
     ],
     faqs: [
+      {
+        q: "¿Qué efectos adversos puedo tener si la tomo sin control médico?",
+        a: "Los mismos que con cualquier uso de isotretinoína —sequedad, alteraciones de laboratorio, dolores musculares, cambios de ánimo, y el riesgo teratogénico en un embarazo— con la diferencia de que, sin control médico, nadie los está vigilando para detectarlos a tiempo."
+      },
       {
         q: "¿Es tan grave tomarla sin supervisión si solo es por un tiempo corto?",
         a: "Sí. El riesgo no depende solo de la duración, sino de contraindicaciones no evaluadas —como un posible embarazo— y de la falta de seguimiento ante efectos adversos, que pueden aparecer en cualquier momento del tratamiento."
@@ -2165,7 +2182,8 @@ export const articles: Article[] = [
     relatedArticles: [
       "es-segura-la-isotretinoina-para-el-acne",
       "puedo-quedar-embarazada-tomando-isotretinoina",
-      "que-examenes-necesito-antes-y-durante-isotretinoina"
+      "que-examenes-necesito-antes-y-durante-isotretinoina",
+      "efectos-secundarios-de-la-isotretinoina"
     ],
     references: [
       { label: "Reynolds RV, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024. PMID 38300170.", url: "https://pubmed.ncbi.nlm.nih.gov/38300170/" },
