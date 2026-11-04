@@ -4104,7 +4104,7 @@ export const articles: Article[] = [
         a: "La piel con rosácea suele volverse más reactiva con el tiempo. Vale la pena simplificar tu rutina y evitar activos agresivos, y comentarlo con tu dermatólogo."
       }
     ],
-    relatedArticles: ["ipl-luz-pulsada-intensa-que-es"],
+    relatedArticles: ["ipl-luz-pulsada-intensa-que-es", "alcohol-y-la-piel-que-le-hace-realmente"],
     references: [
       { label: "Rosacea pathogenesis and management: a practical clinical review.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10821660/" },
       { label: "The latest advances in rosacea treatment: a systematic review. Pharmaceuticals. 2026.", url: "https://doi.org/10.3390/ph19070982" }
@@ -5743,7 +5743,7 @@ export const articles: Article[] = [
     relatedArticles: [
       "psoriasis-que-es-y-como-se-trata",
       "hongos-en-la-piel-tina-pie-de-atleta",
-      "dermatitis-seborreica-que-es-y-como-tratarla"
+      "alcohol-y-la-piel-que-le-hace-realmente"
     ],
     references: [
       { label: "Abdo HM, et al. Prevalence of onychomycosis among psoriasis patients: a clinico-mycological and dermoscopic comparative cross sectional study. Sci Rep. 2024. DOI 10.1038/s41598-024-71321-6.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11408611/" },
@@ -6951,6 +6951,82 @@ export const articles: Article[] = [
       "dermatitis-del-panal-causas-y-cuidado",
       "manchas-y-marcas-comunes-en-la-piel-del-recien-nacido",
       "picazon-en-ninos-causas-comunes"
+    ]
+  },
+  {
+    slug: "alcohol-y-la-piel-que-le-hace-realmente",
+    title: "Alcohol y la piel: qué le hace realmente, y en qué enfermedades empeora",
+    excerpt:
+      "El alcohol no solo afecta al hígado. Esto es lo que la evidencia dice sobre su efecto en la piel, en qué enfermedades puede empeorarla, y por qué importa aún más en un lugar como Machala.",
+    seoTitle: "Alcohol y la Piel: Qué le Hace Realmente | Dra. Karla Andrade",
+    seoDescription:
+      "¿El alcohol afecta la piel? La Dra. Karla Andrade explica su relación con la rosácea, la psoriasis y el cáncer de piel, con evidencia real.",
+    category: "Dermatología clínica",
+    datePublished: "2026-11-02",
+    dateModified: "2026-11-02",
+    readingMin: 6,
+    relatedEspecialidad: "dermatologia-clinica",
+    lead:
+      "El alcohol suele asociarse con el hígado, pero su efecto no se queda ahí: también puede notarse en la piel, y en algunas enfermedades de la piel puntuales su rol está más estudiado de lo que parece. Esto es lo que dice la evidencia, sin exagerar ni minimizar.",
+    sections: [
+      {
+        h: "El enrojecimiento inmediato: vasos dilatados",
+        p: [
+          "El efecto más inmediato y conocido es el enrojecimiento facial transitorio (flushing) que algunas personas notan al tomar alcohol, causado por la dilatación de los vasos sanguíneos de la piel. En personas con tendencia a enrojecer con facilidad, este efecto suele ser más notorio."
+        ]
+      },
+      {
+        h: "Rosácea: un desencadenante frecuente, aunque la evidencia es mixta",
+        p: [
+          "El alcohol es uno de los desencadenantes de brotes más reportados por pacientes con rosácea, junto al sol, las comidas picantes y los cambios de temperatura. Una revisión reciente señala que, aunque algunos estudios epidemiológicos encuentran una asociación entre mayor consumo de alcohol y mayor riesgo de rosácea, la relación sigue siendo controvertida en la literatura. Los mecanismos propuestos incluyen la dilatación de los vasos de la piel, un aumento de factores inflamatorios, y cambios en la microbiota intestinal (el llamado eje piel-intestino)."
+        ]
+      },
+      {
+        h: "Psoriasis: la relación es más discutida de lo que parece",
+        p: [
+          "Durante años se consideró al consumo excesivo de alcohol como un factor implicado en la aparición y el empeoramiento de la psoriasis, posiblemente al aumentar señales inflamatorias en las células de la piel. Sin embargo, revisiones sistemáticas más recientes no encuentran evidencia suficiente para sostener al alcohol como un factor de riesgo causal de la psoriasis, y un estudio de aleatorización mendeliana tampoco encontró una relación causal. En resumen: la asociación existe en algunos estudios, pero no está tan establecida como suele asumirse."
+        ]
+      },
+      {
+        h: "Piel, sol y alcohol: una combinación que conviene cuidar, sobre todo en Machala",
+        p: [
+          "Un estudio de cohorte con más de 450,000 participantes (EPIC) encontró una asociación entre el consumo de alcohol y un mayor riesgo de los tres tipos principales de cáncer de piel —carcinoma basocelular, carcinoma espinocelular y melanoma—, más marcada en hombres que en mujeres. Entre los mecanismos propuestos están una mayor susceptibilidad al daño solar y cierta supresión del sistema inmune, además de que quienes beben pueden tener más probabilidad de quemarse con el sol sin darse cuenta.",
+          "Este punto importa especialmente en una ciudad como Machala, donde la radiación UV se mantiene alta todo el año: la combinación de sol intenso y consumo de alcohol, sin protección solar adecuada, suma dos factores de riesgo en vez de uno."
+        ]
+      },
+      {
+        h: "Deshidratación y aspecto de la piel",
+        p: [
+          "El alcohol tiene un efecto diurético conocido, que puede contribuir a la deshidratación general y, con ello, a que la piel se vea más opaca o reseca al día siguiente. Este efecto es temporal y se revierte con una buena hidratación, pero en un consumo frecuente puede sumarse a otros factores que afectan la calidad de la piel con el tiempo."
+        ]
+      }
+    ],
+    faqs: [
+      {
+        q: "¿Puedo tomar alcohol si tengo rosácea?",
+        a: "El alcohol es uno de los desencadenantes de brotes más reportados en rosácea, aunque la relación no está completamente establecida en todos los estudios. Si notas que te sales más roja o con más brotes después de beber, es razonable limitarlo."
+      },
+      {
+        q: "¿El alcohol empeora la psoriasis?",
+        a: "La evidencia es contradictoria: algunas revisiones lo señalan como un factor implicado, pero estudios más recientes, incluido uno de aleatorización mendeliana, no encuentran una relación causal clara. No es una regla absoluta para todos los pacientes."
+      },
+      {
+        q: "¿El alcohol realmente aumenta el riesgo de cáncer de piel?",
+        a: "Un estudio de cohorte grande (EPIC) encontró una asociación entre mayor consumo de alcohol y mayor riesgo de los tres tipos principales de cáncer de piel, más marcada en hombres. La radiación solar sigue siendo el factor de riesgo principal; el alcohol se suma a ese riesgo, no lo reemplaza."
+      },
+      {
+        q: "¿Un consumo ocasional también afecta la piel?",
+        a: "El enrojecimiento transitorio y la deshidratación leve pueden notarse incluso con un consumo ocasional. El riesgo relacionado con enfermedades como el cáncer de piel se asocia más al consumo sostenido o elevado en el tiempo."
+      }
+    ],
+    relatedArticles: [
+      "rosacea-que-es-y-como-se-trata",
+      "psoriasis-mitos-y-verdades",
+      "proteccion-solar-que-realmente-funciona"
+    ],
+    references: [
+      { label: "Liu L, Chen J. Advances in Relationship Between Alcohol Consumption and Skin Diseases. Clin Cosmet Investig Dermatol. 2023;16:3785-3791. PMID 38169933.", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10759914/" },
+      { label: "Mahamat-Saleh Y, et al. Baseline and lifetime alcohol consumption and risk of skin cancer in the EPIC cohort. Int J Cancer. 2023;152(3):348-362. PMID 36053839.", url: "https://pubmed.ncbi.nlm.nih.gov/36053839/" }
     ]
   }
 ];
