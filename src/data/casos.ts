@@ -1049,6 +1049,69 @@ export const casos: ClinicalCase[] = [
     consentNote:
       "Caso publicado con el consentimiento informado y expreso de la paciente para el uso médico y publicitario de estas imágenes. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
     ctaLabel: "Agenda tu valoración"
+  },
+  {
+    slug: "hemangioma-infantil-evolucion-con-tratamiento",
+    title: "Hemangioma infantil: evolución con tratamiento dermatológico pediátrico",
+    cardTitle: "Hemangioma infantil",
+    cardExcerpt: "Evolución de los 3 a los 7 meses de vida",
+    subtitle: "Bebé de 3 meses al inicio del tratamiento",
+    excerpt:
+      "Bebé con un hemangioma infantil en la mejilla. Evolución con tratamiento dermatológico pediátrico, desde los 3 hasta los 7 meses de vida.",
+    seoTitle: "Hemangioma Infantil: Caso Clínico en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de hemangioma infantil en la mejilla, con evolución favorable gracias a un tratamiento dermatológico pediátrico, por la Dra. Karla Andrade en Machala.",
+    category: "Dermatología clínica",
+    diagnosis: "Hemangioma infantil",
+    datePublished: "2026-11-06",
+    dateModified: "2026-11-06",
+    readingMin: 3,
+    relatedEspecialidad: "dermatologia-pediatrica",
+    relatedPrompt: "¿Tu bebé tiene una mancha o bulto que apareció en los primeros meses de vida?",
+    lead:
+      "Un bebé llegó a la consulta a los 3 meses de vida con un hemangioma infantil en la mejilla, una lesión vascular de color rojo-violáceo y en relieve. Con un diagnóstico y un tratamiento dermatológico pediátrico adecuados, a los 7 meses se observa una evolución favorable.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Bebé que a los 3 meses de vida presentaba un hemangioma infantil en la mejilla: una lesión vascular, de color rojo intenso a violáceo, con relieve sobre la piel. Los hemangiomas infantiles son los tumores benignos más frecuentes en bebés y suelen aparecer en las primeras semanas de vida."
+        ]
+      },
+      {
+        h: "El resultado",
+        img: {
+          src: "/casos/hemangioma-infantil-antes.jpg",
+          alt: "Hemangioma infantil en la mejilla de un bebé de 3 meses, antes del tratamiento",
+          caption: "A los 3 meses de vida, al inicio del tratamiento."
+        }
+      },
+      {
+        img: {
+          src: "/casos/hemangioma-infantil-despues.jpg",
+          alt: "Evolución del hemangioma infantil a los 7 meses de vida, con tratamiento dermatológico pediátrico",
+          caption: "A los 7 meses de vida. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "La evolución",
+        p: [
+          "Con un diagnóstico oportuno y un tratamiento dermatológico pediátrico, el hemangioma mostró una evolución favorable entre los 3 y los 7 meses de vida, con una reducción visible de su tamaño y su coloración."
+        ]
+      }
+    ],
+    keyMessages: [
+      "Los hemangiomas infantiles son los tumores benignos más frecuentes en bebés.",
+      "Muchos hemangiomas tienen una ventana de oportunidad en la que el tratamiento es más efectivo: una evaluación oportuna amplía las opciones disponibles.",
+      "No todo hemangioma necesita tratamiento, pero sí una evaluación dermatológica para decidirlo caso por caso.",
+      "La dermatología pediátrica también forma parte de la consulta: no solo se atienden adultos."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado de los padres o representantes legales del bebé, para el uso médico y publicitario de estas imágenes. Las fotografías evitan mostrar los ojos y la frente. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Tu bebé tiene una mancha o bulto que apareció en los primeros meses de vida?",
+      text: "Una evaluación dermatológica pediátrica oportuna permite confirmar el diagnóstico y decidir si necesita tratamiento.",
+      buttonLabel: "Agendar evaluación pediátrica"
+    }
   }
 ];
 
