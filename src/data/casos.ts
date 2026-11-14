@@ -1112,6 +1112,76 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica pediátrica oportuna permite confirmar el diagnóstico y decidir si necesita tratamiento.",
       buttonLabel: "Agendar evaluación pediátrica"
     }
+  },
+  {
+    slug: "efluvio-telogeno-agudo-recuperacion-con-prp-y-mesoterapia",
+    title: "Efluvio telógeno agudo: recuperación con PRP y mesoterapia capilar",
+    cardTitle: "Efluvio telógeno agudo",
+    cardExcerpt: "Evolución a los 3 meses, sin tratamiento oral",
+    subtitle: "Paciente femenina",
+    excerpt:
+      "Paciente femenina con caída de cabello difusa por efluvio telógeno agudo, con estudios de laboratorio normales. Mejoría a los 3 meses con plasma rico en plaquetas y mesoterapia capilar, sin tratamiento oral.",
+    seoTitle: "Efluvio Telógeno Agudo: Caso Clínico en Machala | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de efluvio telógeno agudo, con mejoría a los 3 meses de PRP y mesoterapia capilar, por la Dra. Karla Andrade en Machala.",
+    category: "Tricología",
+    diagnosis: "Efluvio telógeno agudo",
+    datePublished: "2026-11-14",
+    dateModified: "2026-11-14",
+    readingMin: 4,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    relatedPrompt: "¿Notas una caída de cabello más intensa de lo habitual, en todo el cuero cabelludo?",
+    lead:
+      "Una paciente consultó por una caída de cabello más intensa de lo habitual, difusa en todo el cuero cabelludo. Los estudios de laboratorio resultaron normales, y el diagnóstico fue efluvio telógeno agudo. A los 3 meses de tratamiento con plasma rico en plaquetas y mesoterapia capilar, sin necesidad de tratamiento oral, se observa una mejoría visible.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente femenina que consultó por una caída de cabello difusa, más intensa de lo habitual, sin un patrón localizado. Se solicitaron estudios de laboratorio para descartar causas de fondo (como alteraciones de tiroides, hierro u otros déficits), y los resultados fueron normales."
+        ]
+      },
+      {
+        h: "¿Qué es el efluvio telógeno agudo?",
+        p: [
+          "Es una caída de cabello difusa y temporal, en la que un número mayor de folículos del que es habitual pasa de forma simultánea a la fase de reposo (telógeno) y se desprende. Suele desencadenarse por un evento puntual —estrés físico o emocional, una enfermedad, una cirugía, un cambio hormonal— semanas antes de que se note la caída. A diferencia de otras causas de caída, el folículo no está dañado de forma permanente."
+        ]
+      },
+      {
+        h: "Antes del tratamiento",
+        img: {
+          src: "/casos/efluvio-telogeno-agudo-antes.jpg",
+          alt: "Caída de cabello difusa por efluvio telógeno agudo, antes del tratamiento",
+          caption: "Antes del tratamiento."
+        }
+      },
+      {
+        h: "El resultado, a los 3 meses",
+        img: {
+          src: "/casos/efluvio-telogeno-agudo-despues.jpg",
+          alt: "Mejoría de la densidad capilar a los 3 meses de PRP y mesoterapia, sin tratamiento oral",
+          caption: "A los 3 meses de tratamiento, sin tratamiento oral. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "El tratamiento",
+        p: [
+          "Con estudios de laboratorio normales y el diagnóstico de efluvio telógeno agudo, se indicó un tratamiento con plasma rico en plaquetas (PRP) y mesoterapia capilar, sin necesidad de tratamiento oral en este caso. A los 3 meses se observa una mejoría visible de la densidad capilar."
+        ]
+      }
+    ],
+    keyMessages: [
+      "El efluvio telógeno agudo es una caída de cabello difusa y temporal, no una pérdida permanente del folículo.",
+      "Los estudios de laboratorio son importantes para descartar causas de fondo antes de definir el tratamiento.",
+      "No todos los casos necesitan tratamiento oral: el plan se adapta a cada paciente.",
+      "Cada caso evoluciona de forma distinta: los resultados pueden variar entre pacientes."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso de la paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la línea de implantación del cabello, sin rasgos del rostro que permitan identificarla. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Notas una caída de cabello más intensa de lo habitual, en todo el cuero cabelludo?",
+      text: "Una evaluación dermatológica, con los estudios adecuados, permite identificar la causa y el tratamiento indicado para cada caso.",
+      buttonLabel: "Agendar evaluación capilar"
+    }
   }
 ];
 
