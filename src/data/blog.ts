@@ -2566,6 +2566,18 @@ export const articles: Article[] = [
     ],
     faqs: [
       {
+        q: "Si tomo isotretinoína, ¿puedo tomar alcohol?",
+        a: "La recomendación general es evitarlo o limitarlo al mínimo, ya que ambos pueden elevar los triglicéridos y afectar al hígado. No es una prohibición absoluta para cualquier consumo mínimo, pero sí algo que debes conversar con tu médico, que conoce tus antecedentes y tus resultados de laboratorio."
+      },
+      {
+        q: "¿Qué pasa si tomo alcohol con isotretinoína?",
+        a: "No pasa necesariamente algo grave con un consumo mínimo y ocasional, pero se suman dos factores que pueden elevar los triglicéridos y afectar al hígado. Por eso el seguimiento de laboratorio durante el tratamiento es importante: permite detectar a tiempo cualquier alteración."
+      },
+      {
+        q: "Isotretinoína y alcohol, ¿se puede combinar?",
+        a: "Como norma general, se recomienda evitar el alcohol o limitarlo mucho durante el tratamiento con isotretinoína, sobre todo si ya tienes antecedentes de triglicéridos altos o alteraciones del hígado. La recomendación exacta para tu caso debe conversarse con tu médico."
+      },
+      {
         q: "¿Una copa ocasional me va a hacer daño?",
         a: "No existe evidencia sólida de que un consumo mínimo y ocasional cause daño grave en la mayoría de los pacientes, pero la recomendación general sigue siendo evitarlo o limitarlo, y conversar tu caso particular con tu médico."
       },
