@@ -1182,6 +1182,78 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica, con los estudios adecuados, permite identificar la causa y el tratamiento indicado para cada caso.",
       buttonLabel: "Agendar evaluación capilar"
     }
+  },
+  {
+    slug: "trasplante-capilar-evolucion-a-5-anos",
+    title: "Trasplante capilar: evolución a 5 años de seguimiento",
+    cardTitle: "Trasplante capilar a largo plazo",
+    cardExcerpt: "Seguimiento a 5 años, con tratamiento médico continuo",
+    subtitle: "Hombre de 36 años al momento del trasplante",
+    excerpt:
+      "Hombre de 36 años al momento del trasplante capilar, con seguimiento a 5 años. El trasplante se mantuvo con tratamiento médico oral continuo durante 4 años.",
+    seoTitle: "Trasplante Capilar: Evolución a 5 Años | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de trasplante capilar con seguimiento a 5 años, sostenido con tratamiento médico oral continuo, por la Dra. Karla Andrade en Machala.",
+    category: "Tricología",
+    diagnosis: "Alopecia androgenética, tratada con trasplante capilar",
+    datePublished: "2026-11-20",
+    dateModified: "2026-11-20",
+    readingMin: 4,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    relatedPrompt: "¿Estás considerando un trasplante capilar?",
+    lead:
+      "Un hombre de 36 años, con alopecia androgenética en la zona frontal, se realizó un trasplante capilar en 2021. Este es su seguimiento a 5 años, con tratamiento médico oral continuo durante 4 años para mantener y fortalecer el resultado a largo plazo.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente masculino de 36 años al momento del trasplante, con alopecia androgenética y pérdida de densidad marcada en la zona frontal. Se realizó un trasplante capilar en 2021, acompañado de tratamiento médico oral continuo en los años posteriores."
+        ]
+      },
+      {
+        h: "2021 · Antes del trasplante",
+        img: {
+          src: "/casos/trasplante-capilar-2021-antes.jpg",
+          alt: "Alopecia androgenética en la zona frontal antes del trasplante capilar, 2021",
+          caption: "Antes del trasplante."
+        }
+      },
+      {
+        h: "2022 · Un año después",
+        img: {
+          src: "/casos/trasplante-capilar-2022-1ano.jpg",
+          alt: "Resultado del trasplante capilar un año después, 2022",
+          caption: "Un año después del trasplante."
+        }
+      },
+      {
+        h: "2026 · Cinco años después",
+        img: {
+          src: "/casos/trasplante-capilar-2026-5anos.jpg",
+          alt: "Resultado del trasplante capilar a los 5 años de seguimiento, 2026",
+          caption: "Cinco años después del trasplante. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "El trasplante es una parte del tratamiento",
+        p: [
+          "El trasplante capilar reubica folículos propios del paciente hacia la zona sin densidad, pero no detiene por sí solo el proceso de la alopecia androgenética en el resto del cuero cabelludo. Por eso, en este caso, el paciente continuó con tratamiento médico oral durante 4 años después de la cirugía, con el objetivo de mantener y fortalecer el resultado a largo plazo."
+        ]
+      }
+    ],
+    keyMessages: [
+      "El trasplante capilar reubica folículos, pero no reemplaza el tratamiento médico de la alopecia androgenética de fondo.",
+      "Sostener el tratamiento médico después del trasplante ayuda a mantener el resultado y a proteger el cabello no trasplantado.",
+      "Un seguimiento a 5 años permite evaluar la estabilidad real de un trasplante, más allá del resultado inicial.",
+      "Cada caso evoluciona de forma distinta: los resultados pueden variar entre pacientes."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso del paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la zona frontal del cuero cabelludo, sin rasgos del rostro que permitan identificarlo. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Estás considerando un trasplante capilar?",
+      text: "Una evaluación dermatológica permite definir si eres candidato y diseñar el tratamiento médico que acompaña al trasplante para sostener el resultado en el tiempo.",
+      buttonLabel: "Agendar evaluación capilar"
+    }
   }
 ];
 
