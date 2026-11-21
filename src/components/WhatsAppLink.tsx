@@ -34,13 +34,20 @@ export default function WhatsAppLink({
       rel="noopener noreferrer"
       onClick={(e) => {
         const buttonText = label ?? (typeof children === "string" ? children : location);
-        trackEvent(eventName, {
+        const eventParams = {
           location,
           link_url: waLink,
           button_text: buttonText,
-          contact_method: "whatsapp",
+          contact_method: "whatsapp" as const,
           ...(serviceName ? { service_name: serviceName } : {})
-        });
+        };
+        trackEvent(eventName, eventParams);
+        // Evento unificado para marcar como conversión en GA4 e importar a
+        // Google Ads: se dispara en TODO enlace de WhatsApp del sitio (este
+        // componente es el único punto por el que pasan), además del evento
+        // específico de arriba. No es un duplicado: son dos nombres de
+        // evento distintos para el mismo clic, cada uno con su propósito.
+        trackEvent("whatsapp_click", eventParams, { skipClarity: true });
         onClick?.(e);
       }}
       {...rest}
