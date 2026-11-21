@@ -1254,6 +1254,69 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica permite definir si eres candidato y diseñar el tratamiento médico que acompaña al trasplante para sostener el resultado en el tiempo.",
       buttonLabel: "Agendar evaluación capilar"
     }
+  },
+  {
+    slug: "caida-de-cabello-en-paciente-joven-evolucion",
+    title: "Caída de cabello en una paciente joven: evolución con tratamiento adecuado",
+    cardTitle: "Caída de cabello en paciente joven",
+    cardExcerpt: "Evolución con diagnóstico y tratamiento adecuados",
+    subtitle: "Paciente femenina joven",
+    excerpt:
+      "Paciente femenina joven con caída de cabello y menor densidad en la línea media. Evolución con un diagnóstico y tratamiento dermatológico adecuados.",
+    seoTitle: "Caída de Cabello en Paciente Joven: Caso Clínico | Dra. Karla Andrade",
+    seoDescription:
+      "Caso clínico de caída de cabello en una paciente joven, con evolución favorable tras un diagnóstico y tratamiento dermatológico adecuados, por la Dra. Karla Andrade en Machala.",
+    category: "Tricología",
+    diagnosis: "Caída de cabello, en estudio y tratamiento dermatológico",
+    datePublished: "2026-11-21",
+    dateModified: "2026-11-21",
+    readingMin: 3,
+    relatedEspecialidad: "tricologia-y-salud-capilar",
+    relatedPrompt: "¿Notas menos densidad o tu línea media más ancha, sin importar tu edad?",
+    lead:
+      "Una paciente joven consultó por caída de cabello y menor densidad en la línea media. Con un diagnóstico y un tratamiento dermatológico adecuados, se observa una evolución favorable.",
+    sections: [
+      {
+        h: "El caso",
+        p: [
+          "Paciente femenina joven, que consultó por caída de cabello y menor densidad en la zona de la línea media. Un motivo de consulta frecuente, que no se limita a un solo grupo de edad."
+        ]
+      },
+      {
+        h: "Antes del tratamiento",
+        img: {
+          src: "/casos/caida-cabello-paciente-joven-antes.jpg",
+          alt: "Caída de cabello en una paciente joven, antes del tratamiento",
+          caption: "Antes del tratamiento."
+        }
+      },
+      {
+        h: "El resultado",
+        img: {
+          src: "/casos/caida-cabello-paciente-joven-despues.jpg",
+          alt: "Evolución de la caída de cabello en una paciente joven, tras el tratamiento",
+          caption: "Después del tratamiento. Los resultados pueden variar en cada paciente."
+        }
+      },
+      {
+        h: "La evolución",
+        p: [
+          "Con el diagnóstico correcto y un tratamiento dermatológico adecuado a su caso, se observa una evolución favorable de la densidad capilar."
+        ]
+      }
+    ],
+    keyMessages: [
+      "La caída de cabello no es solo un tema de adultos mayores: también afecta a pacientes jóvenes y tiene tratamiento.",
+      "Un diagnóstico dermatológico permite identificar la causa real antes de definir el tratamiento.",
+      "Cada caso evoluciona de forma distinta: los resultados pueden variar entre pacientes."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso de la paciente para el uso médico y publicitario de estas imágenes. Las fotografías muestran únicamente la zona superior del cuero cabelludo, sin rasgos del rostro que permitan identificarla. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    cta: {
+      title: "¿Notas menos densidad o tu línea media más ancha, sin importar tu edad?",
+      text: "Una evaluación dermatológica permite identificar la causa de la caída y el tratamiento adecuado para cada caso.",
+      buttonLabel: "Agendar evaluación capilar"
+    }
   }
 ];
 
