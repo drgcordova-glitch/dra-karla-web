@@ -73,6 +73,12 @@ export const organizationSchema = {
     longitude: site.geoLng
   },
   hasMap: site.mapsLink,
+  openingHoursSpecification: {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    opens: "10:00",
+    closes: "17:00"
+  },
   // Reseñas reales, visibles en la página de inicio (no se declara aggregateRating
   // hasta confirmar el puntaje promedio real de las 18 reseñas de Google).
   review: reviews.map((r) => ({

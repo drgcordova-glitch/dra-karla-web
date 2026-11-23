@@ -114,7 +114,7 @@ export default async function CasoPage({ params }: Props) {
                       />
                     </div>
                     <div className="shot">
-                      <span className="tag despues">Después de 3 meses</span>
+                      <span className="tag despues">{s.compare.despuesLabel ?? "Después"}</span>
                       <Lightbox
                         src={s.compare.despuesSrc}
                         alt={s.compare.despuesAlt}

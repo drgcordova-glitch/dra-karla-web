@@ -6,7 +6,7 @@ export const site = {
   senescyt: "0321234732",
   whatsapp: "593998008070",
   whatsappDisplay: "099 800 8070",
-  waText: "Hola%2C%20quisiera%20agendar%20una%20consulta%20dermatol%C3%B3gica",
+  waText: "Hola%2C%20quisiera%20solicitar%20una%20cita%20dermatol%C3%B3gica%20con%20la%20Dra.%20Karla%20Andrade",
   instagram: "dra.kandrade",
   email: "dra.andrade.karla@gmail.com",
   address: "Colón entre Olmedo y Sucre",

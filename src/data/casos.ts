@@ -9,6 +9,8 @@ export interface CaseSection {
   compare?: {
     antesSrc: string; antesAlt: string; antesW: number; antesH: number;
     despuesSrc: string; despuesAlt: string; despuesW: number; despuesH: number;
+    /** Etiqueta sobre la foto de "después"; usar solo si el tiempo transcurrido es un dato confirmado. Si no se define, usa "Después". */
+    despuesLabel?: string;
   };
 }
 export interface ClinicalCase {
@@ -233,7 +235,8 @@ export const casos: ClinicalCase[] = [
           despuesSrc: "/casos/despues-coronilla.jpg",
           despuesAlt: "Después de tratamiento para caída del cabello realizado por la Dra. Karla Andrade",
           despuesW: 800,
-          despuesH: 900
+          despuesH: 900,
+          despuesLabel: "Después de 3 meses"
         }
       },
       {
@@ -246,7 +249,8 @@ export const casos: ClinicalCase[] = [
           despuesSrc: "/casos/despues-frontal.jpg",
           despuesAlt: "Después de tratamiento para caída del cabello realizado por la Dra. Karla Andrade",
           despuesW: 730,
-          despuesH: 850
+          despuesH: 850,
+          despuesLabel: "Después de 3 meses"
         }
       },
       {
@@ -1317,6 +1321,66 @@ export const casos: ClinicalCase[] = [
       text: "Una evaluación dermatológica permite identificar la causa de la caída y el tratamiento adecuado para cada caso.",
       buttonLabel: "Agendar evaluación capilar"
     }
+  },
+  {
+    slug: "relleno-y-perfilado-de-labios-con-acido-hialuronico",
+    title: "Relleno y perfilado de labios con ácido hialurónico",
+    cardTitle: "Relleno y perfilado de labios",
+    cardExcerpt: "Resultado natural, vista frontal y de perfil",
+    excerpt:
+      "Paciente que deseaba un relleno y perfilado de labios natural, tratada con ácido hialurónico. Resultado visto de frente y de perfil.",
+    seoTitle: "Relleno y Perfilado de Labios | Caso Clínico en Machala",
+    seoDescription:
+      "Caso clínico de relleno y perfilado de labios con ácido hialurónico, con un resultado natural, por la Dra. Karla Andrade en Machala.",
+    category: "Medicina estética",
+    diagnosis: "Deseo de relleno y perfilado labial",
+    datePublished: "2026-11-23",
+    dateModified: "2026-11-23",
+    readingMin: 3,
+    relatedEspecialidad: "medicina-estetica",
+    relatedPrompt: "¿Te interesa un tratamiento estético con criterio médico?",
+    lead:
+      "Paciente que consultó porque deseaba un relleno y perfilado de labios, buscando un resultado natural y proporcionado a sus rasgos. Se trató con ácido hialurónico.",
+    sections: [
+      {
+        h: "Vista frontal",
+        compare: {
+          antesSrc: "/casos/relleno-labios-frontal-antes.jpg",
+          antesAlt: "Labios antes del relleno con ácido hialurónico, vista frontal",
+          antesW: 800,
+          antesH: 779,
+          despuesSrc: "/casos/relleno-labios-frontal-despues.jpg",
+          despuesAlt: "Labios después del relleno con ácido hialurónico, vista frontal, resultado natural",
+          despuesW: 800,
+          despuesH: 882
+        }
+      },
+      {
+        h: "Vista de perfil",
+        compare: {
+          antesSrc: "/casos/relleno-labios-perfil-antes.jpg",
+          antesAlt: "Labios antes del relleno con ácido hialurónico, vista de perfil",
+          antesW: 800,
+          antesH: 867,
+          despuesSrc: "/casos/relleno-labios-perfil-despues.jpg",
+          despuesAlt: "Labios después del relleno con ácido hialurónico, vista de perfil, resultado natural",
+          despuesW: 800,
+          despuesH: 953
+        }
+      },
+      {
+        h: "El tratamiento",
+        p: [
+          "Se realizó un tratamiento de relleno y perfilado labial con ácido hialurónico, respetando la proporción natural del rostro para lograr un resultado armónico, visible tanto de frente como de perfil."
+        ]
+      }
+    ],
+    keyMessages: [
+      "Un buen perfilado de labios no busca cambiar tus rasgos, sino realzarlos de forma natural y proporcionada."
+    ],
+    consentNote:
+      "Caso publicado con el consentimiento informado y expreso de la paciente para el uso médico y publicitario de estas imágenes. Las fotografías fueron recortadas para no mostrar los ojos, sin alterar el resto de la imagen. Los resultados pueden variar en cada paciente y no sustituyen una consulta médica.",
+    ctaLabel: "Agenda tu valoración"
   }
 ];
 
